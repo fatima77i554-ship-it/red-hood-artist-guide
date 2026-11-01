@@ -1,6 +1,6 @@
 {
   "edition": "2026-11-02",
-  "sources": "User-confirmed canon, unchanged approved Word documents, previously verified fixed Kaho frame",
+  "sources": "User-confirmed canon and references, reviewed Word documents, previously verified fixed Kaho frame",
   "files": {
     "images/kaho-reference.png": {
       "sha256": "baa42af4218a60e49434d58c30fd42481fd0d2a9e800d72faefa6a0d26a36e40",
@@ -12,8 +12,8 @@
       "classifierId": "UI_REFERENCE_KAHO_FRAME0"
     },
     "downloads/01_Замысел_и_сюжет.docx": {
-      "sha256": "90549f6b5bf2da8966242876528676b6cf0b429f907e13f140915356210b80b6",
-      "bytes": 39480
+      "sha256": "108d3450a9a12d4e924b8d64db02074cbbaf81fca328b13439c3f1e914acb4be",
+      "bytes": 39488
     },
     "downloads/02_Работа_с_художницей.docx": {
       "sha256": "8f503316b881e1d58f3064f4f951363bcec838135903bb96bc43456b4198e0fa",

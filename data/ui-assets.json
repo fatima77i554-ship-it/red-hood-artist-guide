@@ -1,0 +1,82 @@
+{
+  "id": "UI_REFERENCE_KAHO_FRAME0",
+  "category": "website_reference_image",
+  "purpose": "Fixed Kaho reference portrait in private project wiki; not final original-game heroine art",
+  "source": {
+    "frame": 0,
+    "source_tpag": {
+      "source_x": 1258,
+      "source_y": 1290,
+      "source_w": 19,
+      "source_h": 37,
+      "target_x": 15,
+      "target_y": 11,
+      "target_w": 19,
+      "target_h": 37,
+      "bound_w": 48,
+      "bound_h": 48,
+      "page": 3
+    },
+    "path": "res://assets/player/idle_00.png",
+    "sha256_pixels": "a44bf7b137970541012ff8e6ec105d1640674a81da74bcbbf513ed58413465ed"
+  },
+  "scale": [
+    1,
+    1
+  ],
+  "pivot": [
+    24,
+    48
+  ],
+  "support": {
+    "type": "none",
+    "reason": "Screen-space reference image, no physical support"
+  },
+  "animation": {
+    "type": "none",
+    "reason": "This website uses only fixed frame0; original sprite animation is preserved in source classifier, not declared absent"
+  },
+  "collision": {
+    "type": "none",
+    "reason": "Website reference context only; does not describe original actor"
+  },
+  "hitbox": {
+    "type": "none",
+    "reason": "Website reference context only"
+  },
+  "vfx": {
+    "type": "none",
+    "bindings": []
+  },
+  "placement": {
+    "surfaces": "screen space",
+    "layers": "reference card",
+    "neighbors": "website text/card only",
+    "support": "none",
+    "restrictions": "No game placement or build admission"
+  },
+  "validation": {
+    "status": "verified_for_fixed_website_reference",
+    "source_pixel_sha256": "a44bf7b137970541012ff8e6ec105d1640674a81da74bcbbf513ed58413465ed",
+    "source_catalog": "Momodora-Atlas/data/prior-classifiers.json/KAHO_IDLE",
+    "gameBuildAdmission": false
+  },
+  "websiteUsage": {
+    "file": "images/kaho-reference.png",
+    "frames": [
+      0
+    ],
+    "rectangle": [
+      0,
+      0,
+      48,
+      48
+    ],
+    "nativeScale": [
+      1,
+      1
+    ],
+    "display": "270px square;240px at <=1000px;220px at <=700px;object-fit:contain;pixelated",
+    "gameBuildAdmission": false
+  }
+}

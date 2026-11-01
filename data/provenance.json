@@ -12,12 +12,18 @@
       "classifierId": "UI_REFERENCE_KAHO_FRAME0"
     },
     "downloads/01_Замысел_и_сюжет.docx": {
-      "sha256": "108d3450a9a12d4e924b8d64db02074cbbaf81fca328b13439c3f1e914acb4be",
-      "bytes": 39488
+      "sha256": "08be5b405e09988a75bfe250ef3c0b0d4d7b7736e4a02e84e265141772195ff0",
+      "bytes": 39562
     },
     "downloads/02_Работа_с_художницей.docx": {
       "sha256": "8f503316b881e1d58f3064f4f951363bcec838135903bb96bc43456b4198e0fa",
       "bytes": 39610
     }
+  },
+  "referenceSources": {
+    "Yoshitaka Amano": "https://www.yoshitakaamanoinc.com/",
+    "Final Fantasy": "https://na.finalfantasy.com/topics/407",
+    "Ayami Kojima interview": "https://fullfrontal.moe/countess-of-castlevania-ayami-kojima/",
+    "Ayami Kojima self-taught profile": "https://www.creativeuncut.com/artist-profile-ayami-kojima.html"
   }
 }

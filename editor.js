@@ -94,8 +94,14 @@
       if(el.closest('.guide-card,.editor-entry,.status-table,.asset-lock,.background-contract,.article-body,.artist-short-brief')||el.matches('.detail-title'))continue;
       if(el.closest('button,a,label,summary')||el.querySelector('a,button,input,select,textarea,canvas,iframe'))continue;
       if(!originals.has(el))originals.set(el,el.innerText);
-      const original=originals.get(el),id=currentScope+'|'+pathFor(el,root),patch=state.blocks[id];
-      if(patch&&(patch.original===original||patch.text===original)){
+      const original=originals.get(el),id=currentScope+'|'+pathFor(el,root);
+      const matches=p=>p&&(p.original===original||p.text===original||data.editorialAliases?.[p.original]===original);
+      let patch=state.blocks[id];
+      if(!matches(patch)){
+        const moved=Object.values(state.blocks).filter(p=>p.scope===currentScope&&matches(p));
+        patch=moved.length===1?moved[0]:null;
+      }
+      if(matches(patch)){
         if(patch.text!==undefined){el.textContent=patch.text;el.style.whiteSpace='pre-line';}
         el.hidden=!!patch.hidden;
       }

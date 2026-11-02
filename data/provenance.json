@@ -92,8 +92,8 @@
       "bytes": 91867
     },
     "bloodborne.css": {
-      "sha256": "b19f82a336e153fc96a9c0a9ed90c40269bfde1a43cae3a2cc3d87089556a95e",
-      "bytes": 21113
+      "sha256": "2dc68f641a94c8d25ca651e04b65d8da08fe144790424272349095b05746dd18",
+      "bytes": 23334
     },
     "data/ui-theme.json": {
       "sha256": "227ce3b4f8a894e45caa58eb238c482e739cc2def225e9658098284a2ccf373d",
@@ -200,32 +200,64 @@
       "bytes": 1938968
     },
     "guide.js": {
-      "sha256": "c988830b38c2fde80dc259c3d24c6838a533db01f6c4a527012c8a7b7c61ba2f",
-      "bytes": 54489
+      "sha256": "a5b25a87e5a538b4af890c6556ab1f6803f0eced16a3a32559733ce13636d30e",
+      "bytes": 55576
     },
     "data.js": {
-      "sha256": "d87e8586289cf9aff96a7f8bbfb92872cd186e71f252743e196a856ca175d442",
-      "bytes": 353617
+      "sha256": "729f5cdcac80fbd6f8f0ab2f6cdd72679f57576fc739c5ffc06718ebfeda146f",
+      "bytes": 444059
     },
     "README.txt": {
-      "sha256": "5e4972ab06687e0d783b48d844db45121c876c0e45056713910e4e4ec1b1c433",
-      "bytes": 14968
+      "sha256": "6562ee7d76574d5ac1a5ec4fd742241d4e803ada7686f6828670c1f83ef60115",
+      "bytes": 17135
     },
     "data/background-reference-classifier.json": {
       "sha256": "4f9470833150c8bdc507badcab3770f1368536ad2b3dbe1b2e8203b19abf306d",
       "bytes": 53404
     },
     "downloads/03_Короткие_ТЗ_для_художницы.txt": {
-      "sha256": "c34f991de28030252f0075872cd9caae50f5a100a7b88b2366ebf79803c04500",
-      "bytes": 22323
+      "sha256": "ca2be482e41f69c6157f544288313bef9e650297c2cef1a533c3ffc16ea16ccd",
+      "bytes": 26681
     },
     "editor.js": {
-      "sha256": "f40b695577149c7003e8a9e410dd56ff863cbafdaf92d5c86fcfafd1697977ad",
-      "bytes": 18503
+      "sha256": "e6c10f823e835a83f83775413d80ccb82af8bd25f0c6732d39d9fb939466c376",
+      "bytes": 18765
     },
     "index.html": {
-      "sha256": "1d2f6248814f9ca58d115386c2190f030b6f57f68598455f40b2ed6d7caabe34",
-      "bytes": 2839
+      "sha256": "9ab395240428c72e11774407d190ea83e71a8cc103b428928d726b8b79cb99e0",
+      "bytes": 2919
+    },
+    "data/character-concept-prompts.json": {
+      "sha256": "2ef5ef1330ae20aaaebaa8dcddde1ab0d7b4fdf60bf32b567e786b2846b950fa",
+      "bytes": 9502
+    },
+    "data/character-concepts.json": {
+      "sha256": "acbc05002f354009afc206f485ab742cae4ad206dc8fe874028913800da88a53",
+      "bytes": 13130
+    },
+    "data/editorial-review.json": {
+      "sha256": "2abe8013dec207023030629088fbc63fabd30ab416919f4dd21862f7f7d04183",
+      "bytes": 2230
+    },
+    "images/concepts/joanna-darc-v01.png": {
+      "sha256": "b6b06f7cea179896430824ebfc6b3bc77db74abf333de655e936aa8a5681fce3",
+      "bytes": 3133287
+    },
+    "images/concepts/raziel-v01.png": {
+      "sha256": "c9bba4dd779e5c22989c06ec73575c82bd676b5d41cc4a5263b5aff22bb3c18c",
+      "bytes": 3100461
+    },
+    "images/concepts/holy-priestess-v01.png": {
+      "sha256": "c053d7e15d4abf2c06c5ce32072b04f8d24647668804ca37f2db2c73971caba0",
+      "bytes": 3210226
+    },
+    "images/concepts/hero-v01.png": {
+      "sha256": "88eb1f1a9655d7e20bef1d80750f7465f9823de651e47f1cac126cc3e74541f9",
+      "bytes": 3120224
+    },
+    "images/concepts/grove-fairy-v01.png": {
+      "sha256": "b618f5616560623fb20dee98b928b3aa36cfdf741af2bc31614e189d803690a6",
+      "bytes": 3214796
     }
   },
   "referenceSources": {
@@ -425,6 +457,14 @@
     "hideRestoreUndo": true,
     "textExport": true,
     "protectedAssetsAndClassifiersUnchanged": true,
+    "gameBuildAdmission": false
+  },
+  "editorialReview": "data/editorial-review.json",
+  "generatedConcepts": {
+    "count": 5,
+    "generator": "built-in image_gen",
+    "classifier": "data/character-concepts.json",
+    "prompts": "data/character-concept-prompts.json",
     "gameBuildAdmission": false
   }
 }

@@ -1,0 +1,456 @@
+{
+  "version": 1,
+  "records": {
+    "hero": {
+      "id": "UI_CONCEPT_HERO_V01",
+      "category": "website_character_concept",
+      "purpose": "full-body design proposal for discussion with artist",
+      "file": "images/concepts/hero-v01.png",
+      "source": {
+        "generator": "built-in image_gen",
+        "generatedFile": "/Users/fatimaauseva/.codex/generated_images/01a19321-08c0-7242-a7e7-c7065a92cc47/exec-53bf056c-746d-457a-a00f-836a614bad80.png",
+        "promptFile": "data/character-concept-prompts.json",
+        "reference": "local-designs/hero/000.png",
+        "referenceSha256": "d701271af559ba0a6a1dd11c1f002ba4cfc9bad4db19bf2809d4e98e4e1209f7",
+        "referenceClassifier": "local-designs/manifest.json",
+        "referenceId": "UI_CLAUDE_HERO"
+      },
+      "sha256": "88eb1f1a9655d7e20bef1d80750f7465f9823de651e47f1cac126cc3e74541f9",
+      "canvas": [
+        1024,
+        1536
+      ],
+      "slicing": [
+        0,
+        0,
+        1024,
+        1536
+      ],
+      "frames": [
+        0
+      ],
+      "animation": {
+        "type": "none",
+        "frameCount": 1
+      },
+      "states": [
+        "static concept proposal"
+      ],
+      "scale": {
+        "web": "contain full image; no crop",
+        "game": "unknown; not assigned"
+      },
+      "pivot": {
+        "web": [
+          0,
+          0
+        ],
+        "game": "unknown"
+      },
+      "support": {
+        "web": "none; image does not stand in game world",
+        "game": "unknown"
+      },
+      "collision": {
+        "web": "none",
+        "game": "unknown"
+      },
+      "hitbox": {
+        "web": "none",
+        "game": "unknown"
+      },
+      "vfx": {
+        "web": "none; painted blood/miasma are static illustration",
+        "game": "unknown; no effect binding inferred"
+      },
+      "placement": {
+        "surfaces": [
+          "website reference panel"
+        ],
+        "layers": [
+          "concept gallery",
+          "character detail"
+        ],
+        "neighbors": [
+          "caption",
+          "source sprite",
+          "short brief"
+        ],
+        "restrictions": [
+          "draft; costume interpretation is not approved canon",
+          "no game placement or build admission",
+          "project concept only; raw purchased source files remain local-only"
+        ]
+      },
+      "validation": {
+        "status": "visually_verified_web_reference",
+        "fullBodyVisible": true,
+        "referenceCompared": true,
+        "browserGalleryReviewed": true,
+        "gameBuildAdmission": false
+      },
+      "status": "Эскиз для обсуждения"
+    },
+    "raziel": {
+      "id": "UI_CONCEPT_RAZIEL_V01",
+      "category": "website_character_concept",
+      "purpose": "full-body design proposal for discussion with artist",
+      "file": "images/concepts/raziel-v01.png",
+      "source": {
+        "generator": "built-in image_gen",
+        "generatedFile": "/Users/fatimaauseva/.codex/generated_images/01a19321-08c0-7242-a7e7-c7065a92cc47/exec-2f209846-8f3d-4287-a9b7-b94468d112bc.png",
+        "promptFile": "data/character-concept-prompts.json",
+        "reference": "local-designs/raziel/000.png",
+        "referenceSha256": "71c6d26469a157da085272dadbefdf6dbacd99bcf6effd5d1594eb98a017fa6a",
+        "referenceClassifier": "local-designs/manifest.json",
+        "referenceId": "UI_CLAUDE_RAZIEL"
+      },
+      "sha256": "c9bba4dd779e5c22989c06ec73575c82bd676b5d41cc4a5263b5aff22bb3c18c",
+      "canvas": [
+        1024,
+        1536
+      ],
+      "slicing": [
+        0,
+        0,
+        1024,
+        1536
+      ],
+      "frames": [
+        0
+      ],
+      "animation": {
+        "type": "none",
+        "frameCount": 1
+      },
+      "states": [
+        "static concept proposal"
+      ],
+      "scale": {
+        "web": "contain full image; no crop",
+        "game": "unknown; not assigned"
+      },
+      "pivot": {
+        "web": [
+          0,
+          0
+        ],
+        "game": "unknown"
+      },
+      "support": {
+        "web": "none; image does not stand in game world",
+        "game": "unknown"
+      },
+      "collision": {
+        "web": "none",
+        "game": "unknown"
+      },
+      "hitbox": {
+        "web": "none",
+        "game": "unknown"
+      },
+      "vfx": {
+        "web": "none; painted blood/miasma are static illustration",
+        "game": "unknown; no effect binding inferred"
+      },
+      "placement": {
+        "surfaces": [
+          "website reference panel"
+        ],
+        "layers": [
+          "concept gallery",
+          "character detail"
+        ],
+        "neighbors": [
+          "caption",
+          "source sprite",
+          "short brief"
+        ],
+        "restrictions": [
+          "draft; costume interpretation is not approved canon",
+          "no game placement or build admission",
+          "project concept only; raw purchased source files remain local-only"
+        ]
+      },
+      "validation": {
+        "status": "visually_verified_web_reference",
+        "fullBodyVisible": true,
+        "referenceCompared": true,
+        "browserGalleryReviewed": true,
+        "gameBuildAdmission": false
+      },
+      "status": "Эскиз для обсуждения"
+    },
+    "joanna-darc": {
+      "id": "UI_CONCEPT_JOANNA_DARC_V01",
+      "category": "website_character_concept",
+      "purpose": "full-body design proposal for discussion with artist",
+      "file": "images/concepts/joanna-darc-v01.png",
+      "source": {
+        "generator": "built-in image_gen",
+        "generatedFile": "/Users/fatimaauseva/.codex/generated_images/01a19321-08c0-7242-a7e7-c7065a92cc47/exec-43a788da-7f0a-4ece-aa8a-95d6097c9445.png",
+        "promptFile": "data/character-concept-prompts.json",
+        "reference": "local-designs/joanna-darc/000.png",
+        "referenceSha256": "478d31253d0deb99e5c2b7d4e0b83ebe4de68ca5d2ed710ca196f9565be45a32",
+        "referenceClassifier": "local-designs/manifest.json",
+        "referenceId": "UI_CLAUDE_JOANNA_DARC"
+      },
+      "sha256": "b6b06f7cea179896430824ebfc6b3bc77db74abf333de655e936aa8a5681fce3",
+      "canvas": [
+        1024,
+        1536
+      ],
+      "slicing": [
+        0,
+        0,
+        1024,
+        1536
+      ],
+      "frames": [
+        0
+      ],
+      "animation": {
+        "type": "none",
+        "frameCount": 1
+      },
+      "states": [
+        "static concept proposal"
+      ],
+      "scale": {
+        "web": "contain full image; no crop",
+        "game": "unknown; not assigned"
+      },
+      "pivot": {
+        "web": [
+          0,
+          0
+        ],
+        "game": "unknown"
+      },
+      "support": {
+        "web": "none; image does not stand in game world",
+        "game": "unknown"
+      },
+      "collision": {
+        "web": "none",
+        "game": "unknown"
+      },
+      "hitbox": {
+        "web": "none",
+        "game": "unknown"
+      },
+      "vfx": {
+        "web": "none; painted blood/miasma are static illustration",
+        "game": "unknown; no effect binding inferred"
+      },
+      "placement": {
+        "surfaces": [
+          "website reference panel"
+        ],
+        "layers": [
+          "concept gallery",
+          "character detail"
+        ],
+        "neighbors": [
+          "caption",
+          "source sprite",
+          "short brief"
+        ],
+        "restrictions": [
+          "draft; costume interpretation is not approved canon",
+          "no game placement or build admission",
+          "project concept only; raw purchased source files remain local-only"
+        ]
+      },
+      "validation": {
+        "status": "visually_verified_web_reference",
+        "fullBodyVisible": true,
+        "referenceCompared": true,
+        "browserGalleryReviewed": true,
+        "gameBuildAdmission": false
+      },
+      "status": "Эскиз для обсуждения"
+    },
+    "holy-priestess": {
+      "id": "UI_CONCEPT_HOLY_PRIESTESS_V01",
+      "category": "website_character_concept",
+      "purpose": "full-body design proposal for discussion with artist",
+      "file": "images/concepts/holy-priestess-v01.png",
+      "source": {
+        "generator": "built-in image_gen",
+        "generatedFile": "/Users/fatimaauseva/.codex/generated_images/01a19321-08c0-7242-a7e7-c7065a92cc47/exec-d4f4b4f2-fc97-4858-b709-9c664a78932e.png",
+        "promptFile": "data/character-concept-prompts.json",
+        "reference": "local-designs/holy-priestess/000.png",
+        "referenceSha256": "f6951698f0c9bf9ed17600c8e83f7208771d87947e4e96de6925e216931b4b09",
+        "referenceClassifier": "local-designs/manifest.json",
+        "referenceId": "UI_CLAUDE_HOLY_PRIESTESS"
+      },
+      "sha256": "c053d7e15d4abf2c06c5ce32072b04f8d24647668804ca37f2db2c73971caba0",
+      "canvas": [
+        1086,
+        1448
+      ],
+      "slicing": [
+        0,
+        0,
+        1086,
+        1448
+      ],
+      "frames": [
+        0
+      ],
+      "animation": {
+        "type": "none",
+        "frameCount": 1
+      },
+      "states": [
+        "static concept proposal"
+      ],
+      "scale": {
+        "web": "contain full image; no crop",
+        "game": "unknown; not assigned"
+      },
+      "pivot": {
+        "web": [
+          0,
+          0
+        ],
+        "game": "unknown"
+      },
+      "support": {
+        "web": "none; image does not stand in game world",
+        "game": "unknown"
+      },
+      "collision": {
+        "web": "none",
+        "game": "unknown"
+      },
+      "hitbox": {
+        "web": "none",
+        "game": "unknown"
+      },
+      "vfx": {
+        "web": "none; painted blood/miasma are static illustration",
+        "game": "unknown; no effect binding inferred"
+      },
+      "placement": {
+        "surfaces": [
+          "website reference panel"
+        ],
+        "layers": [
+          "concept gallery",
+          "character detail"
+        ],
+        "neighbors": [
+          "caption",
+          "source sprite",
+          "short brief"
+        ],
+        "restrictions": [
+          "draft; costume interpretation is not approved canon",
+          "no game placement or build admission",
+          "project concept only; raw purchased source files remain local-only"
+        ]
+      },
+      "validation": {
+        "status": "visually_verified_web_reference",
+        "fullBodyVisible": true,
+        "referenceCompared": true,
+        "browserGalleryReviewed": true,
+        "gameBuildAdmission": false
+      },
+      "status": "Эскиз для обсуждения"
+    },
+    "grove-fairy": {
+      "id": "UI_CONCEPT_GROVE_FAIRY_V01",
+      "category": "website_character_concept",
+      "purpose": "full-body design proposal for discussion with artist",
+      "file": "images/concepts/grove-fairy-v01.png",
+      "source": {
+        "generator": "built-in image_gen",
+        "generatedFile": "/Users/fatimaauseva/.codex/generated_images/01a19321-08c0-7242-a7e7-c7065a92cc47/exec-8f2c149c-b638-4709-98ae-c2d7b2fc11c4.png",
+        "promptFile": "data/character-concept-prompts.json",
+        "reference": "local-designs/grove-fairy/000.png",
+        "referenceSha256": "3b71bfa41ba2da87cab09db8f0f7c5bf736a92ff221e13302890dccd97dcddb4",
+        "referenceClassifier": "local-designs/manifest.json",
+        "referenceId": "UI_CLAUDE_GROVE_FAIRY"
+      },
+      "sha256": "b618f5616560623fb20dee98b928b3aa36cfdf741af2bc31614e189d803690a6",
+      "canvas": [
+        1086,
+        1448
+      ],
+      "slicing": [
+        0,
+        0,
+        1086,
+        1448
+      ],
+      "frames": [
+        0
+      ],
+      "animation": {
+        "type": "none",
+        "frameCount": 1
+      },
+      "states": [
+        "static concept proposal"
+      ],
+      "scale": {
+        "web": "contain full image; no crop",
+        "game": "unknown; not assigned"
+      },
+      "pivot": {
+        "web": [
+          0,
+          0
+        ],
+        "game": "unknown"
+      },
+      "support": {
+        "web": "none; image does not stand in game world",
+        "game": "unknown"
+      },
+      "collision": {
+        "web": "none",
+        "game": "unknown"
+      },
+      "hitbox": {
+        "web": "none",
+        "game": "unknown"
+      },
+      "vfx": {
+        "web": "none; painted blood/miasma are static illustration",
+        "game": "unknown; no effect binding inferred"
+      },
+      "placement": {
+        "surfaces": [
+          "website reference panel"
+        ],
+        "layers": [
+          "concept gallery",
+          "character detail"
+        ],
+        "neighbors": [
+          "caption",
+          "source sprite",
+          "short brief"
+        ],
+        "restrictions": [
+          "draft; costume interpretation is not approved canon",
+          "no game placement or build admission",
+          "project concept only; raw purchased source files remain local-only"
+        ]
+      },
+      "validation": {
+        "status": "visually_verified_web_reference",
+        "fullBodyVisible": true,
+        "referenceCompared": true,
+        "browserGalleryReviewed": true,
+        "gameBuildAdmission": false
+      },
+      "status": "Эскиз для обсуждения"
+    }
+  },
+  "websiteOnly": true
+}

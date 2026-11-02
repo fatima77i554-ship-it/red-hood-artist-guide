@@ -1,0 +1,9 @@
+Current checkpoint: ROOM21 NATIVE PASS03 / TUTORIAL COMPLETE FOR REVIEWED PROFILES
+
+Completed: exact source input labels/icons, authored bbox triggers, native end-of-Draw alpha transitions (upperguard0.8, step0.1), pause/no-player branches, precise source text layout and63 bitmap-glyph cuts EN/RU. Twenty reviewed profiles; classifier -> full animated gallery -> map. Map controls and PNG current-state download tested.
+
+Source programs/proofs: native-pass03/replay.json, layout-trigger-proof.json, gate.json, verification.json, gallery-verification.json, map-verification.json; NATIVE-PASS03.txt. Native instruction replay sources in evidence/native-room21 and replay-harness. Native code path starts from actual ROOM21 instances100311(type0) and100314(type1). Do not paste raw sprite785. Input mode1 draws keyboard labels; modes2/3 use Xinput or Sony sprite193..196 frames0/1. No invented Switch substitution.
+
+Scope: selected settings and supplied player bboxes; full player/world simulation and other native room paths remain outside visual admission. Existing ambience preserves recorded uniform RNG inputs; native RNG initial state unknown. No game build/whole-actor admission, no full room completion claim.
+
+Next connected rooms: ROOM23 right branch and ROOM22 left branch. Their shared shader5->OBJT767 branch already audited; actor/spawner Draw/Step/visibility and grass/particles must be replayed with their exact source inputs before expansion. ROOM30/54 remain skipped from blanket shader propagation due extra source scripts. Keep ROOM151 pad103117 blocked and ROOM262 pad105818 accepted repair136/208; originalsource120/240 preserved. Original game/ZIP and user saves/config remain unchanged.

@@ -1,0 +1,131 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "all verified previews loaded",
+      "passed": true
+    },
+    {
+      "name": "9 authored biomes and2 transition cards",
+      "passed": true
+    },
+    {
+      "name": "all241 production rooms",
+      "passed": true
+    },
+    {
+      "name": "all454 topology cells unique",
+      "passed": true
+    },
+    {
+      "name": "BIOME_01 exact room count",
+      "passed": true
+    },
+    {
+      "name": "BIOME_01 one selected card",
+      "passed": true
+    },
+    {
+      "name": "BIOME_02 exact room count",
+      "passed": true
+    },
+    {
+      "name": "BIOME_02 one selected card",
+      "passed": true
+    },
+    {
+      "name": "BIOME_03 exact room count",
+      "passed": true
+    },
+    {
+      "name": "BIOME_03 one selected card",
+      "passed": true
+    },
+    {
+      "name": "BIOME_04 exact room count",
+      "passed": true
+    },
+    {
+      "name": "BIOME_04 one selected card",
+      "passed": true
+    },
+    {
+      "name": "BIOME_05 exact room count",
+      "passed": true
+    },
+    {
+      "name": "BIOME_05 one selected card",
+      "passed": true
+    },
+    {
+      "name": "BIOME_06 exact room count",
+      "passed": true
+    },
+    {
+      "name": "BIOME_06 one selected card",
+      "passed": true
+    },
+    {
+      "name": "BIOME_07 exact room count",
+      "passed": true
+    },
+    {
+      "name": "BIOME_07 one selected card",
+      "passed": true
+    },
+    {
+      "name": "BIOME_08 exact room count",
+      "passed": true
+    },
+    {
+      "name": "BIOME_08 one selected card",
+      "passed": true
+    },
+    {
+      "name": "BIOME_09 exact room count",
+      "passed": true
+    },
+    {
+      "name": "BIOME_09 one selected card",
+      "passed": true
+    },
+    {
+      "name": "TRANSITION_ORDALIA_FRORE exact room count",
+      "passed": true
+    },
+    {
+      "name": "TRANSITION_ORDALIA_FRORE one selected card",
+      "passed": true
+    },
+    {
+      "name": "TRANSITION_COURTYARD exact room count",
+      "passed": true
+    },
+    {
+      "name": "TRANSITION_COURTYARD one selected card",
+      "passed": true
+    },
+    {
+      "name": "32 reference scenes retained",
+      "passed": true
+    },
+    {
+      "name": "Russian area search covers core and reference/transition",
+      "passed": true
+    },
+    {
+      "name": "author mask/support overlays enabled",
+      "passed": true
+    },
+    {
+      "name": "mobile no page overflow",
+      "passed": true
+    },
+    {
+      "name": "no browser errors",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "map_asset_admissions_added": 0
+}

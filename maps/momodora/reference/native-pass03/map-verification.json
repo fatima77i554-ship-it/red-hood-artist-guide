@@ -1,0 +1,66 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "native tutorial module ready",
+      "passed": true
+    },
+    {
+      "name": "default ROOM21 native UI profile",
+      "passed": true
+    },
+    {
+      "name": "default PNG matches reference",
+      "passed": true
+    },
+    {
+      "name": "RU/Sony native phase selection",
+      "passed": true
+    },
+    {
+      "name": "PNG matches selected live UI",
+      "passed": true
+    },
+    {
+      "name": "native pause path",
+      "passed": true
+    },
+    {
+      "name": "atmosphere retained when UI hidden",
+      "passed": true
+    },
+    {
+      "name": "authored jump tutorial in second section",
+      "passed": true
+    },
+    {
+      "name": "native transition playback",
+      "passed": true
+    },
+    {
+      "name": "static mode remains separate",
+      "passed": true
+    },
+    {
+      "name": "static image retained",
+      "passed": true
+    },
+    {
+      "name": "source OBJT candidates remain separate",
+      "passed": true
+    },
+    {
+      "name": "no tutorial propagation to ROOM23",
+      "passed": true
+    },
+    {
+      "name": "UI classifier verified-only label",
+      "passed": true
+    },
+    {
+      "name": "UI controls fit mobile",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

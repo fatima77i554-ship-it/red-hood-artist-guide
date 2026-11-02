@@ -1,0 +1,512 @@
+{
+  "id": "TRANSITION_ORDALIA_FRORE",
+  "name_ru": "Переход роща — Стылая Сиэль",
+  "name_en": "Ordalia / Frore transition",
+  "production_rooms": [
+    56
+  ],
+  "section_ids": [
+    "ROOM_056_S001",
+    "ROOM_056_S002"
+  ],
+  "assets": [
+    {
+      "id": "BG00",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/BG00_000.png"
+      ],
+      "section_ids": [
+        "ROOM_056_S001",
+        "ROOM_056_S002"
+      ]
+    },
+    {
+      "id": "BG01",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/BG01_000.png"
+      ],
+      "section_ids": [
+        "ROOM_056_S001",
+        "ROOM_056_S002"
+      ]
+    },
+    {
+      "id": "BG02",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/BG02_000.png"
+      ],
+      "section_ids": [
+        "ROOM_056_S001",
+        "ROOM_056_S002"
+      ]
+    },
+    {
+      "id": "BG03",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/BG03_000.png"
+      ],
+      "section_ids": [
+        "ROOM_056_S001",
+        "ROOM_056_S002"
+      ]
+    },
+    {
+      "id": "M335",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/M335_000.png"
+      ],
+      "section_ids": [
+        "ROOM_056_S001",
+        "ROOM_056_S002"
+      ]
+    },
+    {
+      "id": "M336",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/M336_000.png"
+      ],
+      "section_ids": [
+        "ROOM_056_S002"
+      ]
+    },
+    {
+      "id": "MECH_494",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/MECH_494_000.png",
+        "../shared/MECH_494_001.png"
+      ],
+      "section_ids": [
+        "ROOM_056_S002"
+      ]
+    },
+    {
+      "id": "T15_112_112_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T15_112_112_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_056_S001",
+        "ROOM_056_S002"
+      ]
+    },
+    {
+      "id": "T15_112_128_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T15_112_128_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_056_S001",
+        "ROOM_056_S002"
+      ]
+    },
+    {
+      "id": "T15_112_144_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T15_112_144_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_056_S001",
+        "ROOM_056_S002"
+      ]
+    },
+    {
+      "id": "T15_112_160_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T15_112_160_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_056_S002"
+      ]
+    },
+    {
+      "id": "T15_112_32_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T15_112_32_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_056_S001",
+        "ROOM_056_S002"
+      ]
+    },
+    {
+      "id": "T15_112_96_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T15_112_96_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_056_S001",
+        "ROOM_056_S002"
+      ]
+    },
+    {
+      "id": "T15_16_144_64_48",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T15_16_144_64_48_000.png"
+      ],
+      "section_ids": [
+        "ROOM_056_S001"
+      ]
+    },
+    {
+      "id": "T15_32_128_48_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T15_32_128_48_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_056_S001",
+        "ROOM_056_S002"
+      ]
+    },
+    {
+      "id": "T15_32_256_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T15_32_256_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_056_S001",
+        "ROOM_056_S002"
+      ]
+    },
+    {
+      "id": "T15_32_96_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T15_32_96_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_056_S002"
+      ]
+    },
+    {
+      "id": "T15_48_32_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T15_48_32_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_056_S002"
+      ]
+    },
+    {
+      "id": "T15_64_16_64_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T15_64_16_64_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_056_S002"
+      ]
+    },
+    {
+      "id": "T15_64_192_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T15_64_192_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_056_S002"
+      ]
+    },
+    {
+      "id": "T15_64_256_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T15_64_256_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_056_S001",
+        "ROOM_056_S002"
+      ]
+    },
+    {
+      "id": "T15_64_32_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T15_64_32_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_056_S002"
+      ]
+    },
+    {
+      "id": "T15_64_48_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T15_64_48_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_056_S001",
+        "ROOM_056_S002"
+      ]
+    },
+    {
+      "id": "T15_64_64_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T15_64_64_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_056_S001",
+        "ROOM_056_S002"
+      ]
+    },
+    {
+      "id": "T15_64_80_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T15_64_80_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_056_S001",
+        "ROOM_056_S002"
+      ]
+    },
+    {
+      "id": "T15_80_112_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T15_80_112_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_056_S001",
+        "ROOM_056_S002"
+      ]
+    },
+    {
+      "id": "T15_80_144_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T15_80_144_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_056_S002"
+      ]
+    },
+    {
+      "id": "T15_80_160_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T15_80_160_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_056_S002"
+      ]
+    },
+    {
+      "id": "T15_80_208_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T15_80_208_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_056_S002"
+      ]
+    },
+    {
+      "id": "T15_80_256_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T15_80_256_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_056_S001",
+        "ROOM_056_S002"
+      ]
+    },
+    {
+      "id": "T15_80_32_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T15_80_32_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_056_S001",
+        "ROOM_056_S002"
+      ]
+    },
+    {
+      "id": "T15_80_48_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T15_80_48_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_056_S001",
+        "ROOM_056_S002"
+      ]
+    },
+    {
+      "id": "T15_80_64_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T15_80_64_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_056_S001",
+        "ROOM_056_S002"
+      ]
+    },
+    {
+      "id": "T15_80_80_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T15_80_80_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_056_S001",
+        "ROOM_056_S002"
+      ]
+    },
+    {
+      "id": "T15_80_96_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T15_80_96_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_056_S002"
+      ]
+    },
+    {
+      "id": "T15_96_112_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T15_96_112_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_056_S002"
+      ]
+    },
+    {
+      "id": "T15_96_128_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T15_96_128_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_056_S001",
+        "ROOM_056_S002"
+      ]
+    },
+    {
+      "id": "T15_96_144_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T15_96_144_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_056_S001",
+        "ROOM_056_S002"
+      ]
+    },
+    {
+      "id": "T15_96_160_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T15_96_160_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_056_S001",
+        "ROOM_056_S002"
+      ]
+    },
+    {
+      "id": "T15_96_192_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T15_96_192_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_056_S002"
+      ]
+    },
+    {
+      "id": "T15_96_208_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T15_96_208_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_056_S002"
+      ]
+    },
+    {
+      "id": "T15_96_224_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T15_96_224_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_056_S002"
+      ]
+    },
+    {
+      "id": "T15_96_32_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T15_96_32_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_056_S001",
+        "ROOM_056_S002"
+      ]
+    },
+    {
+      "id": "T15_96_48_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T15_96_48_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_056_S002"
+      ]
+    },
+    {
+      "id": "T15_96_64_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T15_96_64_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_056_S001"
+      ]
+    },
+    {
+      "id": "T15_96_80_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T15_96_80_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_056_S002"
+      ]
+    },
+    {
+      "id": "T15_96_96_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T15_96_96_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_056_S001",
+        "ROOM_056_S002"
+      ]
+    }
+  ]
+}

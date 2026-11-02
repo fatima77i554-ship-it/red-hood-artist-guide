@@ -1,0 +1,44 @@
+{
+  "passed": true,
+  "result": {
+    "solid": [
+      113,
+      135,
+      163,
+      255
+    ],
+    "moving": [
+      56,
+      203,
+      212,
+      255
+    ],
+    "blocked103117": false,
+    "source105818": {
+      "instance_id": 105818,
+      "asset": "MECH_494",
+      "role": "pad",
+      "x": 120,
+      "y": 240,
+      "scale_x": 1,
+      "scale_y": 1,
+      "rotation": 0,
+      "basis": "accepted_v4_binding data/mechanisms.json",
+      "snapshot": "inherited initial/source binding, not live state",
+      "accepted_repair_xy": [
+        136,
+        208
+      ]
+    }
+  },
+  "rooms": [
+    30,
+    23,
+    45,
+    34,
+    110,
+    151,
+    262
+  ],
+  "scope": "diagnostic vector masks, no gameplay admission"
+}

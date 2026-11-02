@@ -1,0 +1,50 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "main241 production rooms",
+      "passed": true
+    },
+    {
+      "name": "Frore core4 rooms",
+      "passed": true
+    },
+    {
+      "name": "transition56 separate",
+      "passed": true
+    },
+    {
+      "name": "native castle helper41 rooms",
+      "passed": true
+    },
+    {
+      "name": "search Russian biome includes transition",
+      "passed": true
+    },
+    {
+      "name": "detail links exact biome",
+      "passed": true
+    },
+    {
+      "name": "main nav opens verified gallery",
+      "passed": true
+    },
+    {
+      "name": "gallery opens canonical section with biome label",
+      "passed": true
+    },
+    {
+      "name": "ROOM21 tutorial retained",
+      "passed": true
+    },
+    {
+      "name": "main mobile no page overflow",
+      "passed": true
+    },
+    {
+      "name": "no browser errors",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

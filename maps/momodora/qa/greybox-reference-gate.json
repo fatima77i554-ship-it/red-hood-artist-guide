@@ -1,0 +1,10 @@
+{
+  "expand_permitted": true,
+  "reference_room": 45,
+  "scope": "diagnostic source mask visualisation only",
+  "verified_asset_ids": 39,
+  "source_game_admissions_added": 0,
+  "source103117_blocked": true,
+  "source105818_preserved": true,
+  "reviewed_gallery": true
+}

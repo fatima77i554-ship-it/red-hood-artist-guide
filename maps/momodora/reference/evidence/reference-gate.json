@@ -1,0 +1,30 @@
+{
+  "reference": "ROOM_022_S001",
+  "assets": [
+    "BG00",
+    "BG01",
+    "BG02",
+    "BG03",
+    "M335",
+    "T15_112_32_16_16",
+    "T15_48_32_16_16",
+    "T15_64_16_64_16",
+    "T15_64_32_16_16",
+    "T15_64_48_16_16",
+    "T15_64_64_16_16",
+    "T15_80_112_16_16",
+    "T15_80_32_16_16",
+    "T15_80_48_16_16",
+    "T15_80_64_16_16",
+    "T15_80_96_16_16",
+    "T15_96_32_16_16"
+  ],
+  "classifier_created": true,
+  "visual_review": "reviewed",
+  "expand_permitted": true,
+  "reviewed_images": [
+    "reference-assets-static.png",
+    "reference-022-overlay.png"
+  ],
+  "review_notes": "12 exact tile cuts, four static parallax bitmaps and M335 reviewed. Native-size terrain aligns with transformed authored mask; source water/boat/spawners intentionally excluded from admitted static reference. This gate authorizes source research expansion, not a game build."
+}

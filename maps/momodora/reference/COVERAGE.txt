@@ -1,0 +1,50 @@
+Покрытие и открытые задачи
+
+Подтверждено:
+273/273 ROOM в индексе; 241/241 основная комната; 454/454 клетки native topology.
+454 производственных участка и 58 справочных, точное покрытие без дыр/дубликатов.
+114 461 source tile records; 6 081 source object instances; transforms сохранены.
+931/931 SPRT исследованы как исходные ресурсы; 4 193/4 193 RGBA frames сверены.
+815/815 OBJT сохранены как исходные записи; из них 352 имеют прямые ROOM placements.
+152 разных default sprite ID отрисованы в source-defaults preview видимых объектов
+вне уже классифицированной физической геометрии. Native overrides не исполнены.
+1 247 унаследованных verified-ролей v4; 1 134 ID реально использованы в карточках.
+17 унаследованных статических ролей первого эталона ROOM22 просмотрены до расширения.
+Ещё проверен исходный старт ROOM21: всего 29 разных статических ролей и overlays.
+Новых игровых допусков 0; новых игровых сборок 0.
+
+Не подтверждено:
+Полная native FSM/Draw/visibility и все динамические пути появления ресурсов.
+Полная визуальная идентичность оригиналу, палитровый shader, blend modes/VFX.
+Сюжетная проходимость предлагаемого маршрута, ключи и условия всех возвратов.
+Полная готовность каждой комнаты как игровой сцены.
+
+Конкретный backlog:
+2 694 instance-аудита, отдельно 273 ROOM.Create-аудита.
+66 отсутствующих текстурных ссылок только в rmTest (ROOM002), без подстановок.
+Первый эталон ROOM022: oForestAnimalSpawner instance100320, oWater instance100321,
+oBoat instance100322, oWaterDangerSpawner instance100323 — полная native-семантика
+ещё не принята; статические слои готовы как исходная база для художницы.
+
+Первая задача: 001 / ROOM_021_S001 / художница / проверенные статические слои.
+Source старт подтверждён raw ASM: newGame → rmIntro11 → rmForest01 (ROOM21).
+Остальные 453 задачи — предложенный связный backlog; не выдаётся за playthrough.
+
+Проверки и реальные screenshots находятся в verification.json,
+browser-verification.json и screenshots/. Полный построчный SHA manifest:
+FILE-MANIFEST.json. Первичная база ZIP и game.ios имеют заданные SHA, см.
+source-manifest.json. Исходники и сохранения не изменены.
+
+Native pass01: проверены две отдельные визуальные программы (beam734 и SHDR4).
+ROOM21: две точные runtime-позиции лучей, native alpha ping-pong, compiled shader4.
+ROOM23/ROOM22: перенесён тот же подтверждённый shader-профиль по исходным CreateFog5.
+Общий цветовой проход расширен на 23 проверенные комнаты / 38 участков;
+полный список и CFG-проверка — native-pass01/connected-room-audit.json. Число полностью
+восстановленных native-комнат остаётся 0; полные исходные аудиты не закрываются
+по одному визуальному проходу. Последующий pass02 проверил выбранные визуальные программы частиц и idle-травы ROOM21; полные акторы остаются открыты; tutorial UI ROOM21 проверен следующим pass03.
+Граф фабрик: data/native-spawn-graph.json. Детали: NATIVE-PASS01.txt.
+
+Native pass02: шесть визуальных программ ROOM21, 162 растения в записанном RNG-профиле, 12 фаз до tick240, 45 прямых сравнений Step травы. Галерея проверена перед подключением к двум участкам карты.
+Tutorial: отдельно проверены панель169 и47 точных bitmap-глифов FONT0/FONT4; pass03 дополнил активный UI и подключил выбранные профили к карте. На этапе pass02 было11 visual-only ролей, новых игровых допусков0.
+
+PASS03: ROOM21 tutorial UI —11 проверенных UI-ролей (8 новых ID),20 профилей EN/RU x keyboard/XinputA/B/SonyA/B x2 authored tutorials,63 bitmap-глифа. Native proofs:520 alpha cases,24 text layouts,128 bbox boundary cases. Gallery reviewed before map; original background/shader unchanged460800 channels (maxdelta0). Всего19 native visual-only ролей; игровых допусков0; полных native-комнат0.

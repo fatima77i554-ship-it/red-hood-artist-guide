@@ -1,0 +1,76 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "offline map canvas",
+      "passed": true
+    },
+    {
+      "name": "273 room buttons",
+      "passed": true
+    },
+    {
+      "name": "initial reference",
+      "passed": true
+    },
+    {
+      "name": "zoom in",
+      "passed": true
+    },
+    {
+      "name": "map pointer selects correct screen",
+      "passed": true
+    },
+    {
+      "name": "section neighbor navigation",
+      "passed": true
+    },
+    {
+      "name": "pointer pan",
+      "passed": true
+    },
+    {
+      "name": "authored transition overlay",
+      "passed": true
+    },
+    {
+      "name": "support overlay toggles",
+      "passed": true
+    },
+    {
+      "name": "room name search",
+      "passed": true
+    },
+    {
+      "name": "queue pagination",
+      "passed": true
+    },
+    {
+      "name": "queue section filter",
+      "passed": true
+    },
+    {
+      "name": "verified asset dialog",
+      "passed": true
+    },
+    {
+      "name": "animation advances",
+      "passed": true
+    },
+    {
+      "name": "32 non-world rooms",
+      "passed": true
+    },
+    {
+      "name": "printable standalone card",
+      "passed": true
+    },
+    {
+      "name": "mobile no horizontal overflow",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "mode": "headless Chromium; direct file://; real UI screenshots; no remote requests",
+  "screenshot_count": 10
+}

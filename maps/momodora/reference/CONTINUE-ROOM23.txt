@@ -1,0 +1,25 @@
+ROOM23 / saved native enemy audit checkpoint /2026-11-02
+
+User steered the active work to defining all biomes. That classification is now in biomes.html, data/biomes.json and BIOMES.txt. Original ROOM23 restoration remains the next active restoration stage; no new enemy asset has been admitted or placed.
+
+Exact authored enemy roots:
+100337 oBakgirl277 [304,96], CC3234, save flag global6[98]
+100338 oBakgirl277 [560,112], CC3235, save flag global6[99]
+100339 oMonkey284 [384,160], CC3236, save flag global6[100]
+100340 oMonkey284 [512,112], CC3237, save flag global6[101]
+100341 oImp294 [528,208], CC3238, save flag global6[102]
+CC deletes the instance when the flag is zero; no generic spawning or guessed placement.
+
+Scratch: work/native-room23; scripts work/scripts/enemy_runtime.py, room23_*.
+Native Create/Step/Draw inheritance is replayed. Exact native cached bbox and collision-line functions are available; source sprite loading proves sep_masks flag handling. oMain.Create physics globals were recovered by bounded original blocks: global1=5.5, global2=.15. They MUST be initialized with bootstrap_physics before trajectories. Earlier probes without those globals are diagnostic only, never admissible evidence.
+
+Native animation routine Instance_Animate is replayed. Actual engine order: animation -> Begin Step -> alarms -> normal Step -> builtin movement -> other/collision -> End Step -> Draw. Current probe does not yet implement complete movement/collision dispatch; it must not be called a full runtime.
+
+Monkey palette system executes original pal_swap_init_system and pal_swap_add_palette(27) over exact source pixels; Draw executes pal_swap_set/reset, retains shader3 uniforms. Palette27=monkey_palettes,3 source frames,15 colours. No default-colour monkey admitted.
+Masks: Bakgirl and Imp explicitly265; Monkey native setSprite selects235. Check engine-vs-author mask semantics before classification, not sprite alpha.
+
+Latest corrected 5-root probe reaches tick64, bomb explosion creates OBJT103 oEnemyPoison and stops at unsupported YYGML_motion_set. Source calls fail closed. No fallback effect, no no-op substitution. Continue by recovering native builtin speed/direction setters and movement, OBJT103 and its downstream effects. Current work runtime changes have NOT overwritten pass03's delivered replay harness.
+Known dynamic descendants:106 oPoisonBomb,105 oMonkeyAttack,114 oImpDagger,657 chargefx1,651 chargefxring; parent enemyDeath also has branch-specific effects/drop candidates requiring actual path checks.
+Need fixture target positions that expose each monkey/imp attack, hurt/death and off-screen states; source collision dispatch and EndStep must be included. Actual RNG seed/state not known; fixtures must stay explicit.
+
+Then: exact used frames/masks/palette/VFX contracts in classifier -> animated gallery with support/collision overlays -> review -> ROOM23 map composition. Do not spread partial enemy profiles to other rooms. Keep ROOM21 tutorial UI, original asset catalogue and all source transforms unchanged. Original source application, data and saves remain read-only.

@@ -1,0 +1,3305 @@
+{
+  "id": "BIOME_03",
+  "name_ru": "Покинутый монастырь",
+  "name_en": "Forlorn Monastery",
+  "production_rooms": [
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118
+  ],
+  "section_ids": [
+    "ROOM_092_S001",
+    "ROOM_092_S002",
+    "ROOM_093_S001",
+    "ROOM_093_S002",
+    "ROOM_094_S001",
+    "ROOM_095_S001",
+    "ROOM_096_S001",
+    "ROOM_096_S002",
+    "ROOM_096_S003",
+    "ROOM_096_S004",
+    "ROOM_096_S005",
+    "ROOM_096_S006",
+    "ROOM_096_S007",
+    "ROOM_097_S001",
+    "ROOM_097_S002",
+    "ROOM_097_S003",
+    "ROOM_098_S001",
+    "ROOM_098_S002",
+    "ROOM_099_S001",
+    "ROOM_099_S002",
+    "ROOM_100_S001",
+    "ROOM_100_S002",
+    "ROOM_101_S001",
+    "ROOM_101_S002",
+    "ROOM_102_S001",
+    "ROOM_103_S001",
+    "ROOM_104_S001",
+    "ROOM_105_S001",
+    "ROOM_106_S001",
+    "ROOM_106_S002",
+    "ROOM_107_S001",
+    "ROOM_107_S002",
+    "ROOM_108_S001",
+    "ROOM_108_S002",
+    "ROOM_109_S001",
+    "ROOM_109_S002",
+    "ROOM_110_S001",
+    "ROOM_110_S002",
+    "ROOM_111_S001",
+    "ROOM_111_S002",
+    "ROOM_112_S001",
+    "ROOM_112_S002",
+    "ROOM_113_S001",
+    "ROOM_114_S001",
+    "ROOM_114_S002",
+    "ROOM_115_S001",
+    "ROOM_116_S001",
+    "ROOM_116_S002",
+    "ROOM_117_S001",
+    "ROOM_117_S002",
+    "ROOM_118_S001",
+    "ROOM_118_S002"
+  ],
+  "assets": [
+    {
+      "id": "BG08",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/BG08_000.png"
+      ],
+      "section_ids": [
+        "ROOM_106_S001",
+        "ROOM_106_S002",
+        "ROOM_107_S001",
+        "ROOM_107_S002"
+      ]
+    },
+    {
+      "id": "BG12",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/BG12_000.png"
+      ],
+      "section_ids": [
+        "ROOM_106_S001",
+        "ROOM_106_S002"
+      ]
+    },
+    {
+      "id": "BG13",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/BG13_000.png"
+      ],
+      "section_ids": [
+        "ROOM_107_S001",
+        "ROOM_107_S002"
+      ]
+    },
+    {
+      "id": "HEALTH_SPIKES_394",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/HEALTH_SPIKES_394_000.png"
+      ],
+      "section_ids": [
+        "ROOM_100_S002",
+        "ROOM_110_S001",
+        "ROOM_110_S002",
+        "ROOM_114_S001",
+        "ROOM_114_S002",
+        "ROOM_117_S001"
+      ]
+    },
+    {
+      "id": "HEALTH_VIT_641",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/HEALTH_VIT_641_000.png"
+      ],
+      "section_ids": [
+        "ROOM_108_S001"
+      ]
+    },
+    {
+      "id": "INTERACT_507",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/INTERACT_507_000.png"
+      ],
+      "section_ids": [
+        "ROOM_094_S001",
+        "ROOM_101_S002",
+        "ROOM_111_S002"
+      ]
+    },
+    {
+      "id": "INTERACT_569",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/INTERACT_569_000.png",
+        "../shared/INTERACT_569_001.png",
+        "../shared/INTERACT_569_002.png"
+      ],
+      "section_ids": [
+        "ROOM_096_S001",
+        "ROOM_099_S002",
+        "ROOM_111_S001"
+      ]
+    },
+    {
+      "id": "INTERACT_922",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/INTERACT_922_000.png"
+      ],
+      "section_ids": [
+        "ROOM_111_S001"
+      ]
+    },
+    {
+      "id": "ITEM_CREST_571",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/ITEM_CREST_571_000.png"
+      ],
+      "section_ids": [
+        "ROOM_105_S001"
+      ]
+    },
+    {
+      "id": "ITEM_NPC_459",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/ITEM_NPC_459_000.png",
+        "../shared/ITEM_NPC_459_001.png",
+        "../shared/ITEM_NPC_459_002.png",
+        "../shared/ITEM_NPC_459_003.png",
+        "../shared/ITEM_NPC_459_004.png"
+      ],
+      "section_ids": [
+        "ROOM_113_S001"
+      ]
+    },
+    {
+      "id": "ITEM_NPC_794",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/ITEM_NPC_794_000.png",
+        "../shared/ITEM_NPC_794_001.png",
+        "../shared/ITEM_NPC_794_002.png",
+        "../shared/ITEM_NPC_794_003.png",
+        "../shared/ITEM_NPC_794_004.png"
+      ],
+      "section_ids": [
+        "ROOM_094_S001"
+      ]
+    },
+    {
+      "id": "ITEM_SPARKLE_711",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/ITEM_SPARKLE_711_000.png",
+        "../shared/ITEM_SPARKLE_711_001.png",
+        "../shared/ITEM_SPARKLE_711_002.png",
+        "../shared/ITEM_SPARKLE_711_003.png",
+        "../shared/ITEM_SPARKLE_711_004.png",
+        "../shared/ITEM_SPARKLE_711_005.png",
+        "../shared/ITEM_SPARKLE_711_006.png",
+        "../shared/ITEM_SPARKLE_711_007.png"
+      ],
+      "section_ids": [
+        "ROOM_103_S001",
+        "ROOM_117_S002"
+      ]
+    },
+    {
+      "id": "M335",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/M335_000.png"
+      ],
+      "section_ids": [
+        "ROOM_092_S001",
+        "ROOM_092_S002",
+        "ROOM_093_S001",
+        "ROOM_093_S002",
+        "ROOM_094_S001",
+        "ROOM_095_S001",
+        "ROOM_096_S001",
+        "ROOM_096_S002",
+        "ROOM_096_S003",
+        "ROOM_096_S004",
+        "ROOM_096_S005",
+        "ROOM_096_S006",
+        "ROOM_096_S007",
+        "ROOM_097_S001",
+        "ROOM_097_S002",
+        "ROOM_097_S003",
+        "ROOM_098_S001",
+        "ROOM_098_S002",
+        "ROOM_099_S001",
+        "ROOM_099_S002",
+        "ROOM_100_S001",
+        "ROOM_100_S002",
+        "ROOM_101_S001",
+        "ROOM_101_S002",
+        "ROOM_102_S001",
+        "ROOM_103_S001",
+        "ROOM_104_S001",
+        "ROOM_105_S001",
+        "ROOM_106_S001",
+        "ROOM_106_S002",
+        "ROOM_107_S001",
+        "ROOM_107_S002",
+        "ROOM_108_S001",
+        "ROOM_108_S002",
+        "ROOM_109_S001",
+        "ROOM_109_S002",
+        "ROOM_110_S001",
+        "ROOM_110_S002",
+        "ROOM_111_S001",
+        "ROOM_111_S002",
+        "ROOM_112_S001",
+        "ROOM_112_S002",
+        "ROOM_113_S001",
+        "ROOM_114_S001",
+        "ROOM_114_S002",
+        "ROOM_115_S001",
+        "ROOM_116_S001",
+        "ROOM_116_S002",
+        "ROOM_117_S001",
+        "ROOM_117_S002",
+        "ROOM_118_S001",
+        "ROOM_118_S002"
+      ]
+    },
+    {
+      "id": "M336",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/M336_000.png"
+      ],
+      "section_ids": [
+        "ROOM_095_S001",
+        "ROOM_098_S001",
+        "ROOM_098_S002",
+        "ROOM_099_S001",
+        "ROOM_101_S002",
+        "ROOM_102_S001",
+        "ROOM_106_S002",
+        "ROOM_109_S001",
+        "ROOM_110_S001",
+        "ROOM_111_S001",
+        "ROOM_111_S002",
+        "ROOM_116_S001",
+        "ROOM_116_S002",
+        "ROOM_118_S001",
+        "ROOM_118_S002"
+      ]
+    },
+    {
+      "id": "M337",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/M337_000.png"
+      ],
+      "section_ids": [
+        "ROOM_095_S001",
+        "ROOM_096_S007",
+        "ROOM_097_S001",
+        "ROOM_099_S002",
+        "ROOM_106_S001",
+        "ROOM_106_S002",
+        "ROOM_108_S001",
+        "ROOM_108_S002",
+        "ROOM_110_S002",
+        "ROOM_111_S002",
+        "ROOM_114_S001",
+        "ROOM_116_S002",
+        "ROOM_117_S001"
+      ]
+    },
+    {
+      "id": "M338",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/M338_000.png"
+      ],
+      "section_ids": [
+        "ROOM_094_S001",
+        "ROOM_095_S001",
+        "ROOM_099_S001",
+        "ROOM_099_S002",
+        "ROOM_107_S001",
+        "ROOM_109_S002",
+        "ROOM_110_S001",
+        "ROOM_111_S002",
+        "ROOM_116_S001",
+        "ROOM_117_S001",
+        "ROOM_118_S002"
+      ]
+    },
+    {
+      "id": "M364",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/M364_000.png"
+      ],
+      "section_ids": [
+        "ROOM_095_S001",
+        "ROOM_096_S001",
+        "ROOM_096_S002",
+        "ROOM_096_S003",
+        "ROOM_096_S004",
+        "ROOM_096_S005",
+        "ROOM_096_S006",
+        "ROOM_096_S007",
+        "ROOM_098_S001",
+        "ROOM_098_S002",
+        "ROOM_099_S001",
+        "ROOM_101_S002",
+        "ROOM_102_S001"
+      ]
+    },
+    {
+      "id": "MECH_494",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/MECH_494_000.png",
+        "../shared/MECH_494_001.png"
+      ],
+      "section_ids": [
+        "ROOM_109_S001",
+        "ROOM_109_S002",
+        "ROOM_111_S002",
+        "ROOM_116_S002"
+      ]
+    },
+    {
+      "id": "MECH_515",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/MECH_515_000.png"
+      ],
+      "section_ids": [
+        "ROOM_098_S002"
+      ]
+    },
+    {
+      "id": "NPC_479",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/NPC_479_000.png"
+      ],
+      "section_ids": [
+        "ROOM_093_S001"
+      ]
+    },
+    {
+      "id": "NPC_484",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/NPC_484_000.png"
+      ],
+      "section_ids": [
+        "ROOM_092_S002",
+        "ROOM_093_S001",
+        "ROOM_093_S002"
+      ]
+    },
+    {
+      "id": "SURFACE_559",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/SURFACE_559_000.png",
+        "../shared/SURFACE_559_001.png"
+      ],
+      "section_ids": [
+        "ROOM_110_S001",
+        "ROOM_110_S002"
+      ]
+    },
+    {
+      "id": "T17_0_160_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_0_160_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_092_S001",
+        "ROOM_093_S001",
+        "ROOM_094_S001",
+        "ROOM_095_S001",
+        "ROOM_096_S001",
+        "ROOM_096_S003",
+        "ROOM_096_S007",
+        "ROOM_097_S001",
+        "ROOM_097_S002",
+        "ROOM_098_S002",
+        "ROOM_099_S001",
+        "ROOM_099_S002",
+        "ROOM_100_S001",
+        "ROOM_100_S002",
+        "ROOM_101_S001",
+        "ROOM_101_S002",
+        "ROOM_102_S001",
+        "ROOM_104_S001",
+        "ROOM_105_S001",
+        "ROOM_109_S001",
+        "ROOM_109_S002",
+        "ROOM_110_S002",
+        "ROOM_111_S001",
+        "ROOM_111_S002",
+        "ROOM_112_S001",
+        "ROOM_112_S002",
+        "ROOM_114_S001",
+        "ROOM_114_S002",
+        "ROOM_115_S001",
+        "ROOM_116_S001",
+        "ROOM_116_S002",
+        "ROOM_118_S001",
+        "ROOM_118_S002"
+      ]
+    },
+    {
+      "id": "T17_0_208_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_0_208_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_100_S002"
+      ]
+    },
+    {
+      "id": "T17_112_0_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_112_0_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_112_S002",
+        "ROOM_115_S001",
+        "ROOM_116_S002"
+      ]
+    },
+    {
+      "id": "T17_112_16_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_112_16_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_108_S002",
+        "ROOM_112_S002"
+      ]
+    },
+    {
+      "id": "T17_112_208_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_112_208_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_110_S001"
+      ]
+    },
+    {
+      "id": "T17_112_368_32_48",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_112_368_32_48_000.png"
+      ],
+      "section_ids": [
+        "ROOM_106_S002"
+      ]
+    },
+    {
+      "id": "T17_112_64_16_32",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_112_64_16_32_000.png"
+      ],
+      "section_ids": [
+        "ROOM_095_S001",
+        "ROOM_096_S003",
+        "ROOM_108_S002",
+        "ROOM_110_S001",
+        "ROOM_111_S001",
+        "ROOM_111_S002",
+        "ROOM_112_S002",
+        "ROOM_115_S001",
+        "ROOM_116_S002"
+      ]
+    },
+    {
+      "id": "T17_128_0_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_128_0_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_101_S001",
+        "ROOM_115_S001",
+        "ROOM_116_S002"
+      ]
+    },
+    {
+      "id": "T17_128_160_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_128_160_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_108_S001",
+        "ROOM_109_S001",
+        "ROOM_111_S001",
+        "ROOM_111_S002"
+      ]
+    },
+    {
+      "id": "T17_128_16_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_128_16_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_110_S001"
+      ]
+    },
+    {
+      "id": "T17_128_176_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_128_176_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_108_S001",
+        "ROOM_109_S001",
+        "ROOM_109_S002",
+        "ROOM_110_S002",
+        "ROOM_111_S001",
+        "ROOM_111_S002"
+      ]
+    },
+    {
+      "id": "T17_128_176_16_32",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_128_176_16_32_000.png"
+      ],
+      "section_ids": [
+        "ROOM_108_S002"
+      ]
+    },
+    {
+      "id": "T17_128_192_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_128_192_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_108_S001",
+        "ROOM_109_S002",
+        "ROOM_111_S001",
+        "ROOM_111_S002"
+      ]
+    },
+    {
+      "id": "T17_128_208_32_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_128_208_32_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_109_S002",
+        "ROOM_111_S002"
+      ]
+    },
+    {
+      "id": "T17_128_224_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_128_224_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_095_S001",
+        "ROOM_096_S001",
+        "ROOM_098_S002",
+        "ROOM_099_S001",
+        "ROOM_099_S002",
+        "ROOM_100_S002",
+        "ROOM_101_S002",
+        "ROOM_102_S001",
+        "ROOM_114_S001",
+        "ROOM_114_S002",
+        "ROOM_115_S001",
+        "ROOM_116_S001",
+        "ROOM_116_S002",
+        "ROOM_117_S001",
+        "ROOM_118_S001",
+        "ROOM_118_S002"
+      ]
+    },
+    {
+      "id": "T17_128_240_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_128_240_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_095_S001",
+        "ROOM_096_S001",
+        "ROOM_096_S002",
+        "ROOM_096_S003",
+        "ROOM_096_S004",
+        "ROOM_096_S005",
+        "ROOM_096_S006",
+        "ROOM_096_S007",
+        "ROOM_098_S001",
+        "ROOM_098_S002",
+        "ROOM_099_S001",
+        "ROOM_099_S002",
+        "ROOM_101_S002",
+        "ROOM_102_S001",
+        "ROOM_103_S001",
+        "ROOM_114_S001",
+        "ROOM_114_S002",
+        "ROOM_115_S001",
+        "ROOM_116_S001",
+        "ROOM_116_S002",
+        "ROOM_117_S001",
+        "ROOM_118_S001",
+        "ROOM_118_S002"
+      ]
+    },
+    {
+      "id": "T17_128_256_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_128_256_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_095_S001",
+        "ROOM_096_S001",
+        "ROOM_096_S007",
+        "ROOM_099_S002",
+        "ROOM_102_S001",
+        "ROOM_116_S002",
+        "ROOM_118_S001",
+        "ROOM_118_S002"
+      ]
+    },
+    {
+      "id": "T17_128_272_32_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_128_272_32_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_094_S001",
+        "ROOM_095_S001",
+        "ROOM_099_S001",
+        "ROOM_099_S002",
+        "ROOM_116_S001",
+        "ROOM_117_S001",
+        "ROOM_118_S002"
+      ]
+    },
+    {
+      "id": "T17_128_32_16_32",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_128_32_16_32_000.png"
+      ],
+      "section_ids": [
+        "ROOM_117_S001"
+      ]
+    },
+    {
+      "id": "T17_128_64_32_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_128_64_32_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_111_S002",
+        "ROOM_117_S001"
+      ]
+    },
+    {
+      "id": "T17_128_80_32_32",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_128_80_32_32_000.png"
+      ],
+      "section_ids": [
+        "ROOM_110_S001",
+        "ROOM_115_S001"
+      ]
+    },
+    {
+      "id": "T17_144_0_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_144_0_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_095_S001",
+        "ROOM_102_S001",
+        "ROOM_116_S002"
+      ]
+    },
+    {
+      "id": "T17_144_160_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_144_160_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_108_S001",
+        "ROOM_108_S002",
+        "ROOM_109_S001",
+        "ROOM_109_S002",
+        "ROOM_110_S001",
+        "ROOM_110_S002",
+        "ROOM_111_S001",
+        "ROOM_111_S002",
+        "ROOM_112_S001",
+        "ROOM_112_S002",
+        "ROOM_113_S001"
+      ]
+    },
+    {
+      "id": "T17_144_176_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_144_176_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_104_S001",
+        "ROOM_105_S001",
+        "ROOM_108_S001",
+        "ROOM_108_S002",
+        "ROOM_109_S001",
+        "ROOM_109_S002",
+        "ROOM_111_S001",
+        "ROOM_111_S002",
+        "ROOM_112_S001",
+        "ROOM_112_S002",
+        "ROOM_113_S001"
+      ]
+    },
+    {
+      "id": "T17_144_192_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_144_192_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_108_S001",
+        "ROOM_108_S002",
+        "ROOM_109_S001",
+        "ROOM_109_S002",
+        "ROOM_111_S001",
+        "ROOM_111_S002",
+        "ROOM_112_S001",
+        "ROOM_112_S002"
+      ]
+    },
+    {
+      "id": "T17_144_224_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_144_224_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_092_S001",
+        "ROOM_092_S002",
+        "ROOM_093_S001",
+        "ROOM_093_S002",
+        "ROOM_094_S001",
+        "ROOM_095_S001",
+        "ROOM_096_S001",
+        "ROOM_096_S003",
+        "ROOM_096_S007",
+        "ROOM_097_S001",
+        "ROOM_097_S002",
+        "ROOM_097_S003",
+        "ROOM_098_S002",
+        "ROOM_099_S001",
+        "ROOM_099_S002",
+        "ROOM_100_S001",
+        "ROOM_100_S002",
+        "ROOM_101_S001",
+        "ROOM_101_S002",
+        "ROOM_102_S001",
+        "ROOM_103_S001",
+        "ROOM_104_S001",
+        "ROOM_105_S001",
+        "ROOM_114_S001",
+        "ROOM_114_S002",
+        "ROOM_115_S001",
+        "ROOM_116_S001",
+        "ROOM_116_S002",
+        "ROOM_117_S001",
+        "ROOM_117_S002",
+        "ROOM_118_S002"
+      ]
+    },
+    {
+      "id": "T17_144_240_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_144_240_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_092_S001",
+        "ROOM_092_S002",
+        "ROOM_093_S001",
+        "ROOM_093_S002",
+        "ROOM_094_S001",
+        "ROOM_095_S001",
+        "ROOM_096_S001",
+        "ROOM_096_S002",
+        "ROOM_096_S003",
+        "ROOM_096_S004",
+        "ROOM_096_S005",
+        "ROOM_096_S006",
+        "ROOM_096_S007",
+        "ROOM_097_S001",
+        "ROOM_097_S002",
+        "ROOM_097_S003",
+        "ROOM_098_S001",
+        "ROOM_098_S002",
+        "ROOM_099_S002",
+        "ROOM_100_S001",
+        "ROOM_100_S002",
+        "ROOM_101_S001",
+        "ROOM_101_S002",
+        "ROOM_102_S001",
+        "ROOM_103_S001",
+        "ROOM_114_S001",
+        "ROOM_114_S002",
+        "ROOM_115_S001",
+        "ROOM_116_S001",
+        "ROOM_116_S002",
+        "ROOM_117_S001",
+        "ROOM_117_S002",
+        "ROOM_118_S001",
+        "ROOM_118_S002"
+      ]
+    },
+    {
+      "id": "T17_144_256_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_144_256_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_092_S001",
+        "ROOM_095_S001",
+        "ROOM_096_S001",
+        "ROOM_096_S002",
+        "ROOM_096_S007",
+        "ROOM_097_S001",
+        "ROOM_099_S002",
+        "ROOM_100_S001",
+        "ROOM_100_S002",
+        "ROOM_101_S001",
+        "ROOM_101_S002",
+        "ROOM_102_S001",
+        "ROOM_103_S001",
+        "ROOM_115_S001",
+        "ROOM_116_S001",
+        "ROOM_116_S002",
+        "ROOM_118_S001"
+      ]
+    },
+    {
+      "id": "T17_144_32_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_144_32_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_111_S002"
+      ]
+    },
+    {
+      "id": "T17_144_48_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_144_48_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_101_S001",
+        "ROOM_117_S001"
+      ]
+    },
+    {
+      "id": "T17_160_0_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_160_0_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_095_S001",
+        "ROOM_101_S002",
+        "ROOM_115_S001"
+      ]
+    },
+    {
+      "id": "T17_160_160_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_160_160_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_109_S002",
+        "ROOM_111_S001",
+        "ROOM_111_S002"
+      ]
+    },
+    {
+      "id": "T17_160_16_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_160_16_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_117_S002"
+      ]
+    },
+    {
+      "id": "T17_160_176_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_160_176_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_108_S001",
+        "ROOM_109_S001",
+        "ROOM_109_S002",
+        "ROOM_110_S001",
+        "ROOM_111_S001",
+        "ROOM_111_S002"
+      ]
+    },
+    {
+      "id": "T17_160_192_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_160_192_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_109_S001",
+        "ROOM_109_S002",
+        "ROOM_111_S001",
+        "ROOM_111_S002"
+      ]
+    },
+    {
+      "id": "T17_160_208_32_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_160_208_32_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_108_S001",
+        "ROOM_108_S002",
+        "ROOM_111_S002"
+      ]
+    },
+    {
+      "id": "T17_160_224_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_160_224_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_096_S003",
+        "ROOM_098_S002",
+        "ROOM_099_S001",
+        "ROOM_099_S002",
+        "ROOM_100_S002",
+        "ROOM_101_S002",
+        "ROOM_102_S001",
+        "ROOM_114_S001",
+        "ROOM_114_S002",
+        "ROOM_115_S001",
+        "ROOM_116_S001",
+        "ROOM_116_S002",
+        "ROOM_117_S001",
+        "ROOM_118_S001"
+      ]
+    },
+    {
+      "id": "T17_160_240_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_160_240_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_092_S001",
+        "ROOM_095_S001",
+        "ROOM_096_S001",
+        "ROOM_096_S002",
+        "ROOM_096_S003",
+        "ROOM_096_S004",
+        "ROOM_096_S005",
+        "ROOM_096_S006",
+        "ROOM_096_S007",
+        "ROOM_097_S001",
+        "ROOM_098_S001",
+        "ROOM_098_S002",
+        "ROOM_099_S001",
+        "ROOM_100_S001",
+        "ROOM_101_S002",
+        "ROOM_102_S001",
+        "ROOM_103_S001",
+        "ROOM_114_S001",
+        "ROOM_114_S002",
+        "ROOM_115_S001",
+        "ROOM_116_S001",
+        "ROOM_116_S002",
+        "ROOM_117_S001",
+        "ROOM_118_S001",
+        "ROOM_118_S002"
+      ]
+    },
+    {
+      "id": "T17_160_256_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_160_256_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_092_S001",
+        "ROOM_095_S001",
+        "ROOM_096_S002",
+        "ROOM_096_S007",
+        "ROOM_097_S001",
+        "ROOM_100_S001",
+        "ROOM_100_S002",
+        "ROOM_103_S001",
+        "ROOM_116_S001",
+        "ROOM_116_S002",
+        "ROOM_118_S001",
+        "ROOM_118_S002"
+      ]
+    },
+    {
+      "id": "T17_160_272_32_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_160_272_32_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_095_S001",
+        "ROOM_096_S007",
+        "ROOM_097_S001",
+        "ROOM_099_S002",
+        "ROOM_114_S001",
+        "ROOM_116_S002",
+        "ROOM_117_S001"
+      ]
+    },
+    {
+      "id": "T17_160_80_32_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_160_80_32_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_101_S001",
+        "ROOM_102_S001",
+        "ROOM_115_S001"
+      ]
+    },
+    {
+      "id": "T17_160_96_32_32",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_160_96_32_32_000.png"
+      ],
+      "section_ids": [
+        "ROOM_095_S001",
+        "ROOM_101_S002",
+        "ROOM_112_S002"
+      ]
+    },
+    {
+      "id": "T17_16_160_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_16_160_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_092_S001",
+        "ROOM_092_S002",
+        "ROOM_093_S001",
+        "ROOM_094_S001",
+        "ROOM_095_S001",
+        "ROOM_096_S001",
+        "ROOM_096_S003",
+        "ROOM_096_S007",
+        "ROOM_097_S001",
+        "ROOM_097_S002",
+        "ROOM_098_S001",
+        "ROOM_098_S002",
+        "ROOM_099_S001",
+        "ROOM_099_S002",
+        "ROOM_100_S001",
+        "ROOM_101_S001",
+        "ROOM_101_S002",
+        "ROOM_102_S001",
+        "ROOM_103_S001",
+        "ROOM_104_S001",
+        "ROOM_105_S001",
+        "ROOM_109_S001",
+        "ROOM_109_S002",
+        "ROOM_110_S001",
+        "ROOM_111_S002",
+        "ROOM_112_S002",
+        "ROOM_114_S002",
+        "ROOM_115_S001",
+        "ROOM_116_S002",
+        "ROOM_118_S002"
+      ]
+    },
+    {
+      "id": "T17_16_208_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_16_208_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_110_S001",
+        "ROOM_110_S002",
+        "ROOM_114_S001",
+        "ROOM_114_S002",
+        "ROOM_117_S001"
+      ]
+    },
+    {
+      "id": "T17_176_160_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_176_160_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_109_S001",
+        "ROOM_109_S002",
+        "ROOM_111_S001"
+      ]
+    },
+    {
+      "id": "T17_176_16_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_176_16_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_111_S001"
+      ]
+    },
+    {
+      "id": "T17_176_176_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_176_176_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_108_S001",
+        "ROOM_108_S002",
+        "ROOM_109_S002",
+        "ROOM_110_S002",
+        "ROOM_111_S002"
+      ]
+    },
+    {
+      "id": "T17_176_192_32_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_176_192_32_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_107_S001"
+      ]
+    },
+    {
+      "id": "T17_176_224_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_176_224_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_096_S002",
+        "ROOM_100_S001",
+        "ROOM_100_S002",
+        "ROOM_103_S001",
+        "ROOM_116_S001",
+        "ROOM_116_S002"
+      ]
+    },
+    {
+      "id": "T17_176_240_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_176_240_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_096_S003",
+        "ROOM_097_S001",
+        "ROOM_098_S002",
+        "ROOM_099_S001",
+        "ROOM_099_S002",
+        "ROOM_100_S002",
+        "ROOM_101_S002",
+        "ROOM_102_S001",
+        "ROOM_114_S001",
+        "ROOM_114_S002",
+        "ROOM_115_S001",
+        "ROOM_116_S001",
+        "ROOM_116_S002",
+        "ROOM_117_S001"
+      ]
+    },
+    {
+      "id": "T17_176_32_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_176_32_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_102_S001",
+        "ROOM_115_S001"
+      ]
+    },
+    {
+      "id": "T17_176_48_16_32",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_176_48_16_32_000.png"
+      ],
+      "section_ids": [
+        "ROOM_094_S001",
+        "ROOM_115_S001",
+        "ROOM_116_S002"
+      ]
+    },
+    {
+      "id": "T17_192_0_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_192_0_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_096_S003",
+        "ROOM_102_S001",
+        "ROOM_115_S001",
+        "ROOM_117_S002"
+      ]
+    },
+    {
+      "id": "T17_192_112_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_192_112_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_095_S001",
+        "ROOM_101_S001",
+        "ROOM_101_S002",
+        "ROOM_110_S001",
+        "ROOM_110_S002",
+        "ROOM_115_S001",
+        "ROOM_117_S001",
+        "ROOM_117_S002"
+      ]
+    },
+    {
+      "id": "T17_192_128_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_192_128_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_095_S001",
+        "ROOM_101_S001",
+        "ROOM_101_S002",
+        "ROOM_110_S001",
+        "ROOM_110_S002",
+        "ROOM_115_S001"
+      ]
+    },
+    {
+      "id": "T17_192_160_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_192_160_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_108_S002",
+        "ROOM_109_S002",
+        "ROOM_111_S001",
+        "ROOM_111_S002"
+      ]
+    },
+    {
+      "id": "T17_192_16_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_192_16_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_101_S001",
+        "ROOM_117_S002"
+      ]
+    },
+    {
+      "id": "T17_192_176_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_192_176_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_108_S001",
+        "ROOM_109_S001",
+        "ROOM_109_S002",
+        "ROOM_110_S001",
+        "ROOM_111_S002"
+      ]
+    },
+    {
+      "id": "T17_192_208_32_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_192_208_32_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_110_S002"
+      ]
+    },
+    {
+      "id": "T17_192_224_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_192_224_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_095_S001",
+        "ROOM_096_S007",
+        "ROOM_102_S001",
+        "ROOM_103_S001",
+        "ROOM_118_S001"
+      ]
+    },
+    {
+      "id": "T17_192_240_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_192_240_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_094_S001",
+        "ROOM_095_S001",
+        "ROOM_096_S007",
+        "ROOM_098_S002",
+        "ROOM_099_S001",
+        "ROOM_099_S002",
+        "ROOM_100_S002",
+        "ROOM_102_S001",
+        "ROOM_103_S001",
+        "ROOM_115_S001",
+        "ROOM_116_S001",
+        "ROOM_116_S002",
+        "ROOM_117_S001",
+        "ROOM_118_S002"
+      ]
+    },
+    {
+      "id": "T17_192_256_32_32",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_192_256_32_32_000.png"
+      ],
+      "section_ids": [
+        "ROOM_092_S001",
+        "ROOM_092_S002",
+        "ROOM_093_S001",
+        "ROOM_093_S002"
+      ]
+    },
+    {
+      "id": "T17_192_288_32_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_192_288_32_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_116_S002"
+      ]
+    },
+    {
+      "id": "T17_192_368_32_80",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_192_368_32_80_000.png"
+      ],
+      "section_ids": [
+        "ROOM_092_S001",
+        "ROOM_092_S002",
+        "ROOM_093_S001",
+        "ROOM_093_S002",
+        "ROOM_097_S001",
+        "ROOM_097_S002",
+        "ROOM_097_S003",
+        "ROOM_099_S001",
+        "ROOM_099_S002",
+        "ROOM_104_S001",
+        "ROOM_105_S001",
+        "ROOM_114_S001",
+        "ROOM_114_S002"
+      ]
+    },
+    {
+      "id": "T17_192_432_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_192_432_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_099_S002"
+      ]
+    },
+    {
+      "id": "T17_192_448_16_32",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_192_448_16_32_000.png"
+      ],
+      "section_ids": [
+        "ROOM_092_S001",
+        "ROOM_092_S002",
+        "ROOM_093_S001",
+        "ROOM_093_S002",
+        "ROOM_097_S001",
+        "ROOM_097_S002",
+        "ROOM_097_S003",
+        "ROOM_099_S001",
+        "ROOM_099_S002",
+        "ROOM_105_S001",
+        "ROOM_114_S001",
+        "ROOM_114_S002"
+      ]
+    },
+    {
+      "id": "T17_192_464_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_192_464_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_104_S001"
+      ]
+    },
+    {
+      "id": "T17_192_48_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_192_48_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_110_S001"
+      ]
+    },
+    {
+      "id": "T17_192_64_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_192_64_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_096_S007",
+        "ROOM_102_S001",
+        "ROOM_108_S002",
+        "ROOM_116_S002"
+      ]
+    },
+    {
+      "id": "T17_192_96_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_192_96_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_095_S001",
+        "ROOM_101_S001",
+        "ROOM_101_S002",
+        "ROOM_110_S001",
+        "ROOM_110_S002",
+        "ROOM_115_S001"
+      ]
+    },
+    {
+      "id": "T17_208_0_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_208_0_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_095_S001",
+        "ROOM_100_S001",
+        "ROOM_101_S001",
+        "ROOM_103_S001",
+        "ROOM_108_S001",
+        "ROOM_117_S001"
+      ]
+    },
+    {
+      "id": "T17_208_112_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_208_112_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_096_S001",
+        "ROOM_096_S002",
+        "ROOM_096_S003",
+        "ROOM_096_S004",
+        "ROOM_096_S005",
+        "ROOM_096_S006",
+        "ROOM_096_S007",
+        "ROOM_098_S001",
+        "ROOM_098_S002",
+        "ROOM_100_S001",
+        "ROOM_100_S002",
+        "ROOM_109_S001",
+        "ROOM_109_S002",
+        "ROOM_112_S001",
+        "ROOM_112_S002",
+        "ROOM_118_S001",
+        "ROOM_118_S002"
+      ]
+    },
+    {
+      "id": "T17_208_112_16_32",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_208_112_16_32_000.png"
+      ],
+      "section_ids": [
+        "ROOM_112_S001",
+        "ROOM_112_S002"
+      ]
+    },
+    {
+      "id": "T17_208_128_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_208_128_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_094_S001",
+        "ROOM_096_S007",
+        "ROOM_098_S002",
+        "ROOM_100_S001",
+        "ROOM_100_S002",
+        "ROOM_103_S001",
+        "ROOM_109_S001",
+        "ROOM_109_S002",
+        "ROOM_112_S001",
+        "ROOM_112_S002",
+        "ROOM_118_S002"
+      ]
+    },
+    {
+      "id": "T17_208_160_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_208_160_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_110_S001",
+        "ROOM_111_S001",
+        "ROOM_111_S002"
+      ]
+    },
+    {
+      "id": "T17_208_176_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_208_176_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_106_S002"
+      ]
+    },
+    {
+      "id": "T17_208_192_32_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_208_192_32_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_106_S001",
+        "ROOM_106_S002"
+      ]
+    },
+    {
+      "id": "T17_208_224_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_208_224_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_095_S001",
+        "ROOM_098_S001",
+        "ROOM_098_S002",
+        "ROOM_099_S001",
+        "ROOM_101_S002",
+        "ROOM_102_S001",
+        "ROOM_109_S001",
+        "ROOM_116_S001",
+        "ROOM_116_S002",
+        "ROOM_118_S001",
+        "ROOM_118_S002"
+      ]
+    },
+    {
+      "id": "T17_208_240_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_208_240_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_098_S001"
+      ]
+    },
+    {
+      "id": "T17_208_32_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_208_32_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_117_S001"
+      ]
+    },
+    {
+      "id": "T17_208_432_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_208_432_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_099_S002"
+      ]
+    },
+    {
+      "id": "T17_208_448_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_208_448_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_099_S001"
+      ]
+    },
+    {
+      "id": "T17_208_448_16_32",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_208_448_16_32_000.png"
+      ],
+      "section_ids": [
+        "ROOM_092_S001",
+        "ROOM_092_S002",
+        "ROOM_093_S001",
+        "ROOM_093_S002",
+        "ROOM_097_S001",
+        "ROOM_097_S002",
+        "ROOM_097_S003",
+        "ROOM_099_S001",
+        "ROOM_099_S002",
+        "ROOM_104_S001",
+        "ROOM_105_S001",
+        "ROOM_114_S001",
+        "ROOM_114_S002"
+      ]
+    },
+    {
+      "id": "T17_208_48_32_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_208_48_32_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_111_S002"
+      ]
+    },
+    {
+      "id": "T17_208_64_32_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_208_64_32_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_102_S001",
+        "ROOM_108_S002",
+        "ROOM_117_S002"
+      ]
+    },
+    {
+      "id": "T17_208_96_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_208_96_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_094_S001",
+        "ROOM_096_S001",
+        "ROOM_098_S001",
+        "ROOM_100_S002",
+        "ROOM_103_S001",
+        "ROOM_109_S001",
+        "ROOM_109_S002",
+        "ROOM_118_S001"
+      ]
+    },
+    {
+      "id": "T17_208_96_16_32",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_208_96_16_32_000.png"
+      ],
+      "section_ids": [
+        "ROOM_112_S001",
+        "ROOM_112_S002"
+      ]
+    },
+    {
+      "id": "T17_224_0_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_224_0_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_115_S001"
+      ]
+    },
+    {
+      "id": "T17_224_144_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_224_144_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_106_S002"
+      ]
+    },
+    {
+      "id": "T17_224_160_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_224_160_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_106_S002"
+      ]
+    },
+    {
+      "id": "T17_224_16_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_224_16_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_101_S001",
+        "ROOM_112_S001"
+      ]
+    },
+    {
+      "id": "T17_224_176_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_224_176_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_106_S002"
+      ]
+    },
+    {
+      "id": "T17_224_208_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_224_208_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_106_S002"
+      ]
+    },
+    {
+      "id": "T17_224_224_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_224_224_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_095_S001",
+        "ROOM_098_S002",
+        "ROOM_109_S001",
+        "ROOM_118_S001",
+        "ROOM_118_S002"
+      ]
+    },
+    {
+      "id": "T17_224_272_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_224_272_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_094_S001"
+      ]
+    },
+    {
+      "id": "T17_224_320_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_224_320_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_093_S001",
+        "ROOM_093_S002",
+        "ROOM_097_S003",
+        "ROOM_104_S001"
+      ]
+    },
+    {
+      "id": "T17_224_32_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_224_32_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_108_S001"
+      ]
+    },
+    {
+      "id": "T17_224_336_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_224_336_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_092_S001",
+        "ROOM_092_S002",
+        "ROOM_097_S001",
+        "ROOM_097_S002",
+        "ROOM_099_S001",
+        "ROOM_099_S002",
+        "ROOM_104_S001",
+        "ROOM_105_S001",
+        "ROOM_114_S001",
+        "ROOM_114_S002"
+      ]
+    },
+    {
+      "id": "T17_224_384_32_64",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_224_384_32_64_000.png"
+      ],
+      "section_ids": [
+        "ROOM_092_S001",
+        "ROOM_097_S001"
+      ]
+    },
+    {
+      "id": "T17_224_384_32_96",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_224_384_32_96_000.png"
+      ],
+      "section_ids": [
+        "ROOM_092_S001",
+        "ROOM_092_S002",
+        "ROOM_093_S001",
+        "ROOM_093_S002",
+        "ROOM_097_S001",
+        "ROOM_097_S002",
+        "ROOM_097_S003",
+        "ROOM_099_S001",
+        "ROOM_099_S002",
+        "ROOM_104_S001",
+        "ROOM_105_S001",
+        "ROOM_114_S001",
+        "ROOM_114_S002"
+      ]
+    },
+    {
+      "id": "T17_224_400_32_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_224_400_32_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_092_S001",
+        "ROOM_092_S002",
+        "ROOM_093_S001",
+        "ROOM_093_S002",
+        "ROOM_097_S001",
+        "ROOM_097_S002",
+        "ROOM_099_S001",
+        "ROOM_099_S002"
+      ]
+    },
+    {
+      "id": "T17_224_416_32_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_224_416_32_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_093_S002",
+        "ROOM_097_S003",
+        "ROOM_099_S001",
+        "ROOM_104_S001",
+        "ROOM_105_S001",
+        "ROOM_114_S001",
+        "ROOM_114_S002"
+      ]
+    },
+    {
+      "id": "T17_224_448_32_32",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_224_448_32_32_000.png"
+      ],
+      "section_ids": [
+        "ROOM_092_S001",
+        "ROOM_097_S001"
+      ]
+    },
+    {
+      "id": "T17_224_96_32_32",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_224_96_32_32_000.png"
+      ],
+      "section_ids": [
+        "ROOM_096_S001"
+      ]
+    },
+    {
+      "id": "T17_240_0_16_32",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_240_0_16_32_000.png"
+      ],
+      "section_ids": [
+        "ROOM_095_S001",
+        "ROOM_096_S001",
+        "ROOM_096_S003",
+        "ROOM_096_S007",
+        "ROOM_100_S001",
+        "ROOM_100_S002",
+        "ROOM_101_S001",
+        "ROOM_101_S002",
+        "ROOM_102_S001",
+        "ROOM_108_S001",
+        "ROOM_108_S002",
+        "ROOM_109_S001",
+        "ROOM_111_S001",
+        "ROOM_111_S002",
+        "ROOM_112_S001",
+        "ROOM_112_S002",
+        "ROOM_116_S002",
+        "ROOM_117_S001",
+        "ROOM_117_S002"
+      ]
+    },
+    {
+      "id": "T17_240_128_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_240_128_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_094_S001",
+        "ROOM_103_S001"
+      ]
+    },
+    {
+      "id": "T17_240_144_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_240_144_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_106_S001",
+        "ROOM_106_S002",
+        "ROOM_107_S001",
+        "ROOM_107_S002"
+      ]
+    },
+    {
+      "id": "T17_240_160_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_240_160_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_106_S001",
+        "ROOM_106_S002",
+        "ROOM_107_S001",
+        "ROOM_107_S002"
+      ]
+    },
+    {
+      "id": "T17_240_16_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_240_16_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_109_S002"
+      ]
+    },
+    {
+      "id": "T17_240_176_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_240_176_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_106_S001",
+        "ROOM_106_S002",
+        "ROOM_107_S001",
+        "ROOM_107_S002"
+      ]
+    },
+    {
+      "id": "T17_240_208_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_240_208_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_106_S001",
+        "ROOM_106_S002",
+        "ROOM_107_S002"
+      ]
+    },
+    {
+      "id": "T17_240_224_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_240_224_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_095_S001",
+        "ROOM_102_S001",
+        "ROOM_109_S001",
+        "ROOM_116_S002",
+        "ROOM_118_S001",
+        "ROOM_118_S002"
+      ]
+    },
+    {
+      "id": "T17_240_240_48_48",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_240_240_48_48_000.png"
+      ],
+      "section_ids": [
+        "ROOM_093_S002"
+      ]
+    },
+    {
+      "id": "T17_240_320_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_240_320_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_104_S001"
+      ]
+    },
+    {
+      "id": "T17_240_336_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_240_336_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_092_S001",
+        "ROOM_093_S001",
+        "ROOM_093_S002",
+        "ROOM_097_S001"
+      ]
+    },
+    {
+      "id": "T17_240_48_16_32",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_240_48_16_32_000.png"
+      ],
+      "section_ids": [
+        "ROOM_096_S003",
+        "ROOM_100_S001",
+        "ROOM_115_S001"
+      ]
+    },
+    {
+      "id": "T17_256_0_16_32",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_256_0_16_32_000.png"
+      ],
+      "section_ids": [
+        "ROOM_096_S001",
+        "ROOM_096_S002",
+        "ROOM_096_S003",
+        "ROOM_096_S004",
+        "ROOM_096_S005",
+        "ROOM_096_S006",
+        "ROOM_096_S007",
+        "ROOM_103_S001"
+      ]
+    },
+    {
+      "id": "T17_256_112_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_256_112_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_102_S001",
+        "ROOM_108_S001",
+        "ROOM_108_S002",
+        "ROOM_111_S001",
+        "ROOM_111_S002",
+        "ROOM_116_S001",
+        "ROOM_116_S002",
+        "ROOM_117_S001"
+      ]
+    },
+    {
+      "id": "T17_256_128_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_256_128_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_102_S001",
+        "ROOM_108_S001",
+        "ROOM_108_S002",
+        "ROOM_111_S002",
+        "ROOM_116_S002",
+        "ROOM_117_S001"
+      ]
+    },
+    {
+      "id": "T17_256_144_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_256_144_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_107_S002"
+      ]
+    },
+    {
+      "id": "T17_256_144_16_32",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_256_144_16_32_000.png"
+      ],
+      "section_ids": [
+        "ROOM_106_S002"
+      ]
+    },
+    {
+      "id": "T17_256_192_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_256_192_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_106_S002"
+      ]
+    },
+    {
+      "id": "T17_256_208_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_256_208_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_106_S002",
+        "ROOM_107_S001"
+      ]
+    },
+    {
+      "id": "T17_256_448_32_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_256_448_32_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_105_S001"
+      ]
+    },
+    {
+      "id": "T17_256_96_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_256_96_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_102_S001",
+        "ROOM_108_S001",
+        "ROOM_108_S002",
+        "ROOM_111_S001",
+        "ROOM_116_S001",
+        "ROOM_116_S002",
+        "ROOM_117_S001",
+        "ROOM_117_S002"
+      ]
+    },
+    {
+      "id": "T17_272_32_32_48",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_272_32_32_48_000.png"
+      ],
+      "section_ids": [
+        "ROOM_094_S001",
+        "ROOM_112_S001"
+      ]
+    },
+    {
+      "id": "T17_272_80_32_48",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_272_80_32_48_000.png"
+      ],
+      "section_ids": [
+        "ROOM_116_S002",
+        "ROOM_117_S001",
+        "ROOM_117_S002"
+      ]
+    },
+    {
+      "id": "T17_288_128_48_48",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_288_128_48_48_000.png"
+      ],
+      "section_ids": [
+        "ROOM_101_S001",
+        "ROOM_101_S002"
+      ]
+    },
+    {
+      "id": "T17_288_176_48_64",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_288_176_48_64_000.png"
+      ],
+      "section_ids": [
+        "ROOM_115_S001"
+      ]
+    },
+    {
+      "id": "T17_288_256_48_64",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_288_256_48_64_000.png"
+      ],
+      "section_ids": [
+        "ROOM_093_S002"
+      ]
+    },
+    {
+      "id": "T17_288_352_48_96",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_288_352_48_96_000.png"
+      ],
+      "section_ids": [
+        "ROOM_092_S001",
+        "ROOM_093_S001",
+        "ROOM_097_S001",
+        "ROOM_099_S001",
+        "ROOM_114_S002"
+      ]
+    },
+    {
+      "id": "T17_288_448_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_288_448_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_092_S001",
+        "ROOM_092_S002",
+        "ROOM_093_S001",
+        "ROOM_093_S002",
+        "ROOM_097_S001",
+        "ROOM_097_S002",
+        "ROOM_097_S003",
+        "ROOM_099_S001",
+        "ROOM_099_S002",
+        "ROOM_105_S001",
+        "ROOM_114_S001"
+      ]
+    },
+    {
+      "id": "T17_288_448_32_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_288_448_32_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_099_S002",
+        "ROOM_104_S001",
+        "ROOM_114_S001",
+        "ROOM_114_S002"
+      ]
+    },
+    {
+      "id": "T17_304_32_32_48",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_304_32_32_48_000.png"
+      ],
+      "section_ids": [
+        "ROOM_112_S002",
+        "ROOM_116_S002"
+      ]
+    },
+    {
+      "id": "T17_304_448_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_304_448_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_092_S001",
+        "ROOM_092_S002",
+        "ROOM_093_S001",
+        "ROOM_093_S002",
+        "ROOM_097_S001",
+        "ROOM_097_S002",
+        "ROOM_097_S003",
+        "ROOM_099_S001",
+        "ROOM_099_S002",
+        "ROOM_104_S001",
+        "ROOM_105_S001",
+        "ROOM_114_S001",
+        "ROOM_114_S002"
+      ]
+    },
+    {
+      "id": "T17_304_448_32_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_304_448_32_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_104_S001",
+        "ROOM_114_S001",
+        "ROOM_114_S002"
+      ]
+    },
+    {
+      "id": "T17_304_80_32_48",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_304_80_32_48_000.png"
+      ],
+      "section_ids": [
+        "ROOM_094_S001",
+        "ROOM_108_S001",
+        "ROOM_108_S002",
+        "ROOM_109_S001",
+        "ROOM_112_S001",
+        "ROOM_112_S002",
+        "ROOM_116_S002",
+        "ROOM_118_S001",
+        "ROOM_118_S002"
+      ]
+    },
+    {
+      "id": "T17_320_448_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_320_448_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_092_S001",
+        "ROOM_092_S002",
+        "ROOM_093_S001",
+        "ROOM_093_S002",
+        "ROOM_097_S001",
+        "ROOM_097_S002",
+        "ROOM_097_S003",
+        "ROOM_099_S001",
+        "ROOM_099_S002",
+        "ROOM_105_S001",
+        "ROOM_114_S002"
+      ]
+    },
+    {
+      "id": "T17_336_128_48_32",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_336_128_48_32_000.png"
+      ],
+      "section_ids": [
+        "ROOM_101_S001",
+        "ROOM_101_S002",
+        "ROOM_112_S001",
+        "ROOM_112_S002",
+        "ROOM_115_S001"
+      ]
+    },
+    {
+      "id": "T17_336_192_64_160",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_336_192_64_160_000.png"
+      ],
+      "section_ids": [
+        "ROOM_118_S001",
+        "ROOM_118_S002"
+      ]
+    },
+    {
+      "id": "T17_336_32_32_48",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_336_32_32_48_000.png"
+      ],
+      "section_ids": [
+        "ROOM_109_S001",
+        "ROOM_116_S002"
+      ]
+    },
+    {
+      "id": "T17_336_352_48_96",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_336_352_48_96_000.png"
+      ],
+      "section_ids": [
+        "ROOM_092_S001",
+        "ROOM_092_S002",
+        "ROOM_093_S002",
+        "ROOM_097_S001",
+        "ROOM_097_S002",
+        "ROOM_099_S001",
+        "ROOM_099_S002",
+        "ROOM_114_S002"
+      ]
+    },
+    {
+      "id": "T17_336_80_32_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_336_80_32_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_094_S001",
+        "ROOM_112_S001",
+        "ROOM_116_S002"
+      ]
+    },
+    {
+      "id": "T17_368_32_32_48",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_368_32_32_48_000.png"
+      ],
+      "section_ids": [
+        "ROOM_109_S001",
+        "ROOM_116_S002"
+      ]
+    },
+    {
+      "id": "T17_384_352_48_96",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_384_352_48_96_000.png"
+      ],
+      "section_ids": [
+        "ROOM_092_S002",
+        "ROOM_093_S001",
+        "ROOM_097_S002",
+        "ROOM_099_S002",
+        "ROOM_114_S001"
+      ]
+    },
+    {
+      "id": "T17_400_192_16_32",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_400_192_16_32_000.png"
+      ],
+      "section_ids": [
+        "ROOM_110_S001",
+        "ROOM_112_S001"
+      ]
+    },
+    {
+      "id": "T17_400_224_16_64",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_400_224_16_64_000.png"
+      ],
+      "section_ids": [
+        "ROOM_096_S001",
+        "ROOM_096_S007"
+      ]
+    },
+    {
+      "id": "T17_400_224_64_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_400_224_64_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_101_S001",
+        "ROOM_111_S001",
+        "ROOM_111_S002",
+        "ROOM_118_S001"
+      ]
+    },
+    {
+      "id": "T17_400_224_64_64",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_400_224_64_64_000.png"
+      ],
+      "section_ids": [
+        "ROOM_101_S001",
+        "ROOM_111_S001",
+        "ROOM_112_S001"
+      ]
+    },
+    {
+      "id": "T17_400_240_16_48",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_400_240_16_48_000.png"
+      ],
+      "section_ids": [
+        "ROOM_101_S001",
+        "ROOM_111_S001",
+        "ROOM_111_S002",
+        "ROOM_118_S001"
+      ]
+    },
+    {
+      "id": "T17_400_288_32_48",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_400_288_32_48_000.png"
+      ],
+      "section_ids": [
+        "ROOM_093_S002"
+      ]
+    },
+    {
+      "id": "T17_416_224_48_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_416_224_48_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_096_S007"
+      ]
+    },
+    {
+      "id": "T17_432_176_32_48",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_432_176_32_48_000.png"
+      ],
+      "section_ids": [
+        "ROOM_096_S007",
+        "ROOM_111_S002",
+        "ROOM_118_S001"
+      ]
+    },
+    {
+      "id": "T17_432_320_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_432_320_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_093_S002"
+      ]
+    },
+    {
+      "id": "T17_432_352_48_96",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_432_352_48_96_000.png"
+      ],
+      "section_ids": [
+        "ROOM_097_S003",
+        "ROOM_114_S001"
+      ]
+    },
+    {
+      "id": "T17_448_224_16_64",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_448_224_16_64_000.png"
+      ],
+      "section_ids": [
+        "ROOM_096_S001"
+      ]
+    },
+    {
+      "id": "T17_448_240_16_48",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_448_240_16_48_000.png"
+      ],
+      "section_ids": [
+        "ROOM_096_S007",
+        "ROOM_101_S001",
+        "ROOM_111_S001",
+        "ROOM_111_S002"
+      ]
+    },
+    {
+      "id": "T17_448_304_16_48",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_448_304_16_48_000.png"
+      ],
+      "section_ids": [
+        "ROOM_094_S001",
+        "ROOM_101_S001",
+        "ROOM_103_S001"
+      ]
+    },
+    {
+      "id": "T17_464_176_32_48",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_464_176_32_48_000.png"
+      ],
+      "section_ids": [
+        "ROOM_111_S001"
+      ]
+    },
+    {
+      "id": "T17_464_224_32_48",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_464_224_32_48_000.png"
+      ],
+      "section_ids": [
+        "ROOM_101_S001",
+        "ROOM_111_S002"
+      ]
+    },
+    {
+      "id": "T17_464_224_48_48",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_464_224_48_48_000.png"
+      ],
+      "section_ids": [
+        "ROOM_096_S001"
+      ]
+    },
+    {
+      "id": "T17_464_336_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_464_336_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_102_S001"
+      ]
+    },
+    {
+      "id": "T17_480_48_32_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_480_48_32_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_106_S001",
+        "ROOM_106_S002",
+        "ROOM_107_S001",
+        "ROOM_107_S002"
+      ]
+    },
+    {
+      "id": "T17_480_64_32_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_480_64_32_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_106_S001",
+        "ROOM_106_S002",
+        "ROOM_107_S001",
+        "ROOM_107_S002"
+      ]
+    },
+    {
+      "id": "T17_480_80_32_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_480_80_32_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_106_S001",
+        "ROOM_106_S002",
+        "ROOM_107_S001",
+        "ROOM_107_S002"
+      ]
+    },
+    {
+      "id": "T17_80_384_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_80_384_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_103_S001",
+        "ROOM_106_S001",
+        "ROOM_107_S001",
+        "ROOM_107_S002"
+      ]
+    },
+    {
+      "id": "T17_80_384_8_8",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_80_384_8_8_000.png"
+      ],
+      "section_ids": [
+        "ROOM_106_S001"
+      ]
+    },
+    {
+      "id": "T17_80_400_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_80_400_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_106_S001",
+        "ROOM_107_S002"
+      ]
+    },
+    {
+      "id": "T17_80_416_64_64",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_80_416_64_64_000.png"
+      ],
+      "section_ids": [
+        "ROOM_107_S001",
+        "ROOM_107_S002"
+      ]
+    },
+    {
+      "id": "T17_96_208_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_96_208_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_110_S001"
+      ]
+    },
+    {
+      "id": "T17_96_384_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_96_384_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_106_S001",
+        "ROOM_106_S002",
+        "ROOM_107_S001",
+        "ROOM_107_S002"
+      ]
+    },
+    {
+      "id": "T17_96_400_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T17_96_400_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_103_S001",
+        "ROOM_106_S001",
+        "ROOM_106_S002",
+        "ROOM_107_S001",
+        "ROOM_107_S002"
+      ]
+    },
+    {
+      "id": "T18_0_0_16_32",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T18_0_0_16_32_000.png"
+      ],
+      "section_ids": [
+        "ROOM_104_S001"
+      ]
+    },
+    {
+      "id": "T18_0_32_32_32",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T18_0_32_32_32_000.png"
+      ],
+      "section_ids": [
+        "ROOM_104_S001"
+      ]
+    },
+    {
+      "id": "T18_112_16_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T18_112_16_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_113_S001"
+      ]
+    },
+    {
+      "id": "T18_112_176_16_48",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T18_112_176_16_48_000.png"
+      ],
+      "section_ids": [
+        "ROOM_113_S001"
+      ]
+    },
+    {
+      "id": "T18_128_16_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T18_128_16_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_113_S001"
+      ]
+    },
+    {
+      "id": "T18_128_176_16_48",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T18_128_176_16_48_000.png"
+      ],
+      "section_ids": [
+        "ROOM_113_S001"
+      ]
+    },
+    {
+      "id": "T18_144_0_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T18_144_0_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_113_S001"
+      ]
+    },
+    {
+      "id": "T18_144_16_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T18_144_16_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_113_S001"
+      ]
+    },
+    {
+      "id": "T18_144_176_16_32",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T18_144_176_16_32_000.png"
+      ],
+      "section_ids": [
+        "ROOM_113_S001"
+      ]
+    },
+    {
+      "id": "T18_144_208_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T18_144_208_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_113_S001"
+      ]
+    },
+    {
+      "id": "T18_144_32_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T18_144_32_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_113_S001"
+      ]
+    },
+    {
+      "id": "T18_160_0_32_96",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T18_160_0_32_96_000.png"
+      ],
+      "section_ids": [
+        "ROOM_113_S001"
+      ]
+    },
+    {
+      "id": "T18_160_144_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T18_160_144_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_113_S001"
+      ]
+    },
+    {
+      "id": "T18_160_160_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T18_160_160_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_113_S001"
+      ]
+    },
+    {
+      "id": "T18_160_176_32_32",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T18_160_176_32_32_000.png"
+      ],
+      "section_ids": [
+        "ROOM_113_S001"
+      ]
+    },
+    {
+      "id": "T18_160_208_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T18_160_208_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_113_S001"
+      ]
+    },
+    {
+      "id": "T18_16_0_16_32",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T18_16_0_16_32_000.png"
+      ],
+      "section_ids": [
+        "ROOM_104_S001"
+      ]
+    },
+    {
+      "id": "T18_176_144_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T18_176_144_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_113_S001"
+      ]
+    },
+    {
+      "id": "T18_176_160_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T18_176_160_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_113_S001"
+      ]
+    },
+    {
+      "id": "T18_176_208_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T18_176_208_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_113_S001"
+      ]
+    },
+    {
+      "id": "T18_192_144_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T18_192_144_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_113_S001"
+      ]
+    },
+    {
+      "id": "T18_192_160_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T18_192_160_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_113_S001"
+      ]
+    },
+    {
+      "id": "T18_192_16_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T18_192_16_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_113_S001"
+      ]
+    },
+    {
+      "id": "T18_192_176_16_32",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T18_192_176_16_32_000.png"
+      ],
+      "section_ids": [
+        "ROOM_113_S001"
+      ]
+    },
+    {
+      "id": "T18_192_208_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T18_192_208_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_113_S001"
+      ]
+    },
+    {
+      "id": "T18_192_96_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T18_192_96_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_113_S001"
+      ]
+    },
+    {
+      "id": "T18_208_160_32_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T18_208_160_32_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_113_S001"
+      ]
+    },
+    {
+      "id": "T18_208_16_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T18_208_16_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_113_S001"
+      ]
+    },
+    {
+      "id": "T18_208_176_32_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T18_208_176_32_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_113_S001"
+      ]
+    },
+    {
+      "id": "T18_208_208_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T18_208_208_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_113_S001"
+      ]
+    },
+    {
+      "id": "T18_208_224_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T18_208_224_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_113_S001"
+      ]
+    },
+    {
+      "id": "T18_224_16_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T18_224_16_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_113_S001"
+      ]
+    },
+    {
+      "id": "T18_224_192_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T18_224_192_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_113_S001"
+      ]
+    },
+    {
+      "id": "T18_224_208_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T18_224_208_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_113_S001"
+      ]
+    },
+    {
+      "id": "T18_240_176_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T18_240_176_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_113_S001"
+      ]
+    },
+    {
+      "id": "T18_240_192_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T18_240_192_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_113_S001"
+      ]
+    },
+    {
+      "id": "T18_240_208_16_16",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T18_240_208_16_16_000.png"
+      ],
+      "section_ids": [
+        "ROOM_113_S001"
+      ]
+    },
+    {
+      "id": "T18_32_0_16_32",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T18_32_0_16_32_000.png"
+      ],
+      "section_ids": [
+        "ROOM_104_S001"
+      ]
+    },
+    {
+      "id": "T18_48_0_16_32",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T18_48_0_16_32_000.png"
+      ],
+      "section_ids": [
+        "ROOM_104_S001"
+      ]
+    },
+    {
+      "id": "T18_48_64_96_96",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T18_48_64_96_96_000.png"
+      ],
+      "section_ids": [
+        "ROOM_104_S001"
+      ]
+    },
+    {
+      "id": "T18_96_176_16_48",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T18_96_176_16_48_000.png"
+      ],
+      "section_ids": [
+        "ROOM_113_S001"
+      ]
+    },
+    {
+      "id": "T18_96_176_48_48",
+      "classifier": "../classifier.json",
+      "frames": [
+        "../shared/T18_96_176_48_48_000.png"
+      ],
+      "section_ids": [
+        "ROOM_113_S001"
+      ]
+    }
+  ]
+}

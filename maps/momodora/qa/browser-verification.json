@@ -1,0 +1,529 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "all 9 biomes, two transitions and world selectable",
+      "passed": true
+    },
+    {
+      "name": "241 ROOM options",
+      "passed": true
+    },
+    {
+      "name": "454 unique source map cells",
+      "passed": true
+    },
+    {
+      "name": "ROOM30 selected and framed by default",
+      "passed": true
+    },
+    {
+      "name": "selected ROOM label above detailed frame",
+      "passed": true
+    },
+    {
+      "name": "biome click BIOME_01",
+      "passed": true
+    },
+    {
+      "name": "summary for BIOME_01",
+      "passed": true
+    },
+    {
+      "name": "ROOM frame belongs to BIOME_01",
+      "passed": true
+    },
+    {
+      "name": "biome click BIOME_02",
+      "passed": true
+    },
+    {
+      "name": "summary for BIOME_02",
+      "passed": true
+    },
+    {
+      "name": "ROOM frame belongs to BIOME_02",
+      "passed": true
+    },
+    {
+      "name": "biome click BIOME_03",
+      "passed": true
+    },
+    {
+      "name": "summary for BIOME_03",
+      "passed": true
+    },
+    {
+      "name": "ROOM frame belongs to BIOME_03",
+      "passed": true
+    },
+    {
+      "name": "biome click BIOME_04",
+      "passed": true
+    },
+    {
+      "name": "summary for BIOME_04",
+      "passed": true
+    },
+    {
+      "name": "ROOM frame belongs to BIOME_04",
+      "passed": true
+    },
+    {
+      "name": "biome click BIOME_05",
+      "passed": true
+    },
+    {
+      "name": "summary for BIOME_05",
+      "passed": true
+    },
+    {
+      "name": "ROOM frame belongs to BIOME_05",
+      "passed": true
+    },
+    {
+      "name": "biome click BIOME_06",
+      "passed": true
+    },
+    {
+      "name": "summary for BIOME_06",
+      "passed": true
+    },
+    {
+      "name": "ROOM frame belongs to BIOME_06",
+      "passed": true
+    },
+    {
+      "name": "biome click BIOME_07",
+      "passed": true
+    },
+    {
+      "name": "summary for BIOME_07",
+      "passed": true
+    },
+    {
+      "name": "ROOM frame belongs to BIOME_07",
+      "passed": true
+    },
+    {
+      "name": "biome click BIOME_08",
+      "passed": true
+    },
+    {
+      "name": "summary for BIOME_08",
+      "passed": true
+    },
+    {
+      "name": "ROOM frame belongs to BIOME_08",
+      "passed": true
+    },
+    {
+      "name": "biome click BIOME_09",
+      "passed": true
+    },
+    {
+      "name": "summary for BIOME_09",
+      "passed": true
+    },
+    {
+      "name": "ROOM frame belongs to BIOME_09",
+      "passed": true
+    },
+    {
+      "name": "biome click TRANSITION_ORDALIA_FRORE",
+      "passed": true
+    },
+    {
+      "name": "summary for TRANSITION_ORDALIA_FRORE",
+      "passed": true
+    },
+    {
+      "name": "ROOM frame belongs to TRANSITION_ORDALIA_FRORE",
+      "passed": true
+    },
+    {
+      "name": "biome click TRANSITION_COURTYARD",
+      "passed": true
+    },
+    {
+      "name": "summary for TRANSITION_COURTYARD",
+      "passed": true
+    },
+    {
+      "name": "ROOM frame belongs to TRANSITION_COURTYARD",
+      "passed": true
+    },
+    {
+      "name": "grove has exactly 3 confirmed saves",
+      "passed": true
+    },
+    {
+      "name": "save click selects authored instance100397 in ROOM30",
+      "passed": true
+    },
+    {
+      "name": "save actual availability explicit",
+      "passed": true
+    },
+    {
+      "name": "objects and support layers enabled independently",
+      "passed": true
+    },
+    {
+      "name": "one game pixel per CSS pixel at1:1",
+      "passed": true
+    },
+    {
+      "name": "exact instance search100397",
+      "passed": true
+    },
+    {
+      "name": "transition click enables separate exit layer",
+      "passed": true
+    },
+    {
+      "name": "BrokenSavePoint remains excluded",
+      "passed": true
+    },
+    {
+      "name": "Frore native swap incompleteness visible",
+      "passed": true
+    },
+    {
+      "name": "save switch independent of objects",
+      "passed": true
+    },
+    {
+      "name": "map cell click selects ROOM229 and its separate transition",
+      "passed": true
+    },
+    {
+      "name": "pointer drag pans world",
+      "passed": true
+    },
+    {
+      "name": "zoom preserves functionality",
+      "passed": true
+    },
+    {
+      "name": "asset gallery renders",
+      "passed": true
+    },
+    {
+      "name": "asset classifier modal opens",
+      "passed": true
+    },
+    {
+      "name": "classifier displays mask, pivot and support contract",
+      "passed": true
+    },
+    {
+      "name": "animated last frame EN_363",
+      "passed": true
+    },
+    {
+      "name": "animation playback EN_363",
+      "passed": true
+    },
+    {
+      "name": "animated last frame INTERACT_504",
+      "passed": true
+    },
+    {
+      "name": "animation playback INTERACT_504",
+      "passed": true
+    },
+    {
+      "name": "animated last frame INTERACT_553",
+      "passed": true
+    },
+    {
+      "name": "animation playback INTERACT_553",
+      "passed": true
+    },
+    {
+      "name": "animated last frame INTERACT_553_576",
+      "passed": true
+    },
+    {
+      "name": "animation playback INTERACT_553_576",
+      "passed": true
+    },
+    {
+      "name": "animated last frame INTERACT_569",
+      "passed": true
+    },
+    {
+      "name": "animation playback INTERACT_569",
+      "passed": true
+    },
+    {
+      "name": "animated last frame INTERACT_572",
+      "passed": true
+    },
+    {
+      "name": "animation playback INTERACT_572",
+      "passed": true
+    },
+    {
+      "name": "animated last frame INTERACT_573",
+      "passed": true
+    },
+    {
+      "name": "animation playback INTERACT_573",
+      "passed": true
+    },
+    {
+      "name": "animated last frame ITEM_NPC_459",
+      "passed": true
+    },
+    {
+      "name": "animation playback ITEM_NPC_459",
+      "passed": true
+    },
+    {
+      "name": "animated last frame ITEM_NPC_794",
+      "passed": true
+    },
+    {
+      "name": "animation playback ITEM_NPC_794",
+      "passed": true
+    },
+    {
+      "name": "animated last frame ITEM_SPARKLE_711",
+      "passed": true
+    },
+    {
+      "name": "animation playback ITEM_SPARKLE_711",
+      "passed": true
+    },
+    {
+      "name": "animated last frame MECH_494",
+      "passed": true
+    },
+    {
+      "name": "animation playback MECH_494",
+      "passed": true
+    },
+    {
+      "name": "animated last frame NPC_440",
+      "passed": true
+    },
+    {
+      "name": "animation playback NPC_440",
+      "passed": true
+    },
+    {
+      "name": "animated last frame NPC_442",
+      "passed": true
+    },
+    {
+      "name": "animation playback NPC_442",
+      "passed": true
+    },
+    {
+      "name": "animated last frame NPC_456",
+      "passed": true
+    },
+    {
+      "name": "animation playback NPC_456",
+      "passed": true
+    },
+    {
+      "name": "animated last frame NPC_464",
+      "passed": true
+    },
+    {
+      "name": "animation playback NPC_464",
+      "passed": true
+    },
+    {
+      "name": "animated last frame NPC_465",
+      "passed": true
+    },
+    {
+      "name": "animation playback NPC_465",
+      "passed": true
+    },
+    {
+      "name": "animated last frame NPC_475",
+      "passed": true
+    },
+    {
+      "name": "animation playback NPC_475",
+      "passed": true
+    },
+    {
+      "name": "animated last frame NPC_490",
+      "passed": true
+    },
+    {
+      "name": "animation playback NPC_490",
+      "passed": true
+    },
+    {
+      "name": "animated last frame NPC_491",
+      "passed": true
+    },
+    {
+      "name": "animation playback NPC_491",
+      "passed": true
+    },
+    {
+      "name": "animated last frame NPC_493",
+      "passed": true
+    },
+    {
+      "name": "animation playback NPC_493",
+      "passed": true
+    },
+    {
+      "name": "animated last frame SURFACE_504",
+      "passed": true
+    },
+    {
+      "name": "animation playback SURFACE_504",
+      "passed": true
+    },
+    {
+      "name": "animated last frame SURFACE_559",
+      "passed": true
+    },
+    {
+      "name": "animation playback SURFACE_559",
+      "passed": true
+    },
+    {
+      "name": "EN363 inherited animation frame advances",
+      "passed": true
+    },
+    {
+      "name": "12 full size exports including world",
+      "passed": true
+    },
+    {
+      "name": "static, marker, annotated and coordinates downloadable for every group",
+      "passed": true
+    },
+    {
+      "name": "mobile390 no horizontal page overflow",
+      "passed": true
+    },
+    {
+      "name": "mobile frame ROOM030 label",
+      "passed": true
+    },
+    {
+      "name": "mobile asset gallery no overflow",
+      "passed": true
+    },
+    {
+      "name": "mobile exports no overflow",
+      "passed": true
+    },
+    {
+      "name": "tablet760 no overflow",
+      "passed": true
+    },
+    {
+      "name": "no browser JS errors",
+      "passed": true
+    },
+    {
+      "name": "no failed local resources",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "failed": [],
+  "animated_assets": [
+    {
+      "id": "EN_363",
+      "count": 6
+    },
+    {
+      "id": "INTERACT_504",
+      "count": 5
+    },
+    {
+      "id": "INTERACT_553",
+      "count": 3
+    },
+    {
+      "id": "INTERACT_553_576",
+      "count": 3
+    },
+    {
+      "id": "INTERACT_569",
+      "count": 3
+    },
+    {
+      "id": "INTERACT_572",
+      "count": 2
+    },
+    {
+      "id": "INTERACT_573",
+      "count": 3
+    },
+    {
+      "id": "ITEM_NPC_459",
+      "count": 5
+    },
+    {
+      "id": "ITEM_NPC_794",
+      "count": 5
+    },
+    {
+      "id": "ITEM_SPARKLE_711",
+      "count": 8
+    },
+    {
+      "id": "MECH_494",
+      "count": 2
+    },
+    {
+      "id": "NPC_440",
+      "count": 5
+    },
+    {
+      "id": "NPC_442",
+      "count": 15
+    },
+    {
+      "id": "NPC_456",
+      "count": 2
+    },
+    {
+      "id": "NPC_464",
+      "count": 4
+    },
+    {
+      "id": "NPC_465",
+      "count": 5
+    },
+    {
+      "id": "NPC_475",
+      "count": 6
+    },
+    {
+      "id": "NPC_490",
+      "count": 5
+    },
+    {
+      "id": "NPC_491",
+      "count": 6
+    },
+    {
+      "id": "NPC_493",
+      "count": 5
+    },
+    {
+      "id": "SURFACE_504",
+      "count": 5
+    },
+    {
+      "id": "SURFACE_559",
+      "count": 2
+    }
+  ]
+}

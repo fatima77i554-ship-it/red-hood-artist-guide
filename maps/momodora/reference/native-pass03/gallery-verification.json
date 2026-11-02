@@ -1,0 +1,118 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "all source frame/glyph assets loaded",
+      "passed": true
+    },
+    {
+      "name": "en/keyboard/type0: full native alpha and pixels",
+      "passed": true
+    },
+    {
+      "name": "en/keyboard/type1: full native alpha and pixels",
+      "passed": true
+    },
+    {
+      "name": "en/xinput_A/type0: full native alpha and pixels",
+      "passed": true
+    },
+    {
+      "name": "en/xinput_A/type1: full native alpha and pixels",
+      "passed": true
+    },
+    {
+      "name": "en/xinput_B/type0: full native alpha and pixels",
+      "passed": true
+    },
+    {
+      "name": "en/xinput_B/type1: full native alpha and pixels",
+      "passed": true
+    },
+    {
+      "name": "en/sony_A/type0: full native alpha and pixels",
+      "passed": true
+    },
+    {
+      "name": "en/sony_A/type1: full native alpha and pixels",
+      "passed": true
+    },
+    {
+      "name": "en/sony_B/type0: full native alpha and pixels",
+      "passed": true
+    },
+    {
+      "name": "en/sony_B/type1: full native alpha and pixels",
+      "passed": true
+    },
+    {
+      "name": "ru/keyboard/type0: full native alpha and pixels",
+      "passed": true
+    },
+    {
+      "name": "ru/keyboard/type1: full native alpha and pixels",
+      "passed": true
+    },
+    {
+      "name": "ru/xinput_A/type0: full native alpha and pixels",
+      "passed": true
+    },
+    {
+      "name": "ru/xinput_A/type1: full native alpha and pixels",
+      "passed": true
+    },
+    {
+      "name": "ru/xinput_B/type0: full native alpha and pixels",
+      "passed": true
+    },
+    {
+      "name": "ru/xinput_B/type1: full native alpha and pixels",
+      "passed": true
+    },
+    {
+      "name": "ru/sony_A/type0: full native alpha and pixels",
+      "passed": true
+    },
+    {
+      "name": "ru/sony_A/type1: full native alpha and pixels",
+      "passed": true
+    },
+    {
+      "name": "ru/sony_B/type0: full native alpha and pixels",
+      "passed": true
+    },
+    {
+      "name": "ru/sony_B/type1: full native alpha and pixels",
+      "passed": true
+    },
+    {
+      "name": "paused native Draw produces no pixels",
+      "passed": true
+    },
+    {
+      "name": "initial alpha0 hidden",
+      "passed": true
+    },
+    {
+      "name": "authored second trigger detects bbox",
+      "passed": true
+    },
+    {
+      "name": "bbox outside second trigger rejected",
+      "passed": true
+    },
+    {
+      "name": "60Hz native phase playback",
+      "passed": true
+    },
+    {
+      "name": "gallery fits mobile",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "profile_count": 20,
+  "native_alpha_checks": 520,
+  "native_layout_checks": 24,
+  "native_bbox_checks": 128
+}

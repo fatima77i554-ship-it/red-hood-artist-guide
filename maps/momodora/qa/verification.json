@@ -1,0 +1,218 @@
+{
+  "passed": true,
+  "baseline_checks": 32367,
+  "export_rows_checked": 28560,
+  "production_rooms": 241,
+  "production_cells": 454,
+  "duplicate_cells": 0,
+  "missing_cells": 0,
+  "exports": [
+    {
+      "id": "BIOME_01",
+      "pixel_size": [
+        11840,
+        1920
+      ],
+      "world_origin_px": [
+        960,
+        2880
+      ],
+      "sections": 57,
+      "exact_source_pixels": 4377600,
+      "transparent_holes_checked": true,
+      "markers_clipped_to_biome": true,
+      "annotated_pixel_exact_composite": true,
+      "png_crc_valid": true
+    },
+    {
+      "id": "BIOME_02",
+      "pixel_size": [
+        6400,
+        2160
+      ],
+      "world_origin_px": [
+        12800,
+        3360
+      ],
+      "sections": 53,
+      "exact_source_pixels": 4070400,
+      "transparent_holes_checked": true,
+      "markers_clipped_to_biome": true,
+      "annotated_pixel_exact_composite": true,
+      "png_crc_valid": true
+    },
+    {
+      "id": "BIOME_03",
+      "pixel_size": [
+        5440,
+        3120
+      ],
+      "world_origin_px": [
+        19200,
+        3360
+      ],
+      "sections": 52,
+      "exact_source_pixels": 3993600,
+      "transparent_holes_checked": true,
+      "markers_clipped_to_biome": true,
+      "annotated_pixel_exact_composite": true,
+      "png_crc_valid": true
+    },
+    {
+      "id": "BIOME_04",
+      "pixel_size": [
+        3840,
+        1200
+      ],
+      "world_origin_px": [
+        12160,
+        5280
+      ],
+      "sections": 44,
+      "exact_source_pixels": 3379200,
+      "transparent_holes_checked": true,
+      "markers_clipped_to_biome": true,
+      "annotated_pixel_exact_composite": true,
+      "png_crc_valid": true
+    },
+    {
+      "id": "BIOME_05",
+      "pixel_size": [
+        4480,
+        2400
+      ],
+      "world_origin_px": [
+        15360,
+        4800
+      ],
+      "sections": 45,
+      "exact_source_pixels": 3456000,
+      "transparent_holes_checked": true,
+      "markers_clipped_to_biome": true,
+      "annotated_pixel_exact_composite": true,
+      "png_crc_valid": true
+    },
+    {
+      "id": "BIOME_06",
+      "pixel_size": [
+        4160,
+        2640
+      ],
+      "world_origin_px": [
+        18240,
+        5760
+      ],
+      "sections": 48,
+      "exact_source_pixels": 3686400,
+      "transparent_holes_checked": true,
+      "markers_clipped_to_biome": true,
+      "annotated_pixel_exact_composite": true,
+      "png_crc_valid": true
+    },
+    {
+      "id": "BIOME_07",
+      "pixel_size": [
+        4800,
+        2160
+      ],
+      "world_origin_px": [
+        11200,
+        1440
+      ],
+      "sections": 55,
+      "exact_source_pixels": 4224000,
+      "transparent_holes_checked": true,
+      "markers_clipped_to_biome": true,
+      "annotated_pixel_exact_composite": true,
+      "png_crc_valid": true
+    },
+    {
+      "id": "BIOME_08",
+      "pixel_size": [
+        7680,
+        3600
+      ],
+      "world_origin_px": [
+        16640,
+        240
+      ],
+      "sections": 85,
+      "exact_source_pixels": 6528000,
+      "transparent_holes_checked": true,
+      "markers_clipped_to_biome": true,
+      "annotated_pixel_exact_composite": true,
+      "png_crc_valid": true
+    },
+    {
+      "id": "BIOME_09",
+      "pixel_size": [
+        1600,
+        720
+      ],
+      "world_origin_px": [
+        10240,
+        4320
+      ],
+      "sections": 8,
+      "exact_source_pixels": 614400,
+      "transparent_holes_checked": true,
+      "markers_clipped_to_biome": true,
+      "annotated_pixel_exact_composite": true,
+      "png_crc_valid": true
+    },
+    {
+      "id": "TRANSITION_ORDALIA_FRORE",
+      "pixel_size": [
+        640,
+        240
+      ],
+      "world_origin_px": [
+        10880,
+        4320
+      ],
+      "sections": 2,
+      "exact_source_pixels": 153600,
+      "transparent_holes_checked": true,
+      "markers_clipped_to_biome": true,
+      "annotated_pixel_exact_composite": true,
+      "png_crc_valid": true
+    },
+    {
+      "id": "TRANSITION_COURTYARD",
+      "pixel_size": [
+        1600,
+        240
+      ],
+      "world_origin_px": [
+        16000,
+        2880
+      ],
+      "sections": 5,
+      "exact_source_pixels": 384000,
+      "transparent_holes_checked": true,
+      "markers_clipped_to_biome": true,
+      "annotated_pixel_exact_composite": true,
+      "png_crc_valid": true
+    },
+    {
+      "id": "WORLD",
+      "pixel_size": [
+        23680,
+        8160
+      ],
+      "world_origin_px": [
+        960,
+        240
+      ],
+      "sections": 454,
+      "exact_source_pixels": 34867200,
+      "transparent_holes_checked": true,
+      "markers_clipped_to_biome": true,
+      "annotated_pixel_exact_composite": true,
+      "png_crc_valid": true
+    }
+  ],
+  "source_unchanged": true,
+  "game_build_created": false,
+  "native_equivalence_claimed": false
+}

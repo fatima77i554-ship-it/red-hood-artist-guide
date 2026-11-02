@@ -1,0 +1,89 @@
+Native pass01 — ROOM21 → ROOM23 и боковая ROOM22
+
+Это продолжение исходной реконструкции, а не завершение полного native-вида.
+Исходные ROOM/Tiles/instances и переходы не менялись. После source-аудита,
+классификатора и отрисованной галереи добавлены две узкие визуальные программы.
+В игровую сборку они не допускались; verified относится к указанному профилю
+исследовательского renderer. Unknown в других контрактах остаётся unknown.
+
+1. NATIVE_R21_BEAM734
+SPRT701 sGradientLight, один авторский кадр32×144 с точным target offset, pivot0,0.
+OBJT734 lightbeams_fx3. Create: rate=0.002+random(0.005), max=.6, min=.2,
+direction=floor(random(2)), alpha=min+random(max-min). Step: image_angle=-45;
+direction1 повышает alpha, иначе понижает; на границах clamp и смена направления.
+Draw: bm_add(1), sprite frame0, x/y и image_xscale, yscale1, угол -image_angle,
+white tint, image_alpha; затем bm_normal(0). Нет подмены произвольной анимацией.
+
+ROOM21 instance100315: source[16,-16], RoomCC3215 -=[24,16] → runtime[-8,-32].
+ROOM21 instance100316: source[-16,16], RoomCC3216 -=[16,16] → runtime[-32,0].
+Source placements сохранены; runtime-позиции записаны отдельным binding.
+
+Показана допустимая фаза alpha=.4, rate=.0045, direction1. Tick0 — начало
+выбранной фазы, не первый кадр оригинальной игры после Create. Native RNG stream
+не восстановлен; конкретный оригинальный seed и последовательность не заявлены.
+Изображения в native-pass01/ содержат эту явную фазу. GIF — диагностический preview,
+для пиксельных проверок использовать PNG. Source-mask в галерее диагностическая.
+Физические коллизии/hitbox/опоры отсутствуют только у отдельной draw-программы;
+это не доказательство полной семантики любого потребителя SPRT701.
+
+2. NATIVE_FOREST_SHADER4
+Из game.ios извлечён исходный SHDR4 shd_overlay и его GLSL1.20 vertex/fragment.
+Сохранились record offsets, string pointers и SHA каждого source файла.
+Native oMain.Draw77 по global[76]==1, наличию OBJT767/766 и compiled shader4
+выбирает этот проход для application surface. RGB overlay blend=(.8,.6,.3),
+mix=.5, vertexColour white в нашем профиле. Временных uniforms нет.
+Физика, опоры, hitbox и VFX-привязки тел у этой surface-программы не создаются.
+
+Настоящий исходный fragment скомпилирован и выполнен WebGL в локальном браузере
+(снята только директива GLSL desktop version и добавлена WebGL precision).
+294912 цветовых каналов сравнены с независимой CPU-формулой; max Δ1/255.
+Это проверяет формулу цвета, не доказывает пиксельную идентичность всей игры.
+
+Важное исправление интерпретации CreateFog:
+аргумент5 → OBJT767 oForestOverlayFX, call0x1d910a;
+аргумент1 → OBJT766 oForestFogFX, call0x1d8aa3.
+Линейный tracer перечисляет обе ветки, но это не доказательство их достижимости.
+Для ROOM21/22/23 проверен именно аргумент5. Поэтому FogBG/SPRT656 не подставлен.
+OBJT767 visible=0, без собственного Draw. Его исходный sprite657 не растянут
+поверх картинки наугад: presence объекта участвует в выборе shader4.
+
+3. Найденные динамические paths — data/native-spawn-graph.json
+Room.Create21/22/23 → stage1_particle_boss746 + parallax_ob741 + CreateFog5.
+ROOM21 и22 также вызывают CreateLighting0; ROOM23 этот вызов не содержит.
+parallax_ob.Create → три lightbeams_fx736 с xscale1.5, .5, .125.
+stage1_particle_boss.Step → background_particle755, leaf756, particle754.
+CreateFog5 → oForestOverlayFX767.Create → forestPropsGenerator → controller583
+и oForestProp584 в отдельных tile/terrain-ветках. Для них собраны native-методы.
+Все эти новые paths отмечены как discovered, не как полностью допущенные актёры.
+
+4. Что реально обновлено
+ROOM21: static base + verified foreground beam profile + shader4.
+ROOM23: тот же проверенный shader4; native Bakgirl/Monkey/Imp пока исключены.
+ROOM22: тот же проверенный shader4; boat/water/animal spawners пока исключены.
+Общий shader4 дополнительно перенесён на 23 проверенные лесные комнаты,
+всего 38 измеримых участков. Native foreground-beams допущены только в ROOM21.
+Полный список и адреса вызовов — native-pass01/connected-room-audit.json.
+CreateFog5 доминирует над всеми normal returns; дополнительные неразобранные
+script calls блокируют автоматическое расширение. ROOM30 и54 исключены,
+пока не разобран CreateAreaNameDisplay. В карточке native pass01 переключается отдельно.
+Статические исходные PNG, raw OBJT preview и точная геометрия сохранены.
+
+5. Оставшиеся конкретные блокеры
+- parallax_ob.Draw вручную вызывает Draw фоновых лучей между слоями; нужны точные
+  camera transforms и interleaving. Создать три луча в произвольных местах нельзя.
+- Particle755/756/754: проверить Create/Step/Alarm/Draw, RNG, lifetime и spawn origin.
+- forestPropsGenerator: 6 call sites для584, tile_layer_find/get_left/get_top,
+  точные условия каждого terrain rectangle; source584 collision tweens и source583 Draw и Draw
+  контроллера583. Трава не размещалась приблизительно по видимым краям тайлов.
+- oTutorialMessage614: тип0/sys_tut01 и тип1/sys_tut02 подтверждены RoomCC;
+  Step проверяет collision_rectangle с player0; активная панель включает input
+  mapping, дополнительные UI sprites и FONT. Default sPPTail785 не выдан за Draw.
+- ROOM23: instance100337/100338 Bakgirl,100339/100340 Monkey,100341 Imp, их states,
+  source RoomCC3234..3238, родительские события, коллизии и VFX ещё не допущены.
+- Полный surface/light/palette pipeline, настройки исходного запуска, UI/HUD,
+  динамические акты и полная native-проходимость остаются открыты.
+
+Полностью готовых native-комнат:0. Новых игровых допусков:0.
+Проверенные визуальные программы:2. Shader/source paths и screenshots приложены.
+Сначала был записан классификатор, затем просмотрена native-gallery, затем
+разрешена композиция профиля ROOM21, и только затем общий pass перенесён на22/23.

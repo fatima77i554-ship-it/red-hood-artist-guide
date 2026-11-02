@@ -1,0 +1,15 @@
+{
+  "classifier_written": true,
+  "gallery_reviewed": true,
+  "map_UI_admission": true,
+  "roles": [
+    "NATIVE_TUTORIAL_FONT00",
+    "NATIVE_TUTORIAL_FONT04",
+    "NATIVE_TUTORIAL_PANEL169"
+  ],
+  "review_evidence": [
+    "evidence/native-room21/tutorial-gallery-before-UI.png",
+    "evidence/native-room21/tutorial-gallery-browser-check.json"
+  ],
+  "superseded_by": "native-pass03/gate.json"
+}

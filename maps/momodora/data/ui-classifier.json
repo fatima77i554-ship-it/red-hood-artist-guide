@@ -1,0 +1,224 @@
+{
+  "records": [
+    {
+      "id": "UI_SAVE",
+      "category": "atlas_diagnostic_UI",
+      "purpose": "square",
+      "source": {
+        "kind": "authored vector primitives in atlas.js and export_maps.py"
+      },
+      "frames": [],
+      "crop": "none; code vector",
+      "scale": "screen-fixed6..14 px; exported native radius5 px",
+      "pivot": [
+        0,
+        0
+      ],
+      "support_points": [],
+      "animation": {
+        "type": "none"
+      },
+      "states": [
+        "square"
+      ],
+      "collision": {
+        "type": "none",
+        "scope": "UI only"
+      },
+      "hitbox": "none in game; UI hit target only",
+      "vfx": {
+        "type": "none",
+        "bindings": []
+      },
+      "placement": {
+        "surfaces": "atlas canvas only",
+        "layers": "diagnostic markers",
+        "neighbors": "no adjacency inferred",
+        "support": "none",
+        "restrictions": "exact authored instance anchor; exits use cell boundary midpoint; never placed in a game level"
+      },
+      "colour": "#ffe08a",
+      "validation": {
+        "status": "verified_atlas_UI_only",
+        "rendered_gallery": "qa/ui-markers.png",
+        "review": "Five diagnostic vector shapes inspected; no source art, animation, collision, support or VFX; exact anchors and UI-only restrictions explicit."
+      }
+    },
+    {
+      "id": "UI_BROKEN",
+      "category": "atlas_diagnostic_UI",
+      "purpose": "cross",
+      "source": {
+        "kind": "authored vector primitives in atlas.js and export_maps.py"
+      },
+      "frames": [],
+      "crop": "none; code vector",
+      "scale": "screen-fixed6..14 px; exported native radius5 px",
+      "pivot": [
+        0,
+        0
+      ],
+      "support_points": [],
+      "animation": {
+        "type": "none"
+      },
+      "states": [
+        "cross"
+      ],
+      "collision": {
+        "type": "none",
+        "scope": "UI only"
+      },
+      "hitbox": "none in game; UI hit target only",
+      "vfx": {
+        "type": "none",
+        "bindings": []
+      },
+      "placement": {
+        "surfaces": "atlas canvas only",
+        "layers": "diagnostic markers",
+        "neighbors": "no adjacency inferred",
+        "support": "none",
+        "restrictions": "exact authored instance anchor; exits use cell boundary midpoint; never placed in a game level"
+      },
+      "colour": "#ff7b8e",
+      "validation": {
+        "status": "verified_atlas_UI_only",
+        "rendered_gallery": "qa/ui-markers.png",
+        "review": "Five diagnostic vector shapes inspected; no source art, animation, collision, support or VFX; exact anchors and UI-only restrictions explicit."
+      }
+    },
+    {
+      "id": "UI_OBJECT",
+      "category": "atlas_diagnostic_UI",
+      "purpose": "circle",
+      "source": {
+        "kind": "authored vector primitives in atlas.js and export_maps.py"
+      },
+      "frames": [],
+      "crop": "none; code vector",
+      "scale": "screen-fixed6..14 px; exported native radius5 px",
+      "pivot": [
+        0,
+        0
+      ],
+      "support_points": [],
+      "animation": {
+        "type": "none"
+      },
+      "states": [
+        "circle"
+      ],
+      "collision": {
+        "type": "none",
+        "scope": "UI only"
+      },
+      "hitbox": "none in game; UI hit target only",
+      "vfx": {
+        "type": "none",
+        "bindings": []
+      },
+      "placement": {
+        "surfaces": "atlas canvas only",
+        "layers": "diagnostic markers",
+        "neighbors": "no adjacency inferred",
+        "support": "none",
+        "restrictions": "exact authored instance anchor; exits use cell boundary midpoint; never placed in a game level"
+      },
+      "colour": "#76ddeb",
+      "validation": {
+        "status": "verified_atlas_UI_only",
+        "rendered_gallery": "qa/ui-markers.png",
+        "review": "Five diagnostic vector shapes inspected; no source art, animation, collision, support or VFX; exact anchors and UI-only restrictions explicit."
+      }
+    },
+    {
+      "id": "UI_CANDIDATE",
+      "category": "atlas_diagnostic_UI",
+      "purpose": "diamond",
+      "source": {
+        "kind": "authored vector primitives in atlas.js and export_maps.py"
+      },
+      "frames": [],
+      "crop": "none; code vector",
+      "scale": "screen-fixed6..14 px; exported native radius5 px",
+      "pivot": [
+        0,
+        0
+      ],
+      "support_points": [],
+      "animation": {
+        "type": "none"
+      },
+      "states": [
+        "diamond"
+      ],
+      "collision": {
+        "type": "none",
+        "scope": "UI only"
+      },
+      "hitbox": "none in game; UI hit target only",
+      "vfx": {
+        "type": "none",
+        "bindings": []
+      },
+      "placement": {
+        "surfaces": "atlas canvas only",
+        "layers": "diagnostic markers",
+        "neighbors": "no adjacency inferred",
+        "support": "none",
+        "restrictions": "exact authored instance anchor; exits use cell boundary midpoint; never placed in a game level"
+      },
+      "colour": "#e8a4c7",
+      "validation": {
+        "status": "verified_atlas_UI_only",
+        "rendered_gallery": "qa/ui-markers.png",
+        "review": "Five diagnostic vector shapes inspected; no source art, animation, collision, support or VFX; exact anchors and UI-only restrictions explicit."
+      }
+    },
+    {
+      "id": "UI_EXIT",
+      "category": "atlas_diagnostic_UI",
+      "purpose": "triangle",
+      "source": {
+        "kind": "authored vector primitives in atlas.js and export_maps.py"
+      },
+      "frames": [],
+      "crop": "none; code vector",
+      "scale": "screen-fixed6..14 px; exported native radius5 px",
+      "pivot": [
+        0,
+        0
+      ],
+      "support_points": [],
+      "animation": {
+        "type": "none"
+      },
+      "states": [
+        "triangle"
+      ],
+      "collision": {
+        "type": "none",
+        "scope": "UI only"
+      },
+      "hitbox": "none in game; UI hit target only",
+      "vfx": {
+        "type": "none",
+        "bindings": []
+      },
+      "placement": {
+        "surfaces": "atlas canvas only",
+        "layers": "diagnostic markers",
+        "neighbors": "no adjacency inferred",
+        "support": "none",
+        "restrictions": "exact authored instance anchor; exits use cell boundary midpoint; never placed in a game level"
+      },
+      "colour": "#bba4ff",
+      "validation": {
+        "status": "verified_atlas_UI_only",
+        "rendered_gallery": "qa/ui-markers.png",
+        "review": "Five diagnostic vector shapes inspected; no source art, animation, collision, support or VFX; exact anchors and UI-only restrictions explicit."
+      }
+    }
+  ]
+}

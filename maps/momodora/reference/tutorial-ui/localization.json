@@ -1,0 +1,18 @@
+{
+  "en": {
+    "source": "language/en/sentences.msf",
+    "sha256": "219b484da6f33176b7d4871b84bd300c5bfd63ab1e63bd1b69dfaeb33dbddc52",
+    "texts": {
+      "sys_tut01": "Movement",
+      "sys_tut02": "Jump (Hold to jump higher)"
+    }
+  },
+  "ru": {
+    "source": "language/ru/sentences.msf",
+    "sha256": "98a6e893cca8f347aaf2ca2db31dcf3c9d6e34bff33b6029c938ef9cf2e752c8",
+    "texts": {
+      "sys_tut01": "Передвижение",
+      "sys_tut02": "Прыжок (Удерживайте кнопку, чтобы                                     #прыгнуть выше)"
+    }
+  }
+}

@@ -1,0 +1,611 @@
+{
+  "schema": 1,
+  "source_tick_hz": 60,
+  "profiles": [
+    {
+      "room": 29,
+      "instance_id": 100390,
+      "asset": "SURFACE_510",
+      "source_anchor": [
+        240,
+        240
+      ],
+      "motion": {
+        "target_y": 192,
+        "activation_delay": 101,
+        "step_period": 5,
+        "kind": "bridge_demo",
+        "event_policy": "one-shot demonstration of source activation flag; no claim that flag is set in live game",
+        "source_hz": 60,
+        "source_binding": "reference/evidence/surface-bindings.json",
+        "route_source": "global native field6[17]",
+        "validation": "inherited_verified_route_with_diagnostic_trigger_policy"
+      }
+    },
+    {
+      "room": 29,
+      "instance_id": 100391,
+      "asset": "SURFACE_510",
+      "source_anchor": [
+        288,
+        264
+      ],
+      "motion": {
+        "target_y": 176,
+        "activation_delay": 101,
+        "step_period": 5,
+        "kind": "bridge_demo",
+        "event_policy": "one-shot demonstration of source activation flag; no claim that flag is set in live game",
+        "source_hz": 60,
+        "source_binding": "reference/evidence/surface-bindings.json",
+        "route_source": "global native field6[17]",
+        "validation": "inherited_verified_route_with_diagnostic_trigger_policy"
+      }
+    },
+    {
+      "room": 29,
+      "instance_id": 100392,
+      "asset": "SURFACE_510",
+      "source_anchor": [
+        336,
+        288
+      ],
+      "motion": {
+        "target_y": 160,
+        "activation_delay": 101,
+        "step_period": 5,
+        "kind": "bridge_demo",
+        "event_policy": "one-shot demonstration of source activation flag; no claim that flag is set in live game",
+        "source_hz": 60,
+        "source_binding": "reference/evidence/surface-bindings.json",
+        "route_source": "global native field6[17]",
+        "validation": "inherited_verified_route_with_diagnostic_trigger_policy"
+      }
+    },
+    {
+      "room": 34,
+      "instance_id": 100482,
+      "asset": "MECH_514",
+      "source_anchor": [
+        144,
+        160
+      ],
+      "motion": {
+        "top": 160,
+        "bottom": 384,
+        "native_speed": 60.0,
+        "activation_ticks": 60,
+        "floor_offset": 0,
+        "kind": "lift_demo",
+        "event_policy": "demonstration presses the verified landing plate for each trip; live rider/input state not simulated",
+        "source_hz": 60,
+        "source_binding": "reference/evidence/mechanism-bindings.json",
+        "route_source": "ElevatorTest Create / Step / plate alarm; original stops and 1px/tick movement",
+        "validation": "inherited_verified_route_with_diagnostic_trigger_policy"
+      }
+    },
+    {
+      "room": 45,
+      "instance_id": 100709,
+      "asset": "MECH_588",
+      "source_anchor": [
+        192,
+        352
+      ],
+      "motion": {
+        "direction": "up",
+        "travel_ticks": 228,
+        "step_period": 4,
+        "pause_ticks": 180,
+        "initial_tick": 0,
+        "kind": "oscillator",
+        "event_policy": "autonomous source oscillator",
+        "source_hz": 60,
+        "source_binding": "reference/evidence/mechanism-bindings.json",
+        "route_source": "RoomCC 3365 and moving_platform_oscilator native fields 400-405",
+        "validation": "inherited_verified_route_with_diagnostic_trigger_policy"
+      }
+    },
+    {
+      "room": 45,
+      "instance_id": 100710,
+      "asset": "MECH_588",
+      "source_anchor": [
+        128,
+        192
+      ],
+      "motion": {
+        "direction": "up",
+        "travel_ticks": 228,
+        "step_period": 4,
+        "pause_ticks": 180,
+        "initial_tick": 0,
+        "kind": "oscillator",
+        "event_policy": "autonomous source oscillator",
+        "source_hz": 60,
+        "source_binding": "reference/evidence/mechanism-bindings.json",
+        "route_source": "RoomCC 3366 and moving_platform_oscilator native fields 400-405",
+        "validation": "inherited_verified_route_with_diagnostic_trigger_policy"
+      }
+    },
+    {
+      "room": 58,
+      "instance_id": 100880,
+      "asset": "MECH_588",
+      "source_anchor": [
+        128,
+        192
+      ],
+      "motion": {
+        "direction": "right",
+        "travel_ticks": 228,
+        "step_period": 4,
+        "pause_ticks": 180,
+        "initial_tick": 0,
+        "kind": "oscillator",
+        "event_policy": "autonomous source oscillator",
+        "source_hz": 60,
+        "source_binding": "reference/evidence/mechanism-bindings.json",
+        "route_source": "RoomCC 3450 and moving_platform_oscilator native fields 400-405",
+        "validation": "inherited_verified_route_with_diagnostic_trigger_policy"
+      }
+    },
+    {
+      "room": 58,
+      "instance_id": 100884,
+      "asset": "MECH_588",
+      "source_anchor": [
+        400,
+        128
+      ],
+      "motion": {
+        "direction": "down",
+        "travel_ticks": 228,
+        "step_period": 4,
+        "pause_ticks": 180,
+        "initial_tick": 0,
+        "kind": "oscillator",
+        "event_policy": "autonomous source oscillator",
+        "source_hz": 60,
+        "source_binding": "reference/evidence/mechanism-bindings.json",
+        "route_source": "RoomCC 3451 and moving_platform_oscilator native fields 400-405",
+        "validation": "inherited_verified_route_with_diagnostic_trigger_policy"
+      }
+    },
+    {
+      "room": 58,
+      "instance_id": 100885,
+      "asset": "MECH_588",
+      "source_anchor": [
+        448,
+        160
+      ],
+      "motion": {
+        "direction": "down",
+        "travel_ticks": 228,
+        "step_period": 4,
+        "pause_ticks": 180,
+        "initial_tick": 0,
+        "kind": "oscillator",
+        "event_policy": "autonomous source oscillator",
+        "source_hz": 60,
+        "source_binding": "reference/evidence/mechanism-bindings.json",
+        "route_source": "RoomCC 3452 and moving_platform_oscilator native fields 400-405",
+        "validation": "inherited_verified_route_with_diagnostic_trigger_policy"
+      }
+    },
+    {
+      "room": 58,
+      "instance_id": 100886,
+      "asset": "MECH_588",
+      "source_anchor": [
+        480,
+        128
+      ],
+      "motion": {
+        "direction": "up",
+        "travel_ticks": 228,
+        "step_period": 4,
+        "pause_ticks": 180,
+        "initial_tick": 0,
+        "kind": "oscillator",
+        "event_policy": "autonomous source oscillator",
+        "source_hz": 60,
+        "source_binding": "reference/evidence/mechanism-bindings.json",
+        "route_source": "RoomCC 3453 and moving_platform_oscilator native fields 400-405",
+        "validation": "inherited_verified_route_with_diagnostic_trigger_policy"
+      }
+    },
+    {
+      "room": 58,
+      "instance_id": 100897,
+      "asset": "MECH_588",
+      "source_anchor": [
+        720,
+        144
+      ],
+      "motion": {
+        "direction": "right",
+        "travel_ticks": 228,
+        "step_period": 4,
+        "pause_ticks": 180,
+        "initial_tick": 0,
+        "kind": "oscillator",
+        "event_policy": "autonomous source oscillator",
+        "source_hz": 60,
+        "source_binding": "reference/evidence/mechanism-bindings.json",
+        "route_source": "RoomCC 3457 and moving_platform_oscilator native fields 400-405",
+        "validation": "inherited_verified_route_with_diagnostic_trigger_policy"
+      }
+    },
+    {
+      "room": 59,
+      "instance_id": 100921,
+      "asset": "MECH_588",
+      "source_anchor": [
+        128,
+        176
+      ],
+      "motion": {
+        "direction": "down",
+        "travel_ticks": 228,
+        "step_period": 4,
+        "pause_ticks": 180,
+        "initial_tick": 0,
+        "kind": "oscillator",
+        "event_policy": "autonomous source oscillator",
+        "source_hz": 60,
+        "source_binding": "reference/evidence/mechanism-bindings.json",
+        "route_source": "RoomCC 3469 and moving_platform_oscilator native fields 400-405",
+        "validation": "inherited_verified_route_with_diagnostic_trigger_policy"
+      }
+    },
+    {
+      "room": 59,
+      "instance_id": 100922,
+      "asset": "MECH_588",
+      "source_anchor": [
+        48,
+        144
+      ],
+      "motion": {
+        "direction": "down",
+        "travel_ticks": 228,
+        "step_period": 4,
+        "pause_ticks": 180,
+        "initial_tick": 0,
+        "kind": "oscillator",
+        "event_policy": "autonomous source oscillator",
+        "source_hz": 60,
+        "source_binding": "reference/evidence/mechanism-bindings.json",
+        "route_source": "RoomCC 3470 and moving_platform_oscilator native fields 400-405",
+        "validation": "inherited_verified_route_with_diagnostic_trigger_policy"
+      }
+    },
+    {
+      "room": 98,
+      "instance_id": 101760,
+      "asset": "MECH_515",
+      "source_anchor": [
+        112,
+        416
+      ],
+      "motion": {
+        "top": 80,
+        "bottom": 320,
+        "native_speed": 60.0,
+        "activation_ticks": 60,
+        "floor_offset": 96,
+        "kind": "lift_demo",
+        "event_policy": "demonstration presses the verified landing plate for each trip; live rider/input state not simulated",
+        "source_hz": 60,
+        "source_binding": "reference/evidence/mechanism-bindings.json",
+        "route_source": "ChurchElevator Create / Step / plate alarm; original stops and 1px/tick movement",
+        "validation": "inherited_verified_route_with_diagnostic_trigger_policy"
+      }
+    },
+    {
+      "room": 138,
+      "instance_id": 102786,
+      "asset": "MECH_557",
+      "source_anchor": [
+        208,
+        176
+      ],
+      "motion": {
+        "direction": "right",
+        "travel_ticks": 228,
+        "step_period": 4,
+        "pause_ticks": 180,
+        "initial_tick": 0,
+        "kind": "oscillator",
+        "event_policy": "autonomous source oscillator",
+        "source_hz": 60,
+        "source_binding": "reference/evidence/mechanism-bindings.json",
+        "route_source": "RoomCC 3713 and moving_platform_oscilator native fields 400-405",
+        "validation": "inherited_verified_route_with_diagnostic_trigger_policy"
+      }
+    },
+    {
+      "room": 138,
+      "instance_id": 102787,
+      "asset": "MECH_557",
+      "source_anchor": [
+        352,
+        176
+      ],
+      "motion": {
+        "direction": "right",
+        "travel_ticks": 228,
+        "step_period": 4,
+        "pause_ticks": 180,
+        "initial_tick": 0,
+        "kind": "oscillator",
+        "event_policy": "autonomous source oscillator",
+        "source_hz": 60,
+        "source_binding": "reference/evidence/mechanism-bindings.json",
+        "route_source": "RoomCC 3714 and moving_platform_oscilator native fields 400-405",
+        "validation": "inherited_verified_route_with_diagnostic_trigger_policy"
+      }
+    },
+    {
+      "room": 164,
+      "instance_id": 103466,
+      "asset": "MECH_563",
+      "source_anchor": [
+        96,
+        112
+      ],
+      "motion": {
+        "top": 112,
+        "bottom": 1024,
+        "native_speed": 60.0,
+        "activation_ticks": 60,
+        "floor_offset": 0,
+        "kind": "lift_demo",
+        "event_policy": "demonstration presses the verified landing plate for each trip; live rider/input state not simulated",
+        "source_hz": 60,
+        "source_binding": "reference/evidence/mechanism-bindings.json",
+        "route_source": "oGardenElevator Create / Step / plate alarm; original stops and 1px/tick movement",
+        "validation": "inherited_verified_route_with_diagnostic_trigger_policy"
+      }
+    },
+    {
+      "room": 168,
+      "instance_id": 103561,
+      "asset": "MECH_579",
+      "source_anchor": [
+        192,
+        192
+      ],
+      "motion": {
+        "direction": "right",
+        "travel_ticks": 228,
+        "step_period": 4,
+        "pause_ticks": 180,
+        "initial_tick": 0,
+        "kind": "oscillator",
+        "event_policy": "autonomous source oscillator",
+        "source_hz": 60,
+        "source_binding": "reference/evidence/mechanism-bindings.json",
+        "route_source": "RoomCC 3765 and moving_platform_oscilator native fields 400-405",
+        "validation": "inherited_verified_route_with_diagnostic_trigger_policy"
+      }
+    },
+    {
+      "room": 191,
+      "instance_id": 104244,
+      "asset": "MECH_593",
+      "source_anchor": [
+        208,
+        112
+      ],
+      "motion": {
+        "direction": "down",
+        "travel_ticks": 228,
+        "step_period": 4,
+        "pause_ticks": 180,
+        "initial_tick": 0,
+        "kind": "oscillator",
+        "event_policy": "autonomous source oscillator",
+        "source_hz": 60,
+        "source_binding": "reference/evidence/mechanism-bindings.json",
+        "route_source": "RoomCC 3808 and moving_platform_oscilator native fields 400-405",
+        "validation": "inherited_verified_route_with_diagnostic_trigger_policy"
+      }
+    },
+    {
+      "room": 191,
+      "instance_id": 104245,
+      "asset": "MECH_593",
+      "source_anchor": [
+        128,
+        128
+      ],
+      "motion": {
+        "direction": "down",
+        "travel_ticks": 228,
+        "step_period": 4,
+        "pause_ticks": 180,
+        "initial_tick": 0,
+        "kind": "oscillator",
+        "event_policy": "autonomous source oscillator",
+        "source_hz": 60,
+        "source_binding": "reference/evidence/mechanism-bindings.json",
+        "route_source": "RoomCC 3809 and moving_platform_oscilator native fields 400-405",
+        "validation": "inherited_verified_route_with_diagnostic_trigger_policy"
+      }
+    },
+    {
+      "room": 210,
+      "instance_id": 104695,
+      "asset": "MECH_604",
+      "source_anchor": [
+        256,
+        160
+      ],
+      "motion": {
+        "direction": "up",
+        "travel_ticks": 228,
+        "step_period": 4,
+        "pause_ticks": 180,
+        "initial_tick": 0,
+        "kind": "oscillator",
+        "event_policy": "autonomous source oscillator",
+        "source_hz": 60,
+        "source_binding": "reference/evidence/mechanism-bindings.json",
+        "route_source": "RoomCC 3835 and moving_platform_oscilator native fields 400-405",
+        "validation": "inherited_verified_route_with_diagnostic_trigger_policy"
+      }
+    },
+    {
+      "room": 249,
+      "instance_id": 105481,
+      "asset": "MECH_615",
+      "source_anchor": [
+        32,
+        128
+      ],
+      "motion": {
+        "direction": "up",
+        "travel_ticks": 228,
+        "step_period": 4,
+        "pause_ticks": 180,
+        "initial_tick": 0,
+        "kind": "oscillator",
+        "event_policy": "autonomous source oscillator",
+        "source_hz": 60,
+        "source_binding": "reference/evidence/mechanism-bindings.json",
+        "route_source": "RoomCC 3894 and moving_platform_oscilator native fields 400-405",
+        "validation": "inherited_verified_route_with_diagnostic_trigger_policy"
+      }
+    },
+    {
+      "room": 258,
+      "instance_id": 105732,
+      "asset": "MECH_564",
+      "source_anchor": [
+        192,
+        992
+      ],
+      "motion": {
+        "top": 144,
+        "bottom": 992,
+        "native_speed": 60.0,
+        "activation_ticks": 60,
+        "floor_offset": 0,
+        "kind": "lift_demo",
+        "event_policy": "demonstration presses the verified landing plate for each trip; live rider/input state not simulated",
+        "source_hz": 60,
+        "source_binding": "reference/evidence/mechanism-bindings.json",
+        "route_source": "oCastleElevator Create / Step / plate alarm; original stops and 1px/tick movement",
+        "validation": "inherited_verified_route_with_diagnostic_trigger_policy"
+      }
+    },
+    {
+      "room": 265,
+      "instance_id": 105911,
+      "asset": "MECH_615",
+      "source_anchor": [
+        208,
+        160
+      ],
+      "motion": {
+        "direction": "up",
+        "travel_ticks": 228,
+        "step_period": 4,
+        "pause_ticks": 180,
+        "initial_tick": 0,
+        "kind": "oscillator",
+        "event_policy": "autonomous source oscillator",
+        "source_hz": 60,
+        "source_binding": "reference/evidence/mechanism-bindings.json",
+        "route_source": "RoomCC 3937 and moving_platform_oscilator native fields 400-405",
+        "validation": "inherited_verified_route_with_diagnostic_trigger_policy"
+      }
+    },
+    {
+      "room": 265,
+      "instance_id": 105912,
+      "asset": "MECH_615",
+      "source_anchor": [
+        272,
+        128
+      ],
+      "motion": {
+        "direction": "down",
+        "travel_ticks": 196,
+        "step_period": 4,
+        "pause_ticks": 180,
+        "initial_tick": 0,
+        "kind": "oscillator",
+        "event_policy": "autonomous source oscillator",
+        "source_hz": 60,
+        "source_binding": "reference/evidence/mechanism-bindings.json",
+        "route_source": "RoomCC 3938 and moving_platform_oscilator native fields 400-405",
+        "validation": "inherited_verified_route_with_diagnostic_trigger_policy"
+      }
+    },
+    {
+      "room": 265,
+      "instance_id": 105913,
+      "asset": "MECH_615",
+      "source_anchor": [
+        336,
+        160
+      ],
+      "motion": {
+        "direction": "up",
+        "travel_ticks": 228,
+        "step_period": 4,
+        "pause_ticks": 180,
+        "initial_tick": 0,
+        "kind": "oscillator",
+        "event_policy": "autonomous source oscillator",
+        "source_hz": 60,
+        "source_binding": "reference/evidence/mechanism-bindings.json",
+        "route_source": "RoomCC 3939 and moving_platform_oscilator native fields 400-405",
+        "validation": "inherited_verified_route_with_diagnostic_trigger_policy"
+      }
+    }
+  ],
+  "policy": {
+    "game_admissions_added": 0,
+    "native_motion_simulated": false,
+    "unknown_collision_is_none": false,
+    "source_assets": "inherited_verified only",
+    "blocked_placement_mask_excluded": 103117,
+    "unknowns": "diagnostic source points only when Objects enabled; no guessed collider",
+    "gate_states": "not evaluated; colours identify conditional roles, not current solidity",
+    "diagnostic_motion_preview": "verified oscillator ticks; lift/bridge trigger demonstrations explicitly labelled; not full native FSM"
+  },
+  "inherited_sources": [
+    {
+      "source": "/Users/fatimaauseva/Documents/Codex/2026-11-01/momodora-full-map-sections/work/baseline/Momodora-RUtM-Godot/scripts/traversal_mechanism.gd",
+      "copy": "evidence/greybox-motion/traversal_mechanism.gd",
+      "sha256": "bf4515e239614aea30a9e2dc9b366d06c03e9df06b5c49a21ae6f0c0372bbcf8"
+    },
+    {
+      "source": "/Users/fatimaauseva/Documents/Codex/2026-11-01/momodora-full-map-sections/work/baseline/Momodora-RUtM-Godot/scripts/dynamic_surface.gd",
+      "copy": "evidence/greybox-motion/dynamic_surface.gd",
+      "sha256": "e52e57ec93906842da1f704cde7603a3daf3aaa79126b44f444ebcb900d206b6"
+    },
+    {
+      "source": "/Users/fatimaauseva/Documents/Codex/2026-11-01/momodora-full-map-sections/work/baseline/Momodora-RUtM-Godot/qa/all_mechanisms.gd",
+      "copy": "evidence/greybox-motion/all_mechanisms.gd",
+      "sha256": "dea9d3e32336c8bab9dfa877f1cf7d682506083bfef27ec7ddd5db6d0107c758"
+    },
+    {
+      "source": "/Users/fatimaauseva/Documents/Codex/2026-11-01/momodora-full-map-sections/work/baseline/Momodora-RUtM-Godot/qa/mechanisms-summary.json",
+      "copy": "evidence/greybox-motion/mechanisms-summary.json",
+      "sha256": "2596f12c973bd36d39ee446544ea55c87460d2d655ea921585b55a2b5c04af76"
+    }
+  ],
+  "classification": "diagnostic transforms on existing verified masks; no new gameplay assets or admission",
+  "gallery": "../greybox-gallery.html",
+  "validation": "verified_diagnostic_animated_gallery_and_source_tick_replay",
+  "evidence": [
+    "qa/motion-gallery-verification.json",
+    "qa/motion-source-verification.json"
+  ]
+}

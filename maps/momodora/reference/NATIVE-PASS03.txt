@@ -1,0 +1,12 @@
+ROOM21 TUTORIAL UI / NATIVE PASS03
+
+Classify -> rendered gallery -> room composition, all gates recorded.
+11 UI role records: five control sprites/metrics, native trigger/fader/layout, exact FONT0/FONT4 glyph subsets and panel169. Eight new IDs;63 used glyphs.
+20 profiles: EN/RU x keyboard, XinputA/B, SonyA/B x authored tutorial types0/1. Keyboard uses source Left/Right/Up/Down and A bindings; controller sprites193..196 use frames0/1. PC192 is consulted for bbox_right31, not pasted in keyboard Draw.
+Exact authored trigger queries:100311 [64,64,176,320],100314 [384,48,496,304], target OBJT0, precise=false, notme=true. Native cached bbox predicate verified on128 boundary cases.
+Native Step sets trigger408. Draw uses currentalpha110, then +/-0.1 at end with upperguard0.8; controller icons usealpha+0.1. Global106 pause suppresses Draw and freezesalpha. No-player Step retains priortrigger.520 transitions replayed.
+Native String_Replace_Hash, Split_TextBlock and GR_Text_Draw executed for24 text layout variants. Exact source glyph rectangles, advances, bearings; no system font. Source RU spaces and # linebreak retained.
+UI composed before verified application-surface SHDR4. Unchanged atmosphere/shader base verified over460800 color channels with maxdelta0.
+Map detail supports language/input,26 recorded UI phases, show/hide, pause and PNG of displayed state. Background atmosphere is frozen at already checkedtick150 while UI phase is explored.
+Selected settings/bbox fixtures are explicit. Bootstrap is bounded to native loadVariables prefix beforeareaName/string preload; source localization map supplied from original files. No original config or save files opened or changed. Original32-bit game is not run. This is a native-program visual reconstruction, not GPU/frame/playthrough equivalence.
+All game/whole-actor admissions remain blocked; no full ROOM declared complete.

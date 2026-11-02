@@ -1,0 +1,53 @@
+{
+  "passed": true,
+  "authored_records_checked": 5726,
+  "all_source_xy_and_world_xy_match_raw_ROOM": true,
+  "pad105818": {
+    "id": "R262_I105818",
+    "room": 262,
+    "section": "ROOM_262_S001",
+    "biome": "BIOME_08",
+    "object": 360,
+    "name": "oJumpPad",
+    "instance_id": 105818,
+    "source_xy": [
+      112,
+      224
+    ],
+    "world_xy": [
+      21552,
+      2864
+    ],
+    "cell": [
+      67,
+      11
+    ],
+    "record_offset": 8818820,
+    "creation_code": -1,
+    "transform": {
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "rotation": 0.0,
+      "color": 4294967295
+    },
+    "source_depth": 1,
+    "kind": "interaction",
+    "status": "inherited_role_partial",
+    "verified_asset_ids": [
+      "MECH_494"
+    ],
+    "candidate_asset_id": "OBJT_360",
+    "placement_type": "authored_ROOM_instance",
+    "dynamic_spawn": false,
+    "accepted_v4_repair_xy": [
+      136,
+      208
+    ],
+    "source_effective_pivot_xy": [
+      120,
+      240
+    ],
+    "source_coordinate_note": "Raw authored ROOM anchor [112,224]; inherited source effective pivot [120,240], using MECH_494 pivot[8,16]; accepted v4 repair pivot[136,208] kept separately."
+  },
+  "pad103117_blocked": true
+}

@@ -1,0 +1,19 @@
+{
+  "game_ios_sha256": "cb878475628929213c3060417d5d322327c698715989d3a3f47bbec33ee23248",
+  "immutable_sources": [
+    {
+      "path": "/Users/fatimaauseva/Documents/Codex/2026-10-31/momodora-level-study/work/parallel/combined-v4-baseline.zip",
+      "sha256": "834c4535194b491c8704393ce1a0156dbc9ad9d62fc14f78965c85b05af0bc28"
+    },
+    {
+      "path": "/Users/fatimaauseva/Documents/Codex/2026-10-31/momodora-level-study/outputs/Momodora-Source-Evidence/all-source-records.json",
+      "sha256": "db2479e651b8dd8781cd9acc8aef8e4bb35c31f9260d0f5f3091610e51f1a3fd"
+    },
+    {
+      "path": "/Users/fatimaauseva/Documents/Codex/2026-10-31/new-chat-2/outputs/Momodora-Atlas/data/asset-classifier.json",
+      "sha256": "b70ec97054264db04af715cd2fca8634409f10ebaa5f3afc16db6359573c18b8"
+    }
+  ],
+  "modifications": "none; local read-only source use",
+  "saved_games": "not read or written"
+}

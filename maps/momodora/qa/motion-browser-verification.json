@@ -1,0 +1,62 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "motion playback control exists",
+      "passed": true
+    },
+    {
+      "name": "ROOM45 masks actually move over wall clock time",
+      "passed": true
+    },
+    {
+      "name": "world map also animates",
+      "passed": true
+    },
+    {
+      "name": "gold ROOM frame stays visible during motion",
+      "passed": true
+    },
+    {
+      "name": "ROOM45 number remains",
+      "passed": true
+    },
+    {
+      "name": "paths enabled by default",
+      "passed": true
+    },
+    {
+      "name": "pause freezes same frame",
+      "passed": true
+    },
+    {
+      "name": "hiding trajectories changes rendered paths",
+      "passed": true
+    },
+    {
+      "name": "reset returns to source start",
+      "passed": true
+    },
+    {
+      "name": "ROOM34 lift moves after source activation delay",
+      "passed": true
+    },
+    {
+      "name": "lift ROOM number remains",
+      "passed": true
+    },
+    {
+      "name": "motion controls hidden outside greybox",
+      "passed": true
+    },
+    {
+      "name": "mobile motion controls no overflow",
+      "passed": true
+    },
+    {
+      "name": "no browser errors",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

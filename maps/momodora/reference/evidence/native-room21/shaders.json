@@ -1,0 +1,101 @@
+[
+  {
+    "id": 0,
+    "name": "masking_shader",
+    "record_offset": 1595376,
+    "source_sha256": "cb878475628929213c3060417d5d322327c698715989d3a3f47bbec33ee23248",
+    "fragment_pointer": 9277843,
+    "vertex_pointer": 9273876,
+    "fragment_sha256": "527b68bd994fa6659a1dcee8ff47c313502ec980c2fccf405ac37c1c2ef88266",
+    "fragment_path": "evidence/native-room21/shaders/0-masking_shader.frag",
+    "vertex_path": "evidence/native-room21/shaders/0-masking_shader.vert"
+  },
+  {
+    "id": 1,
+    "name": "red_aura_shader",
+    "record_offset": 1595484,
+    "source_sha256": "cb878475628929213c3060417d5d322327c698715989d3a3f47bbec33ee23248",
+    "fragment_pointer": 9293672,
+    "vertex_pointer": 9289706,
+    "fragment_sha256": "b575706170d8ca1896801b5c584171dd461343c3818c60017a18b8b6f2095f03",
+    "fragment_path": "evidence/native-room21/shaders/1-red_aura_shader.frag",
+    "vertex_path": "evidence/native-room21/shaders/1-red_aura_shader.vert"
+  },
+  {
+    "id": 2,
+    "name": "blue_aura_shader",
+    "record_offset": 1595592,
+    "source_sha256": "cb878475628929213c3060417d5d322327c698715989d3a3f47bbec33ee23248",
+    "fragment_pointer": 9302585,
+    "vertex_pointer": 9289706,
+    "fragment_sha256": "098350012cb652eaa62e5ec1d90515badf1f0315e35b3c5afff33cdb1c85633f",
+    "fragment_path": "evidence/native-room21/shaders/2-blue_aura_shader.frag",
+    "vertex_path": "evidence/native-room21/shaders/2-blue_aura_shader.vert"
+  },
+  {
+    "id": 3,
+    "name": "shd_color_swapper_22",
+    "record_offset": 1595700,
+    "source_sha256": "cb878475628929213c3060417d5d322327c698715989d3a3f47bbec33ee23248",
+    "fragment_pointer": 9318147,
+    "vertex_pointer": 9314202,
+    "fragment_sha256": "ef764a585a9d5d0b3c335de6cc1bdfb7e822c84ce770f1e56177d395c8e1f32e",
+    "fragment_path": "evidence/native-room21/shaders/3-shd_color_swapper_22.frag",
+    "vertex_path": "evidence/native-room21/shaders/3-shd_color_swapper_22.vert"
+  },
+  {
+    "id": 4,
+    "name": "shd_overlay",
+    "record_offset": 1595808,
+    "source_sha256": "cb878475628929213c3060417d5d322327c698715989d3a3f47bbec33ee23248",
+    "fragment_pointer": 9330378,
+    "vertex_pointer": 9289706,
+    "fragment_sha256": "8fe99ffa138bbf25172a0626f1b857657a03a5d058504a9cd8fc3cede33eb205",
+    "fragment_path": "evidence/native-room21/shaders/4-shd_overlay.frag",
+    "vertex_path": "evidence/native-room21/shaders/4-shd_overlay.vert"
+  },
+  {
+    "id": 5,
+    "name": "shd_overlay2",
+    "record_offset": 1595916,
+    "source_sha256": "cb878475628929213c3060417d5d322327c698715989d3a3f47bbec33ee23248",
+    "fragment_pointer": 9336235,
+    "vertex_pointer": 9289706,
+    "fragment_sha256": "2c9300afd0e604dc0bcb46ce2a378cbb2e6e0bfd6c65b3539174caecbc879e93",
+    "fragment_path": "evidence/native-room21/shaders/5-shd_overlay2.frag",
+    "vertex_path": "evidence/native-room21/shaders/5-shd_overlay2.vert"
+  },
+  {
+    "id": 6,
+    "name": "shd_overlay3",
+    "record_offset": 1596024,
+    "source_sha256": "cb878475628929213c3060417d5d322327c698715989d3a3f47bbec33ee23248",
+    "fragment_pointer": 9342087,
+    "vertex_pointer": 9289706,
+    "fragment_sha256": "ba13dfc3c77056f22b49a2baea335cde6770e325a75f66ae22a0777a2eb73683",
+    "fragment_path": "evidence/native-room21/shaders/6-shd_overlay3.frag",
+    "vertex_path": "evidence/native-room21/shaders/6-shd_overlay3.vert"
+  },
+  {
+    "id": 7,
+    "name": "shd_overlay4",
+    "record_offset": 1596132,
+    "source_sha256": "cb878475628929213c3060417d5d322327c698715989d3a3f47bbec33ee23248",
+    "fragment_pointer": 9347794,
+    "vertex_pointer": 9289706,
+    "fragment_sha256": "b9e3f688e65fd0df77f4c2b7eb402d9297791aa807c9980230b5f85df4e42b5a",
+    "fragment_path": "evidence/native-room21/shaders/7-shd_overlay4.frag",
+    "vertex_path": "evidence/native-room21/shaders/7-shd_overlay4.vert"
+  },
+  {
+    "id": 8,
+    "name": "shd_overlay5",
+    "record_offset": 1596240,
+    "source_sha256": "cb878475628929213c3060417d5d322327c698715989d3a3f47bbec33ee23248",
+    "fragment_pointer": 9353534,
+    "vertex_pointer": 9289706,
+    "fragment_sha256": "37a98cf9037ad3ffd38b22d4fc2c8186087d768cfa96d25ef88d477a03a28fec",
+    "fragment_path": "evidence/native-room21/shaders/8-shd_overlay5.frag",
+    "vertex_path": "evidence/native-room21/shaders/8-shd_overlay5.vert"
+  }
+]

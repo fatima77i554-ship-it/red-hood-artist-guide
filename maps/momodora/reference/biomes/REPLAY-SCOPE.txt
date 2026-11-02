@@ -1,0 +1,15 @@
+Biome classification evidence scope
+
+Nine source area labels are executed from native areaNameScript using original EN localization; RU labels use original RU sentences.msf. ROOM.Create bodies are executed in a bounded instruction harness. castleRoomCreation is executed as a nested body. Known room builtins use the exact source ROOM ID, speed and dimensions.
+
+CreateFog, CreateLighting, playMusic, setExit, scr_world_swap and area-display scene procedures are recorded as descriptors, not executed to assemble a level. Scene instances created by the ROOM program receive source object defaults without executing their own Create/CC. No sprite or effect from those descriptors is placed/rendered by this classification.
+
+The evidence contains two save-array fixtures (0/1) per original ROOM program and explicit previous-area probes. Ordinary production rooms are checked with an unrelated sentinel and their own area label. Special ROOM56,57..60,202,229 are checked against all nine previous area labels. Menu ROOM1 cannot be replayed without its native controller; it is explicitly outside production classification. No original saves/configuration are read or changed.
+
+loadSounds executes with virtual, unloaded audio handles. Returned paths are exact native stream strings; music is neither played nor admitted as a build asset. Only source paths, not track marketing titles, are claimed.
+
+Environment preset lists are observed descriptor paths under these fixtures, not an exhaustive claim about all actors, player states, boss states, shaders or possible room contexts. The nine area assignments are distinct from native visual completeness. No full room or game actor is declared complete by this audit.
+
+ROOM202's Pinacotheca association is explicitly contextual: its only source entry and exit is ROOM201, which assigns the Pinacotheca name; ROOM202 itself retains the prior area. ROOM56's two visual branches and title inheritance remain a separate transition. ROOM229 explicitly clears its title and has a dedicated courtyard preset.
+
+Room previews only reuse previously verified static assets. Existing source transform, pivot, mask, support and placement restrictions continue to apply. A biome's list of used asset IDs does not authorize free placement anywhere else in that biome.

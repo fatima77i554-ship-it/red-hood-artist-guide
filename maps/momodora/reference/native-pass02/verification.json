@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "checks": 2419,
+  "errors": [],
+  "room21_atmosphere_roles": 6,
+  "tutorial_components": 3,
+  "source_font_glyphs": 47,
+  "full_native_room_complete": false,
+  "new_game_admissions": 0,
+  "scope": "native visual programs and exact source assets; explicit RNG input fixtures; not original GPU/run-state equivalence"
+}

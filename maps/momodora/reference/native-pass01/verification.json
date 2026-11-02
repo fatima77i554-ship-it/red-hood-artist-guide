@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "checks": 532,
+  "errors": [],
+  "native_visual_roles": 2,
+  "partially_rendered_rooms": 23,
+  "partially_rendered_sections": 38,
+  "full_native_rooms_complete": 0,
+  "native_gameplay_admissions": 0,
+  "source_native_sha256": "5c61dd3c19ff65908dbba87c54c04c5eb945f311e377588383e760899c09c4c9"
+}

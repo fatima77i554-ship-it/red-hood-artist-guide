@@ -1,0 +1,1438 @@
+{
+  "2": [
+    {
+      "asset": "ITEM_SPARKLE_711",
+      "kind": "pickup",
+      "item": 4,
+      "inventory_action": "give",
+      "flags": [
+        {
+          "key": 15,
+          "value": 1
+        }
+      ],
+      "guard_flags": [
+        15
+      ],
+      "required_flags": [],
+      "source": {
+        "object_name": "ct_sparkle1",
+        "function": "Script_ctsparkle1",
+        "set_event_address": "0x12e06a",
+        "create_flag_checks": [
+          {
+            "key": 15,
+            "address": "0x5b9ce5"
+          }
+        ],
+        "room_name": "rmTest",
+        "instance_creation_code": -1,
+        "data_sha256": "cb878475628929213c3060417d5d322327c698715989d3a3f47bbec33ee23248",
+        "source_rotation": 0.0
+      },
+      "uses_update": {
+        "maximum_from_event": 63,
+        "grant_if_missing": true,
+        "counter_increment": 0
+      },
+      "id": 100014,
+      "instance_id": 100014,
+      "object": 440,
+      "room": 2,
+      "x": 176,
+      "y": 208,
+      "scale_x": 1.0,
+      "scale_y": 1.0
+    },
+    {
+      "asset": "ITEM_SPARKLE_711",
+      "kind": "pickup",
+      "item": 4,
+      "inventory_action": "give",
+      "flags": [
+        {
+          "key": 65,
+          "value": 1
+        }
+      ],
+      "guard_flags": [
+        65
+      ],
+      "required_flags": [],
+      "source": {
+        "object_name": "ct_sparkle5",
+        "function": "Script_ctsparkle5",
+        "set_event_address": "0x12e8a3",
+        "create_flag_checks": [
+          {
+            "key": 65,
+            "address": "0x5bbb81"
+          }
+        ],
+        "room_name": "rmTest",
+        "instance_creation_code": -1,
+        "data_sha256": "cb878475628929213c3060417d5d322327c698715989d3a3f47bbec33ee23248",
+        "source_rotation": 0.0
+      },
+      "counter_updates": [
+        {
+          "key": 63,
+          "delta": 2
+        }
+      ],
+      "uses_update": {
+        "maximum_from_event": 63,
+        "add_current": 2,
+        "grant_if_missing": true,
+        "source_order": [
+          "increment_counter",
+          "destroy_updates_item_maximum_and_grants_if_missing",
+          "inventoryAddUses"
+        ]
+      },
+      "id": 100071,
+      "instance_id": 100071,
+      "object": 442,
+      "room": 2,
+      "x": 224,
+      "y": 208,
+      "scale_x": 1.0,
+      "scale_y": 1.0
+    },
+    {
+      "asset": "ITEM_SPARKLE_711",
+      "kind": "pickup",
+      "item": 17,
+      "inventory_action": "give",
+      "flags": [
+        {
+          "key": 39,
+          "value": 1
+        }
+      ],
+      "guard_flags": [
+        39
+      ],
+      "required_flags": [],
+      "source": {
+        "object_name": "ct_sparkle4",
+        "function": "Script_ctsparkle4",
+        "set_event_address": "0x1306c2",
+        "create_flag_checks": [
+          {
+            "key": 39,
+            "address": "0x5bccad"
+          }
+        ],
+        "room_name": "rmTest",
+        "instance_creation_code": -1,
+        "data_sha256": "cb878475628929213c3060417d5d322327c698715989d3a3f47bbec33ee23248",
+        "source_rotation": 0.0
+      },
+      "counter_updates": [
+        {
+          "key": 64,
+          "delta": 2
+        }
+      ],
+      "uses_update": {
+        "maximum_from_event": 64,
+        "add_current": 2,
+        "grant_if_missing": true,
+        "source_order": [
+          "increment_counter",
+          "destroy_updates_item_maximum_and_grants_if_missing",
+          "inventoryAddUses"
+        ]
+      },
+      "id": 100088,
+      "instance_id": 100088,
+      "object": 443,
+      "room": 2,
+      "x": 144,
+      "y": 144,
+      "scale_x": 1.0,
+      "scale_y": 1.0
+    },
+    {
+      "asset": "ITEM_SPARKLE_711",
+      "kind": "pickup",
+      "item": 17,
+      "inventory_action": "give",
+      "flags": [
+        {
+          "key": 66,
+          "value": 1
+        }
+      ],
+      "guard_flags": [
+        66
+      ],
+      "required_flags": [],
+      "source": {
+        "object_name": "ct_sparkle6",
+        "function": "Script_ctsparkle6",
+        "set_event_address": "0x130ee9",
+        "create_flag_checks": [
+          {
+            "key": 66,
+            "address": "0x5bddd9"
+          }
+        ],
+        "room_name": "rmTest",
+        "instance_creation_code": -1,
+        "data_sha256": "cb878475628929213c3060417d5d322327c698715989d3a3f47bbec33ee23248",
+        "source_rotation": 0.0
+      },
+      "counter_updates": [
+        {
+          "key": 64,
+          "delta": 2
+        }
+      ],
+      "uses_update": {
+        "maximum_from_event": 64,
+        "add_current": 2,
+        "grant_if_missing": true,
+        "source_order": [
+          "increment_counter",
+          "destroy_updates_item_maximum_and_grants_if_missing",
+          "inventoryAddUses"
+        ]
+      },
+      "id": 100089,
+      "instance_id": 100089,
+      "object": 444,
+      "room": 2,
+      "x": 176,
+      "y": 144,
+      "scale_x": 1.0,
+      "scale_y": 1.0
+    },
+    {
+      "asset": "ITEM_CREST_571",
+      "kind": "pickup",
+      "item": 50,
+      "inventory_action": "give",
+      "flags": [
+        {
+          "key": 90,
+          "value": 1
+        }
+      ],
+      "guard_flags": [
+        90
+      ],
+      "required_flags": [],
+      "counter_updates": [
+        {
+          "key": 95,
+          "delta": 1
+        }
+      ],
+      "source": {
+        "object_name": "CrestFrag01",
+        "function": "Object_CrestFrag01_Other_10",
+        "create_flag_checks": [
+          {
+            "key": 90,
+            "address": "0x5cf67f"
+          }
+        ],
+        "interaction": "Collision_0 sets local408=1; vigFragStep queues fireEvent0; crestFragStep only emits ambient VFX",
+        "additional_progression_prerequisites": [],
+        "room_name": "rmTest",
+        "instance_creation_code": -1,
+        "data_sha256": "cb878475628929213c3060417d5d322327c698715989d3a3f47bbec33ee23248",
+        "source_rotation": 0.0
+      },
+      "id": 100120,
+      "instance_id": 100120,
+      "object": 463,
+      "room": 2,
+      "x": 160,
+      "y": 64,
+      "scale_x": 1.0,
+      "scale_y": 1.0
+    },
+    {
+      "asset": "ITEM_CREST_571",
+      "kind": "pickup",
+      "item": 51,
+      "inventory_action": "give",
+      "flags": [
+        {
+          "key": 91,
+          "value": 1
+        }
+      ],
+      "guard_flags": [
+        91
+      ],
+      "required_flags": [],
+      "counter_updates": [
+        {
+          "key": 95,
+          "delta": 1
+        }
+      ],
+      "source": {
+        "object_name": "CrestFrag02",
+        "function": "Object_CrestFrag02_Other_10",
+        "create_flag_checks": [
+          {
+            "key": 91,
+            "address": "0x5d0378"
+          }
+        ],
+        "interaction": "Collision_0 sets local408=1; vigFragStep queues fireEvent0; crestFragStep only emits ambient VFX",
+        "additional_progression_prerequisites": [],
+        "room_name": "rmTest",
+        "instance_creation_code": -1,
+        "data_sha256": "cb878475628929213c3060417d5d322327c698715989d3a3f47bbec33ee23248",
+        "source_rotation": 0.0
+      },
+      "id": 100121,
+      "instance_id": 100121,
+      "object": 464,
+      "room": 2,
+      "x": 176,
+      "y": 48,
+      "scale_x": 1.0,
+      "scale_y": 1.0
+    },
+    {
+      "asset": "ITEM_CREST_571",
+      "kind": "pickup",
+      "item": 53,
+      "inventory_action": "give",
+      "flags": [
+        {
+          "key": 92,
+          "value": 1
+        }
+      ],
+      "guard_flags": [
+        92
+      ],
+      "required_flags": [],
+      "counter_updates": [
+        {
+          "key": 95,
+          "delta": 1
+        }
+      ],
+      "source": {
+        "object_name": "CrestFrag03",
+        "function": "Object_CrestFrag03_Other_10",
+        "create_flag_checks": [
+          {
+            "key": 92,
+            "address": "0x5d1071"
+          }
+        ],
+        "interaction": "Collision_0 sets local408=1; vigFragStep queues fireEvent0; crestFragStep only emits ambient VFX",
+        "additional_progression_prerequisites": [],
+        "room_name": "rmTest",
+        "instance_creation_code": -1,
+        "data_sha256": "cb878475628929213c3060417d5d322327c698715989d3a3f47bbec33ee23248",
+        "source_rotation": 0.0
+      },
+      "id": 100124,
+      "instance_id": 100124,
+      "object": 465,
+      "room": 2,
+      "x": 192,
+      "y": 64,
+      "scale_x": 1.0,
+      "scale_y": 1.0
+    },
+    {
+      "asset": "ITEM_CREST_571",
+      "kind": "pickup",
+      "item": 52,
+      "inventory_action": "give",
+      "flags": [
+        {
+          "key": 93,
+          "value": 1
+        }
+      ],
+      "guard_flags": [
+        93
+      ],
+      "required_flags": [],
+      "counter_updates": [
+        {
+          "key": 95,
+          "delta": 1
+        }
+      ],
+      "source": {
+        "object_name": "CrestFrag04",
+        "function": "Object_CrestFrag04_Other_10",
+        "create_flag_checks": [
+          {
+            "key": 93,
+            "address": "0x5d1d6a"
+          }
+        ],
+        "interaction": "Collision_0 sets local408=1; vigFragStep queues fireEvent0; crestFragStep only emits ambient VFX",
+        "additional_progression_prerequisites": [],
+        "room_name": "rmTest",
+        "instance_creation_code": -1,
+        "data_sha256": "cb878475628929213c3060417d5d322327c698715989d3a3f47bbec33ee23248",
+        "source_rotation": 0.0
+      },
+      "id": 100126,
+      "instance_id": 100126,
+      "object": 466,
+      "room": 2,
+      "x": 176,
+      "y": 80,
+      "scale_x": 1.0,
+      "scale_y": 1.0
+    }
+  ],
+  "7": [
+    {
+      "asset": "ITEM_SPARKLE_711",
+      "kind": "pickup",
+      "item": 32,
+      "inventory_action": "give",
+      "flags": [
+        {
+          "key": 72,
+          "value": 1
+        }
+      ],
+      "guard_flags": [
+        72,
+        80
+      ],
+      "required_flags": [],
+      "source": {
+        "object_name": "ct_sparkle9",
+        "function": "Script_ctsparkle9",
+        "set_event_address": "0x131d9e",
+        "create_flag_checks": [
+          {
+            "key": 72,
+            "address": "0x5c18d7"
+          },
+          {
+            "key": 80,
+            "address": "0x5c1950"
+          }
+        ],
+        "room_name": "rmTest5",
+        "instance_creation_code": -1,
+        "data_sha256": "cb878475628929213c3060417d5d322327c698715989d3a3f47bbec33ee23248",
+        "source_rotation": 0.0
+      },
+      "guard_items": [
+        32
+      ],
+      "id": 100196,
+      "instance_id": 100196,
+      "object": 448,
+      "room": 7,
+      "x": 208,
+      "y": 192,
+      "scale_x": 1.0,
+      "scale_y": 1.0
+    }
+  ],
+  "26": [
+    {
+      "asset": "ITEM_SPARKLE_711",
+      "kind": "pickup",
+      "item": 4,
+      "inventory_action": "give",
+      "flags": [
+        {
+          "key": 15,
+          "value": 1
+        }
+      ],
+      "guard_flags": [
+        15
+      ],
+      "required_flags": [],
+      "source": {
+        "object_name": "ct_sparkle1",
+        "function": "Script_ctsparkle1",
+        "set_event_address": "0x12e06a",
+        "create_flag_checks": [
+          {
+            "key": 15,
+            "address": "0x5b9ce5"
+          }
+        ],
+        "room_name": "rmForest02C_OLD",
+        "instance_creation_code": -1,
+        "data_sha256": "cb878475628929213c3060417d5d322327c698715989d3a3f47bbec33ee23248",
+        "source_rotation": 0.0
+      },
+      "uses_update": {
+        "maximum_from_event": 63,
+        "grant_if_missing": true,
+        "counter_increment": 0
+      },
+      "id": 100363,
+      "instance_id": 100363,
+      "object": 440,
+      "room": 26,
+      "x": 144,
+      "y": 172,
+      "scale_x": 1.0,
+      "scale_y": 1.0
+    }
+  ],
+  "37": [
+    {
+      "asset": "ITEM_SPARKLE_711",
+      "kind": "pickup",
+      "item": 5,
+      "inventory_action": "give",
+      "flags": [
+        {
+          "key": 16,
+          "value": 1
+        }
+      ],
+      "guard_flags": [
+        16
+      ],
+      "required_flags": [],
+      "source": {
+        "object_name": "ct_sparkle2",
+        "function": "Script_ctsparkle2",
+        "set_event_address": "0x12f044",
+        "create_flag_checks": [
+          {
+            "key": 16,
+            "address": "0x5bad9f"
+          }
+        ],
+        "room_name": "rmForest10B",
+        "instance_creation_code": -1,
+        "data_sha256": "cb878475628929213c3060417d5d322327c698715989d3a3f47bbec33ee23248",
+        "source_rotation": 0.0
+      },
+      "id": 100536,
+      "instance_id": 100536,
+      "object": 441,
+      "room": 37,
+      "x": 192,
+      "y": 108,
+      "scale_x": 1.0,
+      "scale_y": 1.0
+    }
+  ],
+  "60": [
+    {
+      "asset": "ITEM_CREST_571",
+      "kind": "pickup",
+      "item": 53,
+      "inventory_action": "give",
+      "flags": [
+        {
+          "key": 92,
+          "value": 1
+        }
+      ],
+      "guard_flags": [
+        92
+      ],
+      "required_flags": [],
+      "counter_updates": [
+        {
+          "key": 95,
+          "delta": 1
+        }
+      ],
+      "source": {
+        "object_name": "CrestFrag03",
+        "function": "Object_CrestFrag03_Other_10",
+        "create_flag_checks": [
+          {
+            "key": 92,
+            "address": "0x5d1071"
+          }
+        ],
+        "interaction": "Collision_0 sets local408=1; vigFragStep queues fireEvent0; crestFragStep only emits ambient VFX",
+        "additional_progression_prerequisites": [],
+        "room_name": "rmWinterForest05",
+        "instance_creation_code": -1,
+        "data_sha256": "cb878475628929213c3060417d5d322327c698715989d3a3f47bbec33ee23248",
+        "source_rotation": 0.0
+      },
+      "id": 100930,
+      "instance_id": 100930,
+      "object": 465,
+      "room": 60,
+      "x": 160,
+      "y": 112,
+      "scale_x": 1.0,
+      "scale_y": 1.0
+    }
+  ],
+  "64": [
+    {
+      "asset": "ITEM_SPARKLE_711",
+      "kind": "pickup",
+      "item": 4,
+      "inventory_action": "give",
+      "flags": [
+        {
+          "key": 65,
+          "value": 1
+        }
+      ],
+      "guard_flags": [
+        65
+      ],
+      "required_flags": [],
+      "source": {
+        "object_name": "ct_sparkle5",
+        "function": "Script_ctsparkle5",
+        "set_event_address": "0x12e8a3",
+        "create_flag_checks": [
+          {
+            "key": 65,
+            "address": "0x5bbb81"
+          }
+        ],
+        "room_name": "rmCity03",
+        "instance_creation_code": -1,
+        "data_sha256": "cb878475628929213c3060417d5d322327c698715989d3a3f47bbec33ee23248",
+        "source_rotation": 0.0
+      },
+      "counter_updates": [
+        {
+          "key": 63,
+          "delta": 2
+        }
+      ],
+      "uses_update": {
+        "maximum_from_event": 63,
+        "add_current": 2,
+        "grant_if_missing": true,
+        "source_order": [
+          "increment_counter",
+          "destroy_updates_item_maximum_and_grants_if_missing",
+          "inventoryAddUses"
+        ]
+      },
+      "id": 101033,
+      "instance_id": 101033,
+      "object": 442,
+      "room": 64,
+      "x": 256,
+      "y": 382,
+      "scale_x": 1.0,
+      "scale_y": 1.0
+    }
+  ],
+  "90": [
+    {
+      "asset": "ITEM_SPARKLE_711",
+      "kind": "pickup",
+      "item": 9,
+      "inventory_action": "give",
+      "flags": [
+        {
+          "key": 67,
+          "value": 1
+        }
+      ],
+      "guard_flags": [
+        67
+      ],
+      "required_flags": [],
+      "source": {
+        "object_name": "ct_sparkle7",
+        "function": "Script_ctsparkle7",
+        "set_event_address": "0x13165d",
+        "create_flag_checks": [
+          {
+            "key": 67,
+            "address": "0x5bef05"
+          }
+        ],
+        "room_name": "rmCity23",
+        "instance_creation_code": -1,
+        "data_sha256": "cb878475628929213c3060417d5d322327c698715989d3a3f47bbec33ee23248",
+        "source_rotation": 0.0
+      },
+      "id": 101611,
+      "instance_id": 101611,
+      "object": 445,
+      "room": 90,
+      "x": 160,
+      "y": 188,
+      "scale_x": 1.0,
+      "scale_y": 1.0
+    }
+  ],
+  "94": [
+    {
+      "asset": "ITEM_NPC_794",
+      "kind": "choir",
+      "item": 36,
+      "inventory_action": "take",
+      "flags": [
+        {
+          "key": 152,
+          "value": 1
+        }
+      ],
+      "guard_flags": [
+        152
+      ],
+      "required_flags": [
+        86,
+        61
+      ],
+      "required_items": [
+        36
+      ],
+      "visibility_guard_flags": [
+        152
+      ],
+      "visibility_required_flags": [
+        86
+      ],
+      "question_response": 0,
+      "source": {
+        "object_name": "oChoir_npc",
+        "function": "Object_oChoir_npc_Other_10",
+        "take_address": "0x2df931",
+        "set_event_address": "0x2df989",
+        "interaction": "local201>0.5; event61!=0; item36 owned; questionChoir global283==0",
+        "combat_origin_requirements": {
+          "61": "NPC_Fennel_Death_Step_0@0x40aea4",
+          "86": "Object_oLubella2Trigger_Step_0@0x3f7f3e"
+        },
+        "room_name": "rmChurch03",
+        "instance_creation_code": -1,
+        "data_sha256": "cb878475628929213c3060417d5d322327c698715989d3a3f47bbec33ee23248",
+        "source_rotation": 0.0
+      },
+      "id": 101661,
+      "instance_id": 101661,
+      "object": 43,
+      "room": 94,
+      "x": 240,
+      "y": 144,
+      "scale_x": 1.0,
+      "scale_y": 1.0
+    }
+  ],
+  "103": [
+    {
+      "asset": "ITEM_SPARKLE_711",
+      "kind": "pickup",
+      "item": 36,
+      "inventory_action": "give",
+      "flags": [
+        {
+          "key": 87,
+          "value": 1
+        }
+      ],
+      "guard_flags": [
+        87,
+        152
+      ],
+      "required_flags": [],
+      "source": {
+        "object_name": "ct_sparkle10",
+        "function": "Script_ctsparkle10",
+        "set_event_address": "0x1324df",
+        "create_flag_checks": [
+          {
+            "key": 87,
+            "address": "0x5c2852"
+          },
+          {
+            "key": 152,
+            "address": "0x5c289b"
+          }
+        ],
+        "room_name": "rmChurch08C",
+        "instance_creation_code": -1,
+        "data_sha256": "cb878475628929213c3060417d5d322327c698715989d3a3f47bbec33ee23248",
+        "source_rotation": 0.0
+      },
+      "guard_items": [
+        36
+      ],
+      "id": 101892,
+      "instance_id": 101892,
+      "object": 449,
+      "room": 103,
+      "x": 96,
+      "y": 94,
+      "scale_x": 1.0,
+      "scale_y": 1.0
+    }
+  ],
+  "105": [
+    {
+      "asset": "ITEM_CREST_571",
+      "kind": "pickup",
+      "item": 50,
+      "inventory_action": "give",
+      "flags": [
+        {
+          "key": 90,
+          "value": 1
+        }
+      ],
+      "guard_flags": [
+        90
+      ],
+      "required_flags": [],
+      "counter_updates": [
+        {
+          "key": 95,
+          "delta": 1
+        }
+      ],
+      "source": {
+        "object_name": "CrestFrag01",
+        "function": "Object_CrestFrag01_Other_10",
+        "create_flag_checks": [
+          {
+            "key": 90,
+            "address": "0x5cf67f"
+          }
+        ],
+        "interaction": "Collision_0 sets local408=1; vigFragStep queues fireEvent0; crestFragStep only emits ambient VFX",
+        "additional_progression_prerequisites": [],
+        "room_name": "rmChurch09B",
+        "instance_creation_code": -1,
+        "data_sha256": "cb878475628929213c3060417d5d322327c698715989d3a3f47bbec33ee23248",
+        "source_rotation": 0.0
+      },
+      "id": 101907,
+      "instance_id": 101907,
+      "object": 463,
+      "room": 105,
+      "x": 160,
+      "y": 192,
+      "scale_x": 1.0,
+      "scale_y": 1.0
+    }
+  ],
+  "113": [
+    {
+      "asset": "ITEM_NPC_459",
+      "kind": "cotillard",
+      "item": 27,
+      "inventory_action": "give",
+      "flags": [
+        {
+          "key": 38,
+          "value": 1
+        }
+      ],
+      "guard_flags": [
+        38
+      ],
+      "required_flags": [],
+      "visibility_guard_flags": [],
+      "visibility_required_flags": [],
+      "source": {
+        "object_name": "oCotillardNPC",
+        "function": "Script_cotillard_npc",
+        "grant_address": "0x127c2b",
+        "set_event_address": "0x127cbd",
+        "interaction": "local201>0.5; event38==0; NPC remains visible after grant",
+        "room_name": "rmChurch17",
+        "instance_creation_code": -1,
+        "data_sha256": "cb878475628929213c3060417d5d322327c698715989d3a3f47bbec33ee23248",
+        "source_rotation": 0.0
+      },
+      "id": 102093,
+      "instance_id": 102093,
+      "object": 70,
+      "room": 113,
+      "x": 136,
+      "y": 144,
+      "scale_x": 1.0,
+      "scale_y": 1.0
+    }
+  ],
+  "117": [
+    {
+      "asset": "ITEM_SPARKLE_711",
+      "kind": "pickup",
+      "item": 17,
+      "inventory_action": "give",
+      "flags": [
+        {
+          "key": 66,
+          "value": 1
+        }
+      ],
+      "guard_flags": [
+        66
+      ],
+      "required_flags": [],
+      "source": {
+        "object_name": "ct_sparkle6",
+        "function": "Script_ctsparkle6",
+        "set_event_address": "0x130ee9",
+        "create_flag_checks": [
+          {
+            "key": 66,
+            "address": "0x5bddd9"
+          }
+        ],
+        "room_name": "rmChurch21",
+        "instance_creation_code": -1,
+        "data_sha256": "cb878475628929213c3060417d5d322327c698715989d3a3f47bbec33ee23248",
+        "source_rotation": 0.0
+      },
+      "counter_updates": [
+        {
+          "key": 64,
+          "delta": 2
+        }
+      ],
+      "uses_update": {
+        "maximum_from_event": 64,
+        "add_current": 2,
+        "grant_if_missing": true,
+        "source_order": [
+          "increment_counter",
+          "destroy_updates_item_maximum_and_grants_if_missing",
+          "inventoryAddUses"
+        ]
+      },
+      "id": 102200,
+      "instance_id": 102200,
+      "object": 444,
+      "room": 117,
+      "x": 432,
+      "y": 156,
+      "scale_x": 1.0,
+      "scale_y": 1.0
+    }
+  ],
+  "126": [
+    {
+      "asset": "ITEM_SPARKLE_711",
+      "kind": "pickup",
+      "item": 32,
+      "inventory_action": "give",
+      "flags": [
+        {
+          "key": 72,
+          "value": 1
+        }
+      ],
+      "guard_flags": [
+        72,
+        80
+      ],
+      "required_flags": [],
+      "source": {
+        "object_name": "ct_sparkle9",
+        "function": "Script_ctsparkle9",
+        "set_event_address": "0x131d9e",
+        "create_flag_checks": [
+          {
+            "key": 72,
+            "address": "0x5c18d7"
+          },
+          {
+            "key": 80,
+            "address": "0x5c1950"
+          }
+        ],
+        "room_name": "rmCells05B",
+        "instance_creation_code": -1,
+        "data_sha256": "cb878475628929213c3060417d5d322327c698715989d3a3f47bbec33ee23248",
+        "source_rotation": 0.0
+      },
+      "guard_items": [
+        32
+      ],
+      "id": 102432,
+      "instance_id": 102432,
+      "object": 448,
+      "room": 126,
+      "x": 32,
+      "y": 204,
+      "scale_x": 1.0,
+      "scale_y": 1.0
+    }
+  ],
+  "134": [
+    {
+      "asset": "ITEM_SPARKLE_711",
+      "kind": "pickup",
+      "item": 37,
+      "inventory_action": "give",
+      "flags": [
+        {
+          "key": 112,
+          "value": 1
+        }
+      ],
+      "guard_flags": [
+        112
+      ],
+      "required_flags": [],
+      "source": {
+        "object_name": "ct_sparkle11",
+        "function": "Script_ctsparkle11",
+        "set_event_address": "0x132c20",
+        "create_flag_checks": [
+          {
+            "key": 112,
+            "address": "0x5c3771"
+          }
+        ],
+        "room_name": "rmCells13",
+        "instance_creation_code": -1,
+        "data_sha256": "cb878475628929213c3060417d5d322327c698715989d3a3f47bbec33ee23248",
+        "source_rotation": 0.0
+      },
+      "id": 102675,
+      "instance_id": 102675,
+      "object": 450,
+      "room": 134,
+      "x": 48,
+      "y": 190,
+      "scale_x": 1.0,
+      "scale_y": 1.0
+    }
+  ],
+  "142": [
+    {
+      "asset": "ITEM_CREST_571",
+      "kind": "pickup",
+      "item": 51,
+      "inventory_action": "give",
+      "flags": [
+        {
+          "key": 91,
+          "value": 1
+        }
+      ],
+      "guard_flags": [
+        91
+      ],
+      "required_flags": [],
+      "counter_updates": [
+        {
+          "key": 95,
+          "delta": 1
+        }
+      ],
+      "source": {
+        "object_name": "CrestFrag02",
+        "function": "Object_CrestFrag02_Other_10",
+        "create_flag_checks": [
+          {
+            "key": 91,
+            "address": "0x5d0378"
+          }
+        ],
+        "interaction": "Collision_0 sets local408=1; vigFragStep queues fireEvent0; crestFragStep only emits ambient VFX",
+        "additional_progression_prerequisites": [],
+        "room_name": "rmCells19",
+        "instance_creation_code": -1,
+        "data_sha256": "cb878475628929213c3060417d5d322327c698715989d3a3f47bbec33ee23248",
+        "source_rotation": 0.0
+      },
+      "id": 102933,
+      "instance_id": 102933,
+      "object": 464,
+      "room": 142,
+      "x": 288,
+      "y": 160,
+      "scale_x": 1.0,
+      "scale_y": 1.0
+    }
+  ],
+  "149": [
+    {
+      "asset": "ITEM_SPARKLE_711",
+      "kind": "pickup",
+      "item": 24,
+      "inventory_action": "give",
+      "flags": [
+        {
+          "key": 114,
+          "value": 1
+        }
+      ],
+      "guard_flags": [
+        114
+      ],
+      "required_flags": [],
+      "source": {
+        "object_name": "ct_sparkle12",
+        "function": "Script_ctsparkle12",
+        "set_event_address": "0x133361",
+        "create_flag_checks": [
+          {
+            "key": 114,
+            "address": "0x5c4553"
+          }
+        ],
+        "room_name": "rmGarden03",
+        "instance_creation_code": -1,
+        "data_sha256": "cb878475628929213c3060417d5d322327c698715989d3a3f47bbec33ee23248",
+        "source_rotation": 0.0
+      },
+      "id": 103072,
+      "instance_id": 103072,
+      "object": 451,
+      "room": 149,
+      "x": 224,
+      "y": 206,
+      "scale_x": 1.0,
+      "scale_y": 1.0
+    }
+  ],
+  "162": [
+    {
+      "asset": "ITEM_SPARKLE_711",
+      "kind": "pickup",
+      "item": 4,
+      "inventory_action": "give",
+      "flags": [
+        {
+          "key": 126,
+          "value": 1
+        }
+      ],
+      "guard_flags": [
+        126
+      ],
+      "required_flags": [],
+      "source": {
+        "object_name": "ct_sparkle15",
+        "function": "Script_ctsparkle15",
+        "set_event_address": "0x134a14",
+        "create_flag_checks": [
+          {
+            "key": 126,
+            "address": "0x5c6ef6"
+          }
+        ],
+        "room_name": "rmGarden06B",
+        "instance_creation_code": -1,
+        "data_sha256": "cb878475628929213c3060417d5d322327c698715989d3a3f47bbec33ee23248",
+        "source_rotation": 0.0
+      },
+      "counter_updates": [
+        {
+          "key": 63,
+          "delta": 2
+        }
+      ],
+      "uses_update": {
+        "maximum_from_event": 63,
+        "add_current": 2,
+        "grant_if_missing": true,
+        "source_order": [
+          "increment_counter",
+          "destroy_updates_item_maximum_and_grants_if_missing",
+          "inventoryAddUses"
+        ]
+      },
+      "id": 103425,
+      "instance_id": 103425,
+      "object": 454,
+      "room": 162,
+      "x": 1168,
+      "y": 126,
+      "scale_x": 1.0,
+      "scale_y": 1.0
+    }
+  ],
+  "191": [
+    {
+      "asset": "ITEM_SPARKLE_711",
+      "kind": "pickup",
+      "item": 49,
+      "inventory_action": "give",
+      "flags": [
+        {
+          "key": 155,
+          "value": 1
+        }
+      ],
+      "guard_flags": [
+        155
+      ],
+      "required_flags": [],
+      "source": {
+        "object_name": "ct_sparkle16",
+        "function": "Script_ctsparkle16",
+        "set_event_address": "0x1351c5",
+        "create_flag_checks": [
+          {
+            "key": 155,
+            "address": "0x5c8022"
+          }
+        ],
+        "room_name": "rmExile19B",
+        "instance_creation_code": -1,
+        "data_sha256": "cb878475628929213c3060417d5d322327c698715989d3a3f47bbec33ee23248",
+        "source_rotation": 0.0
+      },
+      "id": 104268,
+      "instance_id": 104268,
+      "object": 455,
+      "room": 191,
+      "x": 28,
+      "y": 142,
+      "scale_x": 1.0,
+      "scale_y": 1.0
+    }
+  ],
+  "195": [
+    {
+      "asset": "ITEM_CREST_571",
+      "kind": "pickup",
+      "item": 52,
+      "inventory_action": "give",
+      "flags": [
+        {
+          "key": 93,
+          "value": 1
+        }
+      ],
+      "guard_flags": [
+        93
+      ],
+      "required_flags": [],
+      "counter_updates": [
+        {
+          "key": 95,
+          "delta": 1
+        }
+      ],
+      "source": {
+        "object_name": "CrestFrag04",
+        "function": "Object_CrestFrag04_Other_10",
+        "create_flag_checks": [
+          {
+            "key": 93,
+            "address": "0x5d1d6a"
+          }
+        ],
+        "interaction": "Collision_0 sets local408=1; vigFragStep queues fireEvent0; crestFragStep only emits ambient VFX",
+        "additional_progression_prerequisites": [],
+        "room_name": "rmExile23",
+        "instance_creation_code": -1,
+        "data_sha256": "cb878475628929213c3060417d5d322327c698715989d3a3f47bbec33ee23248",
+        "source_rotation": 0.0
+      },
+      "id": 104322,
+      "instance_id": 104322,
+      "object": 466,
+      "room": 195,
+      "x": 64,
+      "y": 64,
+      "scale_x": 1.0,
+      "scale_y": 1.0
+    }
+  ],
+  "196": [
+    {
+      "asset": "ITEM_CREST_571",
+      "kind": "pickup",
+      "item": 52,
+      "inventory_action": "give",
+      "flags": [
+        {
+          "key": 93,
+          "value": 1
+        }
+      ],
+      "guard_flags": [
+        93
+      ],
+      "required_flags": [],
+      "counter_updates": [
+        {
+          "key": 95,
+          "delta": 1
+        }
+      ],
+      "source": {
+        "object_name": "CrestFrag04",
+        "function": "Object_CrestFrag04_Other_10",
+        "create_flag_checks": [
+          {
+            "key": 93,
+            "address": "0x5d1d6a"
+          }
+        ],
+        "interaction": "Collision_0 sets local408=1; vigFragStep queues fireEvent0; crestFragStep only emits ambient VFX",
+        "additional_progression_prerequisites": [],
+        "room_name": "rmExile23Old",
+        "instance_creation_code": -1,
+        "data_sha256": "cb878475628929213c3060417d5d322327c698715989d3a3f47bbec33ee23248",
+        "source_rotation": 0.0
+      },
+      "id": 104364,
+      "instance_id": 104364,
+      "object": 466,
+      "room": 196,
+      "x": 64,
+      "y": 64,
+      "scale_x": 1.0,
+      "scale_y": 1.0
+    }
+  ],
+  "204": [
+    {
+      "asset": "ITEM_SPARKLE_711",
+      "kind": "pickup",
+      "item": 18,
+      "inventory_action": "give",
+      "flags": [
+        {
+          "key": 160,
+          "value": 1
+        }
+      ],
+      "guard_flags": [
+        160
+      ],
+      "required_flags": [],
+      "source": {
+        "object_name": "ct_sparkle18",
+        "function": "Script_ctsparkle18",
+        "set_event_address": "0x136047",
+        "create_flag_checks": [
+          {
+            "key": 160,
+            "address": "0x5c9d0b"
+          }
+        ],
+        "room_name": "rmPaint07",
+        "instance_creation_code": -1,
+        "data_sha256": "cb878475628929213c3060417d5d322327c698715989d3a3f47bbec33ee23248",
+        "source_rotation": 0.0
+      },
+      "id": 104539,
+      "instance_id": 104539,
+      "object": 457,
+      "room": 204,
+      "x": 120,
+      "y": 30,
+      "scale_x": 1.0,
+      "scale_y": 1.0
+    }
+  ],
+  "220": [
+    {
+      "asset": "ITEM_SPARKLE_711",
+      "kind": "pickup",
+      "item": 48,
+      "inventory_action": "give",
+      "flags": [
+        {
+          "key": 169,
+          "value": 1
+        }
+      ],
+      "guard_flags": [
+        169
+      ],
+      "required_flags": [],
+      "source": {
+        "object_name": "ct_sparkle19",
+        "function": "Script_ctsparkle19",
+        "set_event_address": "0x136788",
+        "create_flag_checks": [
+          {
+            "key": 169,
+            "address": "0x5caaed"
+          }
+        ],
+        "room_name": "rmPaint21",
+        "instance_creation_code": -1,
+        "data_sha256": "cb878475628929213c3060417d5d322327c698715989d3a3f47bbec33ee23248",
+        "source_rotation": 0.0
+      },
+      "id": 104941,
+      "instance_id": 104941,
+      "object": 458,
+      "room": 220,
+      "x": 272,
+      "y": 46,
+      "scale_x": 1.0,
+      "scale_y": 1.0
+    }
+  ],
+  "269": [
+    {
+      "asset": "ITEM_SPARKLE_711",
+      "kind": "pickup",
+      "item": 4,
+      "inventory_action": "give",
+      "flags": [
+        {
+          "key": 109,
+          "value": 1
+        }
+      ],
+      "guard_flags": [
+        109
+      ],
+      "required_flags": [],
+      "source": {
+        "object_name": "ct_sparkle23",
+        "function": "Script_ctsparkle23",
+        "set_event_address": "0x138662",
+        "create_flag_checks": [
+          {
+            "key": 109,
+            "address": "0x5ce5bf"
+          }
+        ],
+        "room_name": "rmCastle33",
+        "instance_creation_code": -1,
+        "data_sha256": "cb878475628929213c3060417d5d322327c698715989d3a3f47bbec33ee23248",
+        "source_rotation": 0.0
+      },
+      "counter_updates": [
+        {
+          "key": 63,
+          "delta": 1
+        }
+      ],
+      "uses_update": {
+        "maximum_from_event": 63,
+        "add_current": 1,
+        "grant_if_missing": true,
+        "source_order": [
+          "increment_counter",
+          "destroy_updates_item_maximum_and_grants_if_missing",
+          "inventoryAddUses"
+        ]
+      },
+      "id": 106002,
+      "instance_id": 106002,
+      "object": 462,
+      "room": 269,
+      "x": 32,
+      "y": 94,
+      "scale_x": 1.0,
+      "scale_y": 1.0
+    }
+  ]
+}

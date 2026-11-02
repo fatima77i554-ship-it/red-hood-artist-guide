@@ -1,0 +1,9 @@
+ROOM21 native visual pass02
+
+6 classifier records reviewed in rendered gallery before map composition.
+Three background beams: BG00, BG01, Draw736 x3, BG02, BG03, row238 extension. xscale1.5/.5/.125, yscale5, native angle30 after Step. Foreground734 remains angle45.
+Procedural terrain lookup replay: 162 plants (148 grass,14 flowers) in explicit RNG input fixture. 45 native/algebraic idle-Step comparisons.
+Particle boss and three child Create/Step/Alarm/Draw methods replayed to tick240; source motion phase order retained. Source masks/pivots shown in gallery.
+Native RNG initial state unknown; selected seed21 uniform input stream recorded, not claimed original runtime RNG. Preview CPU rasterizer uses nearest/bilinear as source flags; not claimed original GPU pixel match.
+No actor/game admission; collision grass tweens and tutorial active UI remain blocked. No full room declared complete.
+Open native-gallery02.html for classifier review, index.html for composed map.

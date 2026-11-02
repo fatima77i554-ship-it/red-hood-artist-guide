@@ -1,0 +1,17 @@
+[
+  {
+    "path": "/Users/fatimaauseva/Documents/Codex/2026-10-31/momodora-level-study/work/parallel/combined-v4-baseline.zip",
+    "sha256": "834c4535194b491c8704393ce1a0156dbc9ad9d62fc14f78965c85b05af0bc28",
+    "unchanged": true
+  },
+  {
+    "path": "/Users/fatimaauseva/Library/Application Support/Steam/steamapps/common/Momodora RUtM/MomodoraRUtM.app/Contents/Resources/game.ios",
+    "sha256": "cb878475628929213c3060417d5d322327c698715989d3a3f47bbec33ee23248",
+    "unchanged": true
+  },
+  {
+    "path": "/Users/fatimaauseva/Library/Application Support/Steam/steamapps/common/Momodora RUtM/MomodoraRUtM.app/Contents/MacOS/MomodoraRUtM",
+    "sha256": "5c61dd3c19ff65908dbba87c54c04c5eb945f311e377588383e760899c09c4c9",
+    "unchanged": true
+  }
+]

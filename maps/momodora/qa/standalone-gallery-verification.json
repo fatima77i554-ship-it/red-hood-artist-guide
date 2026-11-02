@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "11 biome/transition categories plus all",
+      "passed": true
+    },
+    {
+      "name": "Frore manifest assets available",
+      "passed": true
+    },
+    {
+      "name": "standalone passport opens",
+      "passed": true
+    },
+    {
+      "name": "standalone animated frame advances",
+      "passed": true
+    },
+    {
+      "name": "standalone classifier includes overlays",
+      "passed": true
+    },
+    {
+      "name": "standalone mobile no overflow",
+      "passed": true
+    },
+    {
+      "name": "mobile overlay canvas retains native contract view",
+      "passed": true
+    },
+    {
+      "name": "standalone no JS errors",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

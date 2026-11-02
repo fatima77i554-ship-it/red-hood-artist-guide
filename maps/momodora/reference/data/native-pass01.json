@@ -1,0 +1,243 @@
+{
+  "schema": 1,
+  "status": "classifier_written_before_compositing",
+  "world_gameplay_complete": false,
+  "source_sha256": "cb878475628929213c3060417d5d322327c698715989d3a3f47bbec33ee23248",
+  "roles": [
+    "NATIVE_R21_BEAM734",
+    "NATIVE_FOREST_SHADER4"
+  ],
+  "source_branch": {
+    "CreateFog5": "creates OBJT767 oForestOverlayFX at 0x1d910a, not OBJT766; CreateFog1 is separate oForestFogFX branch",
+    "graphics": "global custom index76 == 1, shader4 compiled, overlay767 present",
+    "shader_id": 4,
+    "shader_native_constant_address": "0xeac378",
+    "quality_default": "Not inferred; viewer uses explicitly named quality1 profile"
+  },
+  "rooms": [
+    {
+      "room": 21,
+      "status": "foreground light pulse + forest shader; remaining native paths blocked",
+      "foreground_beams": [
+        {
+          "room": 21,
+          "instance": 100315,
+          "source": [
+            16,
+            -16
+          ],
+          "creation_offset": [
+            -24,
+            -16
+          ],
+          "after_creation": [
+            -8,
+            -32
+          ]
+        },
+        {
+          "room": 21,
+          "instance": 100316,
+          "source": [
+            -16,
+            16
+          ],
+          "creation_offset": [
+            -16,
+            -16
+          ],
+          "after_creation": [
+            -32,
+            0
+          ]
+        }
+      ],
+      "tutorials": [
+        {
+          "instance": 100311,
+          "type": 0,
+          "text_key": "sys_tut01"
+        },
+        {
+          "instance": 100314,
+          "type": 1,
+          "text_key": "sys_tut02"
+        }
+      ]
+    },
+    {
+      "room": 23,
+      "status": "connected next room; same checked CreateFog5 + shader branch; enemy state audit remains open",
+      "foreground_beams": []
+    },
+    {
+      "room": 22,
+      "status": "connected left branch; same checked CreateFog5 + shader branch; boat/water/spawners remain open",
+      "foreground_beams": []
+    },
+    {
+      "room": 24,
+      "status": "checked unconditional CreateFog5 + shader4 profile; room actors, particles and generated props remain blocked",
+      "foreground_beams": [],
+      "source_audit": "native-pass01/connected-room-audit.json"
+    },
+    {
+      "room": 25,
+      "status": "checked unconditional CreateFog5 + shader4 profile; room actors, particles and generated props remain blocked",
+      "foreground_beams": [],
+      "source_audit": "native-pass01/connected-room-audit.json"
+    },
+    {
+      "room": 27,
+      "status": "checked unconditional CreateFog5 + shader4 profile; room actors, particles and generated props remain blocked",
+      "foreground_beams": [],
+      "source_audit": "native-pass01/connected-room-audit.json"
+    },
+    {
+      "room": 28,
+      "status": "checked unconditional CreateFog5 + shader4 profile; room actors, particles and generated props remain blocked",
+      "foreground_beams": [],
+      "source_audit": "native-pass01/connected-room-audit.json"
+    },
+    {
+      "room": 29,
+      "status": "checked unconditional CreateFog5 + shader4 profile; room actors, particles and generated props remain blocked",
+      "foreground_beams": [],
+      "source_audit": "native-pass01/connected-room-audit.json"
+    },
+    {
+      "room": 31,
+      "status": "checked unconditional CreateFog5 + shader4 profile; room actors, particles and generated props remain blocked",
+      "foreground_beams": [],
+      "source_audit": "native-pass01/connected-room-audit.json"
+    },
+    {
+      "room": 32,
+      "status": "checked unconditional CreateFog5 + shader4 profile; room actors, particles and generated props remain blocked",
+      "foreground_beams": [],
+      "source_audit": "native-pass01/connected-room-audit.json"
+    },
+    {
+      "room": 33,
+      "status": "checked unconditional CreateFog5 + shader4 profile; room actors, particles and generated props remain blocked",
+      "foreground_beams": [],
+      "source_audit": "native-pass01/connected-room-audit.json"
+    },
+    {
+      "room": 34,
+      "status": "checked unconditional CreateFog5 + shader4 profile; room actors, particles and generated props remain blocked",
+      "foreground_beams": [],
+      "source_audit": "native-pass01/connected-room-audit.json"
+    },
+    {
+      "room": 35,
+      "status": "checked unconditional CreateFog5 + shader4 profile; room actors, particles and generated props remain blocked",
+      "foreground_beams": [],
+      "source_audit": "native-pass01/connected-room-audit.json"
+    },
+    {
+      "room": 37,
+      "status": "checked unconditional CreateFog5 + shader4 profile; room actors, particles and generated props remain blocked",
+      "foreground_beams": [],
+      "source_audit": "native-pass01/connected-room-audit.json"
+    },
+    {
+      "room": 38,
+      "status": "checked unconditional CreateFog5 + shader4 profile; room actors, particles and generated props remain blocked",
+      "foreground_beams": [],
+      "source_audit": "native-pass01/connected-room-audit.json"
+    },
+    {
+      "room": 39,
+      "status": "checked unconditional CreateFog5 + shader4 profile; room actors, particles and generated props remain blocked",
+      "foreground_beams": [],
+      "source_audit": "native-pass01/connected-room-audit.json"
+    },
+    {
+      "room": 40,
+      "status": "checked unconditional CreateFog5 + shader4 profile; room actors, particles and generated props remain blocked",
+      "foreground_beams": [],
+      "source_audit": "native-pass01/connected-room-audit.json"
+    },
+    {
+      "room": 41,
+      "status": "checked unconditional CreateFog5 + shader4 profile; room actors, particles and generated props remain blocked",
+      "foreground_beams": [],
+      "source_audit": "native-pass01/connected-room-audit.json"
+    },
+    {
+      "room": 42,
+      "status": "checked unconditional CreateFog5 + shader4 profile; room actors, particles and generated props remain blocked",
+      "foreground_beams": [],
+      "source_audit": "native-pass01/connected-room-audit.json"
+    },
+    {
+      "room": 43,
+      "status": "checked unconditional CreateFog5 + shader4 profile; room actors, particles and generated props remain blocked",
+      "foreground_beams": [],
+      "source_audit": "native-pass01/connected-room-audit.json"
+    },
+    {
+      "room": 44,
+      "status": "checked unconditional CreateFog5 + shader4 profile; room actors, particles and generated props remain blocked",
+      "foreground_beams": [],
+      "source_audit": "native-pass01/connected-room-audit.json"
+    },
+    {
+      "room": 46,
+      "status": "checked unconditional CreateFog5 + shader4 profile; room actors, particles and generated props remain blocked",
+      "foreground_beams": [],
+      "source_audit": "native-pass01/connected-room-audit.json"
+    },
+    {
+      "room": 47,
+      "status": "checked unconditional CreateFog5 + shader4 profile; room actors, particles and generated props remain blocked",
+      "foreground_beams": [],
+      "source_audit": "native-pass01/connected-room-audit.json"
+    }
+  ],
+  "excluded": [
+    "SPRT656 FogBG: belongs to CreateFog1/OBJT766; not substituted for CreateFog5",
+    "SPRT657 filter rectangle: OBJT767 is invisible and has no own Draw, so not pasted as a full-screen image",
+    "Raw tutorial SPRT785 at room anchors: not treated as executed native Draw",
+    "Particles, generated grass, background beam interleaving, tutorial active UI and native enemies until complete per-role audit"
+  ],
+  "gate": {
+    "gallery_reviewed": true,
+    "reference_composited": true,
+    "review_evidence": [
+      "screenshots/11-native-gallery.png",
+      "native-pass01/gallery-verification.json"
+    ],
+    "first_reference": "native-pass01/room021-tick000.png",
+    "first_reference_sha256": "a44c5a953519f3328f6d81924f95be0da65acfe7c7ba3524c67aef3702207629",
+    "precomposition_gallery_screenshot": "evidence/native-room21/gallery-before-composition.png",
+    "reference_visual_review": "ROOM21 color+beam PNG inspected before expanding the same source shader profile to further rooms"
+  },
+  "fixture_phase_note": "Tick0 is a selected phase origin of the established pulse, not the first original-game frame after Create. Native RNG stream is unknown.",
+  "shared_colour_rooms": [
+    21,
+    23,
+    22,
+    24,
+    25,
+    27,
+    28,
+    29,
+    31,
+    32,
+    33,
+    34,
+    35,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    46,
+    47
+  ]
+}

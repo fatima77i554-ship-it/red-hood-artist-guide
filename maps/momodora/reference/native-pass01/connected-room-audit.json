@@ -1,0 +1,406 @@
+[
+  {
+    "room": 21,
+    "name": "rmForest01",
+    "call_address": "0x770512",
+    "function": "__Z26gml_Room_rmForest01_CreateP9CInstanceS0_",
+    "argument": [
+      5.0
+    ],
+    "dominates_all_normal_returns": true,
+    "normal_returns": [
+      "0x770803"
+    ],
+    "unresolved_extra_scripts": [],
+    "admitted_to_colour_profile": true,
+    "source_evidence": "evidence/native-room21/Room_rmForest01_Create.asm"
+  },
+  {
+    "room": 22,
+    "name": "rmForest01B",
+    "call_address": "0x771681",
+    "function": "__Z27gml_Room_rmForest01B_CreateP9CInstanceS0_",
+    "argument": [
+      5.0
+    ],
+    "dominates_all_normal_returns": true,
+    "normal_returns": [
+      "0x7718bc"
+    ],
+    "unresolved_extra_scripts": [],
+    "admitted_to_colour_profile": true,
+    "source_evidence": "evidence/native-room21/Room_rmForest01B_Create.asm"
+  },
+  {
+    "room": 23,
+    "name": "rmForest02",
+    "call_address": "0x771eac",
+    "function": "__Z26gml_Room_rmForest02_CreateP9CInstanceS0_",
+    "argument": [
+      5.0
+    ],
+    "dominates_all_normal_returns": true,
+    "normal_returns": [
+      "0x772192"
+    ],
+    "unresolved_extra_scripts": [],
+    "admitted_to_colour_profile": true,
+    "source_evidence": "evidence/native-room21/Room_rmForest02_Create.asm"
+  },
+  {
+    "room": 24,
+    "name": "rmForest02B",
+    "call_address": "0x773854",
+    "function": "__Z27gml_Room_rmForest02B_CreateP9CInstanceS0_",
+    "argument": [
+      5.0
+    ],
+    "dominates_all_normal_returns": true,
+    "normal_returns": [
+      "0x7739a0"
+    ],
+    "unresolved_extra_scripts": [],
+    "admitted_to_colour_profile": true,
+    "source_evidence": "evidence/native-room21/Room_rmForest02B_Create.asm"
+  },
+  {
+    "room": 25,
+    "name": "rmForest02C",
+    "call_address": "0x77405e",
+    "function": "__Z27gml_Room_rmForest02C_CreateP9CInstanceS0_",
+    "argument": [
+      5.0
+    ],
+    "dominates_all_normal_returns": true,
+    "normal_returns": [
+      "0x77427b"
+    ],
+    "unresolved_extra_scripts": [],
+    "admitted_to_colour_profile": true,
+    "source_evidence": "evidence/native-room21/Room_rmForest02C_Create.asm"
+  },
+  {
+    "room": 27,
+    "name": "rmForest03",
+    "call_address": "0x775379",
+    "function": "__Z26gml_Room_rmForest03_CreateP9CInstanceS0_",
+    "argument": [
+      5.0
+    ],
+    "dominates_all_normal_returns": true,
+    "normal_returns": [
+      "0x775596"
+    ],
+    "unresolved_extra_scripts": [],
+    "admitted_to_colour_profile": true,
+    "source_evidence": "evidence/native-room21/Room_rmForest03_Create.asm"
+  },
+  {
+    "room": 28,
+    "name": "rmForest04",
+    "call_address": "0x7760e8",
+    "function": "__Z26gml_Room_rmForest04_CreateP9CInstanceS0_",
+    "argument": [
+      5.0
+    ],
+    "dominates_all_normal_returns": true,
+    "normal_returns": [
+      "0x7762fc"
+    ],
+    "unresolved_extra_scripts": [],
+    "admitted_to_colour_profile": true,
+    "source_evidence": "evidence/native-room21/Room_rmForest04_Create.asm"
+  },
+  {
+    "room": 29,
+    "name": "rmForest05B",
+    "call_address": "0x776a22",
+    "function": "__Z27gml_Room_rmForest05B_CreateP9CInstanceS0_",
+    "argument": [
+      5.0
+    ],
+    "dominates_all_normal_returns": true,
+    "normal_returns": [
+      "0x776ca3"
+    ],
+    "unresolved_extra_scripts": [],
+    "admitted_to_colour_profile": true,
+    "source_evidence": "evidence/native-room21/Room_rmForest05B_Create.asm"
+  },
+  {
+    "room": 30,
+    "name": "rmForest05",
+    "call_address": "0x777666",
+    "function": "__Z26gml_Room_rmForest05_CreateP9CInstanceS0_",
+    "argument": [
+      5.0
+    ],
+    "dominates_all_normal_returns": true,
+    "normal_returns": [
+      "0x7779f3"
+    ],
+    "unresolved_extra_scripts": [
+      "CreateAreaNameDisplay"
+    ],
+    "admitted_to_colour_profile": false,
+    "source_evidence": "evidence/native-room21/Room_rmForest05_Create.asm"
+  },
+  {
+    "room": 31,
+    "name": "rmForest06",
+    "call_address": "0x778314",
+    "function": "__Z26gml_Room_rmForest06_CreateP9CInstanceS0_",
+    "argument": [
+      5.0
+    ],
+    "dominates_all_normal_returns": true,
+    "normal_returns": [
+      "0x778528"
+    ],
+    "unresolved_extra_scripts": [],
+    "admitted_to_colour_profile": true,
+    "source_evidence": "evidence/native-room21/Room_rmForest06_Create.asm"
+  },
+  {
+    "room": 32,
+    "name": "rmForest07",
+    "call_address": "0x778edf",
+    "function": "__Z26gml_Room_rmForest07_CreateP9CInstanceS0_",
+    "argument": [
+      5.0
+    ],
+    "dominates_all_normal_returns": true,
+    "normal_returns": [
+      "0x7790f3"
+    ],
+    "unresolved_extra_scripts": [],
+    "admitted_to_colour_profile": true,
+    "source_evidence": "evidence/native-room21/Room_rmForest07_Create.asm"
+  },
+  {
+    "room": 33,
+    "name": "rmForest08",
+    "call_address": "0x779843",
+    "function": "__Z26gml_Room_rmForest08_CreateP9CInstanceS0_",
+    "argument": [
+      5.0
+    ],
+    "dominates_all_normal_returns": true,
+    "normal_returns": [
+      "0x779a57"
+    ],
+    "unresolved_extra_scripts": [],
+    "admitted_to_colour_profile": true,
+    "source_evidence": "evidence/native-room21/Room_rmForest08_Create.asm"
+  },
+  {
+    "room": 34,
+    "name": "rmForest09",
+    "call_address": "0x77a1bb",
+    "function": "__Z26gml_Room_rmForest09_CreateP9CInstanceS0_",
+    "argument": [
+      5.0
+    ],
+    "dominates_all_normal_returns": true,
+    "normal_returns": [
+      "0x77a4a1"
+    ],
+    "unresolved_extra_scripts": [],
+    "admitted_to_colour_profile": true,
+    "source_evidence": "evidence/native-room21/Room_rmForest09_Create.asm"
+  },
+  {
+    "room": 35,
+    "name": "rmForest09B",
+    "call_address": "0x77aa9f",
+    "function": "__Z27gml_Room_rmForest09B_CreateP9CInstanceS0_",
+    "argument": [
+      5.0
+    ],
+    "dominates_all_normal_returns": true,
+    "normal_returns": [
+      "0x77abeb"
+    ],
+    "unresolved_extra_scripts": [],
+    "admitted_to_colour_profile": true,
+    "source_evidence": "evidence/native-room21/Room_rmForest09B_Create.asm"
+  },
+  {
+    "room": 37,
+    "name": "rmForest10B",
+    "call_address": "0x77b649",
+    "function": "__Z27gml_Room_rmForest10B_CreateP9CInstanceS0_",
+    "argument": [
+      5.0
+    ],
+    "dominates_all_normal_returns": true,
+    "normal_returns": [
+      "0x77b8b7"
+    ],
+    "unresolved_extra_scripts": [],
+    "admitted_to_colour_profile": true,
+    "source_evidence": "evidence/native-room21/Room_rmForest10B_Create.asm"
+  },
+  {
+    "room": 38,
+    "name": "rmForest10C",
+    "call_address": "0x77be1d",
+    "function": "__Z27gml_Room_rmForest10C_CreateP9CInstanceS0_",
+    "argument": [
+      5.0
+    ],
+    "dominates_all_normal_returns": true,
+    "normal_returns": [
+      "0x77c160"
+    ],
+    "unresolved_extra_scripts": [],
+    "admitted_to_colour_profile": true,
+    "source_evidence": "evidence/native-room21/Room_rmForest10C_Create.asm"
+  },
+  {
+    "room": 39,
+    "name": "rmForest10D",
+    "call_address": "0x77c833",
+    "function": "__Z27gml_Room_rmForest10D_CreateP9CInstanceS0_",
+    "argument": [
+      5.0
+    ],
+    "dominates_all_normal_returns": true,
+    "normal_returns": [
+      "0x77ca9b"
+    ],
+    "unresolved_extra_scripts": [],
+    "admitted_to_colour_profile": true,
+    "source_evidence": "evidence/native-room21/Room_rmForest10D_Create.asm"
+  },
+  {
+    "room": 40,
+    "name": "rmForest11",
+    "call_address": "0x77cd64",
+    "function": "__Z26gml_Room_rmForest11_CreateP9CInstanceS0_",
+    "argument": [
+      5.0
+    ],
+    "dominates_all_normal_returns": true,
+    "normal_returns": [
+      "0x77d0a7"
+    ],
+    "unresolved_extra_scripts": [],
+    "admitted_to_colour_profile": true,
+    "source_evidence": "evidence/native-room21/Room_rmForest11_Create.asm"
+  },
+  {
+    "room": 41,
+    "name": "rmForest11B",
+    "call_address": "0x77dabd",
+    "function": "__Z27gml_Room_rmForest11B_CreateP9CInstanceS0_",
+    "argument": [
+      5.0
+    ],
+    "dominates_all_normal_returns": true,
+    "normal_returns": [
+      "0x77ddb0"
+    ],
+    "unresolved_extra_scripts": [],
+    "admitted_to_colour_profile": true,
+    "source_evidence": "evidence/native-room21/Room_rmForest11B_Create.asm"
+  },
+  {
+    "room": 42,
+    "name": "rmForest12",
+    "call_address": "0x77e58a",
+    "function": "__Z26gml_Room_rmForest12_CreateP9CInstanceS0_",
+    "argument": [
+      5.0
+    ],
+    "dominates_all_normal_returns": true,
+    "normal_returns": [
+      "0x77e81d"
+    ],
+    "unresolved_extra_scripts": [],
+    "admitted_to_colour_profile": true,
+    "source_evidence": "evidence/native-room21/Room_rmForest12_Create.asm"
+  },
+  {
+    "room": 43,
+    "name": "rmForest12B",
+    "call_address": "0x77f10a",
+    "function": "__Z27gml_Room_rmForest12B_CreateP9CInstanceS0_",
+    "argument": [
+      5.0
+    ],
+    "dominates_all_normal_returns": true,
+    "normal_returns": [
+      "0x77f4bf"
+    ],
+    "unresolved_extra_scripts": [],
+    "admitted_to_colour_profile": true,
+    "source_evidence": "evidence/native-room21/Room_rmForest12B_Create.asm"
+  },
+  {
+    "room": 44,
+    "name": "rmForest12C",
+    "call_address": "0x780222",
+    "function": "__Z27gml_Room_rmForest12C_CreateP9CInstanceS0_",
+    "argument": [
+      5.0
+    ],
+    "dominates_all_normal_returns": true,
+    "normal_returns": [
+      "0x780502"
+    ],
+    "unresolved_extra_scripts": [],
+    "admitted_to_colour_profile": true,
+    "source_evidence": "evidence/native-room21/Room_rmForest12C_Create.asm"
+  },
+  {
+    "room": 46,
+    "name": "rmForest12E",
+    "call_address": "0x781a54",
+    "function": "__Z27gml_Room_rmForest12E_CreateP9CInstanceS0_",
+    "argument": [
+      5.0
+    ],
+    "dominates_all_normal_returns": true,
+    "normal_returns": [
+      "0x781ba0"
+    ],
+    "unresolved_extra_scripts": [],
+    "admitted_to_colour_profile": true,
+    "source_evidence": "evidence/native-room21/Room_rmForest12E_Create.asm"
+  },
+  {
+    "room": 47,
+    "name": "rmForest12F",
+    "call_address": "0x782365",
+    "function": "__Z27gml_Room_rmForest12F_CreateP9CInstanceS0_",
+    "argument": [
+      5.0
+    ],
+    "dominates_all_normal_returns": true,
+    "normal_returns": [
+      "0x7824b1"
+    ],
+    "unresolved_extra_scripts": [],
+    "admitted_to_colour_profile": true,
+    "source_evidence": "evidence/native-room21/Room_rmForest12F_Create.asm"
+  },
+  {
+    "room": 54,
+    "name": "rmForest18",
+    "call_address": "0x7862f9",
+    "function": "__Z26gml_Room_rmForest18_CreateP9CInstanceS0_",
+    "argument": [
+      5.0
+    ],
+    "dominates_all_normal_returns": true,
+    "normal_returns": [
+      "0x786618"
+    ],
+    "unresolved_extra_scripts": [
+      "CreateAreaNameDisplay"
+    ],
+    "admitted_to_colour_profile": false,
+    "source_evidence": "evidence/native-room21/Room_rmForest18_Create.asm"
+  }
+]

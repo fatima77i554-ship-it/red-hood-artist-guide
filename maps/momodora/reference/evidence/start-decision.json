@@ -1,0 +1,43 @@
+{
+  "selected_production_start": 21,
+  "initial_system_room": 11,
+  "first_reference_room": 22,
+  "start_basis": "newGame raw ASM room_goto argument double11 (0x40260000); oIntroCutscene.Step room_goto argument double21 (0x40350000) written to %esi RValue before legacy call at0x3020cb. Source v4 explorer.gd line82 independently opens21. Conservative tracer missed pointer-alias argument; raw data-flow manually inspected. Debug branch goto63 not treated as normal start.",
+  "evidence": [
+    "start-native.asm",
+    "start-native-conservative-trace.json"
+  ],
+  "static_asset_ids": [
+    "BG00",
+    "BG01",
+    "BG02",
+    "BG03",
+    "M335",
+    "T15_112_112_16_16",
+    "T15_112_128_16_16",
+    "T15_112_32_16_16",
+    "T15_16_144_64_48",
+    "T15_32_112_48_16",
+    "T15_48_32_16_16",
+    "T15_48_32_32_16",
+    "T15_64_256_16_16",
+    "T15_64_256_32_16",
+    "T15_64_32_16_16",
+    "T15_64_48_16_16",
+    "T15_64_48_48_32",
+    "T15_80_112_16_16",
+    "T15_80_160_16_16",
+    "T15_80_32_16_16",
+    "T15_80_48_16_16",
+    "T15_80_64_16_16",
+    "T15_96_112_16_16",
+    "T15_96_160_16_16",
+    "T15_96_32_16_16",
+    "T15_96_64_16_16"
+  ],
+  "visual_review": "reviewed",
+  "reviewed_images": [
+    "start-021-static-gallery.png",
+    "start-021-overlay.png"
+  ]
+}

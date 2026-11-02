@@ -1,0 +1,33 @@
+{
+  "canvases": [
+    {
+      "id": "NATIVE_R21_PARALLAX736",
+      "nonempty": true
+    },
+    {
+      "id": "NATIVE_R21_GRASS591",
+      "nonempty": true
+    },
+    {
+      "id": "NATIVE_R21_FLOWER589",
+      "nonempty": true
+    },
+    {
+      "id": "NATIVE_R21_PARTICLE754",
+      "nonempty": true
+    },
+    {
+      "id": "NATIVE_R21_PARTICLE755",
+      "nonempty": true
+    },
+    {
+      "id": "NATIVE_R21_LEAF756",
+      "nonempty": true
+    }
+  ],
+  "phases": 12,
+  "animation": true,
+  "mask_overlay": true,
+  "errors": [],
+  "completed_at": "2026-11-01T20:48:29.797Z"
+}

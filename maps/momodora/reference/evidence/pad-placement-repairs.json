@@ -1,0 +1,266 @@
+{
+  "schema": 1,
+  "placements": [
+    {
+      "id": "PLACEMENT_PAD_105818",
+      "category": "reviewed_gameplay_placement_repair",
+      "status": "verified",
+      "room": 262,
+      "room_name": "rmCastle26",
+      "instance_id": 105818,
+      "asset": "MECH_494",
+      "source_binding": {
+        "x": 120,
+        "y": 240,
+        "object": 360,
+        "instance_id": 105818,
+        "creation_code": -1,
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "color": 4294967295,
+        "rotation": 0.0,
+        "kind": "jump_pad",
+        "native_impulse": 4.75,
+        "bounce_gravity": 540.0,
+        "cooldown_ticks": 20,
+        "route_source": "oJumpPad Collision: sprite_index==494 → -4.75, otherwise -8; player gravity .15 / native tick²",
+        "asset": "MECH_494",
+        "source_room": 262
+      },
+      "position": [
+        136,
+        208
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "pivot": [
+        8,
+        16
+      ],
+      "source_frames": [
+        {
+          "frame": 0,
+          "path": "res://assets/mechanisms/494_00.png",
+          "source_tpag": {
+            "source_x": 158,
+            "source_y": 86,
+            "source_w": 16,
+            "source_h": 16,
+            "target_x": 0,
+            "target_y": 0,
+            "target_w": 16,
+            "target_h": 16,
+            "bound_w": 16,
+            "bound_h": 16,
+            "page": 4
+          },
+          "sha256_pixels": "9c101cfcae84128b56ce3e13117c640117447eaec514123e85d9c69abfebddcb"
+        },
+        {
+          "frame": 1,
+          "path": "res://assets/mechanisms/494_01.png",
+          "source_tpag": {
+            "source_x": 158,
+            "source_y": 86,
+            "source_w": 16,
+            "source_h": 16,
+            "target_x": 0,
+            "target_y": 0,
+            "target_w": 16,
+            "target_h": 16,
+            "bound_w": 16,
+            "bound_h": 16,
+            "page": 4
+          },
+          "sha256_pixels": "9c101cfcae84128b56ce3e13117c640117447eaec514123e85d9c69abfebddcb"
+        }
+      ],
+      "animation": {
+        "type": "frame_sequence",
+        "frames": [
+          0,
+          1
+        ],
+        "fps": 60,
+        "states": [
+          "idle",
+          "bounce_cooldown"
+        ],
+        "playback": "Pad uses author 2 frames with a 20-tick cooldown; visual timing is prototype configuration. Bars: discrete state. Static textures translate/rotate with parent only."
+      },
+      "states": [
+        "idle",
+        "bounce"
+      ],
+      "collision": {
+        "type": "trigger_exact_source_mask",
+        "mask_sprite_id": 494,
+        "mask_hex": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+        "row_rectangles": [
+          [
+            0,
+            0,
+            16,
+            1
+          ],
+          [
+            0,
+            1,
+            16,
+            1
+          ],
+          [
+            0,
+            2,
+            16,
+            1
+          ],
+          [
+            0,
+            3,
+            16,
+            1
+          ],
+          [
+            0,
+            4,
+            16,
+            1
+          ],
+          [
+            0,
+            5,
+            16,
+            1
+          ],
+          [
+            0,
+            6,
+            16,
+            1
+          ],
+          [
+            0,
+            7,
+            16,
+            1
+          ],
+          [
+            0,
+            8,
+            16,
+            1
+          ],
+          [
+            0,
+            9,
+            16,
+            1
+          ],
+          [
+            0,
+            10,
+            16,
+            1
+          ],
+          [
+            0,
+            11,
+            16,
+            1
+          ],
+          [
+            0,
+            12,
+            16,
+            1
+          ],
+          [
+            0,
+            13,
+            16,
+            1
+          ],
+          [
+            0,
+            14,
+            16,
+            1
+          ],
+          [
+            0,
+            15,
+            16,
+            1
+          ]
+        ],
+        "physics_layer": 16,
+        "binding": "OBJT sprite mask",
+        "one_way": false
+      },
+      "hitbox": {
+        "type": "none",
+        "reason": "no combat"
+      },
+      "vfx": {
+        "type": "none_in_this_traversal_build",
+        "bindings": [],
+        "source_effects": "Native palette swap / elastic squash on pad, screen shake on lift stop and sounds are known; excluded from traversal implementation, not classified as absent in source."
+      },
+      "support": {
+        "source_instance": 105819,
+        "asset": "M335",
+        "edge_from": [
+          128,
+          208
+        ],
+        "edge_to": [
+          144,
+          208
+        ],
+        "sprite_base_from": [
+          128,
+          208
+        ],
+        "sprite_base_to": [
+          144,
+          208
+        ]
+      },
+      "player_clearance": {
+        "body_asset": "KAHO_BODY",
+        "size": [
+          14,
+          29
+        ],
+        "entry_feet": [
+          136,
+          194
+        ],
+        "expected_launch_speed": 285,
+        "gravity": 540,
+        "expected_free_rise": 72.54
+      },
+      "placement": {
+        "surface": "top of source solid 105819; pad base fully supported",
+        "layer": "source mechanism layer 40; original room tiles unchanged",
+        "neighbors": "source ceiling y64; adjacent floor y224 on right; source one-way and ladder unchanged",
+        "restrictions": "only room262/source instance105818; exact unit scale and existing sprite pivot; no collision carving, no duplicate pad, no changes to room151 or staff roll"
+      },
+      "reason": "Move source pad out of the 16px cavity onto its adjacent existing solid; clear approach and launch arc",
+      "validation": {
+        "crop": "reuse verified MECH_494 exact source frames without changes",
+        "gallery": "qa/pad-repair-candidate.png",
+        "physics": "Godot4.6.2: 7 route checks passed; approach, launch, 68.25px clear rise and landing, right transition to265, reverse launch and left transition to248, real R reset",
+        "gallery_review": "Existing MECH_494 source frames were both verified in mechanism-gallery before this task. Proposed placement inspected in real Godot pad-repair-candidate-01.png before runtime edit: exact trigger cyan, pivot magenta, base support yellow on source solid105819.",
+        "geometry_checks": {
+          "trigger_clear": true,
+          "base_fully_supported": true,
+          "standing_mask_clear_at_launch_and_apex": true
+        }
+      }
+    }
+  ]
+}

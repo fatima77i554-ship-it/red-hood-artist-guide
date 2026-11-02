@@ -1,0 +1,2688 @@
+{
+  "id": "BIOME_08",
+  "name_ru": "Карстский дворец",
+  "pixel_size": [
+    7680,
+    3600
+  ],
+  "world_origin_px": [
+    16640,
+    240
+  ],
+  "world_rect_px": [
+    16640,
+    240,
+    7680,
+    3600
+  ],
+  "scale": 1,
+  "unit": "1 game pixel = 1 PNG pixel",
+  "rect_convention": "x,y,width,height half-open",
+  "outside_group": "RGBA transparent; holes and source cell spacing retained",
+  "visual_scope": "verified static source reference, not full native gameplay. Frore scr_world_swap(16)/VFX not rendered. No default actor frames baked.",
+  "layers": {
+    "static": "static.png",
+    "diagnostic_markers": "markers.png",
+    "static_with_markers": "annotated.png",
+    "preview_1_8": "preview.png"
+  },
+  "sections": [
+    {
+      "id": "ROOM_231_S001",
+      "room": 231,
+      "world_cell": [
+        61,
+        1
+      ],
+      "world_px": [
+        19520,
+        240
+      ],
+      "png_rect": [
+        2880,
+        0,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_231_S001.png"
+    },
+    {
+      "id": "ROOM_232_S001",
+      "room": 232,
+      "world_cell": [
+        62,
+        1
+      ],
+      "world_px": [
+        19840,
+        240
+      ],
+      "png_rect": [
+        3200,
+        0,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_232_S001.png"
+    },
+    {
+      "id": "ROOM_232_S002",
+      "room": 232,
+      "world_cell": [
+        63,
+        1
+      ],
+      "world_px": [
+        20160,
+        240
+      ],
+      "png_rect": [
+        3520,
+        0,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_232_S002.png"
+    },
+    {
+      "id": "ROOM_232_S003",
+      "room": 232,
+      "world_cell": [
+        64,
+        1
+      ],
+      "world_px": [
+        20480,
+        240
+      ],
+      "png_rect": [
+        3840,
+        0,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_232_S003.png"
+    },
+    {
+      "id": "ROOM_234_S001",
+      "room": 234,
+      "world_cell": [
+        52,
+        13
+      ],
+      "world_px": [
+        16640,
+        3120
+      ],
+      "png_rect": [
+        0,
+        2880,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_234_S001.png"
+    },
+    {
+      "id": "ROOM_234_S002",
+      "room": 234,
+      "world_cell": [
+        52,
+        14
+      ],
+      "world_px": [
+        16640,
+        3360
+      ],
+      "png_rect": [
+        0,
+        3120,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_234_S002.png"
+    },
+    {
+      "id": "ROOM_235_S001",
+      "room": 235,
+      "world_cell": [
+        52,
+        15
+      ],
+      "world_px": [
+        16640,
+        3600
+      ],
+      "png_rect": [
+        0,
+        3360,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_235_S001.png"
+    },
+    {
+      "id": "ROOM_236_S001",
+      "room": 236,
+      "world_cell": [
+        53,
+        15
+      ],
+      "world_px": [
+        16960,
+        3600
+      ],
+      "png_rect": [
+        320,
+        3360,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_236_S001.png"
+    },
+    {
+      "id": "ROOM_236_S002",
+      "room": 236,
+      "world_cell": [
+        54,
+        15
+      ],
+      "world_px": [
+        17280,
+        3600
+      ],
+      "png_rect": [
+        640,
+        3360,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_236_S002.png"
+    },
+    {
+      "id": "ROOM_237_S001",
+      "room": 237,
+      "world_cell": [
+        55,
+        15
+      ],
+      "world_px": [
+        17600,
+        3600
+      ],
+      "png_rect": [
+        960,
+        3360,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_237_S001.png"
+    },
+    {
+      "id": "ROOM_237_S002",
+      "room": 237,
+      "world_cell": [
+        56,
+        15
+      ],
+      "world_px": [
+        17920,
+        3600
+      ],
+      "png_rect": [
+        1280,
+        3360,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_237_S002.png"
+    },
+    {
+      "id": "ROOM_238_S001",
+      "room": 238,
+      "world_cell": [
+        56,
+        13
+      ],
+      "world_px": [
+        17920,
+        3120
+      ],
+      "png_rect": [
+        1280,
+        2880,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_238_S001.png"
+    },
+    {
+      "id": "ROOM_238_S002",
+      "room": 238,
+      "world_cell": [
+        56,
+        14
+      ],
+      "world_px": [
+        17920,
+        3360
+      ],
+      "png_rect": [
+        1280,
+        3120,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_238_S002.png"
+    },
+    {
+      "id": "ROOM_239_S001",
+      "room": 239,
+      "world_cell": [
+        55,
+        12
+      ],
+      "world_px": [
+        17600,
+        2880
+      ],
+      "png_rect": [
+        960,
+        2640,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_239_S001.png"
+    },
+    {
+      "id": "ROOM_239_S002",
+      "room": 239,
+      "world_cell": [
+        56,
+        12
+      ],
+      "world_px": [
+        17920,
+        2880
+      ],
+      "png_rect": [
+        1280,
+        2640,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_239_S002.png"
+    },
+    {
+      "id": "ROOM_240_S001",
+      "room": 240,
+      "world_cell": [
+        57,
+        12
+      ],
+      "world_px": [
+        18240,
+        2880
+      ],
+      "png_rect": [
+        1600,
+        2640,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_240_S001.png"
+    },
+    {
+      "id": "ROOM_240_S002",
+      "room": 240,
+      "world_cell": [
+        58,
+        12
+      ],
+      "world_px": [
+        18560,
+        2880
+      ],
+      "png_rect": [
+        1920,
+        2640,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_240_S002.png"
+    },
+    {
+      "id": "ROOM_241_S001",
+      "room": 241,
+      "world_cell": [
+        58,
+        11
+      ],
+      "world_px": [
+        18560,
+        2640
+      ],
+      "png_rect": [
+        1920,
+        2400,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_241_S001.png"
+    },
+    {
+      "id": "ROOM_242_S001",
+      "room": 242,
+      "world_cell": [
+        59,
+        12
+      ],
+      "world_px": [
+        18880,
+        2880
+      ],
+      "png_rect": [
+        2240,
+        2640,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_242_S001.png"
+    },
+    {
+      "id": "ROOM_242_S002",
+      "room": 242,
+      "world_cell": [
+        60,
+        12
+      ],
+      "world_px": [
+        19200,
+        2880
+      ],
+      "png_rect": [
+        2560,
+        2640,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_242_S002.png"
+    },
+    {
+      "id": "ROOM_243_S001",
+      "room": 243,
+      "world_cell": [
+        62,
+        7
+      ],
+      "world_px": [
+        19840,
+        1680
+      ],
+      "png_rect": [
+        3200,
+        1440,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_243_S001.png"
+    },
+    {
+      "id": "ROOM_243_S002",
+      "room": 243,
+      "world_cell": [
+        63,
+        7
+      ],
+      "world_px": [
+        20160,
+        1680
+      ],
+      "png_rect": [
+        3520,
+        1440,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_243_S002.png"
+    },
+    {
+      "id": "ROOM_243_S003",
+      "room": 243,
+      "world_cell": [
+        64,
+        7
+      ],
+      "world_px": [
+        20480,
+        1680
+      ],
+      "png_rect": [
+        3840,
+        1440,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_243_S003.png"
+    },
+    {
+      "id": "ROOM_243_S004",
+      "room": 243,
+      "world_cell": [
+        65,
+        7
+      ],
+      "world_px": [
+        20800,
+        1680
+      ],
+      "png_rect": [
+        4160,
+        1440,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_243_S004.png"
+    },
+    {
+      "id": "ROOM_243_S005",
+      "room": 243,
+      "world_cell": [
+        66,
+        7
+      ],
+      "world_px": [
+        21120,
+        1680
+      ],
+      "png_rect": [
+        4480,
+        1440,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_243_S005.png"
+    },
+    {
+      "id": "ROOM_244_S001",
+      "room": 244,
+      "world_cell": [
+        67,
+        7
+      ],
+      "world_px": [
+        21440,
+        1680
+      ],
+      "png_rect": [
+        4800,
+        1440,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_244_S001.png"
+    },
+    {
+      "id": "ROOM_244_S002",
+      "room": 244,
+      "world_cell": [
+        68,
+        7
+      ],
+      "world_px": [
+        21760,
+        1680
+      ],
+      "png_rect": [
+        5120,
+        1440,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_244_S002.png"
+    },
+    {
+      "id": "ROOM_244_S003",
+      "room": 244,
+      "world_cell": [
+        69,
+        7
+      ],
+      "world_px": [
+        22080,
+        1680
+      ],
+      "png_rect": [
+        5440,
+        1440,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_244_S003.png"
+    },
+    {
+      "id": "ROOM_245_S001",
+      "room": 245,
+      "world_cell": [
+        70,
+        7
+      ],
+      "world_px": [
+        22400,
+        1680
+      ],
+      "png_rect": [
+        5760,
+        1440,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_245_S001.png"
+    },
+    {
+      "id": "ROOM_246_S001",
+      "room": 246,
+      "world_cell": [
+        69,
+        8
+      ],
+      "world_px": [
+        22080,
+        1920
+      ],
+      "png_rect": [
+        5440,
+        1680,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_246_S001.png"
+    },
+    {
+      "id": "ROOM_247_S001",
+      "room": 247,
+      "world_cell": [
+        61,
+        11
+      ],
+      "world_px": [
+        19520,
+        2640
+      ],
+      "png_rect": [
+        2880,
+        2400,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_247_S001.png"
+    },
+    {
+      "id": "ROOM_247_S002",
+      "room": 247,
+      "world_cell": [
+        61,
+        12
+      ],
+      "world_px": [
+        19520,
+        2880
+      ],
+      "png_rect": [
+        2880,
+        2640,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_247_S002.png"
+    },
+    {
+      "id": "ROOM_248_S001",
+      "room": 248,
+      "world_cell": [
+        62,
+        11
+      ],
+      "world_px": [
+        19840,
+        2640
+      ],
+      "png_rect": [
+        3200,
+        2400,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_248_S001.png"
+    },
+    {
+      "id": "ROOM_248_S002",
+      "room": 248,
+      "world_cell": [
+        63,
+        11
+      ],
+      "world_px": [
+        20160,
+        2640
+      ],
+      "png_rect": [
+        3520,
+        2400,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_248_S002.png"
+    },
+    {
+      "id": "ROOM_248_S003",
+      "room": 248,
+      "world_cell": [
+        64,
+        11
+      ],
+      "world_px": [
+        20480,
+        2640
+      ],
+      "png_rect": [
+        3840,
+        2400,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_248_S003.png"
+    },
+    {
+      "id": "ROOM_248_S004",
+      "room": 248,
+      "world_cell": [
+        65,
+        11
+      ],
+      "world_px": [
+        20800,
+        2640
+      ],
+      "png_rect": [
+        4160,
+        2400,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_248_S004.png"
+    },
+    {
+      "id": "ROOM_248_S005",
+      "room": 248,
+      "world_cell": [
+        66,
+        11
+      ],
+      "world_px": [
+        21120,
+        2640
+      ],
+      "png_rect": [
+        4480,
+        2400,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_248_S005.png"
+    },
+    {
+      "id": "ROOM_249_S001",
+      "room": 249,
+      "world_cell": [
+        58,
+        10
+      ],
+      "world_px": [
+        18560,
+        2400
+      ],
+      "png_rect": [
+        1920,
+        2160,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_249_S001.png"
+    },
+    {
+      "id": "ROOM_249_S002",
+      "room": 249,
+      "world_cell": [
+        59,
+        10
+      ],
+      "world_px": [
+        18880,
+        2400
+      ],
+      "png_rect": [
+        2240,
+        2160,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_249_S002.png"
+    },
+    {
+      "id": "ROOM_250_S001",
+      "room": 250,
+      "world_cell": [
+        58,
+        9
+      ],
+      "world_px": [
+        18560,
+        2160
+      ],
+      "png_rect": [
+        1920,
+        1920,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_250_S001.png"
+    },
+    {
+      "id": "ROOM_250_S002",
+      "room": 250,
+      "world_cell": [
+        59,
+        9
+      ],
+      "world_px": [
+        18880,
+        2160
+      ],
+      "png_rect": [
+        2240,
+        1920,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_250_S002.png"
+    },
+    {
+      "id": "ROOM_251_S001",
+      "room": 251,
+      "world_cell": [
+        58,
+        8
+      ],
+      "world_px": [
+        18560,
+        1920
+      ],
+      "png_rect": [
+        1920,
+        1680,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_251_S001.png"
+    },
+    {
+      "id": "ROOM_252_S001",
+      "room": 252,
+      "world_cell": [
+        58,
+        7
+      ],
+      "world_px": [
+        18560,
+        1680
+      ],
+      "png_rect": [
+        1920,
+        1440,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_252_S001.png"
+    },
+    {
+      "id": "ROOM_252_S002",
+      "room": 252,
+      "world_cell": [
+        59,
+        7
+      ],
+      "world_px": [
+        18880,
+        1680
+      ],
+      "png_rect": [
+        2240,
+        1440,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_252_S002.png"
+    },
+    {
+      "id": "ROOM_252_S003",
+      "room": 252,
+      "world_cell": [
+        60,
+        7
+      ],
+      "world_px": [
+        19200,
+        1680
+      ],
+      "png_rect": [
+        2560,
+        1440,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_252_S003.png"
+    },
+    {
+      "id": "ROOM_253_S001",
+      "room": 253,
+      "world_cell": [
+        61,
+        7
+      ],
+      "world_px": [
+        19520,
+        1680
+      ],
+      "png_rect": [
+        2880,
+        1440,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_253_S001.png"
+    },
+    {
+      "id": "ROOM_253_S002",
+      "room": 253,
+      "world_cell": [
+        61,
+        8
+      ],
+      "world_px": [
+        19520,
+        1920
+      ],
+      "png_rect": [
+        2880,
+        1680,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_253_S002.png"
+    },
+    {
+      "id": "ROOM_254_S001",
+      "room": 254,
+      "world_cell": [
+        61,
+        9
+      ],
+      "world_px": [
+        19520,
+        2160
+      ],
+      "png_rect": [
+        2880,
+        1920,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_254_S001.png"
+    },
+    {
+      "id": "ROOM_254_S002",
+      "room": 254,
+      "world_cell": [
+        61,
+        10
+      ],
+      "world_px": [
+        19520,
+        2400
+      ],
+      "png_rect": [
+        2880,
+        2160,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_254_S002.png"
+    },
+    {
+      "id": "ROOM_255_S001",
+      "room": 255,
+      "world_cell": [
+        61,
+        6
+      ],
+      "world_px": [
+        19520,
+        1440
+      ],
+      "png_rect": [
+        2880,
+        1200,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_255_S001.png"
+    },
+    {
+      "id": "ROOM_255_S002",
+      "room": 255,
+      "world_cell": [
+        62,
+        6
+      ],
+      "world_px": [
+        19840,
+        1440
+      ],
+      "png_rect": [
+        3200,
+        1200,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_255_S002.png"
+    },
+    {
+      "id": "ROOM_256_S001",
+      "room": 256,
+      "world_cell": [
+        59,
+        6
+      ],
+      "world_px": [
+        18880,
+        1440
+      ],
+      "png_rect": [
+        2240,
+        1200,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_256_S001.png"
+    },
+    {
+      "id": "ROOM_256_S002",
+      "room": 256,
+      "world_cell": [
+        60,
+        6
+      ],
+      "world_px": [
+        19200,
+        1440
+      ],
+      "png_rect": [
+        2560,
+        1200,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_256_S002.png"
+    },
+    {
+      "id": "ROOM_257_S001",
+      "room": 257,
+      "world_cell": [
+        58,
+        6
+      ],
+      "world_px": [
+        18560,
+        1440
+      ],
+      "png_rect": [
+        1920,
+        1200,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_257_S001.png"
+    },
+    {
+      "id": "ROOM_258_S001",
+      "room": 258,
+      "world_cell": [
+        58,
+        1
+      ],
+      "world_px": [
+        18560,
+        240
+      ],
+      "png_rect": [
+        1920,
+        0,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_258_S001.png"
+    },
+    {
+      "id": "ROOM_258_S002",
+      "room": 258,
+      "world_cell": [
+        58,
+        2
+      ],
+      "world_px": [
+        18560,
+        480
+      ],
+      "png_rect": [
+        1920,
+        240,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_258_S002.png"
+    },
+    {
+      "id": "ROOM_258_S003",
+      "room": 258,
+      "world_cell": [
+        58,
+        3
+      ],
+      "world_px": [
+        18560,
+        720
+      ],
+      "png_rect": [
+        1920,
+        480,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_258_S003.png"
+    },
+    {
+      "id": "ROOM_258_S004",
+      "room": 258,
+      "world_cell": [
+        58,
+        4
+      ],
+      "world_px": [
+        18560,
+        960
+      ],
+      "png_rect": [
+        1920,
+        720,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_258_S004.png"
+    },
+    {
+      "id": "ROOM_258_S005",
+      "room": 258,
+      "world_cell": [
+        58,
+        5
+      ],
+      "world_px": [
+        18560,
+        1200
+      ],
+      "png_rect": [
+        1920,
+        960,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_258_S005.png"
+    },
+    {
+      "id": "ROOM_259_S001",
+      "room": 259,
+      "world_cell": [
+        67,
+        9
+      ],
+      "world_px": [
+        21440,
+        2160
+      ],
+      "png_rect": [
+        4800,
+        1920,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_259_S001.png"
+    },
+    {
+      "id": "ROOM_260_S001",
+      "room": 260,
+      "world_cell": [
+        59,
+        1
+      ],
+      "world_px": [
+        18880,
+        240
+      ],
+      "png_rect": [
+        2240,
+        0,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_260_S001.png"
+    },
+    {
+      "id": "ROOM_260_S002",
+      "room": 260,
+      "world_cell": [
+        60,
+        1
+      ],
+      "world_px": [
+        19200,
+        240
+      ],
+      "png_rect": [
+        2560,
+        0,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_260_S002.png"
+    },
+    {
+      "id": "ROOM_261_S001",
+      "room": 261,
+      "world_cell": [
+        71,
+        7
+      ],
+      "world_px": [
+        22720,
+        1680
+      ],
+      "png_rect": [
+        6080,
+        1440,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_261_S001.png"
+    },
+    {
+      "id": "ROOM_261_S002",
+      "room": 261,
+      "world_cell": [
+        71,
+        8
+      ],
+      "world_px": [
+        22720,
+        1920
+      ],
+      "png_rect": [
+        6080,
+        1680,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_261_S002.png"
+    },
+    {
+      "id": "ROOM_261_S003",
+      "room": 261,
+      "world_cell": [
+        71,
+        9
+      ],
+      "world_px": [
+        22720,
+        2160
+      ],
+      "png_rect": [
+        6080,
+        1920,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_261_S003.png"
+    },
+    {
+      "id": "ROOM_262_S001",
+      "room": 262,
+      "world_cell": [
+        67,
+        11
+      ],
+      "world_px": [
+        21440,
+        2640
+      ],
+      "png_rect": [
+        4800,
+        2400,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_262_S001.png"
+    },
+    {
+      "id": "ROOM_262_S002",
+      "room": 262,
+      "world_cell": [
+        68,
+        11
+      ],
+      "world_px": [
+        21760,
+        2640
+      ],
+      "png_rect": [
+        5120,
+        2400,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_262_S002.png"
+    },
+    {
+      "id": "ROOM_262_S003",
+      "room": 262,
+      "world_cell": [
+        69,
+        11
+      ],
+      "world_px": [
+        22080,
+        2640
+      ],
+      "png_rect": [
+        5440,
+        2400,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_262_S003.png"
+    },
+    {
+      "id": "ROOM_263_S001",
+      "room": 263,
+      "world_cell": [
+        67,
+        12
+      ],
+      "world_px": [
+        21440,
+        2880
+      ],
+      "png_rect": [
+        4800,
+        2640,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_263_S001.png"
+    },
+    {
+      "id": "ROOM_264_S001",
+      "room": 264,
+      "world_cell": [
+        68,
+        12
+      ],
+      "world_px": [
+        21760,
+        2880
+      ],
+      "png_rect": [
+        5120,
+        2640,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_264_S001.png"
+    },
+    {
+      "id": "ROOM_264_S002",
+      "room": 264,
+      "world_cell": [
+        69,
+        12
+      ],
+      "world_px": [
+        22080,
+        2880
+      ],
+      "png_rect": [
+        5440,
+        2640,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_264_S002.png"
+    },
+    {
+      "id": "ROOM_265_S001",
+      "room": 265,
+      "world_cell": [
+        70,
+        11
+      ],
+      "world_px": [
+        22400,
+        2640
+      ],
+      "png_rect": [
+        5760,
+        2400,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_265_S001.png"
+    },
+    {
+      "id": "ROOM_265_S002",
+      "room": 265,
+      "world_cell": [
+        71,
+        11
+      ],
+      "world_px": [
+        22720,
+        2640
+      ],
+      "png_rect": [
+        6080,
+        2400,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_265_S002.png"
+    },
+    {
+      "id": "ROOM_266_S001",
+      "room": 266,
+      "world_cell": [
+        72,
+        11
+      ],
+      "world_px": [
+        23040,
+        2640
+      ],
+      "png_rect": [
+        6400,
+        2400,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_266_S001.png"
+    },
+    {
+      "id": "ROOM_266_S002",
+      "room": 266,
+      "world_cell": [
+        73,
+        11
+      ],
+      "world_px": [
+        23360,
+        2640
+      ],
+      "png_rect": [
+        6720,
+        2400,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_266_S002.png"
+    },
+    {
+      "id": "ROOM_267_S001",
+      "room": 267,
+      "world_cell": [
+        73,
+        12
+      ],
+      "world_px": [
+        23360,
+        2880
+      ],
+      "png_rect": [
+        6720,
+        2640,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_267_S001.png"
+    },
+    {
+      "id": "ROOM_268_S001",
+      "room": 268,
+      "world_cell": [
+        73,
+        13
+      ],
+      "world_px": [
+        23360,
+        3120
+      ],
+      "png_rect": [
+        6720,
+        2880,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_268_S001.png"
+    },
+    {
+      "id": "ROOM_269_S001",
+      "room": 269,
+      "world_cell": [
+        72,
+        13
+      ],
+      "world_px": [
+        23040,
+        3120
+      ],
+      "png_rect": [
+        6400,
+        2880,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_269_S001.png"
+    },
+    {
+      "id": "ROOM_270_S001",
+      "room": 270,
+      "world_cell": [
+        74,
+        13
+      ],
+      "world_px": [
+        23680,
+        3120
+      ],
+      "png_rect": [
+        7040,
+        2880,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_270_S001.png"
+    },
+    {
+      "id": "ROOM_270_S002",
+      "room": 270,
+      "world_cell": [
+        75,
+        13
+      ],
+      "world_px": [
+        24000,
+        3120
+      ],
+      "png_rect": [
+        7360,
+        2880,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_270_S002.png"
+    },
+    {
+      "id": "ROOM_271_S001",
+      "room": 271,
+      "world_cell": [
+        69,
+        10
+      ],
+      "world_px": [
+        22080,
+        2400
+      ],
+      "png_rect": [
+        5440,
+        2160,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_271_S001.png"
+    },
+    {
+      "id": "ROOM_271_S002",
+      "room": 271,
+      "world_cell": [
+        70,
+        10
+      ],
+      "world_px": [
+        22400,
+        2400
+      ],
+      "png_rect": [
+        5760,
+        2160,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_271_S002.png"
+    },
+    {
+      "id": "ROOM_272_S001",
+      "room": 272,
+      "world_cell": [
+        68,
+        9
+      ],
+      "world_px": [
+        21760,
+        2160
+      ],
+      "png_rect": [
+        5120,
+        1920,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_272_S001.png"
+    },
+    {
+      "id": "ROOM_272_S002",
+      "room": 272,
+      "world_cell": [
+        69,
+        9
+      ],
+      "world_px": [
+        22080,
+        2160
+      ],
+      "png_rect": [
+        5440,
+        1920,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_272_S002.png"
+    },
+    {
+      "id": "ROOM_272_S003",
+      "room": 272,
+      "world_cell": [
+        70,
+        9
+      ],
+      "world_px": [
+        22400,
+        2160
+      ],
+      "png_rect": [
+        5760,
+        1920,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_272_S003.png"
+    }
+  ],
+  "marker_ids": [
+    "R231_I105119",
+    "R231_I105120",
+    "R231_I105121",
+    "R231_I105122",
+    "R231_I105123",
+    "R231_I105124",
+    "R231_I105125",
+    "R231_I105126",
+    "R231_I105127",
+    "R232_I105128",
+    "R232_I105129",
+    "R232_I105130",
+    "R232_I105131",
+    "R232_I105132",
+    "R232_I105133",
+    "R232_I105134",
+    "R232_I105135",
+    "R232_I105136",
+    "R234_I105144",
+    "R234_I105145",
+    "R234_I105146",
+    "R234_I105147",
+    "R234_I105148",
+    "R234_I105149",
+    "R234_I105150",
+    "R234_I105151",
+    "R234_I105152",
+    "R234_I105153",
+    "R234_I105154",
+    "R234_I105155",
+    "R234_I105156",
+    "R234_I105157",
+    "R234_I105158",
+    "R234_I105159",
+    "R234_I105160",
+    "R234_I105161",
+    "R234_I105162",
+    "R234_I105163",
+    "R235_I105164",
+    "R235_I105165",
+    "R235_I105166",
+    "R235_I105167",
+    "R235_I105168",
+    "R235_I105169",
+    "R235_I105170",
+    "R235_I105171",
+    "R235_I105172",
+    "R235_I105173",
+    "R235_I105174",
+    "R235_I105175",
+    "R235_I105176",
+    "R235_I105177",
+    "R235_I105178",
+    "R235_I105179",
+    "R235_I105180",
+    "R236_I105181",
+    "R236_I105182",
+    "R236_I105183",
+    "R236_I105184",
+    "R236_I105185",
+    "R236_I105186",
+    "R236_I105187",
+    "R236_I105188",
+    "R236_I105189",
+    "R236_I105190",
+    "R236_I105191",
+    "R236_I105192",
+    "R236_I105193",
+    "R236_I105194",
+    "R236_I105195",
+    "R237_I105196",
+    "R237_I105197",
+    "R237_I105198",
+    "R237_I105199",
+    "R237_I105200",
+    "R237_I105201",
+    "R237_I105202",
+    "R237_I105203",
+    "R237_I105204",
+    "R237_I105205",
+    "R237_I105206",
+    "R237_I105207",
+    "R237_I105208",
+    "R237_I105209",
+    "R237_I105210",
+    "R237_I105211",
+    "R237_I105212",
+    "R237_I105213",
+    "R237_I105214",
+    "R237_I105215",
+    "R237_I105216",
+    "R237_I105217",
+    "R237_I105218",
+    "R237_I105219",
+    "R238_I105220",
+    "R238_I105221",
+    "R238_I105222",
+    "R238_I105223",
+    "R238_I105224",
+    "R238_I105225",
+    "R238_I105226",
+    "R238_I105227",
+    "R238_I105228",
+    "R238_I105229",
+    "R238_I105230",
+    "R238_I105231",
+    "R238_I105232",
+    "R238_I105233",
+    "R238_I105234",
+    "R238_I105235",
+    "R238_I105236",
+    "R238_I105237",
+    "R238_I105238",
+    "R238_I105239",
+    "R238_I105240",
+    "R238_I105241",
+    "R238_I105242",
+    "R238_I105243",
+    "R238_I105244",
+    "R238_I105245",
+    "R239_I105246",
+    "R239_I105247",
+    "R239_I105248",
+    "R239_I105249",
+    "R239_I105250",
+    "R239_I105251",
+    "R239_I105252",
+    "R239_I105253",
+    "R239_I105254",
+    "R239_I105255",
+    "R239_I105256",
+    "R239_I105257",
+    "R239_I105258",
+    "R239_I105259",
+    "R239_I105260",
+    "R239_I105261",
+    "R239_I105262",
+    "R239_I105263",
+    "R239_I105264",
+    "R240_I105265",
+    "R240_I105266",
+    "R240_I105267",
+    "R240_I105268",
+    "R240_I105269",
+    "R240_I105270",
+    "R240_I105271",
+    "R240_I105272",
+    "R240_I105273",
+    "R240_I105274",
+    "R240_I105275",
+    "R240_I105276",
+    "R240_I105277",
+    "R240_I105278",
+    "R240_I105279",
+    "R240_I105280",
+    "R240_I105281",
+    "R240_I105282",
+    "R240_I105283",
+    "R240_I105284",
+    "R240_I105285",
+    "R240_I105286",
+    "R240_I105287",
+    "R240_I105288",
+    "R240_I105289",
+    "R240_I105290",
+    "R240_I105291",
+    "R240_I105292",
+    "R240_I105293",
+    "R240_I105294",
+    "R240_I105295",
+    "R240_I105296",
+    "R240_I105297",
+    "R240_I105298",
+    "R241_I105299",
+    "R241_I105300",
+    "R241_I105301",
+    "R241_I105302",
+    "R241_I105303",
+    "R241_I105304",
+    "R241_I105305",
+    "R241_I105306",
+    "R241_I105307",
+    "R241_I105308",
+    "R241_I105309",
+    "R241_I105310",
+    "R241_I105311",
+    "R241_I105312",
+    "R241_I105313",
+    "R241_I105314",
+    "R241_I105315",
+    "R241_I105316",
+    "R241_I105317",
+    "R241_I105318",
+    "R241_I105319",
+    "R241_I105320",
+    "R241_I105321",
+    "R241_I105322",
+    "R241_I105323",
+    "R241_I105324",
+    "R241_I105325",
+    "R241_I105326",
+    "R241_I105327",
+    "R241_I105328",
+    "R242_I105329",
+    "R242_I105330",
+    "R242_I105331",
+    "R242_I105332",
+    "R242_I105333",
+    "R242_I105334",
+    "R242_I105335",
+    "R242_I105336",
+    "R242_I105337",
+    "R242_I105338",
+    "R242_I105339",
+    "R242_I105340",
+    "R242_I105341",
+    "R242_I105342",
+    "R242_I105343",
+    "R242_I105344",
+    "R242_I105345",
+    "R242_I105346",
+    "R242_I105347",
+    "R243_I105348",
+    "R243_I105349",
+    "R243_I105350",
+    "R243_I105351",
+    "R243_I105352",
+    "R243_I105353",
+    "R243_I105354",
+    "R243_I105355",
+    "R243_I105356",
+    "R243_I105357",
+    "R243_I105358",
+    "R243_I105359",
+    "R243_I105360",
+    "R244_I105361",
+    "R244_I105362",
+    "R244_I105363",
+    "R244_I105364",
+    "R244_I105365",
+    "R244_I105366",
+    "R244_I105367",
+    "R244_I105368",
+    "R244_I105369",
+    "R244_I105370",
+    "R244_I105371",
+    "R244_I105372",
+    "R244_I105373",
+    "R244_I105374",
+    "R244_I105375",
+    "R244_I105376",
+    "R244_I105377",
+    "R244_I105378",
+    "R244_I105379",
+    "R244_I105380",
+    "R244_I105381",
+    "R244_I105382",
+    "R244_I105383",
+    "R244_I105384",
+    "R244_I105385",
+    "R244_I105386",
+    "R244_I105387",
+    "R244_I105388",
+    "R244_I105389",
+    "R244_I105390",
+    "R244_I105391",
+    "R244_I105392",
+    "R244_I105393",
+    "R244_I105394",
+    "R244_I105395",
+    "R244_I105396",
+    "R244_I105397",
+    "R244_I105398",
+    "R244_I105399",
+    "R244_I105400",
+    "R244_I105401",
+    "R244_I105402",
+    "R244_I105403",
+    "R244_I105404",
+    "R244_I105405",
+    "R244_I105406",
+    "R244_I105407",
+    "R244_I105408",
+    "R244_I105409",
+    "R245_I105410",
+    "R245_I105411",
+    "R245_I105412",
+    "R245_I105413",
+    "R245_I105414",
+    "R245_I105415",
+    "R245_I105416",
+    "R245_I105417",
+    "R245_I105418",
+    "R245_I105419",
+    "R245_I105420",
+    "R246_I105421",
+    "R246_I105422",
+    "R246_I105423",
+    "R246_I105424",
+    "R246_I105425",
+    "R246_I105426",
+    "R246_I105427",
+    "R246_I105428",
+    "R246_I105429",
+    "R246_I105430",
+    "R246_I105431",
+    "R246_I105432",
+    "R246_I105433",
+    "R246_I105434",
+    "R246_I105435",
+    "R246_I105436",
+    "R246_I105437",
+    "R246_I105438",
+    "R246_I105439",
+    "R246_I105440",
+    "R246_I105441",
+    "R246_I105442",
+    "R246_I105443",
+    "R247_I105444",
+    "R247_I105445",
+    "R247_I105446",
+    "R247_I105447",
+    "R247_I105448",
+    "R247_I105449",
+    "R247_I105450",
+    "R247_I105451",
+    "R247_I105452",
+    "R247_I105453",
+    "R247_I105454",
+    "R247_I105455",
+    "R247_I105456",
+    "R247_I105457",
+    "R247_I105458",
+    "R247_I105459",
+    "R247_I105460",
+    "R247_I105461",
+    "R247_I105462",
+    "R247_I105463",
+    "R248_I105464",
+    "R248_I105465",
+    "R248_I105466",
+    "R248_I105467",
+    "R248_I105468",
+    "R248_I105469",
+    "R248_I105470",
+    "R249_I105471",
+    "R249_I105472",
+    "R249_I105473",
+    "R249_I105474",
+    "R249_I105475",
+    "R249_I105476",
+    "R249_I105477",
+    "R249_I105478",
+    "R249_I105479",
+    "R249_I105480",
+    "R249_I105481",
+    "R249_I105482",
+    "R249_I105483",
+    "R249_I105484",
+    "R249_I105485",
+    "R249_I105486",
+    "R249_I105487",
+    "R249_I105488",
+    "R249_I105489",
+    "R249_I105490",
+    "R249_I105491",
+    "R249_I105492",
+    "R249_I105493",
+    "R249_I105494",
+    "R249_I105495",
+    "R249_I105496",
+    "R249_I105497",
+    "R249_I105498",
+    "R249_I105499",
+    "R249_I105500",
+    "R249_I105501",
+    "R249_I105502",
+    "R249_I105503",
+    "R249_I105504",
+    "R249_I105505",
+    "R249_I105506",
+    "R249_I105507",
+    "R250_I105508",
+    "R250_I105509",
+    "R250_I105510",
+    "R250_I105511",
+    "R250_I105512",
+    "R250_I105513",
+    "R250_I105514",
+    "R250_I105515",
+    "R250_I105516",
+    "R250_I105517",
+    "R250_I105518",
+    "R250_I105519",
+    "R250_I105520",
+    "R250_I105521",
+    "R250_I105522",
+    "R250_I105523",
+    "R250_I105524",
+    "R250_I105525",
+    "R250_I105526",
+    "R250_I105527",
+    "R250_I105528",
+    "R250_I105529",
+    "R250_I105530",
+    "R250_I105531",
+    "R250_I105532",
+    "R251_I105533",
+    "R251_I105534",
+    "R251_I105535",
+    "R251_I105536",
+    "R251_I105537",
+    "R251_I105538",
+    "R251_I105539",
+    "R251_I105540",
+    "R251_I105541",
+    "R251_I105542",
+    "R251_I105543",
+    "R251_I105544",
+    "R251_I105545",
+    "R251_I105546",
+    "R251_I105547",
+    "R251_I105548",
+    "R251_I105549",
+    "R251_I105550",
+    "R251_I105551",
+    "R251_I105552",
+    "R251_I105553",
+    "R251_I105554",
+    "R251_I105555",
+    "R251_I105556",
+    "R251_I105557",
+    "R251_I105558",
+    "R252_I105559",
+    "R252_I105560",
+    "R252_I105561",
+    "R252_I105562",
+    "R252_I105563",
+    "R252_I105564",
+    "R252_I105565",
+    "R252_I105566",
+    "R252_I105567",
+    "R252_I105568",
+    "R252_I105569",
+    "R252_I105570",
+    "R252_I105571",
+    "R252_I105572",
+    "R252_I105573",
+    "R252_I105574",
+    "R252_I105575",
+    "R252_I105576",
+    "R252_I105577",
+    "R252_I105578",
+    "R252_I105579",
+    "R252_I105580",
+    "R252_I105581",
+    "R252_I105582",
+    "R253_I105583",
+    "R253_I105584",
+    "R253_I105585",
+    "R253_I105586",
+    "R253_I105587",
+    "R253_I105588",
+    "R253_I105589",
+    "R253_I105590",
+    "R253_I105591",
+    "R253_I105592",
+    "R253_I105593",
+    "R253_I105594",
+    "R253_I105595",
+    "R253_I105596",
+    "R253_I105597",
+    "R253_I105598",
+    "R253_I105599",
+    "R253_I105600",
+    "R253_I105601",
+    "R253_I105602",
+    "R253_I105603",
+    "R253_I105604",
+    "R253_I105605",
+    "R253_I105606",
+    "R253_I105607",
+    "R253_I105608",
+    "R253_I105609",
+    "R253_I105610",
+    "R253_I105611",
+    "R253_I105612",
+    "R253_I105613",
+    "R254_I105614",
+    "R254_I105615",
+    "R254_I105616",
+    "R254_I105617",
+    "R254_I105618",
+    "R254_I105619",
+    "R254_I105620",
+    "R254_I105621",
+    "R254_I105622",
+    "R254_I105623",
+    "R254_I105624",
+    "R254_I105625",
+    "R254_I105626",
+    "R254_I105627",
+    "R254_I105628",
+    "R254_I105629",
+    "R254_I105630",
+    "R254_I105631",
+    "R254_I105632",
+    "R254_I105633",
+    "R254_I105634",
+    "R254_I105635",
+    "R254_I105636",
+    "R254_I105637",
+    "R254_I105638",
+    "R254_I105639",
+    "R255_I105640",
+    "R255_I105641",
+    "R255_I105642",
+    "R255_I105643",
+    "R255_I105644",
+    "R255_I105645",
+    "R255_I105646",
+    "R255_I105647",
+    "R255_I105648",
+    "R255_I105649",
+    "R255_I105650",
+    "R255_I105651",
+    "R255_I105652",
+    "R255_I105653",
+    "R255_I105654",
+    "R255_I105655",
+    "R255_I105656",
+    "R255_I105657",
+    "R255_I105658",
+    "R255_I105659",
+    "R255_I105660",
+    "R255_I105661",
+    "R255_I105662",
+    "R255_I105663",
+    "R255_I105664",
+    "R255_I105665",
+    "R255_I105666",
+    "R255_I105667",
+    "R255_I105668",
+    "R255_I105669",
+    "R255_I105670",
+    "R255_I105671",
+    "R255_I105672",
+    "R255_I105673",
+    "R255_I105674",
+    "R255_I105675",
+    "R255_I105676",
+    "R256_I105677",
+    "R256_I105678",
+    "R256_I105679",
+    "R256_I105680",
+    "R256_I105681",
+    "R256_I105682",
+    "R256_I105683",
+    "R256_I105684",
+    "R256_I105685",
+    "R256_I105686",
+    "R256_I105687",
+    "R256_I105688",
+    "R256_I105689",
+    "R256_I105690",
+    "R256_I105691",
+    "R256_I105692",
+    "R256_I105693",
+    "R256_I105694",
+    "R256_I105695",
+    "R256_I105696",
+    "R256_I105697",
+    "R257_I105698",
+    "R257_I105699",
+    "R257_I105700",
+    "R257_I105701",
+    "R257_I105702",
+    "R257_I105703",
+    "R257_I105704",
+    "R257_I105705",
+    "R257_I105706",
+    "R257_I105707",
+    "R257_I105708",
+    "R257_I105709",
+    "R257_I105710",
+    "R257_I105711",
+    "R258_I105712",
+    "R258_I105713",
+    "R258_I105714",
+    "R258_I105715",
+    "R258_I105716",
+    "R258_I105717",
+    "R258_I105718",
+    "R258_I105719",
+    "R258_I105720",
+    "R258_I105721",
+    "R258_I105722",
+    "R258_I105723",
+    "R258_I105724",
+    "R258_I105725",
+    "R258_I105726",
+    "R258_I105727",
+    "R258_I105728",
+    "R258_I105729",
+    "R258_I105730",
+    "R258_I105731",
+    "R258_I105732",
+    "R258_I105733",
+    "R258_I105734",
+    "R258_I105735",
+    "R258_I105736",
+    "R258_I105737",
+    "R258_I105738",
+    "R258_I105739",
+    "R258_I105740",
+    "R258_I105741",
+    "R259_I105742",
+    "R259_I105743",
+    "R259_I105744",
+    "R259_I105745",
+    "R259_I105746",
+    "R260_I105747",
+    "R260_I105748",
+    "R260_I105749",
+    "R260_I105750",
+    "R260_I105751",
+    "R260_I105752",
+    "R260_I105753",
+    "R260_I105754",
+    "R260_I105755",
+    "R260_I105756",
+    "R260_I105757",
+    "R260_I105758",
+    "R260_I105759",
+    "R260_I105760",
+    "R260_I105761",
+    "R260_I105762",
+    "R260_I105763",
+    "R260_I105764",
+    "R260_I105765",
+    "R260_I105766",
+    "R260_I105767",
+    "R260_I105768",
+    "R260_I105769",
+    "R260_I105770",
+    "R260_I105771",
+    "R260_I105772",
+    "R260_I105773",
+    "R261_I105774",
+    "R261_I105775",
+    "R261_I105776",
+    "R261_I105777",
+    "R261_I105778",
+    "R261_I105779",
+    "R261_I105780",
+    "R261_I105781",
+    "R261_I105782",
+    "R261_I105783",
+    "R261_I105784",
+    "R261_I105785",
+    "R261_I105786",
+    "R261_I105787",
+    "R261_I105788",
+    "R261_I105789",
+    "R261_I105790",
+    "R261_I105791",
+    "R261_I105792",
+    "R261_I105793",
+    "R261_I105794",
+    "R261_I105795",
+    "R261_I105796",
+    "R261_I105797",
+    "R261_I105798",
+    "R261_I105799",
+    "R261_I105800",
+    "R261_I105801",
+    "R261_I105802",
+    "R261_I105803",
+    "R261_I105804",
+    "R261_I105805",
+    "R261_I105806",
+    "R261_I105807",
+    "R261_I105808",
+    "R261_I105809",
+    "R261_I105810",
+    "R261_I105811",
+    "R261_I105812",
+    "R261_I105813",
+    "R262_I105814",
+    "R262_I105815",
+    "R262_I105816",
+    "R262_I105817",
+    "R262_I105818",
+    "R262_I105819",
+    "R262_I105820",
+    "R262_I105821",
+    "R262_I105822",
+    "R262_I105823",
+    "R262_I105824",
+    "R262_I105825",
+    "R262_I105826",
+    "R262_I105827",
+    "R262_I105828",
+    "R262_I105829",
+    "R262_I105830",
+    "R262_I105831",
+    "R262_I105832",
+    "R262_I105833",
+    "R262_I105834",
+    "R262_I105835",
+    "R262_I105836",
+    "R262_I105837",
+    "R262_I105838",
+    "R262_I105839",
+    "R262_I105840",
+    "R262_I105841",
+    "R262_I105842",
+    "R262_I105843",
+    "R262_I105844",
+    "R262_I105845",
+    "R262_I105846",
+    "R262_I105847",
+    "R262_I105848",
+    "R262_I105849",
+    "R262_I105850",
+    "R262_I105851",
+    "R262_I105852",
+    "R262_I105853",
+    "R262_I105854",
+    "R262_I105855",
+    "R262_I105856",
+    "R262_I105857",
+    "R262_I105858",
+    "R262_I105859",
+    "R263_I105860",
+    "R263_I105861",
+    "R263_I105862",
+    "R263_I105863",
+    "R263_I105864",
+    "R263_I105865",
+    "R263_I105866",
+    "R263_I105867",
+    "R263_I105868",
+    "R263_I105869",
+    "R263_I105870",
+    "R263_I105871",
+    "R263_I105872",
+    "R263_I105873",
+    "R263_I105874",
+    "R263_I105875",
+    "R263_I105876",
+    "R264_I105877",
+    "R264_I105878",
+    "R264_I105879",
+    "R264_I105880",
+    "R264_I105881",
+    "R264_I105882",
+    "R264_I105883",
+    "R264_I105884",
+    "R264_I105885",
+    "R264_I105886",
+    "R264_I105887",
+    "R264_I105888",
+    "R264_I105889",
+    "R264_I105890",
+    "R264_I105891",
+    "R264_I105892",
+    "R264_I105893",
+    "R264_I105894",
+    "R264_I105895",
+    "R264_I105896",
+    "R264_I105897",
+    "R264_I105898",
+    "R264_I105899",
+    "R264_I105900",
+    "R264_I105901",
+    "R264_I105902",
+    "R264_I105903",
+    "R264_I105904",
+    "R265_I105905",
+    "R265_I105906",
+    "R265_I105907",
+    "R265_I105908",
+    "R265_I105909",
+    "R265_I105910",
+    "R265_I105911",
+    "R265_I105912",
+    "R265_I105913",
+    "R265_I105914",
+    "R265_I105915",
+    "R265_I105916",
+    "R265_I105917",
+    "R265_I105918",
+    "R265_I105919",
+    "R265_I105920",
+    "R265_I105921",
+    "R265_I105922",
+    "R265_I105923",
+    "R265_I105924",
+    "R265_I105925",
+    "R265_I105926",
+    "R265_I105927",
+    "R265_I105928",
+    "R265_I105929",
+    "R265_I105930",
+    "R265_I105931",
+    "R265_I105932",
+    "R265_I105933",
+    "R265_I105934",
+    "R266_I105935",
+    "R266_I105936",
+    "R266_I105937",
+    "R266_I105938",
+    "R266_I105939",
+    "R266_I105940",
+    "R266_I105941",
+    "R266_I105942",
+    "R266_I105943",
+    "R266_I105944",
+    "R266_I105945",
+    "R266_I105946",
+    "R266_I105947",
+    "R266_I105948",
+    "R266_I105949",
+    "R266_I105950",
+    "R266_I105951",
+    "R266_I105952",
+    "R266_I105953",
+    "R266_I105954",
+    "R266_I105955",
+    "R266_I105956",
+    "R266_I105957",
+    "R266_I105958",
+    "R266_I105959",
+    "R266_I105960",
+    "R266_I105961",
+    "R266_I105962",
+    "R266_I105963",
+    "R267_I105964",
+    "R267_I105965",
+    "R267_I105966",
+    "R267_I105967",
+    "R267_I105968",
+    "R267_I105969",
+    "R267_I105970",
+    "R267_I105971",
+    "R267_I105972",
+    "R267_I105973",
+    "R267_I105974",
+    "R267_I105975",
+    "R267_I105976",
+    "R267_I105977",
+    "R267_I105978",
+    "R267_I105979",
+    "R267_I105980",
+    "R268_I105981",
+    "R268_I105982",
+    "R268_I105983",
+    "R268_I105984",
+    "R268_I105985",
+    "R268_I105986",
+    "R268_I105987",
+    "R268_I105988",
+    "R268_I105989",
+    "R268_I105990",
+    "R268_I105991",
+    "R268_I105992",
+    "R268_I105993",
+    "R268_I105994",
+    "R268_I105995",
+    "R268_I105996",
+    "R269_I105997",
+    "R269_I105998",
+    "R269_I105999",
+    "R269_I106000",
+    "R269_I106001",
+    "R269_I106002",
+    "R269_I106003",
+    "R269_I106004",
+    "R269_I106005",
+    "R270_I106006",
+    "R270_I106007",
+    "R270_I106008",
+    "R270_I106009",
+    "R270_I106010",
+    "R270_I106011",
+    "R270_I106012",
+    "R270_I106013",
+    "R270_I106014",
+    "R270_I106015",
+    "R270_I106016",
+    "R270_I106017",
+    "R270_I106018",
+    "R270_I106019",
+    "R270_I106020",
+    "R270_I106021",
+    "R270_I106022",
+    "R270_I106023",
+    "R270_I106024",
+    "R270_I106025",
+    "R271_I106026",
+    "R271_I106027",
+    "R271_I106028",
+    "R271_I106029",
+    "R271_I106030",
+    "R271_I106031",
+    "R271_I106032",
+    "R271_I106033",
+    "R271_I106034",
+    "R271_I106035",
+    "R271_I106036",
+    "R271_I106037",
+    "R271_I106038",
+    "R271_I106039",
+    "R271_I106040",
+    "R271_I106041",
+    "R271_I106042",
+    "R271_I106043",
+    "R271_I106044",
+    "R271_I106045",
+    "R271_I106046",
+    "R271_I106047",
+    "R271_I106048",
+    "R271_I106049",
+    "R271_I106050",
+    "R271_I106051",
+    "R271_I106052",
+    "R271_I106053",
+    "R271_I106054",
+    "R271_I106055",
+    "R271_I106056",
+    "R271_I106057",
+    "R272_I106058",
+    "R272_I106059",
+    "R272_I106060",
+    "R272_I106061",
+    "R272_I106062",
+    "R272_I106063",
+    "R272_I106064",
+    "R272_I106065",
+    "R272_I106066",
+    "R272_I106067",
+    "R272_I106068",
+    "R272_I106069",
+    "R272_I106070",
+    "R272_I106071",
+    "R272_I106072",
+    "R272_I106073",
+    "R272_I106074",
+    "R272_I106075",
+    "R272_I106076",
+    "R272_I106077",
+    "R272_I106078",
+    "R272_I106079",
+    "R272_I106080",
+    "E231_00",
+    "E231_01",
+    "E232_00",
+    "E234_00",
+    "E234_01",
+    "E235_00",
+    "E235_01",
+    "E236_00",
+    "E236_01",
+    "E237_00",
+    "E237_01",
+    "E238_00",
+    "E238_01",
+    "E239_00",
+    "E239_01",
+    "E239_02",
+    "E240_00",
+    "E240_01",
+    "E240_02",
+    "E241_00",
+    "E241_01",
+    "E242_00",
+    "E242_01",
+    "E243_00",
+    "E243_01",
+    "E244_00",
+    "E244_01",
+    "E244_02",
+    "E245_00",
+    "E245_01",
+    "E246_00",
+    "E247_00",
+    "E247_01",
+    "E247_02",
+    "E248_00",
+    "E248_01",
+    "E249_00",
+    "E249_01",
+    "E250_00",
+    "E250_01",
+    "E251_00",
+    "E251_01",
+    "E252_00",
+    "E252_01",
+    "E253_00",
+    "E253_01",
+    "E253_02",
+    "E253_03",
+    "E254_00",
+    "E255_00",
+    "E255_01",
+    "E256_00",
+    "E256_01",
+    "E257_00",
+    "E257_01",
+    "E258_00",
+    "E258_01",
+    "E259_00",
+    "E260_00",
+    "E260_01",
+    "E261_00",
+    "E261_01",
+    "E262_00",
+    "E262_01",
+    "E262_02",
+    "E262_03",
+    "E263_00",
+    "E263_01",
+    "E264_00",
+    "E265_00",
+    "E265_01",
+    "E266_00",
+    "E266_01",
+    "E267_00",
+    "E267_01",
+    "E268_00",
+    "E268_01",
+    "E268_02",
+    "E269_00",
+    "E270_00",
+    "E271_00",
+    "E271_01",
+    "E272_00",
+    "E272_01",
+    "E272_02"
+  ]
+}

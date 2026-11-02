@@ -1,0 +1,1806 @@
+{
+  "2": [
+    {
+      "x": 144,
+      "y": 280,
+      "object": 376,
+      "instance_id": 100023,
+      "creation_code": -1,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 2,
+      "source_object": "Switch1",
+      "author_depth": 0,
+      "derived": false,
+      "flags": [
+        11
+      ],
+      "kind": "orb",
+      "asset": "INTERACT_504",
+      "interaction_radius": 224
+    },
+    {
+      "x": 576,
+      "y": 256,
+      "object": 401,
+      "instance_id": 100027,
+      "creation_code": -1,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 2,
+      "source_object": "PressurePlate1",
+      "author_depth": 0,
+      "derived": false,
+      "flags": [],
+      "kind": "plate",
+      "asset": "INTERACT_511"
+    },
+    {
+      "x": 272,
+      "y": 48,
+      "object": 25,
+      "instance_id": 100125,
+      "creation_code": -1,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 2,
+      "source_object": "SavePoint",
+      "author_depth": 2,
+      "derived": false,
+      "flags": [],
+      "kind": "rest",
+      "asset": "INTERACT_507",
+      "bell_asset": "INTERACT_520",
+      "bell_offset": [
+        14,
+        -17
+      ],
+      "interaction_radius": 40
+    }
+  ],
+  "9": [
+    {
+      "x": 0,
+      "y": 112,
+      "object": 528,
+      "instance_id": 100233,
+      "creation_code": 3197,
+      "scale_x": 1.0,
+      "scale_y": 4.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 9,
+      "source_object": "oHeavenlyWarpToDev",
+      "author_depth": 0,
+      "derived": false,
+      "flags": [],
+      "kind": "warp",
+      "asset": "INTERACT_922",
+      "target_room": 111,
+      "target_position": [
+        224,
+        160
+      ],
+      "source_creation_code": 3197
+    }
+  ],
+  "30": [
+    {
+      "x": 464,
+      "y": 144,
+      "object": 25,
+      "instance_id": 100397,
+      "creation_code": -1,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 30,
+      "source_object": "SavePoint",
+      "author_depth": 2,
+      "derived": false,
+      "flags": [],
+      "kind": "rest",
+      "asset": "INTERACT_507",
+      "bell_asset": "INTERACT_520",
+      "bell_offset": [
+        14,
+        -17
+      ],
+      "interaction_radius": 40
+    }
+  ],
+  "40": [
+    {
+      "x": 512,
+      "y": 176,
+      "object": 349,
+      "instance_id": 100580,
+      "creation_code": -1,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 40,
+      "source_object": "ArabellaWall1",
+      "author_depth": 0,
+      "derived": false,
+      "flags": [
+        11
+      ],
+      "kind": "gate",
+      "asset": "INTERACT_510",
+      "manual": false,
+      "interaction_radius": 28
+    },
+    {
+      "x": 560,
+      "y": 64,
+      "object": 376,
+      "instance_id": 100594,
+      "creation_code": -1,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 40,
+      "source_object": "Switch1",
+      "author_depth": 0,
+      "derived": false,
+      "flags": [
+        11
+      ],
+      "kind": "orb",
+      "asset": "INTERACT_504",
+      "interaction_radius": 224
+    }
+  ],
+  "41": [
+    {
+      "x": 136,
+      "y": 160,
+      "object": 25,
+      "instance_id": 100618,
+      "creation_code": -1,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 41,
+      "source_object": "SavePoint",
+      "author_depth": 2,
+      "derived": false,
+      "flags": [],
+      "kind": "rest",
+      "asset": "INTERACT_507",
+      "bell_asset": "INTERACT_520",
+      "bell_offset": [
+        14,
+        -17
+      ],
+      "interaction_radius": 40
+    }
+  ],
+  "52": [
+    {
+      "x": 360,
+      "y": 144,
+      "object": 25,
+      "instance_id": 100802,
+      "creation_code": -1,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 52,
+      "source_object": "SavePoint",
+      "author_depth": 2,
+      "derived": false,
+      "flags": [],
+      "kind": "rest",
+      "asset": "INTERACT_507",
+      "bell_asset": "INTERACT_520",
+      "bell_offset": [
+        14,
+        -17
+      ],
+      "interaction_radius": 40
+    }
+  ],
+  "63": [
+    {
+      "x": 328,
+      "y": 144,
+      "object": 26,
+      "instance_id": 100972,
+      "creation_code": -1,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 63,
+      "source_object": "SavePoint2",
+      "author_depth": 2,
+      "derived": false,
+      "flags": [],
+      "kind": "rest",
+      "asset": "INTERACT_497",
+      "bell_asset": "INTERACT_520",
+      "bell_offset": [
+        14,
+        -17
+      ],
+      "interaction_radius": 40
+    }
+  ],
+  "64": [
+    {
+      "x": 232,
+      "y": 352,
+      "object": 524,
+      "instance_id": 100992,
+      "creation_code": -1,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 64,
+      "source_object": "KarstCityShortcutDoor",
+      "author_depth": 0,
+      "derived": false,
+      "flags": [
+        18
+      ],
+      "kind": "gate",
+      "asset": "INTERACT_519",
+      "manual": false,
+      "interaction_radius": 28
+    },
+    {
+      "x": 248,
+      "y": 384,
+      "object": 402,
+      "instance_id": 100994,
+      "creation_code": -1,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 64,
+      "source_object": "PressurePlate2",
+      "author_depth": 0,
+      "derived": false,
+      "flags": [
+        18
+      ],
+      "kind": "plate",
+      "asset": "INTERACT_526"
+    }
+  ],
+  "70": [
+    {
+      "x": 176,
+      "y": 384,
+      "object": 531,
+      "instance_id": 101191,
+      "creation_code": -1,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 70,
+      "source_object": "oKarstHouseLockedDoor",
+      "author_depth": -1,
+      "derived": false,
+      "flags": [
+        77
+      ],
+      "kind": "gate",
+      "asset": "INTERACT_569",
+      "manual": true,
+      "interaction_radius": 28,
+      "prototype_policy": "Native inventory/story/map prerequisites required; W attempts only; source opened latch persists"
+    }
+  ],
+  "75": [
+    {
+      "x": 280,
+      "y": 128,
+      "object": 26,
+      "instance_id": 101276,
+      "creation_code": -1,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 75,
+      "source_object": "SavePoint2",
+      "author_depth": 2,
+      "derived": false,
+      "flags": [],
+      "kind": "rest",
+      "asset": "INTERACT_497",
+      "bell_asset": "INTERACT_520",
+      "bell_offset": [
+        14,
+        -17
+      ],
+      "interaction_radius": 40
+    }
+  ],
+  "80": [
+    {
+      "x": 157,
+      "y": 48,
+      "object": 415,
+      "instance_id": 101383,
+      "creation_code": 3567,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 80,
+      "source_object": "CityBallWall",
+      "author_depth": 0,
+      "derived": false,
+      "flags": [
+        74,
+        75
+      ],
+      "kind": "gate",
+      "asset": "INTERACT_522",
+      "manual": false,
+      "interaction_radius": 28
+    },
+    {
+      "x": 544,
+      "y": 88,
+      "object": 379,
+      "instance_id": 101395,
+      "creation_code": -1,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 80,
+      "source_object": "Switch4",
+      "author_depth": 0,
+      "derived": false,
+      "flags": [
+        75
+      ],
+      "kind": "orb",
+      "asset": "INTERACT_504",
+      "interaction_radius": 224
+    },
+    {
+      "x": 304,
+      "y": 192,
+      "object": 378,
+      "instance_id": 101396,
+      "creation_code": -1,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 80,
+      "source_object": "Switch3",
+      "author_depth": 0,
+      "derived": false,
+      "flags": [
+        74
+      ],
+      "kind": "orb",
+      "asset": "INTERACT_504",
+      "interaction_radius": 224
+    },
+    {
+      "x": 195,
+      "y": 48,
+      "object": 415,
+      "instance_id": 101398,
+      "creation_code": 3568,
+      "scale_x": -1,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 80,
+      "source_object": "CityBallWall",
+      "author_depth": 0,
+      "derived": false,
+      "flags": [
+        74,
+        75
+      ],
+      "kind": "gate",
+      "asset": "INTERACT_522",
+      "manual": false,
+      "interaction_radius": 28,
+      "source_direction": "right"
+    }
+  ],
+  "82": [
+    {
+      "x": 434,
+      "y": 88,
+      "object": 530,
+      "instance_id": 101456,
+      "creation_code": -1,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 82,
+      "source_object": "oWindmillPuzzle",
+      "author_depth": 3,
+      "derived": false,
+      "flags": [
+        101
+      ],
+      "kind": "windmill",
+      "asset": "INTERACT_607",
+      "interaction_radius": 48
+    },
+    {
+      "x": 416,
+      "y": 160,
+      "object": 424,
+      "instance_id": 101457,
+      "creation_code": -1,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 82,
+      "source_object": "oCityLeafWall",
+      "author_depth": 0,
+      "derived": false,
+      "flags": [
+        101
+      ],
+      "kind": "gate",
+      "asset": "INTERACT_608",
+      "manual": false,
+      "interaction_radius": 28
+    }
+  ],
+  "84": [
+    {
+      "x": 144,
+      "y": 416,
+      "object": 519,
+      "instance_id": 101503,
+      "creation_code": -1,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 84,
+      "source_object": "oFloristLockedDoor",
+      "author_depth": -1,
+      "derived": false,
+      "flags": [
+        127
+      ],
+      "kind": "gate",
+      "asset": "INTERACT_569",
+      "manual": true,
+      "interaction_radius": 28,
+      "prototype_policy": "Native inventory/story/map prerequisites required; W attempts only; source opened latch persists"
+    }
+  ],
+  "94": [
+    {
+      "x": 96,
+      "y": 160,
+      "object": 25,
+      "instance_id": 101652,
+      "creation_code": -1,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 94,
+      "source_object": "SavePoint",
+      "author_depth": 2,
+      "derived": false,
+      "flags": [],
+      "kind": "rest",
+      "asset": "INTERACT_507",
+      "bell_asset": "INTERACT_520",
+      "bell_offset": [
+        14,
+        -17
+      ],
+      "interaction_radius": 40
+    }
+  ],
+  "96": [
+    {
+      "x": 272,
+      "y": 48,
+      "object": 521,
+      "instance_id": 101724,
+      "creation_code": -1,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 96,
+      "source_object": "oChoirLockedDoor",
+      "author_depth": -1,
+      "derived": false,
+      "flags": [
+        152
+      ],
+      "kind": "gate",
+      "asset": "INTERACT_569",
+      "manual": true,
+      "interaction_radius": 28,
+      "prototype_policy": "Native inventory/story/map prerequisites required; W attempts only; source opened latch persists"
+    }
+  ],
+  "99": [
+    {
+      "x": 608,
+      "y": 160,
+      "object": 518,
+      "instance_id": 101788,
+      "creation_code": -1,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 99,
+      "source_object": "oChurchLockedDoor",
+      "author_depth": -1,
+      "derived": false,
+      "flags": [
+        68
+      ],
+      "kind": "gate",
+      "asset": "INTERACT_569",
+      "manual": true,
+      "interaction_radius": 28,
+      "closed_frame": 1,
+      "prototype_policy": "Native inventory/story/map prerequisites required; W attempts only; source opened latch persists"
+    }
+  ],
+  "101": [
+    {
+      "x": 320,
+      "y": 112,
+      "object": 25,
+      "instance_id": 101836,
+      "creation_code": -1,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 101,
+      "source_object": "SavePoint",
+      "author_depth": 2,
+      "derived": false,
+      "flags": [],
+      "kind": "rest",
+      "asset": "INTERACT_507",
+      "bell_asset": "INTERACT_520",
+      "bell_offset": [
+        14,
+        -17
+      ],
+      "interaction_radius": 40
+    }
+  ],
+  "111": [
+    {
+      "x": 208,
+      "y": 384,
+      "object": 25,
+      "instance_id": 102051,
+      "creation_code": -1,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 111,
+      "source_object": "SavePoint",
+      "author_depth": 2,
+      "derived": false,
+      "flags": [],
+      "kind": "rest",
+      "asset": "INTERACT_507",
+      "bell_asset": "INTERACT_520",
+      "bell_offset": [
+        14,
+        -17
+      ],
+      "interaction_radius": 40
+    },
+    {
+      "x": 272,
+      "y": 144,
+      "object": 523,
+      "instance_id": 102073,
+      "creation_code": -1,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 111,
+      "source_object": "oDevLockedDoor",
+      "author_depth": -1,
+      "derived": false,
+      "flags": [
+        151
+      ],
+      "kind": "gate",
+      "asset": "INTERACT_569",
+      "manual": true,
+      "interaction_radius": 28,
+      "prototype_policy": "Native inventory/story/map prerequisites required; W attempts only; source opened latch persists"
+    },
+    {
+      "x": 288,
+      "y": 144,
+      "object": 528,
+      "instance_id": 102074,
+      "creation_code": 3676,
+      "scale_x": 2.0,
+      "scale_y": 3.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 111,
+      "source_object": "oHeavenlyWarpToDev",
+      "author_depth": 0,
+      "derived": false,
+      "flags": [],
+      "kind": "warp",
+      "asset": "INTERACT_922",
+      "target_room": 9,
+      "target_position": [
+        64,
+        176
+      ],
+      "source_creation_code": 3676
+    }
+  ],
+  "123": [
+    {
+      "x": 336,
+      "y": 48,
+      "object": 380,
+      "instance_id": 102319,
+      "creation_code": -1,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 123,
+      "source_object": "Switch5",
+      "author_depth": 0,
+      "derived": false,
+      "flags": [
+        82
+      ],
+      "kind": "orb",
+      "asset": "INTERACT_504",
+      "interaction_radius": 224
+    },
+    {
+      "x": 288,
+      "y": 96,
+      "object": 526,
+      "instance_id": 102327,
+      "creation_code": -1,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 123,
+      "source_object": "oAskornCell",
+      "author_depth": 1,
+      "derived": false,
+      "flags": [
+        82
+      ],
+      "kind": "cell_visual",
+      "asset": "INTERACT_581"
+    }
+  ],
+  "126": [
+    {
+      "x": 256,
+      "y": 176,
+      "object": 27,
+      "instance_id": 102430,
+      "creation_code": -1,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 126,
+      "source_object": "SavePoint3",
+      "author_depth": 2,
+      "derived": false,
+      "flags": [],
+      "kind": "rest",
+      "asset": "INTERACT_545",
+      "bell_asset": "INTERACT_520",
+      "bell_offset": [
+        14,
+        -17
+      ],
+      "interaction_radius": 40
+    }
+  ],
+  "127": [
+    {
+      "x": 224,
+      "y": 176,
+      "object": 27,
+      "instance_id": 102459,
+      "creation_code": -1,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 127,
+      "source_object": "SavePoint3",
+      "author_depth": 2,
+      "derived": false,
+      "flags": [],
+      "kind": "rest",
+      "asset": "INTERACT_545",
+      "bell_asset": "INTERACT_520",
+      "bell_offset": [
+        14,
+        -17
+      ],
+      "interaction_radius": 40
+    },
+    {
+      "x": 0,
+      "y": 80,
+      "object": 419,
+      "instance_id": 102461,
+      "creation_code": -1,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 127,
+      "source_object": "oBuriedTownShortcut",
+      "author_depth": 0,
+      "derived": false,
+      "flags": [
+        84
+      ],
+      "kind": "gate",
+      "asset": "INTERACT_553_576",
+      "manual": true,
+      "interaction_radius": 28,
+      "closed_frame": 1,
+      "prototype_policy": "Source explosion event required; W cannot supply explosion"
+    }
+  ],
+  "139": [
+    {
+      "x": 608,
+      "y": 192,
+      "object": 381,
+      "instance_id": 102835,
+      "creation_code": -1,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 139,
+      "source_object": "Switch6",
+      "author_depth": 0,
+      "derived": false,
+      "flags": [
+        128
+      ],
+      "kind": "orb",
+      "asset": "INTERACT_504",
+      "interaction_radius": 224
+    },
+    {
+      "x": 510,
+      "y": 96,
+      "object": 416,
+      "instance_id": 102836,
+      "creation_code": 3716,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 139,
+      "source_object": "oUndergroundTrapdoor",
+      "author_depth": 0,
+      "derived": false,
+      "flags": [
+        128
+      ],
+      "kind": "gate",
+      "asset": "INTERACT_555",
+      "manual": false,
+      "interaction_radius": 28,
+      "source_direction": "left"
+    },
+    {
+      "x": 545,
+      "y": 96,
+      "object": 416,
+      "instance_id": 102837,
+      "creation_code": 3717,
+      "scale_x": -1,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 139,
+      "source_object": "oUndergroundTrapdoor",
+      "author_depth": 0,
+      "derived": false,
+      "flags": [
+        128
+      ],
+      "kind": "gate",
+      "asset": "INTERACT_555",
+      "manual": false,
+      "interaction_radius": 28,
+      "source_direction": "right"
+    }
+  ],
+  "140": [
+    {
+      "x": 288,
+      "y": 320,
+      "object": 419,
+      "instance_id": 102842,
+      "creation_code": -1,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 140,
+      "source_object": "oBuriedTownShortcut",
+      "author_depth": 0,
+      "derived": false,
+      "flags": [
+        84
+      ],
+      "kind": "gate",
+      "asset": "INTERACT_553",
+      "manual": true,
+      "interaction_radius": 28,
+      "closed_frame": 0,
+      "prototype_policy": "Source explosion event required; W cannot supply explosion"
+    }
+  ],
+  "142": [
+    {
+      "x": 480,
+      "y": 176,
+      "object": 27,
+      "instance_id": 102934,
+      "creation_code": -1,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 142,
+      "source_object": "SavePoint3",
+      "author_depth": 2,
+      "derived": false,
+      "flags": [],
+      "kind": "rest",
+      "asset": "INTERACT_545",
+      "bell_asset": "INTERACT_520",
+      "bell_offset": [
+        14,
+        -17
+      ],
+      "interaction_radius": 40
+    }
+  ],
+  "145": [
+    {
+      "x": 256,
+      "y": 400,
+      "object": 522,
+      "instance_id": 103000,
+      "creation_code": -1,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 145,
+      "source_object": "oGardenLockedDoor",
+      "author_depth": -1,
+      "derived": false,
+      "flags": [
+        113
+      ],
+      "kind": "gate",
+      "asset": "INTERACT_569",
+      "manual": true,
+      "interaction_radius": 28,
+      "closed_frame": 1,
+      "prototype_policy": "Native inventory/story/map prerequisites required; W attempts only; source opened latch persists"
+    }
+  ],
+  "148": [
+    {
+      "x": 416,
+      "y": 96,
+      "object": 27,
+      "instance_id": 103040,
+      "creation_code": -1,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 148,
+      "source_object": "SavePoint3",
+      "author_depth": 2,
+      "derived": false,
+      "flags": [],
+      "kind": "rest",
+      "asset": "INTERACT_545",
+      "bell_asset": "INTERACT_520",
+      "bell_offset": [
+        14,
+        -17
+      ],
+      "interaction_radius": 40
+    }
+  ],
+  "154": [
+    {
+      "x": 224,
+      "y": 400,
+      "object": 27,
+      "instance_id": 103179,
+      "creation_code": -1,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 154,
+      "source_object": "SavePoint3",
+      "author_depth": 2,
+      "derived": false,
+      "flags": [],
+      "kind": "rest",
+      "asset": "INTERACT_545",
+      "bell_asset": "INTERACT_520",
+      "bell_offset": [
+        14,
+        -17
+      ],
+      "interaction_radius": 40
+    }
+  ],
+  "160": [
+    {
+      "x": 160,
+      "y": 128,
+      "object": 27,
+      "instance_id": 103355,
+      "creation_code": -1,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 160,
+      "source_object": "SavePoint3",
+      "author_depth": 2,
+      "derived": false,
+      "flags": [],
+      "kind": "rest",
+      "asset": "INTERACT_545",
+      "bell_asset": "INTERACT_520",
+      "bell_offset": [
+        14,
+        -17
+      ],
+      "interaction_radius": 40
+    }
+  ],
+  "164": [
+    {
+      "x": 208,
+      "y": 64,
+      "object": 514,
+      "instance_id": 103482,
+      "creation_code": -1,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 164,
+      "source_object": "oGardenWall",
+      "author_depth": 0,
+      "derived": false,
+      "flags": [
+        136
+      ],
+      "kind": "gate",
+      "asset": "INTERACT_572",
+      "manual": false,
+      "interaction_radius": 28
+    },
+    {
+      "x": 160,
+      "y": 640,
+      "object": 371,
+      "instance_id": 103485,
+      "creation_code": -1,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 164,
+      "source_object": "Lever2",
+      "author_depth": 1,
+      "derived": false,
+      "flags": [
+        136
+      ],
+      "kind": "lever",
+      "asset": "INTERACT_573",
+      "interaction_radius": 40
+    }
+  ],
+  "172": [
+    {
+      "x": 128,
+      "y": 128,
+      "object": 28,
+      "instance_id": 103639,
+      "creation_code": -1,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 172,
+      "source_object": "SavePoint4",
+      "author_depth": 2,
+      "derived": false,
+      "flags": [],
+      "kind": "rest",
+      "asset": "INTERACT_547",
+      "bell_asset": "INTERACT_520",
+      "bell_offset": [
+        14,
+        -17
+      ],
+      "interaction_radius": 40
+    }
+  ],
+  "183": [
+    {
+      "x": 624,
+      "y": 128,
+      "object": 520,
+      "instance_id": 103974,
+      "creation_code": -1,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 183,
+      "source_object": "oCinderLockedDoor",
+      "author_depth": -1,
+      "derived": false,
+      "flags": [
+        156
+      ],
+      "kind": "gate",
+      "asset": "INTERACT_569",
+      "manual": true,
+      "interaction_radius": 28,
+      "prototype_policy": "Native inventory/story/map prerequisites required; W attempts only; source opened latch persists"
+    }
+  ],
+  "185": [
+    {
+      "x": 208,
+      "y": 192,
+      "object": 370,
+      "instance_id": 104053,
+      "creation_code": -1,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 185,
+      "source_object": "Lever1",
+      "author_depth": 1,
+      "derived": false,
+      "flags": [
+        135
+      ],
+      "kind": "lever",
+      "asset": "INTERACT_573",
+      "interaction_radius": 40
+    }
+  ],
+  "189": [
+    {
+      "x": 224,
+      "y": 192,
+      "object": 28,
+      "instance_id": 104184,
+      "creation_code": -1,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 189,
+      "source_object": "SavePoint4",
+      "author_depth": 2,
+      "derived": false,
+      "flags": [],
+      "kind": "rest",
+      "asset": "INTERACT_547",
+      "bell_asset": "INTERACT_520",
+      "bell_offset": [
+        14,
+        -17
+      ],
+      "interaction_radius": 40
+    }
+  ],
+  "191": [
+    {
+      "x": 512,
+      "y": 160,
+      "object": 422,
+      "instance_id": 104269,
+      "creation_code": -1,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 191,
+      "source_object": "oCinderShortcut",
+      "author_depth": -1,
+      "derived": false,
+      "flags": [
+        154
+      ],
+      "kind": "gate",
+      "asset": "INTERACT_594",
+      "manual": true,
+      "interaction_radius": 28,
+      "prototype_policy": "Source explosion event required; W cannot supply explosion"
+    },
+    {
+      "x": 512,
+      "y": 208,
+      "object": 422,
+      "instance_id": 104270,
+      "creation_code": -1,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 191,
+      "source_object": "oCinderShortcut",
+      "author_depth": -1,
+      "derived": false,
+      "flags": [
+        154
+      ],
+      "kind": "gate",
+      "asset": "INTERACT_594",
+      "manual": true,
+      "interaction_radius": 28,
+      "prototype_policy": "Source explosion event required; W cannot supply explosion"
+    }
+  ],
+  "195": [
+    {
+      "x": 568,
+      "y": 144,
+      "object": 28,
+      "instance_id": 104339,
+      "creation_code": -1,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 195,
+      "source_object": "SavePoint4",
+      "author_depth": 2,
+      "derived": false,
+      "flags": [],
+      "kind": "rest",
+      "asset": "INTERACT_547",
+      "bell_asset": "INTERACT_520",
+      "bell_offset": [
+        14,
+        -17
+      ],
+      "interaction_radius": 40
+    }
+  ],
+  "198": [
+    {
+      "x": 64,
+      "y": 128,
+      "object": 29,
+      "instance_id": 104389,
+      "creation_code": -1,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 198,
+      "source_object": "SavePoint5",
+      "author_depth": 2,
+      "derived": false,
+      "flags": [],
+      "kind": "rest",
+      "asset": "INTERACT_606",
+      "bell_asset": "INTERACT_520",
+      "bell_offset": [
+        14,
+        -17
+      ],
+      "interaction_radius": 40
+    }
+  ],
+  "201": [
+    {
+      "x": 336,
+      "y": 128,
+      "object": 515,
+      "instance_id": 104482,
+      "creation_code": -1,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 201,
+      "source_object": "oPinaDoor",
+      "author_depth": -1,
+      "derived": false,
+      "flags": [],
+      "kind": "gate",
+      "asset": "INTERACT_597_570",
+      "manual": true,
+      "interaction_radius": 28,
+      "prototype_policy": "Fixed source obstacle; no fabricated manual open latch"
+    }
+  ],
+  "205": [
+    {
+      "x": 256,
+      "y": 144,
+      "object": 516,
+      "instance_id": 104555,
+      "creation_code": -1,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 205,
+      "source_object": "oPinaShortcutDoor1",
+      "author_depth": 0,
+      "derived": false,
+      "flags": [
+        163
+      ],
+      "kind": "gate",
+      "asset": "INTERACT_597",
+      "manual": false,
+      "interaction_radius": 28
+    },
+    {
+      "x": 288,
+      "y": 176,
+      "object": 403,
+      "instance_id": 104557,
+      "creation_code": -1,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 205,
+      "source_object": "oPlatePinaShorcut1",
+      "author_depth": 0,
+      "derived": false,
+      "flags": [
+        163
+      ],
+      "kind": "plate",
+      "asset": "INTERACT_526"
+    },
+    {
+      "x": 128,
+      "y": 128,
+      "object": 29,
+      "instance_id": 104563,
+      "creation_code": -1,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 205,
+      "source_object": "SavePoint5",
+      "author_depth": 2,
+      "derived": false,
+      "flags": [],
+      "kind": "rest",
+      "asset": "INTERACT_606",
+      "bell_asset": "INTERACT_520",
+      "bell_offset": [
+        14,
+        -17
+      ],
+      "interaction_radius": 40
+    }
+  ],
+  "208": [
+    {
+      "x": 576,
+      "y": 128,
+      "object": 517,
+      "instance_id": 104618,
+      "creation_code": -1,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 208,
+      "source_object": "oPinaShortcutDoor2",
+      "author_depth": 0,
+      "derived": false,
+      "flags": [
+        164
+      ],
+      "kind": "gate",
+      "asset": "INTERACT_597",
+      "manual": false,
+      "interaction_radius": 28
+    },
+    {
+      "x": 608,
+      "y": 160,
+      "object": 404,
+      "instance_id": 104619,
+      "creation_code": -1,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 208,
+      "source_object": "oPlatePinaShorcut2",
+      "author_depth": 0,
+      "derived": false,
+      "flags": [
+        164
+      ],
+      "kind": "plate",
+      "asset": "INTERACT_526"
+    }
+  ],
+  "213": [
+    {
+      "x": 0,
+      "y": 128,
+      "object": 382,
+      "instance_id": 104747,
+      "creation_code": -1,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 213,
+      "source_object": "Switch7",
+      "author_depth": 0,
+      "derived": false,
+      "flags": [
+        165
+      ],
+      "kind": "orb",
+      "asset": "INTERACT_504",
+      "interaction_radius": 224
+    },
+    {
+      "x": 0,
+      "y": 240,
+      "object": 383,
+      "instance_id": 104748,
+      "creation_code": -1,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 213,
+      "source_object": "Switch8",
+      "author_depth": 0,
+      "derived": false,
+      "flags": [
+        166
+      ],
+      "kind": "orb",
+      "asset": "INTERACT_504",
+      "interaction_radius": 224
+    },
+    {
+      "x": 0,
+      "y": 336,
+      "object": 384,
+      "instance_id": 104749,
+      "creation_code": -1,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 213,
+      "source_object": "Switch9",
+      "author_depth": 0,
+      "derived": false,
+      "flags": [
+        167
+      ],
+      "kind": "orb",
+      "asset": "INTERACT_504",
+      "interaction_radius": 224
+    },
+    {
+      "x": 0,
+      "y": 32,
+      "object": 350,
+      "instance_id": 104755,
+      "creation_code": -1,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 213,
+      "source_object": "oPinaBlockDoor",
+      "author_depth": 0,
+      "derived": false,
+      "flags": [
+        165,
+        166,
+        167
+      ],
+      "kind": "gate",
+      "asset": "INTERACT_603",
+      "manual": false,
+      "interaction_radius": 28
+    },
+    {
+      "x": 112,
+      "y": 384,
+      "object": 529,
+      "instance_id": 104756,
+      "creation_code": -1,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 213,
+      "source_object": "oPinaElevatorActivator",
+      "author_depth": 0,
+      "derived": false,
+      "flags": [
+        168
+      ],
+      "kind": "platform_activator",
+      "asset": "INTERACT_495"
+    },
+    {
+      "x": 112,
+      "y": 400,
+      "object": 529,
+      "instance_id": -1047560,
+      "creation_code": -1,
+      "scale_x": 1,
+      "scale_y": 1,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 213,
+      "source_object": "oPinaElevatorActivator",
+      "author_depth": 0,
+      "derived": true,
+      "flags": [
+        168
+      ],
+      "kind": "puzzle_platform",
+      "asset": "INTERACT_604",
+      "creator": 104756,
+      "direction": "up",
+      "travel_ticks": 292,
+      "pause_ticks": 180,
+      "step_period": 2,
+      "activation_delay": 60
+    },
+    {
+      "x": 208,
+      "y": 80,
+      "object": 529,
+      "instance_id": -1047561,
+      "creation_code": -1,
+      "scale_x": 1,
+      "scale_y": 1,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 213,
+      "source_object": "oPinaElevatorActivator",
+      "author_depth": 0,
+      "derived": true,
+      "flags": [
+        168
+      ],
+      "kind": "puzzle_platform",
+      "asset": "INTERACT_604",
+      "creator": 104756,
+      "direction": "down",
+      "travel_ticks": 292,
+      "pause_ticks": 180,
+      "step_period": 2,
+      "activation_delay": 60
+    }
+  ],
+  "227": [
+    {
+      "x": 528,
+      "y": 80,
+      "object": 351,
+      "instance_id": 105090,
+      "creation_code": -1,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 227,
+      "source_object": "oPinaMetalDoor",
+      "author_depth": 0,
+      "derived": false,
+      "flags": [
+        137
+      ],
+      "kind": "gate",
+      "asset": "INTERACT_605",
+      "manual": false,
+      "interaction_radius": 28
+    }
+  ],
+  "228": [
+    {
+      "x": 256,
+      "y": 112,
+      "object": 372,
+      "instance_id": 105095,
+      "creation_code": -1,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 228,
+      "source_object": "Lever3",
+      "author_depth": 1,
+      "derived": false,
+      "flags": [
+        137
+      ],
+      "kind": "lever",
+      "asset": "INTERACT_573",
+      "interaction_radius": 40
+    }
+  ],
+  "229": [
+    {
+      "x": 816,
+      "y": 160,
+      "object": 26,
+      "instance_id": 105103,
+      "creation_code": -1,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 229,
+      "source_object": "SavePoint2",
+      "author_depth": 2,
+      "derived": false,
+      "flags": [],
+      "kind": "rest",
+      "asset": "INTERACT_497",
+      "bell_asset": "INTERACT_520",
+      "bell_offset": [
+        14,
+        -17
+      ],
+      "interaction_radius": 40
+    },
+    {
+      "x": 1552,
+      "y": 208,
+      "object": 386,
+      "instance_id": 105117,
+      "creation_code": -1,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 229,
+      "source_object": "oCastleGate",
+      "author_depth": 0,
+      "derived": false,
+      "flags": [
+        138
+      ],
+      "kind": "drawbridge",
+      "asset": "INTERACT_609",
+      "manual": false,
+      "interaction_radius": 28
+    }
+  ],
+  "231": [
+    {
+      "x": 136,
+      "y": 160,
+      "object": 30,
+      "instance_id": 105120,
+      "creation_code": -1,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 231,
+      "source_object": "SavePoint6",
+      "author_depth": 2,
+      "derived": false,
+      "flags": [],
+      "kind": "rest",
+      "asset": "INTERACT_508",
+      "bell_asset": "INTERACT_520",
+      "bell_offset": [
+        14,
+        -17
+      ],
+      "interaction_radius": 40
+    }
+  ],
+  "239": [
+    {
+      "x": 48,
+      "y": 176,
+      "object": 373,
+      "instance_id": 105251,
+      "creation_code": -1,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 239,
+      "source_object": "Lever4",
+      "author_depth": 1,
+      "derived": false,
+      "flags": [
+        138
+      ],
+      "kind": "lever",
+      "asset": "INTERACT_573",
+      "interaction_radius": 40
+    }
+  ],
+  "245": [
+    {
+      "x": 144,
+      "y": 144,
+      "object": 30,
+      "instance_id": 105420,
+      "creation_code": -1,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 245,
+      "source_object": "SavePoint6",
+      "author_depth": 2,
+      "derived": false,
+      "flags": [],
+      "kind": "rest",
+      "asset": "INTERACT_508",
+      "bell_asset": "INTERACT_520",
+      "bell_offset": [
+        14,
+        -17
+      ],
+      "interaction_radius": 40
+    }
+  ],
+  "247": [
+    {
+      "x": 160,
+      "y": 144,
+      "object": 374,
+      "instance_id": 105454,
+      "creation_code": -1,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 247,
+      "source_object": "oLever5",
+      "author_depth": 1,
+      "derived": false,
+      "flags": [
+        139
+      ],
+      "kind": "lever",
+      "asset": "INTERACT_573",
+      "interaction_radius": 40
+    },
+    {
+      "x": 192,
+      "y": 184,
+      "object": 352,
+      "instance_id": 105455,
+      "creation_code": -1,
+      "scale_x": 0.6666666865348816,
+      "scale_y": 11.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 247,
+      "source_object": "oCastleShortcutdoor",
+      "author_depth": 0,
+      "derived": false,
+      "flags": [
+        139
+      ],
+      "kind": "gate",
+      "asset": "INTERACT_605",
+      "manual": false,
+      "interaction_radius": 28,
+      "ladder": {
+        "x": 208,
+        "y": 176,
+        "scale_x": 1,
+        "scale_y": 11,
+        "asset": "INTERACT_537",
+        "visual_asset": "INTERACT_541"
+      }
+    },
+    {
+      "x": 80,
+      "y": 336,
+      "object": 30,
+      "instance_id": 105462,
+      "creation_code": -1,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "color": 4294967295,
+      "rotation": 0.0,
+      "source_room": 247,
+      "source_object": "SavePoint6",
+      "author_depth": 2,
+      "derived": false,
+      "flags": [],
+      "kind": "rest",
+      "asset": "INTERACT_508",
+      "bell_asset": "INTERACT_520",
+      "bell_offset": [
+        14,
+        -17
+      ],
+      "interaction_radius": 40
+    }
+  ]
+}

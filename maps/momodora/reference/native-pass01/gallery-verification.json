@@ -1,0 +1,15 @@
+{
+  "shader_compiled": true,
+  "max_error": 1,
+  "channels": 294912,
+  "states": [
+    "tick 0 · α 0.4000 · brightening",
+    "tick 45 · α 0.6000 · dimming",
+    "tick 70 · α 0.4875 · dimming",
+    "tick 134 · α 0.2000 · brightening",
+    "tick 160 · α 0.3170 · brightening",
+    "tick 360 · α 0.4160 · brightening"
+  ],
+  "errors": [],
+  "passed": true
+}

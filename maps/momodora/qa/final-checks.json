@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "browser_checks": 108,
+  "greybox_browser_checks": 11,
+  "motion_browser_checks": 14,
+  "motion_profiles": 26,
+  "motion_source_tick_samples": 46327,
+  "greybox_source_shapes": 3511,
+  "standalone_gallery_checks": 8,
+  "animated_assets": 22,
+  "used_asset_ids": 1128,
+  "exact_RGBA_frames": 1211,
+  "authored_object_records": 5726,
+  "biome_frame_links_checked": 1672,
+  "source_archive_unchanged": true,
+  "map_groups": 12,
+  "fullsize_PNGs": 36,
+  "framed_room_labels_in_diagnostic_exports": true,
+  "limitations": [
+    "Frore native swap/VFX blocked",
+    "live save availability conditional",
+    "dynamic spawn coverage limited",
+    "no new game build",
+    "no full native equivalence"
+  ]
+}

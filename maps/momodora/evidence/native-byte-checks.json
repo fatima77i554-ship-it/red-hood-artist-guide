@@ -1,0 +1,91 @@
+{
+  "native_sha256": "5c61dd3c19ff65908dbba87c54c04c5eb945f311e377588383e760899c09c4c9",
+  "functions": [
+    {
+      "function": "Object_oPray_Create_0",
+      "start": "0x6973a7",
+      "end": "0x6991fe",
+      "instructions": 1700,
+      "native_bytes_match": true,
+      "asm_sha256": "ba30c6ae8424aaf538fa23822b1cbfa99237bb153d3246a9d7158eaff1ef3507"
+    },
+    {
+      "function": "Object_BrokenSavePoint_Create_0",
+      "start": "0x2cfc46",
+      "end": "0x2cfccf",
+      "instructions": 42,
+      "native_bytes_match": true,
+      "asm_sha256": "6e373d6da542598c3a2d962d48c02c0b82e91bd95631c8739a70a9f726b02e2c"
+    },
+    {
+      "function": "Object_SavePoint_Create_0",
+      "start": "0x2ce448",
+      "end": "0x2cea68",
+      "instructions": 373,
+      "native_bytes_match": true,
+      "asm_sha256": "64fd4d9216e8539ebe66c9f59977d90ccd6a97106781b2e25b2e5957526b266b"
+    },
+    {
+      "function": "Object_BrokenSavePoint_Step_0",
+      "start": "0x2cfd16",
+      "end": "0x2d0079",
+      "instructions": 215,
+      "native_bytes_match": true,
+      "asm_sha256": "2af11689b07d26c8eb102115576d24d150ddf6c2a4a6f14162bfc94953998139"
+    },
+    {
+      "function": "Script_savedialogue2",
+      "start": "0xe5874",
+      "end": "0xe5b8b",
+      "instructions": 180,
+      "native_bytes_match": true,
+      "asm_sha256": "fc9c9f49f0267747ad0494002b1d774881f80f53f647995a8db692bda2ca51bc"
+    },
+    {
+      "function": "Object_oDemoSaver_Alarm_0",
+      "start": "0x313fd9",
+      "end": "0x3140f9",
+      "instructions": 73,
+      "native_bytes_match": true,
+      "asm_sha256": "a8502a9909a1ce5e181e9610be11cc9402ab226255b97544a0ef1d598556085f"
+    },
+    {
+      "function": "Object_SavePoint_Alarm_0",
+      "start": "0x2ceaaf",
+      "end": "0x2ceb38",
+      "instructions": 42,
+      "native_bytes_match": true,
+      "asm_sha256": "74369ec6f0b13c4d0d169fbd6c7c7679fce8e9d1a53963f9880d466a98ea16f8"
+    },
+    {
+      "function": "Object_oPray_Step_0",
+      "start": "0x699419",
+      "end": "0x69b664",
+      "instructions": 1808,
+      "native_bytes_match": true,
+      "asm_sha256": "322bdfc5f046b4186cb03f062d531d3df2083f62e1bec3d51618f39d4ec2bf53"
+    },
+    {
+      "function": "Object_SavePoint_Other_10",
+      "start": "0x2cf2ed",
+      "end": "0x2cf5c9",
+      "instructions": 187,
+      "native_bytes_match": true,
+      "asm_sha256": "f207b361c07c93449f3c16b61485cb644cd0049f80b058a7f4b7aa55e4ae62a6"
+    },
+    {
+      "function": "Object_SavePoint_Step_0",
+      "start": "0x2ceb7f",
+      "end": "0x2cf2a6",
+      "instructions": 415,
+      "native_bytes_match": true,
+      "asm_sha256": "81480a0409b147b8872d85ffe13de58ace54a05f822ff18e472b0c686ceb44de"
+    }
+  ],
+  "savedialogue2_SCPT78_constant": {
+    "address": "0xe6f6dc",
+    "bytes": "00000000008053400000000000000000",
+    "value": 78
+  },
+  "scope": "Raw native instructions and selected constants only; static audit, not full execution or reachability proof."
+}

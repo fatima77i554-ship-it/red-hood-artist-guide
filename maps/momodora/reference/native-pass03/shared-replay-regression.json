@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "existing_atmosphere_grass_instances_checked": 162,
+  "all_preexisting_native_fields_unchanged": true,
+  "additional_default_image_blend": 16777215,
+  "source_default_evidence": "evidence/native-room21/__ZN9CInstanceC2Effiib.asm @0xa06c08"
+}

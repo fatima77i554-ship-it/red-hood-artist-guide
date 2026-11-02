@@ -1,0 +1,50 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "artist embed starts in labelled greybox",
+      "passed": true
+    },
+    {
+      "name": "semantic labels enabled by default",
+      "passed": true
+    },
+    {
+      "name": "both ROOM45 platforms in descriptive list",
+      "passed": true
+    },
+    {
+      "name": "artist-readable role descriptions and source IDs",
+      "passed": true
+    },
+    {
+      "name": "hiding labels changes the canvas",
+      "passed": true
+    },
+    {
+      "name": "role list opens exact authored placement",
+      "passed": true
+    },
+    {
+      "name": "ROOM frame and number retained",
+      "passed": true
+    },
+    {
+      "name": "motion with attached labels still works",
+      "passed": true
+    },
+    {
+      "name": "mobile artist embed no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "annotation list hidden outside greybox",
+      "passed": true
+    },
+    {
+      "name": "no JS errors",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,13 @@
+{
+  "confirmed_save_instances": 23,
+  "broken_instances": 1,
+  "source_bell_cells": 24,
+  "all_bell_cells_match_save_or_broken": true,
+  "decorative_bells_excluded": true,
+  "oDemoSaver_is_service": true,
+  "state_availability": "conditional_not_replayed",
+  "source_sha256": "cb878475628929213c3060417d5d322327c698715989d3a3f47bbec33ee23248",
+  "native_sha256": "5c61dd3c19ff65908dbba87c54c04c5eb945f311e377588383e760899c09c4c9",
+  "asm": "save-native",
+  "no_original_saves_read_or_written": true
+}

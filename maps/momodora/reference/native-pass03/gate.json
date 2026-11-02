@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "classifier_written": true,
+  "gallery_reviewed": true,
+  "map_UI_admission": true,
+  "roles": [
+    "NATIVE_TUTORIAL_INPUT192",
+    "NATIVE_TUTORIAL_INPUT193",
+    "NATIVE_TUTORIAL_INPUT194",
+    "NATIVE_TUTORIAL_INPUT195",
+    "NATIVE_TUTORIAL_INPUT196",
+    "NATIVE_TUTORIAL_TRIGGER614",
+    "NATIVE_TUTORIAL_FADER614",
+    "NATIVE_TUTORIAL_LAYOUT614",
+    "NATIVE_TUTORIAL_FONT00",
+    "NATIVE_TUTORIAL_FONT04",
+    "NATIVE_TUTORIAL_PANEL169"
+  ],
+  "source_profile_count": 20,
+  "alpha_checks": 520,
+  "new_game_admissions": 0,
+  "review": {
+    "evidence": "evidence/native-room21/tutorial-full-gallery-before-map.png",
+    "browser": "native-pass03/gallery-verification.json",
+    "before_map_composition": true,
+    "viewed_profiles": 20,
+    "source_mask_and_glyph_overlays": true
+  },
+  "map_composited": true,
+  "game_admission": "blocked"
+}

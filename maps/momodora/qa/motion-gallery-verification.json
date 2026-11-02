@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "rooms": [
+    45,
+    34,
+    98,
+    29,
+    265
+  ],
+  "animated_masks_verified": true,
+  "paths_verified": true,
+  "frame_and_ROOM_preserved": true,
+  "errors": []
+}

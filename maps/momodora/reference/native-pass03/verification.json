@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "checks": 31645,
+  "errors": [],
+  "selected_UI_profiles": 20,
+  "glyphs": 63,
+  "source_native_alpha_checks": 520,
+  "source_text_layout_checks": 24,
+  "source_collision_checks": 128,
+  "new_game_admissions": 0,
+  "full_native_room_completed": false,
+  "scope": "Exact reviewed native tutorial UI visual profiles, source masks/anchors and recorded player-bbox inputs; no full game/player/world or GPU equivalence claim"
+}

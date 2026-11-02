@@ -1,0 +1,511 @@
+{
+  "records": [
+    {
+      "id": "UI_GREYBOX_SOLID",
+      "category": "atlas_mask_diagnostic",
+      "purpose": "Коллизии: стены, пол и склоны",
+      "source": {
+        "kind": "vector fill of existing verified collision.row_rectangles",
+        "classifier": "../assets-by-biome/classifier.json"
+      },
+      "frames": [],
+      "crop": "none; no raster asset generated",
+      "scale": "native pixel mask then source instance scale; viewport zoom only",
+      "pivot": "inherits exact classifier pivot per asset",
+      "support_points": "inherits explicit classifier support_points",
+      "animation": {
+        "type": "none",
+        "note": "movement role indicated by colour and direction arrow; no motion simulation"
+      },
+      "states": [
+        "source/accepted initial mask role",
+        "no live game flags evaluated"
+      ],
+      "collision": {
+        "type": "none for diagnostic UI; visualises inherited source masks only"
+      },
+      "hitbox": "none for diagnostic UI",
+      "vfx": {
+        "type": "none",
+        "bindings": []
+      },
+      "placement": {
+        "surfaces": "atlas canvas only",
+        "layers": "diagnostic greybox",
+        "neighbors": "original source instances only",
+        "support": "source support points; never inferred from sprite bounds",
+        "restrictions": "no new gameplay admission; blocked103117 excluded; original105818 pivot and repair separate"
+      },
+      "colour": "#7187a3",
+      "validation": {
+        "status": "verified_diagnostic_UI_only",
+        "gallery": "../greybox-gallery.html",
+        "review": "Rendered masks/support/pivot viewed for ROOM23,30,34,45,110,151,262; exact source-mask roles reused; no gameplay admission",
+        "proof": "../qa/greybox-gallery-verification.json"
+      }
+    },
+    {
+      "id": "UI_GREYBOX_ONEWAY",
+      "category": "atlas_mask_diagnostic",
+      "purpose": "Односторонние платформы",
+      "source": {
+        "kind": "vector fill of existing verified collision.row_rectangles",
+        "classifier": "../assets-by-biome/classifier.json"
+      },
+      "frames": [],
+      "crop": "none; no raster asset generated",
+      "scale": "native pixel mask then source instance scale; viewport zoom only",
+      "pivot": "inherits exact classifier pivot per asset",
+      "support_points": "inherits explicit classifier support_points",
+      "animation": {
+        "type": "none",
+        "note": "movement role indicated by colour and direction arrow; no motion simulation"
+      },
+      "states": [
+        "source/accepted initial mask role",
+        "no live game flags evaluated"
+      ],
+      "collision": {
+        "type": "none for diagnostic UI; visualises inherited source masks only"
+      },
+      "hitbox": "none for diagnostic UI",
+      "vfx": {
+        "type": "none",
+        "bindings": []
+      },
+      "placement": {
+        "surfaces": "atlas canvas only",
+        "layers": "diagnostic greybox",
+        "neighbors": "original source instances only",
+        "support": "source support points; never inferred from sprite bounds",
+        "restrictions": "no new gameplay admission; blocked103117 excluded; original105818 pivot and repair separate"
+      },
+      "colour": "#84d18b",
+      "validation": {
+        "status": "verified_diagnostic_UI_only",
+        "gallery": "../greybox-gallery.html",
+        "review": "Rendered masks/support/pivot viewed for ROOM23,30,34,45,110,151,262; exact source-mask roles reused; no gameplay admission",
+        "proof": "../qa/greybox-gallery-verification.json"
+      }
+    },
+    {
+      "id": "UI_GREYBOX_MOVING",
+      "category": "atlas_mask_diagnostic",
+      "purpose": "Движущиеся платформы",
+      "source": {
+        "kind": "vector fill of existing verified collision.row_rectangles",
+        "classifier": "../assets-by-biome/classifier.json"
+      },
+      "frames": [],
+      "crop": "none; no raster asset generated",
+      "scale": "native pixel mask then source instance scale; viewport zoom only",
+      "pivot": "inherits exact classifier pivot per asset",
+      "support_points": "inherits explicit classifier support_points",
+      "animation": {
+        "type": "verified_transform_preview",
+        "source_hz": 60,
+        "profiles": "motion-profiles.json",
+        "states": [
+          "outward",
+          "far_pause",
+          "return",
+          "home_pause",
+          "lift plate activation demo",
+          "bridge activation demo"
+        ],
+        "timing": "source oscillator ticks and verified speeds; lift/bridge activation demonstration only"
+      },
+      "states": [
+        "source/accepted initial mask role",
+        "no live game flags evaluated"
+      ],
+      "collision": {
+        "type": "none for diagnostic UI; visualises inherited source masks only"
+      },
+      "hitbox": "none for diagnostic UI",
+      "vfx": {
+        "type": "none",
+        "bindings": []
+      },
+      "placement": {
+        "surfaces": "atlas canvas only",
+        "layers": "diagnostic greybox",
+        "neighbors": "original source instances only",
+        "support": "source support points; never inferred from sprite bounds",
+        "restrictions": "no new gameplay admission; blocked103117 excluded; original105818 pivot and repair separate"
+      },
+      "colour": "#38cbd4",
+      "validation": {
+        "status": "verified_diagnostic_motion_UI_only",
+        "gallery": "../motion-gallery.html",
+        "source": "../qa/motion-source-verification.json",
+        "animated_review": "../qa/motion-gallery-verification.json",
+        "review": "Platform, lift, cabin and bridge masks, trajectories and ROOM frames visually reviewed. Triggers are diagnostic demonstrations; no new gameplay admission."
+      }
+    },
+    {
+      "id": "UI_GREYBOX_LIFT",
+      "category": "atlas_mask_diagnostic",
+      "purpose": "Лифты",
+      "source": {
+        "kind": "vector fill of existing verified collision.row_rectangles",
+        "classifier": "../assets-by-biome/classifier.json"
+      },
+      "frames": [],
+      "crop": "none; no raster asset generated",
+      "scale": "native pixel mask then source instance scale; viewport zoom only",
+      "pivot": "inherits exact classifier pivot per asset",
+      "support_points": "inherits explicit classifier support_points",
+      "animation": {
+        "type": "verified_transform_preview",
+        "source_hz": 60,
+        "profiles": "motion-profiles.json",
+        "states": [
+          "outward",
+          "far_pause",
+          "return",
+          "home_pause",
+          "lift plate activation demo",
+          "bridge activation demo"
+        ],
+        "timing": "source oscillator ticks and verified speeds; lift/bridge activation demonstration only"
+      },
+      "states": [
+        "source/accepted initial mask role",
+        "no live game flags evaluated"
+      ],
+      "collision": {
+        "type": "none for diagnostic UI; visualises inherited source masks only"
+      },
+      "hitbox": "none for diagnostic UI",
+      "vfx": {
+        "type": "none",
+        "bindings": []
+      },
+      "placement": {
+        "surfaces": "atlas canvas only",
+        "layers": "diagnostic greybox",
+        "neighbors": "original source instances only",
+        "support": "source support points; never inferred from sprite bounds",
+        "restrictions": "no new gameplay admission; blocked103117 excluded; original105818 pivot and repair separate"
+      },
+      "colour": "#5f9dff",
+      "validation": {
+        "status": "verified_diagnostic_motion_UI_only",
+        "gallery": "../motion-gallery.html",
+        "source": "../qa/motion-source-verification.json",
+        "animated_review": "../qa/motion-gallery-verification.json",
+        "review": "Platform, lift, cabin and bridge masks, trajectories and ROOM frames visually reviewed. Triggers are diagnostic demonstrations; no new gameplay admission."
+      }
+    },
+    {
+      "id": "UI_GREYBOX_LADDER",
+      "category": "atlas_mask_diagnostic",
+      "purpose": "Лестницы",
+      "source": {
+        "kind": "vector fill of existing verified collision.row_rectangles",
+        "classifier": "../assets-by-biome/classifier.json"
+      },
+      "frames": [],
+      "crop": "none; no raster asset generated",
+      "scale": "native pixel mask then source instance scale; viewport zoom only",
+      "pivot": "inherits exact classifier pivot per asset",
+      "support_points": "inherits explicit classifier support_points",
+      "animation": {
+        "type": "none",
+        "note": "movement role indicated by colour and direction arrow; no motion simulation"
+      },
+      "states": [
+        "source/accepted initial mask role",
+        "no live game flags evaluated"
+      ],
+      "collision": {
+        "type": "none for diagnostic UI; visualises inherited source masks only"
+      },
+      "hitbox": "none for diagnostic UI",
+      "vfx": {
+        "type": "none",
+        "bindings": []
+      },
+      "placement": {
+        "surfaces": "atlas canvas only",
+        "layers": "diagnostic greybox",
+        "neighbors": "original source instances only",
+        "support": "source support points; never inferred from sprite bounds",
+        "restrictions": "no new gameplay admission; blocked103117 excluded; original105818 pivot and repair separate"
+      },
+      "colour": "#e6c667",
+      "validation": {
+        "status": "verified_diagnostic_UI_only",
+        "gallery": "../greybox-gallery.html",
+        "review": "Rendered masks/support/pivot viewed for ROOM23,30,34,45,110,151,262; exact source-mask roles reused; no gameplay admission",
+        "proof": "../qa/greybox-gallery-verification.json"
+      }
+    },
+    {
+      "id": "UI_GREYBOX_PAD",
+      "category": "atlas_mask_diagnostic",
+      "purpose": "Трамплины",
+      "source": {
+        "kind": "vector fill of existing verified collision.row_rectangles",
+        "classifier": "../assets-by-biome/classifier.json"
+      },
+      "frames": [],
+      "crop": "none; no raster asset generated",
+      "scale": "native pixel mask then source instance scale; viewport zoom only",
+      "pivot": "inherits exact classifier pivot per asset",
+      "support_points": "inherits explicit classifier support_points",
+      "animation": {
+        "type": "none",
+        "note": "movement role indicated by colour and direction arrow; no motion simulation"
+      },
+      "states": [
+        "source/accepted initial mask role",
+        "no live game flags evaluated"
+      ],
+      "collision": {
+        "type": "none for diagnostic UI; visualises inherited source masks only"
+      },
+      "hitbox": "none for diagnostic UI",
+      "vfx": {
+        "type": "none",
+        "bindings": []
+      },
+      "placement": {
+        "surfaces": "atlas canvas only",
+        "layers": "diagnostic greybox",
+        "neighbors": "original source instances only",
+        "support": "source support points; never inferred from sprite bounds",
+        "restrictions": "no new gameplay admission; blocked103117 excluded; original105818 pivot and repair separate"
+      },
+      "colour": "#bd94f2",
+      "validation": {
+        "status": "verified_diagnostic_UI_only",
+        "gallery": "../greybox-gallery.html",
+        "review": "Rendered masks/support/pivot viewed for ROOM23,30,34,45,110,151,262; exact source-mask roles reused; no gameplay admission",
+        "proof": "../qa/greybox-gallery-verification.json"
+      }
+    },
+    {
+      "id": "UI_GREYBOX_FRAGILE",
+      "category": "atlas_mask_diagnostic",
+      "purpose": "Ломающиеся / исчезающие опоры",
+      "source": {
+        "kind": "vector fill of existing verified collision.row_rectangles",
+        "classifier": "../assets-by-biome/classifier.json"
+      },
+      "frames": [],
+      "crop": "none; no raster asset generated",
+      "scale": "native pixel mask then source instance scale; viewport zoom only",
+      "pivot": "inherits exact classifier pivot per asset",
+      "support_points": "inherits explicit classifier support_points",
+      "animation": {
+        "type": "none",
+        "note": "movement role indicated by colour and direction arrow; no motion simulation"
+      },
+      "states": [
+        "source/accepted initial mask role",
+        "no live game flags evaluated"
+      ],
+      "collision": {
+        "type": "none for diagnostic UI; visualises inherited source masks only"
+      },
+      "hitbox": "none for diagnostic UI",
+      "vfx": {
+        "type": "none",
+        "bindings": []
+      },
+      "placement": {
+        "surfaces": "atlas canvas only",
+        "layers": "diagnostic greybox",
+        "neighbors": "original source instances only",
+        "support": "source support points; never inferred from sprite bounds",
+        "restrictions": "no new gameplay admission; blocked103117 excluded; original105818 pivot and repair separate"
+      },
+      "colour": "#ec9c65",
+      "validation": {
+        "status": "verified_diagnostic_UI_only",
+        "gallery": "../greybox-gallery.html",
+        "review": "Rendered masks/support/pivot viewed for ROOM23,30,34,45,110,151,262; exact source-mask roles reused; no gameplay admission",
+        "proof": "../qa/greybox-gallery-verification.json"
+      }
+    },
+    {
+      "id": "UI_GREYBOX_GATE",
+      "category": "atlas_mask_diagnostic",
+      "purpose": "Двери и условные преграды",
+      "source": {
+        "kind": "vector fill of existing verified collision.row_rectangles",
+        "classifier": "../assets-by-biome/classifier.json"
+      },
+      "frames": [],
+      "crop": "none; no raster asset generated",
+      "scale": "native pixel mask then source instance scale; viewport zoom only",
+      "pivot": "inherits exact classifier pivot per asset",
+      "support_points": "inherits explicit classifier support_points",
+      "animation": {
+        "type": "none",
+        "note": "movement role indicated by colour and direction arrow; no motion simulation"
+      },
+      "states": [
+        "source/accepted initial mask role",
+        "no live game flags evaluated"
+      ],
+      "collision": {
+        "type": "none for diagnostic UI; visualises inherited source masks only"
+      },
+      "hitbox": "none for diagnostic UI",
+      "vfx": {
+        "type": "none",
+        "bindings": []
+      },
+      "placement": {
+        "surfaces": "atlas canvas only",
+        "layers": "diagnostic greybox",
+        "neighbors": "original source instances only",
+        "support": "source support points; never inferred from sprite bounds",
+        "restrictions": "no new gameplay admission; blocked103117 excluded; original105818 pivot and repair separate"
+      },
+      "colour": "#e5bd79",
+      "validation": {
+        "status": "verified_diagnostic_UI_only",
+        "gallery": "../greybox-gallery.html",
+        "review": "Rendered masks/support/pivot viewed for ROOM23,30,34,45,110,151,262; exact source-mask roles reused; no gameplay admission",
+        "proof": "../qa/greybox-gallery-verification.json"
+      }
+    },
+    {
+      "id": "UI_GREYBOX_HAZARD",
+      "category": "atlas_mask_diagnostic",
+      "purpose": "Опасные поверхности",
+      "source": {
+        "kind": "vector fill of existing verified collision.row_rectangles",
+        "classifier": "../assets-by-biome/classifier.json"
+      },
+      "frames": [],
+      "crop": "none; no raster asset generated",
+      "scale": "native pixel mask then source instance scale; viewport zoom only",
+      "pivot": "inherits exact classifier pivot per asset",
+      "support_points": "inherits explicit classifier support_points",
+      "animation": {
+        "type": "none",
+        "note": "movement role indicated by colour and direction arrow; no motion simulation"
+      },
+      "states": [
+        "source/accepted initial mask role",
+        "no live game flags evaluated"
+      ],
+      "collision": {
+        "type": "none for diagnostic UI; visualises inherited source masks only"
+      },
+      "hitbox": "none for diagnostic UI",
+      "vfx": {
+        "type": "none",
+        "bindings": []
+      },
+      "placement": {
+        "surfaces": "atlas canvas only",
+        "layers": "diagnostic greybox",
+        "neighbors": "original source instances only",
+        "support": "source support points; never inferred from sprite bounds",
+        "restrictions": "no new gameplay admission; blocked103117 excluded; original105818 pivot and repair separate"
+      },
+      "colour": "#f56c78",
+      "validation": {
+        "status": "verified_diagnostic_UI_only",
+        "gallery": "../greybox-gallery.html",
+        "review": "Rendered masks/support/pivot viewed for ROOM23,30,34,45,110,151,262; exact source-mask roles reused; no gameplay admission",
+        "proof": "../qa/greybox-gallery-verification.json"
+      }
+    },
+    {
+      "id": "UI_GREYBOX_TRAJECTORY",
+      "category": "atlas_vector_diagnostic",
+      "purpose": "Verified pivot trajectories, endpoints and current moving-mask positions",
+      "source": {
+        "profiles": "motion-profiles.json",
+        "bounds": "exact inherited source endpoints and oscillator step count"
+      },
+      "frames": [],
+      "crop": "none; code vector",
+      "scale": "one game pixel per native mask pixel; viewport zoom only",
+      "pivot": "same verified pivot as moving mask; route drawn through that pivot",
+      "support_points": "same source support points move rigidly with mask",
+      "animation": {
+        "type": "none for path itself; object transform controlled by source profile"
+      },
+      "states": [
+        "path visible",
+        "path hidden",
+        "preview paused"
+      ],
+      "collision": {
+        "type": "none; diagnostic path is not a collider"
+      },
+      "hitbox": "none",
+      "vfx": {
+        "type": "none",
+        "bindings": []
+      },
+      "placement": {
+        "surfaces": "atlas canvas only",
+        "layers": "trajectory behind moving mask",
+        "neighbors": "no guessed obstacles or collision avoidance",
+        "support": "inherited moving mask support only",
+        "restrictions": "only verified instance/profile IDs; lift and bridge triggers are diagnostic demonstrations"
+      },
+      "validation": {
+        "status": "verified_diagnostic_motion_UI_only",
+        "gallery": "../motion-gallery.html",
+        "source": "../qa/motion-source-verification.json",
+        "animated_review": "../qa/motion-gallery-verification.json",
+        "review": "Platform, lift, cabin and bridge masks, trajectories and ROOM frames visually reviewed. Triggers are diagnostic demonstrations; no new gameplay admission."
+      }
+    },
+    {
+      "id": "UI_GREYBOX_LABEL",
+      "category": "atlas_semantic_UI",
+      "purpose": "Artist-facing labels of verified roles with exact instance IDs",
+      "source": {
+        "roles": "greybox.json",
+        "asset_classifier": "../assets-by-biome/classifier.json",
+        "instance_ids": "../data/objects.json"
+      },
+      "frames": [],
+      "crop": "none; code text and vector leader",
+      "scale": "screen-readable label; source mask geometry and native scale unchanged",
+      "pivot": "leader points to transformed exact mask bounds centre",
+      "support_points": [],
+      "animation": {
+        "type": "follows verified mask motion",
+        "profiles": "motion-profiles.json"
+      },
+      "states": [
+        "labels visible",
+        "labels hidden",
+        "selected-room role list"
+      ],
+      "collision": {
+        "type": "none; UI labels are not game colliders"
+      },
+      "hitbox": "UI button target only; no combat hitbox",
+      "vfx": {
+        "type": "none",
+        "bindings": []
+      },
+      "placement": {
+        "surfaces": "atlas UI only",
+        "layers": "selected-room label overlay",
+        "neighbors": "labels avoid overlap; no game adjacency inferred",
+        "support": "none; game support remains in original mask record",
+        "restrictions": "only existing verified shapes and IDs; blocked103117 excluded; no guessed collider for candidates"
+      },
+      "validation": {
+        "status": "verified_diagnostic_labels_only",
+        "gallery": "../annotations-gallery.html",
+        "evidence": "../qa/annotations-gallery-verification.json",
+        "review": "Role labels, exact IDs and leader centres visually inspected on ROOM45,34,23,262; frames preserved; no gameplay admission"
+      }
+    }
+  ]
+}

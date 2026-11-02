@@ -1,0 +1,291 @@
+{
+  "id": "BIOME_09",
+  "name_ru": "Стылая Сиэль",
+  "pixel_size": [
+    1600,
+    720
+  ],
+  "world_origin_px": [
+    10240,
+    4320
+  ],
+  "world_rect_px": [
+    10240,
+    4320,
+    1600,
+    720
+  ],
+  "scale": 1,
+  "unit": "1 game pixel = 1 PNG pixel",
+  "rect_convention": "x,y,width,height half-open",
+  "outside_group": "RGBA transparent; holes and source cell spacing retained",
+  "visual_scope": "verified static source reference, not full native gameplay. Frore scr_world_swap(16)/VFX not rendered. No default actor frames baked.",
+  "layers": {
+    "static": "static.png",
+    "diagnostic_markers": "markers.png",
+    "static_with_markers": "annotated.png",
+    "preview_1_8": "preview.png"
+  },
+  "sections": [
+    {
+      "id": "ROOM_057_S001",
+      "room": 57,
+      "world_cell": [
+        33,
+        18
+      ],
+      "world_px": [
+        10560,
+        4320
+      ],
+      "png_rect": [
+        320,
+        0,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_057_S001.png"
+    },
+    {
+      "id": "ROOM_057_S002",
+      "room": 57,
+      "world_cell": [
+        33,
+        19
+      ],
+      "world_px": [
+        10560,
+        4560
+      ],
+      "png_rect": [
+        320,
+        240,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_057_S002.png"
+    },
+    {
+      "id": "ROOM_058_S001",
+      "room": 58,
+      "world_cell": [
+        34,
+        19
+      ],
+      "world_px": [
+        10880,
+        4560
+      ],
+      "png_rect": [
+        640,
+        240,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_058_S001.png"
+    },
+    {
+      "id": "ROOM_058_S002",
+      "room": 58,
+      "world_cell": [
+        35,
+        19
+      ],
+      "world_px": [
+        11200,
+        4560
+      ],
+      "png_rect": [
+        960,
+        240,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_058_S002.png"
+    },
+    {
+      "id": "ROOM_058_S003",
+      "room": 58,
+      "world_cell": [
+        36,
+        19
+      ],
+      "world_px": [
+        11520,
+        4560
+      ],
+      "png_rect": [
+        1280,
+        240,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_058_S003.png"
+    },
+    {
+      "id": "ROOM_059_S001",
+      "room": 59,
+      "world_cell": [
+        32,
+        19
+      ],
+      "world_px": [
+        10240,
+        4560
+      ],
+      "png_rect": [
+        0,
+        240,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_059_S001.png"
+    },
+    {
+      "id": "ROOM_059_S002",
+      "room": 59,
+      "world_cell": [
+        32,
+        20
+      ],
+      "world_px": [
+        10240,
+        4800
+      ],
+      "png_rect": [
+        0,
+        480,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_059_S002.png"
+    },
+    {
+      "id": "ROOM_060_S001",
+      "room": 60,
+      "world_cell": [
+        32,
+        18
+      ],
+      "world_px": [
+        10240,
+        4320
+      ],
+      "png_rect": [
+        0,
+        0,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_060_S001.png"
+    }
+  ],
+  "marker_ids": [
+    "R057_I100848",
+    "R057_I100849",
+    "R057_I100850",
+    "R057_I100851",
+    "R057_I100852",
+    "R057_I100853",
+    "R057_I100854",
+    "R057_I100855",
+    "R057_I100856",
+    "R057_I100857",
+    "R057_I100858",
+    "R057_I100859",
+    "R057_I100860",
+    "R057_I100861",
+    "R057_I100862",
+    "R057_I100863",
+    "R057_I100864",
+    "R057_I100865",
+    "R057_I100866",
+    "R057_I100867",
+    "R057_I100868",
+    "R057_I100869",
+    "R057_I100870",
+    "R057_I100871",
+    "R057_I100872",
+    "R057_I100873",
+    "R058_I100874",
+    "R058_I100875",
+    "R058_I100876",
+    "R058_I100877",
+    "R058_I100878",
+    "R058_I100879",
+    "R058_I100880",
+    "R058_I100881",
+    "R058_I100882",
+    "R058_I100883",
+    "R058_I100884",
+    "R058_I100885",
+    "R058_I100886",
+    "R058_I100887",
+    "R058_I100888",
+    "R058_I100889",
+    "R058_I100890",
+    "R058_I100891",
+    "R058_I100892",
+    "R058_I100893",
+    "R058_I100894",
+    "R058_I100895",
+    "R058_I100896",
+    "R058_I100897",
+    "R058_I100898",
+    "R058_I100899",
+    "R058_I100900",
+    "R059_I100901",
+    "R059_I100902",
+    "R059_I100903",
+    "R059_I100904",
+    "R059_I100905",
+    "R059_I100906",
+    "R059_I100907",
+    "R059_I100908",
+    "R059_I100909",
+    "R059_I100910",
+    "R059_I100911",
+    "R059_I100912",
+    "R059_I100913",
+    "R059_I100914",
+    "R059_I100915",
+    "R059_I100916",
+    "R059_I100917",
+    "R059_I100918",
+    "R059_I100919",
+    "R059_I100920",
+    "R059_I100921",
+    "R059_I100922",
+    "R059_I100923",
+    "R059_I100924",
+    "R059_I100925",
+    "R059_I100926",
+    "R059_I100927",
+    "R059_I100928",
+    "R059_I100929",
+    "R060_I100930",
+    "R060_I100931",
+    "R060_I100932",
+    "R060_I100933",
+    "R060_I100934",
+    "R060_I100935",
+    "R060_I100936",
+    "R060_I100937",
+    "R060_I100938",
+    "R060_I100939",
+    "R060_I100940",
+    "R060_I100941",
+    "R060_I100942",
+    "R060_I100943",
+    "R060_I100944",
+    "E057_00",
+    "E057_01",
+    "E057_02",
+    "E057_03",
+    "E058_00",
+    "E059_00",
+    "E059_01",
+    "E060_00",
+    "E060_01"
+  ]
+}

@@ -1,0 +1,82 @@
+БИОМЫ И СЕЙВЫ — MOMODORA RUtM
+
+BIOME_01 — Святая роща Ордалия
+Лесные слои, земля и растительность; подварианты воды и пещер сохраняются на уровне комнат.
+33 ROOM / 57 клеток
+Сейв (доступность условна): ROOM30 / instance100397 / source[464, 144]
+Сейв (доступность условна): ROOM41 / instance100618 / source[136, 160]
+Сейв (доступность условна): ROOM52 / instance100802 / source[360, 144]
+Карты: maps/BIOME_01/; ассеты: assets-by-biome/BIOME_01/manifest.json
+
+BIOME_02 — Город Карст
+Городские каменные улицы, мосты и здания.
+29 ROOM / 53 клеток
+Сейв (доступность условна): ROOM63 / instance100972 / source[328, 144]
+Сейв (доступность условна): ROOM75 / instance101276 / source[280, 128]
+Карты: maps/BIOME_02/; ассеты: assets-by-biome/BIOME_02/manifest.json
+
+BIOME_03 — Покинутый монастырь
+Интерьеры монастыря, стены и вертикальные переходы.
+27 ROOM / 52 клеток
+Сейв (доступность условна): ROOM94 / instance101652 / source[96, 160]
+Сейв (доступность условна): ROOM101 / instance101836 / source[320, 112]
+Сейв (доступность условна): ROOM111 / instance102051 / source[208, 384]
+Карты: maps/BIOME_03/; ассеты: assets-by-biome/BIOME_03/manifest.json
+
+BIOME_04 — Подземная гробница
+Подземные кирпичные помещения, решётки и провалы.
+26 ROOM / 44 клеток
+Сейв (доступность условна): ROOM126 / instance102430 / source[256, 176]
+Сейв (доступность условна): ROOM127 / instance102459 / source[224, 176]
+Сломан, не допущен как сейв: ROOM130 / instance102553 / source[176, 64]
+Сейв (доступность условна): ROOM142 / instance102934 / source[480, 176]
+Карты: maps/BIOME_04/; ассеты: assets-by-biome/BIOME_04/manifest.json
+
+BIOME_05 — Кладбище Белого Листа
+Кладбищенский парк: деревья, надгробия и каменная архитектура.
+22 ROOM / 45 клеток
+Сейв (доступность условна): ROOM148 / instance103040 / source[416, 96]
+Сейв (доступность условна): ROOM154 / instance103179 / source[224, 400]
+Сейв (доступность условна): ROOM160 / instance103355 / source[160, 128]
+Карты: maps/BIOME_05/; ассеты: assets-by-biome/BIOME_05/manifest.json
+
+BIOME_06 — Залы Золы
+Залы с обожжёнными стенами и оранжевой отделкой.
+26 ROOM / 48 клеток
+Сейв (доступность условна): ROOM172 / instance103639 / source[128, 128]
+Сейв (доступность условна): ROOM189 / instance104184 / source[224, 192]
+Сейв (доступность условна): ROOM195 / instance104339 / source[568, 144]
+Карты: maps/BIOME_06/; ассеты: assets-by-biome/BIOME_06/manifest.json
+
+BIOME_07 — Придворная пинакотека
+Залы с картинами, рамами и статуями.
+31 ROOM / 55 клеток
+Сейв (доступность условна): ROOM198 / instance104389 / source[64, 128]
+Сейв (доступность условна): ROOM205 / instance104563 / source[128, 128]
+Карты: maps/BIOME_07/; ассеты: assets-by-biome/BIOME_07/manifest.json
+
+BIOME_08 — Карстский дворец
+Каменные залы и шахты дворца.
+41 ROOM / 85 клеток
+Сейв (доступность условна): ROOM231 / instance105120 / source[136, 160]
+Сейв (доступность условна): ROOM245 / instance105420 / source[144, 144]
+Сейв (доступность условна): ROOM247 / instance105462 / source[80, 336]
+Карты: maps/BIOME_08/; ассеты: assets-by-biome/BIOME_08/manifest.json
+
+BIOME_09 — Стылая Сиэль
+Отдельный вариант леса: native scr_world_swap(16), tiles1_hell, CreateFog(8), winter.oggx. Полный вид этой подмены ещё не подключён.
+4 ROOM / 8 клеток
+Подтверждённых authored SavePoint нет.
+Карты: maps/BIOME_09/; ассеты: assets-by-biome/BIOME_09/manifest.json
+
+TRANSITION_ORDALIA_FRORE — Переход роща — Стылая Сиэль
+ROOM56: previous area == Sacred Ordalia Grove → CreateFog(1), forest_ambiance.oggx; иначе scr_world_swap(16), CreateFog(8), winter.oggx. Название области сохраняется.
+1 ROOM / 2 клеток
+Подтверждённых authored SavePoint нет.
+Карты: maps/TRANSITION_ORDALIA_FRORE/; ассеты: assets-by-biome/TRANSITION_ORDALIA_FRORE/manifest.json
+
+TRANSITION_COURTYARD — Двор перед дворцом
+ROOM229: native очищает имя области, включает CreateFog(10) и castle1.oggx; соединяет пинакотеку с дворцом.
+1 ROOM / 5 клеток
+Сейв (доступность условна): ROOM229 / instance105103 / source[816, 160]
+Карты: maps/TRANSITION_COURTYARD/; ассеты: assets-by-biome/TRANSITION_COURTYARD/manifest.json

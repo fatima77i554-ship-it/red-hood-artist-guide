@@ -1,0 +1,198 @@
+{
+  "native_sha256": "5c61dd3c19ff65908dbba87c54c04c5eb945f311e377588383e760899c09c4c9",
+  "warning": "Conservative linear trace; unhandled instructions and branches are not proofs. Raw ASM saved separately.",
+  "traces": {
+    "__Z18gml_Script_newGameP9CInstanceS0_R8YYRValueiPPS1_": {
+      "calls": [
+        {
+          "script": "room_goto",
+          "args": [
+            null
+          ],
+          "address": 298721,
+          "function": "__Z18gml_Script_newGameP9CInstanceS0_R8YYRValueiPPS1_"
+        },
+        {
+          "script": "instance_create",
+          "args": [
+            null,
+            null,
+            0
+          ],
+          "address": 298840,
+          "function": "__Z18gml_Script_newGameP9CInstanceS0_R8YYRValueiPPS1_"
+        },
+        {
+          "script": "inventoryClear",
+          "args": [],
+          "address": 299069,
+          "function": "__Z18gml_Script_newGameP9CInstanceS0_R8YYRValueiPPS1_",
+          "branches_before": 8
+        },
+        {
+          "script": "resetEvents",
+          "args": [],
+          "address": 299184,
+          "function": "__Z18gml_Script_newGameP9CInstanceS0_R8YYRValueiPPS1_",
+          "branches_before": 9
+        },
+        {
+          "script": "reloadSentences",
+          "args": [],
+          "address": 299291,
+          "function": "__Z18gml_Script_newGameP9CInstanceS0_R8YYRValueiPPS1_",
+          "branches_before": 10
+        }
+      ],
+      "assignments": [
+        {
+          "index": 176,
+          "value": null,
+          "address": 298376
+        }
+      ]
+    },
+    "__Z32gml_Object_oIntroCutscene_Step_0P9CInstanceS0_": {
+      "calls": [
+        {
+          "script": "action_inherited",
+          "args": [],
+          "address": 3150359,
+          "function": "__Z32gml_Object_oIntroCutscene_Step_0P9CInstanceS0_"
+        },
+        {
+          "script": "intro_1",
+          "args": [],
+          "address": 3150646,
+          "function": "__Z32gml_Object_oIntroCutscene_Step_0P9CInstanceS0_",
+          "branches_before": 4
+        },
+        {
+          "script": "checkStartPressed",
+          "args": [],
+          "address": 3151711,
+          "function": "__Z32gml_Object_oIntroCutscene_Step_0P9CInstanceS0_",
+          "branches_before": 16
+        },
+        {
+          "script": "dialogTerminate",
+          "args": [],
+          "address": 3151951,
+          "function": "__Z32gml_Object_oIntroCutscene_Step_0P9CInstanceS0_",
+          "branches_before": 20
+        },
+        {
+          "script": "approach",
+          "args": [
+            {
+              "var": "x",
+              "index": 2147483648
+            },
+            0.0,
+            null
+          ],
+          "address": 3153439,
+          "function": "__Z32gml_Object_oIntroCutscene_Step_0P9CInstanceS0_",
+          "branches_before": 35
+        },
+        {
+          "script": "room_goto",
+          "args": [
+            null
+          ],
+          "address": 3154123,
+          "function": "__Z32gml_Object_oIntroCutscene_Step_0P9CInstanceS0_"
+        },
+        {
+          "script": "playMusic",
+          "args": [
+            null
+          ],
+          "address": 3154325,
+          "function": "__Z32gml_Object_oIntroCutscene_Step_0P9CInstanceS0_",
+          "branches_before": 47
+        },
+        {
+          "script": "instance_create",
+          "args": [
+            null,
+            null,
+            778
+          ],
+          "address": 3154649,
+          "function": "__Z32gml_Object_oIntroCutscene_Step_0P9CInstanceS0_"
+        },
+        {
+          "script": "instance_create",
+          "args": [
+            null,
+            null,
+            1
+          ],
+          "address": 3154707,
+          "function": "__Z32gml_Object_oIntroCutscene_Step_0P9CInstanceS0_"
+        },
+        {
+          "script": "instance_create",
+          "args": [
+            null,
+            null,
+            77
+          ],
+          "address": 3154919,
+          "function": "__Z32gml_Object_oIntroCutscene_Step_0P9CInstanceS0_"
+        },
+        {
+          "script": "intro_2",
+          "args": [],
+          "address": 3155402,
+          "function": "__Z32gml_Object_oIntroCutscene_Step_0P9CInstanceS0_",
+          "branches_before": 58
+        }
+      ],
+      "assignments": [
+        {
+          "index": 286,
+          "value": {
+            "var": "x",
+            "index": 2147483648
+          },
+          "address": 3152227
+        },
+        {
+          "index": 286,
+          "value": null,
+          "address": 3153457
+        }
+      ]
+    },
+    "__Z34gml_Object_oIntroCutscene_Create_0P9CInstanceS0_": {
+      "calls": [
+        {
+          "script": "action_inherited",
+          "args": [],
+          "address": 3147641,
+          "function": "__Z34gml_Object_oIntroCutscene_Create_0P9CInstanceS0_"
+        },
+        {
+          "script": "inventoryGive",
+          "args": [
+            null
+          ],
+          "address": 3148882,
+          "function": "__Z34gml_Object_oIntroCutscene_Create_0P9CInstanceS0_",
+          "branches_before": 23
+        },
+        {
+          "script": "room_goto",
+          "args": [
+            63.0
+          ],
+          "address": 3149108,
+          "function": "__Z34gml_Object_oIntroCutscene_Create_0P9CInstanceS0_"
+        }
+      ],
+      "assignments": []
+    }
+  }
+}

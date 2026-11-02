@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "default verified native profile",
+      "passed": true
+    },
+    {
+      "name": "PNG downloads displayed native profile",
+      "passed": true
+    },
+    {
+      "name": "static mode retained",
+      "passed": true
+    },
+    {
+      "name": "candidate mode remains separate",
+      "passed": true
+    },
+    {
+      "name": "connected ROOM23 profile",
+      "passed": true
+    },
+    {
+      "name": "ROOM30 blocked extra script",
+      "passed": true
+    },
+    {
+      "name": "expanded checked forest room profile",
+      "passed": true
+    },
+    {
+      "name": "classifier visual-only admission visible",
+      "passed": true
+    },
+    {
+      "name": "native controls fit mobile",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

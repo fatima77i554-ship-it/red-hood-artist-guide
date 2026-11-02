@@ -92,8 +92,8 @@
       "bytes": 91867
     },
     "bloodborne.css": {
-      "sha256": "34ed9e896bcd396eca30a81fde281f705d3f56db931d2ae47bae5d10ada55401",
-      "bytes": 12539
+      "sha256": "cc43b03586ecc66194e2c398c99783174451e10161311df541b1057b2db540f4",
+      "bytes": 15547
     },
     "data/ui-theme.json": {
       "sha256": "227ce3b4f8a894e45caa58eb238c482e739cc2def225e9658098284a2ccf373d",
@@ -194,6 +194,22 @@
     "data/enemy-preview-classifier.json": {
       "sha256": "3b15f5165aff118ccd914fa9f76510203a50a5906b552746b9460f329cd0092d",
       "bytes": 100386
+    },
+    "maps/momodora/FILE-MANIFEST.json": {
+      "sha256": "8bc767ff0b8fd0319712e1cad22df6feaf13d40bd8e9d9b0f77d8eaf601670a8",
+      "bytes": 1938968
+    },
+    "guide.js": {
+      "sha256": "bf07bbccb227ca685149fe824de27ba61407ce0e40163e1d26d45c57af0560a1",
+      "bytes": 41018
+    },
+    "data.js": {
+      "sha256": "ad538a02d87a45d3ba1f8dbe93f0fa463d4ea334fff4985826de0ac34f0eb348",
+      "bytes": 269841
+    },
+    "README.txt": {
+      "sha256": "ef1f3c040698cfa26b6fe2e42741b6c9f7a7623be508fb744cd867edbcfa9d94",
+      "bytes": 10064
     }
   },
   "referenceSources": {
@@ -311,5 +327,49 @@
       "raziel": "Night Lord is Raziel; palette chosen by Claude to fit Red Hood"
     },
     "recoloredAssetsAddedByCodex": false
+  },
+  "mapModule": {
+    "path": "maps/momodora",
+    "sourceArchive": "/Users/fatimaauseva/Documents/Codex/2026-11-02/momodora-biome-maps-objects-assets/outputs/Momodora-Biome-Atlas.zip",
+    "sourceArchiveSha256": "5b20b5f4496ae25677ea01412b1726c52c6dc5f529f2115ef81bc3089fb490c5",
+    "manifest": "maps/momodora/FILE-MANIFEST.json",
+    "manifestSha256": "8bc767ff0b8fd0319712e1cad22df6feaf13d40bd8e9d9b0f77d8eaf601670a8",
+    "manifestFiles": 10900,
+    "allSourceHashesMatch": true,
+    "moduleCopiedUnchanged": true,
+    "nativeSourceModified": false,
+    "gameBuildAdmissionAdded": false,
+    "artistUrl": "maps/momodora/index.html?artist=1#map/all/ROOM30",
+    "scope": "Original Momodora geometry for adaptation, not approved Red Hood geography",
+    "caveats": [
+      "23 SavePoint and BrokenSavePoint separately, conditional availability",
+      "Frore Ciele scr_world_swap(16)/VFX incomplete",
+      "ROOM151 pad103117 blocked",
+      "ROOM262 anchor105818 raw [112,224]; effective source pivot [120,240]; repair [136,208] separate",
+      "lift/bridge motion is a demonstration without player flags"
+    ]
+  },
+  "claudeDesignImport": {
+    "edition": "2026-11-02",
+    "records": 7,
+    "selectedCycleFrames": 59,
+    "mediaFiles": 2,
+    "localOnly": true,
+    "directory": "local-designs/",
+    "excludedFromGitAndZIP": true,
+    "sourceBytesUnchanged": true,
+    "recolorExecutedBy": "Claude",
+    "colorSelectionBy": "Claude",
+    "gameBuildAdmissionByThisImport": false,
+    "harpyDesignStatus": "design_approved_not_in_game",
+    "fourRecolors": "candidates_v2_not_author_approved",
+    "sourceHandoff": "/Users/fatimaauseva/Documents/Codex/2026-11-01/new-chat-3/outputs/Красная Шапочка — Momodora/08 Перекраска Claude/Передача ChatGPT — весь проект.md"
+  },
+  "biomeNaming": {
+    "status": "proposed_not_approved",
+    "biomes": 9,
+    "optionsPerBiome": 2,
+    "sourceIdsPreserved": true,
+    "originalModuleUnchanged": true
   }
 }

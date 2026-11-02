@@ -1,0 +1,50 @@
+#version 120
+#define LOWPREC 
+// Uniforms look like they're shared between vertex and fragment shaders in GLSL, so we have to be careful to avoid name clashes
+
+uniform sampler2D gm_BaseTexture;
+
+uniform bool gm_PS_FogEnabled;
+uniform vec4 gm_FogColour;
+uniform bool gm_AlphaTestEnabled;
+uniform float gm_AlphaRefValue;
+
+void DoAlphaTest(vec4 SrcColour)
+{
+	if (gm_AlphaTestEnabled)
+	{
+		if (SrcColour.a <= gm_AlphaRefValue)
+		{
+			discard;
+		}
+	}
+}
+
+void DoFog(inout vec4 SrcColour, float fogval)
+{
+	if (gm_PS_FogEnabled)
+	{
+		SrcColour = mix(SrcColour, gm_FogColour, clamp(fogval, 0.0, 1.0)); 
+	}
+}
+
+#define _YY_GLSL_ 1
+//
+// Simple passthrough fragment shader
+//
+varying vec2 v_vTexcoord;
+varying vec4 v_vColour;
+
+void main()
+{
+    vec4 pixel = gl_FragColor = v_vColour * texture2D( gm_BaseTexture, v_vTexcoord );
+    //gl_FragColor = vec4(160.0/255.0,27.0/255.0,53.0/255.0, pixel.a);
+    //magic formula to get the brightness of the pixel!
+    float brightness = pixel.r * 0.4 + pixel.g * 0.1 + pixel.b * 0.4;
+    //multiply the brightness by the new color!
+//    gl_FragColor = vec4(brightness * 160.0/255.0, brightness * 27.0/255.0, brightness * 53.0/255.0, pixel.a);
+    gl_FragColor = vec4(brightness * 139.0/255.0, brightness * 16.0/255.0, brightness * 72.0/255.0, pixel.a);
+
+
+}
+

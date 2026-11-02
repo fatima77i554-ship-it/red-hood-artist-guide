@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "rooms": [
+    45,
+    34,
+    23,
+    262
+  ],
+  "labels_native_mask_centres": true,
+  "source_ids": true,
+  "game_admission_added": false,
+  "errors": []
+}

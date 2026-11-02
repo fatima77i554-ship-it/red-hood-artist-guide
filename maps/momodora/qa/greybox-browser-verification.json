@@ -1,0 +1,50 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "a visible color greybox toggle exists",
+      "passed": true
+    },
+    {
+      "name": "toggle enables greybox",
+      "passed": true
+    },
+    {
+      "name": "semantic color legend visible",
+      "passed": true
+    },
+    {
+      "name": "ROOM30 solid mask rendered as collision greyblue, replacing art",
+      "passed": true
+    },
+    {
+      "name": "ROOM30 frame label preserved",
+      "passed": true
+    },
+    {
+      "name": "ROOM45 moving platform mask distinct from static collision",
+      "passed": true
+    },
+    {
+      "name": "toggle returns to original map mode",
+      "passed": true
+    },
+    {
+      "name": "turning greybox off restores original room rendering",
+      "passed": true
+    },
+    {
+      "name": "mobile greybox no page overflow",
+      "passed": true
+    },
+    {
+      "name": "mobile toggle accessible",
+      "passed": true
+    },
+    {
+      "name": "no JS errors",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

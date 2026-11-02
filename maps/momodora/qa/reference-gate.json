@@ -1,0 +1,13 @@
+{
+  "expand_permitted": true,
+  "scope": "static research map and diagnostic vectors only; no game build",
+  "reviewed": [
+    "classifier-roles-01.png",
+    "classifier-tiles-01.png",
+    "remaining tile sheets in composite review",
+    "ui-markers.png",
+    "reference-ROOM030.png"
+  ],
+  "inherited_review": "Original classifier gallery and mask/support contracts reused; exact1211 frame hashes checked. Animated role review will run in atlas gallery; no animated actor is placed in map export.",
+  "reference_room": 30
+}

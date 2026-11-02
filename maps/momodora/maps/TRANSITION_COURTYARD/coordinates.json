@@ -1,0 +1,151 @@
+{
+  "id": "TRANSITION_COURTYARD",
+  "name_ru": "Двор перед дворцом",
+  "pixel_size": [
+    1600,
+    240
+  ],
+  "world_origin_px": [
+    16000,
+    2880
+  ],
+  "world_rect_px": [
+    16000,
+    2880,
+    1600,
+    240
+  ],
+  "scale": 1,
+  "unit": "1 game pixel = 1 PNG pixel",
+  "rect_convention": "x,y,width,height half-open",
+  "outside_group": "RGBA transparent; holes and source cell spacing retained",
+  "visual_scope": "verified static source reference, not full native gameplay. Frore scr_world_swap(16)/VFX not rendered. No default actor frames baked.",
+  "layers": {
+    "static": "static.png",
+    "diagnostic_markers": "markers.png",
+    "static_with_markers": "annotated.png",
+    "preview_1_8": "preview.png"
+  },
+  "sections": [
+    {
+      "id": "ROOM_229_S001",
+      "room": 229,
+      "world_cell": [
+        50,
+        12
+      ],
+      "world_px": [
+        16000,
+        2880
+      ],
+      "png_rect": [
+        0,
+        0,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_229_S001.png"
+    },
+    {
+      "id": "ROOM_229_S002",
+      "room": 229,
+      "world_cell": [
+        51,
+        12
+      ],
+      "world_px": [
+        16320,
+        2880
+      ],
+      "png_rect": [
+        320,
+        0,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_229_S002.png"
+    },
+    {
+      "id": "ROOM_229_S003",
+      "room": 229,
+      "world_cell": [
+        52,
+        12
+      ],
+      "world_px": [
+        16640,
+        2880
+      ],
+      "png_rect": [
+        640,
+        0,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_229_S003.png"
+    },
+    {
+      "id": "ROOM_229_S004",
+      "room": 229,
+      "world_cell": [
+        53,
+        12
+      ],
+      "world_px": [
+        16960,
+        2880
+      ],
+      "png_rect": [
+        960,
+        0,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_229_S004.png"
+    },
+    {
+      "id": "ROOM_229_S005",
+      "room": 229,
+      "world_cell": [
+        54,
+        12
+      ],
+      "world_px": [
+        17280,
+        2880
+      ],
+      "png_rect": [
+        1280,
+        0,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_229_S005.png"
+    }
+  ],
+  "marker_ids": [
+    "R229_I105099",
+    "R229_I105100",
+    "R229_I105101",
+    "R229_I105102",
+    "R229_I105103",
+    "R229_I105104",
+    "R229_I105105",
+    "R229_I105106",
+    "R229_I105107",
+    "R229_I105108",
+    "R229_I105109",
+    "R229_I105110",
+    "R229_I105111",
+    "R229_I105112",
+    "R229_I105113",
+    "R229_I105114",
+    "R229_I105115",
+    "R229_I105116",
+    "R229_I105117",
+    "R229_I105118",
+    "E229_00",
+    "E229_01",
+    "E229_02"
+  ]
+}

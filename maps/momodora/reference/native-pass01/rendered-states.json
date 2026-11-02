@@ -1,0 +1,922 @@
+[
+  {
+    "room": 21,
+    "tick": 0,
+    "path": "native-pass01/room021-tick000.png",
+    "alpha": 0.4,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 21,
+    "tick": 45,
+    "path": "native-pass01/room021-tick045.png",
+    "alpha": 0.6,
+    "direction": 0,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 21,
+    "tick": 90,
+    "path": "native-pass01/room021-tick090.png",
+    "alpha": 0.397500000000001,
+    "direction": 0,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 21,
+    "tick": 135,
+    "path": "native-pass01/room021-tick135.png",
+    "alpha": 0.20450000000000002,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 21,
+    "tick": 180,
+    "path": "native-pass01/room021-tick180.png",
+    "alpha": 0.4070000000000002,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 23,
+    "tick": 0,
+    "path": "native-pass01/room023-tick000.png",
+    "alpha": 0.4,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 23,
+    "tick": 45,
+    "path": "native-pass01/room023-tick045.png",
+    "alpha": 0.6,
+    "direction": 0,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 23,
+    "tick": 90,
+    "path": "native-pass01/room023-tick090.png",
+    "alpha": 0.397500000000001,
+    "direction": 0,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 23,
+    "tick": 135,
+    "path": "native-pass01/room023-tick135.png",
+    "alpha": 0.20450000000000002,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 23,
+    "tick": 180,
+    "path": "native-pass01/room023-tick180.png",
+    "alpha": 0.4070000000000002,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 22,
+    "tick": 0,
+    "path": "native-pass01/room022-tick000.png",
+    "alpha": 0.4,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 22,
+    "tick": 45,
+    "path": "native-pass01/room022-tick045.png",
+    "alpha": 0.6,
+    "direction": 0,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 22,
+    "tick": 90,
+    "path": "native-pass01/room022-tick090.png",
+    "alpha": 0.397500000000001,
+    "direction": 0,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 22,
+    "tick": 135,
+    "path": "native-pass01/room022-tick135.png",
+    "alpha": 0.20450000000000002,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 22,
+    "tick": 180,
+    "path": "native-pass01/room022-tick180.png",
+    "alpha": 0.4070000000000002,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 24,
+    "tick": 0,
+    "path": "native-pass01/room024-tick000.png",
+    "alpha": 0.4,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 24,
+    "tick": 45,
+    "path": "native-pass01/room024-tick045.png",
+    "alpha": 0.6,
+    "direction": 0,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 24,
+    "tick": 90,
+    "path": "native-pass01/room024-tick090.png",
+    "alpha": 0.397500000000001,
+    "direction": 0,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 24,
+    "tick": 135,
+    "path": "native-pass01/room024-tick135.png",
+    "alpha": 0.20450000000000002,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 24,
+    "tick": 180,
+    "path": "native-pass01/room024-tick180.png",
+    "alpha": 0.4070000000000002,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 25,
+    "tick": 0,
+    "path": "native-pass01/room025-tick000.png",
+    "alpha": 0.4,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 25,
+    "tick": 45,
+    "path": "native-pass01/room025-tick045.png",
+    "alpha": 0.6,
+    "direction": 0,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 25,
+    "tick": 90,
+    "path": "native-pass01/room025-tick090.png",
+    "alpha": 0.397500000000001,
+    "direction": 0,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 25,
+    "tick": 135,
+    "path": "native-pass01/room025-tick135.png",
+    "alpha": 0.20450000000000002,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 25,
+    "tick": 180,
+    "path": "native-pass01/room025-tick180.png",
+    "alpha": 0.4070000000000002,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 27,
+    "tick": 0,
+    "path": "native-pass01/room027-tick000.png",
+    "alpha": 0.4,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 27,
+    "tick": 45,
+    "path": "native-pass01/room027-tick045.png",
+    "alpha": 0.6,
+    "direction": 0,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 27,
+    "tick": 90,
+    "path": "native-pass01/room027-tick090.png",
+    "alpha": 0.397500000000001,
+    "direction": 0,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 27,
+    "tick": 135,
+    "path": "native-pass01/room027-tick135.png",
+    "alpha": 0.20450000000000002,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 27,
+    "tick": 180,
+    "path": "native-pass01/room027-tick180.png",
+    "alpha": 0.4070000000000002,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 28,
+    "tick": 0,
+    "path": "native-pass01/room028-tick000.png",
+    "alpha": 0.4,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 28,
+    "tick": 45,
+    "path": "native-pass01/room028-tick045.png",
+    "alpha": 0.6,
+    "direction": 0,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 28,
+    "tick": 90,
+    "path": "native-pass01/room028-tick090.png",
+    "alpha": 0.397500000000001,
+    "direction": 0,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 28,
+    "tick": 135,
+    "path": "native-pass01/room028-tick135.png",
+    "alpha": 0.20450000000000002,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 28,
+    "tick": 180,
+    "path": "native-pass01/room028-tick180.png",
+    "alpha": 0.4070000000000002,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 29,
+    "tick": 0,
+    "path": "native-pass01/room029-tick000.png",
+    "alpha": 0.4,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 29,
+    "tick": 45,
+    "path": "native-pass01/room029-tick045.png",
+    "alpha": 0.6,
+    "direction": 0,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 29,
+    "tick": 90,
+    "path": "native-pass01/room029-tick090.png",
+    "alpha": 0.397500000000001,
+    "direction": 0,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 29,
+    "tick": 135,
+    "path": "native-pass01/room029-tick135.png",
+    "alpha": 0.20450000000000002,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 29,
+    "tick": 180,
+    "path": "native-pass01/room029-tick180.png",
+    "alpha": 0.4070000000000002,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 31,
+    "tick": 0,
+    "path": "native-pass01/room031-tick000.png",
+    "alpha": 0.4,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 31,
+    "tick": 45,
+    "path": "native-pass01/room031-tick045.png",
+    "alpha": 0.6,
+    "direction": 0,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 31,
+    "tick": 90,
+    "path": "native-pass01/room031-tick090.png",
+    "alpha": 0.397500000000001,
+    "direction": 0,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 31,
+    "tick": 135,
+    "path": "native-pass01/room031-tick135.png",
+    "alpha": 0.20450000000000002,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 31,
+    "tick": 180,
+    "path": "native-pass01/room031-tick180.png",
+    "alpha": 0.4070000000000002,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 32,
+    "tick": 0,
+    "path": "native-pass01/room032-tick000.png",
+    "alpha": 0.4,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 32,
+    "tick": 45,
+    "path": "native-pass01/room032-tick045.png",
+    "alpha": 0.6,
+    "direction": 0,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 32,
+    "tick": 90,
+    "path": "native-pass01/room032-tick090.png",
+    "alpha": 0.397500000000001,
+    "direction": 0,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 32,
+    "tick": 135,
+    "path": "native-pass01/room032-tick135.png",
+    "alpha": 0.20450000000000002,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 32,
+    "tick": 180,
+    "path": "native-pass01/room032-tick180.png",
+    "alpha": 0.4070000000000002,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 33,
+    "tick": 0,
+    "path": "native-pass01/room033-tick000.png",
+    "alpha": 0.4,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 33,
+    "tick": 45,
+    "path": "native-pass01/room033-tick045.png",
+    "alpha": 0.6,
+    "direction": 0,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 33,
+    "tick": 90,
+    "path": "native-pass01/room033-tick090.png",
+    "alpha": 0.397500000000001,
+    "direction": 0,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 33,
+    "tick": 135,
+    "path": "native-pass01/room033-tick135.png",
+    "alpha": 0.20450000000000002,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 33,
+    "tick": 180,
+    "path": "native-pass01/room033-tick180.png",
+    "alpha": 0.4070000000000002,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 34,
+    "tick": 0,
+    "path": "native-pass01/room034-tick000.png",
+    "alpha": 0.4,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 34,
+    "tick": 45,
+    "path": "native-pass01/room034-tick045.png",
+    "alpha": 0.6,
+    "direction": 0,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 34,
+    "tick": 90,
+    "path": "native-pass01/room034-tick090.png",
+    "alpha": 0.397500000000001,
+    "direction": 0,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 34,
+    "tick": 135,
+    "path": "native-pass01/room034-tick135.png",
+    "alpha": 0.20450000000000002,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 34,
+    "tick": 180,
+    "path": "native-pass01/room034-tick180.png",
+    "alpha": 0.4070000000000002,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 35,
+    "tick": 0,
+    "path": "native-pass01/room035-tick000.png",
+    "alpha": 0.4,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 35,
+    "tick": 45,
+    "path": "native-pass01/room035-tick045.png",
+    "alpha": 0.6,
+    "direction": 0,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 35,
+    "tick": 90,
+    "path": "native-pass01/room035-tick090.png",
+    "alpha": 0.397500000000001,
+    "direction": 0,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 35,
+    "tick": 135,
+    "path": "native-pass01/room035-tick135.png",
+    "alpha": 0.20450000000000002,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 35,
+    "tick": 180,
+    "path": "native-pass01/room035-tick180.png",
+    "alpha": 0.4070000000000002,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 37,
+    "tick": 0,
+    "path": "native-pass01/room037-tick000.png",
+    "alpha": 0.4,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 37,
+    "tick": 45,
+    "path": "native-pass01/room037-tick045.png",
+    "alpha": 0.6,
+    "direction": 0,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 37,
+    "tick": 90,
+    "path": "native-pass01/room037-tick090.png",
+    "alpha": 0.397500000000001,
+    "direction": 0,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 37,
+    "tick": 135,
+    "path": "native-pass01/room037-tick135.png",
+    "alpha": 0.20450000000000002,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 37,
+    "tick": 180,
+    "path": "native-pass01/room037-tick180.png",
+    "alpha": 0.4070000000000002,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 38,
+    "tick": 0,
+    "path": "native-pass01/room038-tick000.png",
+    "alpha": 0.4,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 38,
+    "tick": 45,
+    "path": "native-pass01/room038-tick045.png",
+    "alpha": 0.6,
+    "direction": 0,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 38,
+    "tick": 90,
+    "path": "native-pass01/room038-tick090.png",
+    "alpha": 0.397500000000001,
+    "direction": 0,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 38,
+    "tick": 135,
+    "path": "native-pass01/room038-tick135.png",
+    "alpha": 0.20450000000000002,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 38,
+    "tick": 180,
+    "path": "native-pass01/room038-tick180.png",
+    "alpha": 0.4070000000000002,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 39,
+    "tick": 0,
+    "path": "native-pass01/room039-tick000.png",
+    "alpha": 0.4,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 39,
+    "tick": 45,
+    "path": "native-pass01/room039-tick045.png",
+    "alpha": 0.6,
+    "direction": 0,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 39,
+    "tick": 90,
+    "path": "native-pass01/room039-tick090.png",
+    "alpha": 0.397500000000001,
+    "direction": 0,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 39,
+    "tick": 135,
+    "path": "native-pass01/room039-tick135.png",
+    "alpha": 0.20450000000000002,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 39,
+    "tick": 180,
+    "path": "native-pass01/room039-tick180.png",
+    "alpha": 0.4070000000000002,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 40,
+    "tick": 0,
+    "path": "native-pass01/room040-tick000.png",
+    "alpha": 0.4,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 40,
+    "tick": 45,
+    "path": "native-pass01/room040-tick045.png",
+    "alpha": 0.6,
+    "direction": 0,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 40,
+    "tick": 90,
+    "path": "native-pass01/room040-tick090.png",
+    "alpha": 0.397500000000001,
+    "direction": 0,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 40,
+    "tick": 135,
+    "path": "native-pass01/room040-tick135.png",
+    "alpha": 0.20450000000000002,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 40,
+    "tick": 180,
+    "path": "native-pass01/room040-tick180.png",
+    "alpha": 0.4070000000000002,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 41,
+    "tick": 0,
+    "path": "native-pass01/room041-tick000.png",
+    "alpha": 0.4,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 41,
+    "tick": 45,
+    "path": "native-pass01/room041-tick045.png",
+    "alpha": 0.6,
+    "direction": 0,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 41,
+    "tick": 90,
+    "path": "native-pass01/room041-tick090.png",
+    "alpha": 0.397500000000001,
+    "direction": 0,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 41,
+    "tick": 135,
+    "path": "native-pass01/room041-tick135.png",
+    "alpha": 0.20450000000000002,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 41,
+    "tick": 180,
+    "path": "native-pass01/room041-tick180.png",
+    "alpha": 0.4070000000000002,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 42,
+    "tick": 0,
+    "path": "native-pass01/room042-tick000.png",
+    "alpha": 0.4,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 42,
+    "tick": 45,
+    "path": "native-pass01/room042-tick045.png",
+    "alpha": 0.6,
+    "direction": 0,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 42,
+    "tick": 90,
+    "path": "native-pass01/room042-tick090.png",
+    "alpha": 0.397500000000001,
+    "direction": 0,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 42,
+    "tick": 135,
+    "path": "native-pass01/room042-tick135.png",
+    "alpha": 0.20450000000000002,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 42,
+    "tick": 180,
+    "path": "native-pass01/room042-tick180.png",
+    "alpha": 0.4070000000000002,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 43,
+    "tick": 0,
+    "path": "native-pass01/room043-tick000.png",
+    "alpha": 0.4,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 43,
+    "tick": 45,
+    "path": "native-pass01/room043-tick045.png",
+    "alpha": 0.6,
+    "direction": 0,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 43,
+    "tick": 90,
+    "path": "native-pass01/room043-tick090.png",
+    "alpha": 0.397500000000001,
+    "direction": 0,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 43,
+    "tick": 135,
+    "path": "native-pass01/room043-tick135.png",
+    "alpha": 0.20450000000000002,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 43,
+    "tick": 180,
+    "path": "native-pass01/room043-tick180.png",
+    "alpha": 0.4070000000000002,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 44,
+    "tick": 0,
+    "path": "native-pass01/room044-tick000.png",
+    "alpha": 0.4,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 44,
+    "tick": 45,
+    "path": "native-pass01/room044-tick045.png",
+    "alpha": 0.6,
+    "direction": 0,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 44,
+    "tick": 90,
+    "path": "native-pass01/room044-tick090.png",
+    "alpha": 0.397500000000001,
+    "direction": 0,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 44,
+    "tick": 135,
+    "path": "native-pass01/room044-tick135.png",
+    "alpha": 0.20450000000000002,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 44,
+    "tick": 180,
+    "path": "native-pass01/room044-tick180.png",
+    "alpha": 0.4070000000000002,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 46,
+    "tick": 0,
+    "path": "native-pass01/room046-tick000.png",
+    "alpha": 0.4,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 46,
+    "tick": 45,
+    "path": "native-pass01/room046-tick045.png",
+    "alpha": 0.6,
+    "direction": 0,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 46,
+    "tick": 90,
+    "path": "native-pass01/room046-tick090.png",
+    "alpha": 0.397500000000001,
+    "direction": 0,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 46,
+    "tick": 135,
+    "path": "native-pass01/room046-tick135.png",
+    "alpha": 0.20450000000000002,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 46,
+    "tick": 180,
+    "path": "native-pass01/room046-tick180.png",
+    "alpha": 0.4070000000000002,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 47,
+    "tick": 0,
+    "path": "native-pass01/room047-tick000.png",
+    "alpha": 0.4,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 47,
+    "tick": 45,
+    "path": "native-pass01/room047-tick045.png",
+    "alpha": 0.6,
+    "direction": 0,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 47,
+    "tick": 90,
+    "path": "native-pass01/room047-tick090.png",
+    "alpha": 0.397500000000001,
+    "direction": 0,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 47,
+    "tick": 135,
+    "path": "native-pass01/room047-tick135.png",
+    "alpha": 0.20450000000000002,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  },
+  {
+    "room": 47,
+    "tick": 180,
+    "path": "native-pass01/room047-tick180.png",
+    "alpha": 0.4070000000000002,
+    "direction": 1,
+    "profile": "quality1_shader4; illustrative valid pulse parameters; untranslated actors omitted"
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "godot": "4.6.2.stable",
+  "verified_asset_ids": 1190,
+  "mechanism_asset_ids": 18,
+  "mechanism_frames": 20,
+  "source_mechanisms": 104,
+  "reviewed_placement_repairs": 1,
+  "rooms_with_mechanisms": 58,
+  "platforms_two_cycles": 24,
+  "lifts_both_directions": 4,
+  "pads_upward_route_checked": 73,
+  "source_pad_layout_blockers": [
+    {
+      "check": "authored_pad_launch",
+      "details": "No collision-free standing/crouch body overlap anywhere on this source pad, within authored room bounds; original masks preserved.",
+      "instance": 100273.0,
+      "room": 16,
+      "status": "blocked_by_source_layout"
+    },
+    {
+      "check": "authored_pad_launch",
+      "details": "No collision-free standing/crouch body overlap anywhere on this source pad, within authored room bounds; original masks preserved.",
+      "instance": 100275.0,
+      "room": 16,
+      "status": "blocked_by_source_layout"
+    },
+    {
+      "check": "authored_pad_launch",
+      "details": "No collision-free standing/crouch body overlap anywhere on this source pad, within authored room bounds; original masks preserved.",
+      "instance": 103117.0,
+      "room": 151,
+      "status": "blocked_by_source_layout"
+    }
+  ],
+  "connected_route_checks": 7,
+  "static_physics_instances": 3387,
+  "safe_spawn_rooms": 253,
+  "safe_transition_targets": 533,
+  "source_files_unchanged": true,
+  "no_combat_or_ai": true
+}

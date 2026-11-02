@@ -1,0 +1,1138 @@
+{
+  "policy": "Authored placement and save family confirmed; actual availability remains conditional. BrokenSavePoint excluded; oDemoSaver separate. No saves read/written.",
+  "saves": [
+    {
+      "id": "R030_I100397",
+      "room": 30,
+      "section": "ROOM_030_S002",
+      "biome": "BIOME_01",
+      "object": 25,
+      "name": "SavePoint",
+      "instance_id": 100397,
+      "source_xy": [
+        464,
+        144
+      ],
+      "world_xy": [
+        5264,
+        3024
+      ],
+      "cell": [
+        16,
+        12
+      ],
+      "record_offset": 3031188,
+      "creation_code": -1,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "rotation": 0.0,
+        "color": 4294967295
+      },
+      "source_depth": 2,
+      "kind": "save",
+      "status": "confirmed_authored_save_conditional_availability",
+      "verified_asset_ids": [
+        "INTERACT_507"
+      ],
+      "candidate_asset_id": "OBJT_25",
+      "placement_type": "authored_ROOM_instance",
+      "dynamic_spawn": false,
+      "save_evidence": {
+        "object_record_offset": 2325980,
+        "object_parent": 592,
+        "native_parent": 25,
+        "behavior": "SavePoint.Step → savedialogue; oPray.Step → savedialogue2; SCPT78 → saveGame; inherited v4 rest binding agrees.",
+        "availability": "not a live state claim: proximity, input, room/story state not replayed; warp selection separately gated",
+        "full_native_actor": "blocked",
+        "binding_verified": true
+      }
+    },
+    {
+      "id": "R041_I100618",
+      "room": 41,
+      "section": "ROOM_041_S001",
+      "biome": "BIOME_01",
+      "object": 25,
+      "name": "SavePoint",
+      "instance_id": 100618,
+      "source_xy": [
+        136,
+        160
+      ],
+      "world_xy": [
+        8456,
+        3760
+      ],
+      "cell": [
+        26,
+        15
+      ],
+      "record_offset": 3255992,
+      "creation_code": -1,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "rotation": 0.0,
+        "color": 4294967295
+      },
+      "source_depth": 2,
+      "kind": "save",
+      "status": "confirmed_authored_save_conditional_availability",
+      "verified_asset_ids": [
+        "INTERACT_507"
+      ],
+      "candidate_asset_id": "OBJT_25",
+      "placement_type": "authored_ROOM_instance",
+      "dynamic_spawn": false,
+      "save_evidence": {
+        "object_record_offset": 2325980,
+        "object_parent": 592,
+        "native_parent": 25,
+        "behavior": "SavePoint.Step → savedialogue; oPray.Step → savedialogue2; SCPT78 → saveGame; inherited v4 rest binding agrees.",
+        "availability": "not a live state claim: proximity, input, room/story state not replayed; warp selection separately gated",
+        "full_native_actor": "blocked",
+        "binding_verified": true
+      }
+    },
+    {
+      "id": "R052_I100802",
+      "room": 52,
+      "section": "ROOM_052_S002",
+      "biome": "BIOME_01",
+      "object": 25,
+      "name": "SavePoint",
+      "instance_id": 100802,
+      "source_xy": [
+        360,
+        144
+      ],
+      "world_xy": [
+        11240,
+        4224
+      ],
+      "cell": [
+        35,
+        17
+      ],
+      "record_offset": 3447448,
+      "creation_code": -1,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "rotation": 0.0,
+        "color": 4294967295
+      },
+      "source_depth": 2,
+      "kind": "save",
+      "status": "confirmed_authored_save_conditional_availability",
+      "verified_asset_ids": [
+        "INTERACT_507"
+      ],
+      "candidate_asset_id": "OBJT_25",
+      "placement_type": "authored_ROOM_instance",
+      "dynamic_spawn": false,
+      "save_evidence": {
+        "object_record_offset": 2325980,
+        "object_parent": 592,
+        "native_parent": 25,
+        "behavior": "SavePoint.Step → savedialogue; oPray.Step → savedialogue2; SCPT78 → saveGame; inherited v4 rest binding agrees.",
+        "availability": "not a live state claim: proximity, input, room/story state not replayed; warp selection separately gated",
+        "full_native_actor": "blocked",
+        "binding_verified": true
+      }
+    },
+    {
+      "id": "R063_I100972",
+      "room": 63,
+      "section": "ROOM_063_S002",
+      "biome": "BIOME_02",
+      "object": 26,
+      "name": "SavePoint2",
+      "instance_id": 100972,
+      "source_xy": [
+        328,
+        144
+      ],
+      "world_xy": [
+        13768,
+        4224
+      ],
+      "cell": [
+        43,
+        17
+      ],
+      "record_offset": 3584828,
+      "creation_code": -1,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "rotation": 0.0,
+        "color": 4294967295
+      },
+      "source_depth": 2,
+      "kind": "save",
+      "status": "confirmed_authored_save_conditional_availability",
+      "verified_asset_ids": [
+        "INTERACT_497"
+      ],
+      "candidate_asset_id": "OBJT_26",
+      "placement_type": "authored_ROOM_instance",
+      "dynamic_spawn": false,
+      "save_evidence": {
+        "object_record_offset": 2326536,
+        "object_parent": 25,
+        "native_parent": 25,
+        "behavior": "SavePoint.Step → savedialogue; oPray.Step → savedialogue2; SCPT78 → saveGame; inherited v4 rest binding agrees.",
+        "availability": "not a live state claim: proximity, input, room/story state not replayed; warp selection separately gated",
+        "full_native_actor": "blocked",
+        "binding_verified": true
+      }
+    },
+    {
+      "id": "R075_I101276",
+      "room": 75,
+      "section": "ROOM_075_S001",
+      "biome": "BIOME_02",
+      "object": 26,
+      "name": "SavePoint2",
+      "instance_id": 101276,
+      "source_xy": [
+        280,
+        128
+      ],
+      "world_xy": [
+        15000,
+        4928
+      ],
+      "cell": [
+        46,
+        20
+      ],
+      "record_offset": 3864624,
+      "creation_code": -1,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "rotation": 0.0,
+        "color": 4294967295
+      },
+      "source_depth": 2,
+      "kind": "save",
+      "status": "confirmed_authored_save_conditional_availability",
+      "verified_asset_ids": [
+        "INTERACT_497"
+      ],
+      "candidate_asset_id": "OBJT_26",
+      "placement_type": "authored_ROOM_instance",
+      "dynamic_spawn": false,
+      "save_evidence": {
+        "object_record_offset": 2326536,
+        "object_parent": 25,
+        "native_parent": 25,
+        "behavior": "SavePoint.Step → savedialogue; oPray.Step → savedialogue2; SCPT78 → saveGame; inherited v4 rest binding agrees.",
+        "availability": "not a live state claim: proximity, input, room/story state not replayed; warp selection separately gated",
+        "full_native_actor": "blocked",
+        "binding_verified": true
+      }
+    },
+    {
+      "id": "R094_I101652",
+      "room": 94,
+      "section": "ROOM_094_S001",
+      "biome": "BIOME_03",
+      "object": 25,
+      "name": "SavePoint",
+      "instance_id": 101652,
+      "source_xy": [
+        96,
+        160
+      ],
+      "world_xy": [
+        20576,
+        4720
+      ],
+      "cell": [
+        64,
+        19
+      ],
+      "record_offset": 4187436,
+      "creation_code": -1,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "rotation": 0.0,
+        "color": 4294967295
+      },
+      "source_depth": 2,
+      "kind": "save",
+      "status": "confirmed_authored_save_conditional_availability",
+      "verified_asset_ids": [
+        "INTERACT_507"
+      ],
+      "candidate_asset_id": "OBJT_25",
+      "placement_type": "authored_ROOM_instance",
+      "dynamic_spawn": false,
+      "save_evidence": {
+        "object_record_offset": 2325980,
+        "object_parent": 592,
+        "native_parent": 25,
+        "behavior": "SavePoint.Step → savedialogue; oPray.Step → savedialogue2; SCPT78 → saveGame; inherited v4 rest binding agrees.",
+        "availability": "not a live state claim: proximity, input, room/story state not replayed; warp selection separately gated",
+        "full_native_actor": "blocked",
+        "binding_verified": true
+      }
+    },
+    {
+      "id": "R101_I101836",
+      "room": 101,
+      "section": "ROOM_101_S002",
+      "biome": "BIOME_03",
+      "object": 25,
+      "name": "SavePoint",
+      "instance_id": 101836,
+      "source_xy": [
+        320,
+        112
+      ],
+      "world_xy": [
+        22400,
+        3952
+      ],
+      "cell": [
+        70,
+        16
+      ],
+      "record_offset": 4455764,
+      "creation_code": -1,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "rotation": 0.0,
+        "color": 4294967295
+      },
+      "source_depth": 2,
+      "kind": "save",
+      "status": "confirmed_authored_save_conditional_availability",
+      "verified_asset_ids": [
+        "INTERACT_507"
+      ],
+      "candidate_asset_id": "OBJT_25",
+      "placement_type": "authored_ROOM_instance",
+      "dynamic_spawn": false,
+      "save_evidence": {
+        "object_record_offset": 2325980,
+        "object_parent": 592,
+        "native_parent": 25,
+        "behavior": "SavePoint.Step → savedialogue; oPray.Step → savedialogue2; SCPT78 → saveGame; inherited v4 rest binding agrees.",
+        "availability": "not a live state claim: proximity, input, room/story state not replayed; warp selection separately gated",
+        "full_native_actor": "blocked",
+        "binding_verified": true
+      }
+    },
+    {
+      "id": "R111_I102051",
+      "room": 111,
+      "section": "ROOM_111_S002",
+      "biome": "BIOME_03",
+      "object": 25,
+      "name": "SavePoint",
+      "instance_id": 102051,
+      "source_xy": [
+        208,
+        384
+      ],
+      "world_xy": [
+        23568,
+        4704
+      ],
+      "cell": [
+        73,
+        19
+      ],
+      "record_offset": 4691888,
+      "creation_code": -1,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "rotation": 0.0,
+        "color": 4294967295
+      },
+      "source_depth": 2,
+      "kind": "save",
+      "status": "confirmed_authored_save_conditional_availability",
+      "verified_asset_ids": [
+        "INTERACT_507"
+      ],
+      "candidate_asset_id": "OBJT_25",
+      "placement_type": "authored_ROOM_instance",
+      "dynamic_spawn": false,
+      "save_evidence": {
+        "object_record_offset": 2325980,
+        "object_parent": 592,
+        "native_parent": 25,
+        "behavior": "SavePoint.Step → savedialogue; oPray.Step → savedialogue2; SCPT78 → saveGame; inherited v4 rest binding agrees.",
+        "availability": "not a live state claim: proximity, input, room/story state not replayed; warp selection separately gated",
+        "full_native_actor": "blocked",
+        "binding_verified": true
+      }
+    },
+    {
+      "id": "R126_I102430",
+      "room": 126,
+      "section": "ROOM_126_S001",
+      "biome": "BIOME_04",
+      "object": 27,
+      "name": "SavePoint3",
+      "instance_id": 102430,
+      "source_xy": [
+        256,
+        176
+      ],
+      "world_xy": [
+        13056,
+        6176
+      ],
+      "cell": [
+        40,
+        25
+      ],
+      "record_offset": 5075696,
+      "creation_code": -1,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "rotation": 0.0,
+        "color": 4294967295
+      },
+      "source_depth": 2,
+      "kind": "save",
+      "status": "confirmed_authored_save_conditional_availability",
+      "verified_asset_ids": [
+        "INTERACT_545"
+      ],
+      "candidate_asset_id": "OBJT_27",
+      "placement_type": "authored_ROOM_instance",
+      "dynamic_spawn": false,
+      "save_evidence": {
+        "object_record_offset": 2326732,
+        "object_parent": 25,
+        "native_parent": 25,
+        "behavior": "SavePoint.Step → savedialogue; oPray.Step → savedialogue2; SCPT78 → saveGame; inherited v4 rest binding agrees.",
+        "availability": "not a live state claim: proximity, input, room/story state not replayed; warp selection separately gated",
+        "full_native_actor": "blocked",
+        "binding_verified": true
+      }
+    },
+    {
+      "id": "R127_I102459",
+      "room": 127,
+      "section": "ROOM_127_S001",
+      "biome": "BIOME_04",
+      "object": 27,
+      "name": "SavePoint3",
+      "instance_id": 102459,
+      "source_xy": [
+        224,
+        176
+      ],
+      "world_xy": [
+        14944,
+        5696
+      ],
+      "cell": [
+        46,
+        23
+      ],
+      "record_offset": 5094196,
+      "creation_code": -1,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "rotation": 0.0,
+        "color": 4294967295
+      },
+      "source_depth": 2,
+      "kind": "save",
+      "status": "confirmed_authored_save_conditional_availability",
+      "verified_asset_ids": [
+        "INTERACT_545"
+      ],
+      "candidate_asset_id": "OBJT_27",
+      "placement_type": "authored_ROOM_instance",
+      "dynamic_spawn": false,
+      "save_evidence": {
+        "object_record_offset": 2326732,
+        "object_parent": 25,
+        "native_parent": 25,
+        "behavior": "SavePoint.Step → savedialogue; oPray.Step → savedialogue2; SCPT78 → saveGame; inherited v4 rest binding agrees.",
+        "availability": "not a live state claim: proximity, input, room/story state not replayed; warp selection separately gated",
+        "full_native_actor": "blocked",
+        "binding_verified": true
+      }
+    },
+    {
+      "id": "R130_I102553",
+      "room": 130,
+      "section": "ROOM_130_S001",
+      "biome": "BIOME_04",
+      "object": 31,
+      "name": "BrokenSavePoint",
+      "instance_id": 102553,
+      "source_xy": [
+        176,
+        64
+      ],
+      "world_xy": [
+        13936,
+        5824
+      ],
+      "cell": [
+        43,
+        24
+      ],
+      "record_offset": 5167688,
+      "creation_code": -1,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "rotation": 0.0,
+        "color": 4294967295
+      },
+      "source_depth": 2,
+      "kind": "broken_save",
+      "status": "broken_no_save_admission",
+      "verified_asset_ids": [],
+      "candidate_asset_id": "OBJT_31",
+      "placement_type": "authored_ROOM_instance",
+      "dynamic_spawn": false,
+      "save_evidence": {
+        "object_record_offset": 2327516,
+        "object_parent": -100,
+        "native_parent": null,
+        "behavior": "BrokenSavePoint has its own Step, no parent25 and no savedialogue call; excluded from usable saves.",
+        "availability": "not a live state claim: proximity, input, room/story state not replayed; warp selection separately gated",
+        "full_native_actor": "blocked",
+        "binding_verified": false
+      }
+    },
+    {
+      "id": "R142_I102934",
+      "room": 142,
+      "section": "ROOM_142_S002",
+      "biome": "BIOME_04",
+      "object": 27,
+      "name": "SavePoint3",
+      "instance_id": 102934,
+      "source_xy": [
+        480,
+        176
+      ],
+      "world_xy": [
+        13600,
+        5456
+      ],
+      "cell": [
+        42,
+        22
+      ],
+      "record_offset": 5446568,
+      "creation_code": -1,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "rotation": 0.0,
+        "color": 4294967295
+      },
+      "source_depth": 2,
+      "kind": "save",
+      "status": "confirmed_authored_save_conditional_availability",
+      "verified_asset_ids": [
+        "INTERACT_545"
+      ],
+      "candidate_asset_id": "OBJT_27",
+      "placement_type": "authored_ROOM_instance",
+      "dynamic_spawn": false,
+      "save_evidence": {
+        "object_record_offset": 2326732,
+        "object_parent": 25,
+        "native_parent": 25,
+        "behavior": "SavePoint.Step → savedialogue; oPray.Step → savedialogue2; SCPT78 → saveGame; inherited v4 rest binding agrees.",
+        "availability": "not a live state claim: proximity, input, room/story state not replayed; warp selection separately gated",
+        "full_native_actor": "blocked",
+        "binding_verified": true
+      }
+    },
+    {
+      "id": "R148_I103040",
+      "room": 148,
+      "section": "ROOM_148_S002",
+      "biome": "BIOME_05",
+      "object": 27,
+      "name": "SavePoint3",
+      "instance_id": 103040,
+      "source_xy": [
+        416,
+        96
+      ],
+      "world_xy": [
+        16096,
+        6336
+      ],
+      "cell": [
+        50,
+        26
+      ],
+      "record_offset": 5564456,
+      "creation_code": -1,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "rotation": 0.0,
+        "color": 4294967295
+      },
+      "source_depth": 2,
+      "kind": "save",
+      "status": "confirmed_authored_save_conditional_availability",
+      "verified_asset_ids": [
+        "INTERACT_545"
+      ],
+      "candidate_asset_id": "OBJT_27",
+      "placement_type": "authored_ROOM_instance",
+      "dynamic_spawn": false,
+      "save_evidence": {
+        "object_record_offset": 2326732,
+        "object_parent": 25,
+        "native_parent": 25,
+        "behavior": "SavePoint.Step → savedialogue; oPray.Step → savedialogue2; SCPT78 → saveGame; inherited v4 rest binding agrees.",
+        "availability": "not a live state claim: proximity, input, room/story state not replayed; warp selection separately gated",
+        "full_native_actor": "blocked",
+        "binding_verified": true
+      }
+    },
+    {
+      "id": "R154_I103179",
+      "room": 154,
+      "section": "ROOM_154_S002",
+      "biome": "BIOME_05",
+      "object": 27,
+      "name": "SavePoint3",
+      "instance_id": 103179,
+      "source_xy": [
+        224,
+        400
+      ],
+      "world_xy": [
+        15904,
+        7120
+      ],
+      "cell": [
+        49,
+        29
+      ],
+      "record_offset": 5650576,
+      "creation_code": -1,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "rotation": 0.0,
+        "color": 4294967295
+      },
+      "source_depth": 2,
+      "kind": "save",
+      "status": "confirmed_authored_save_conditional_availability",
+      "verified_asset_ids": [
+        "INTERACT_545"
+      ],
+      "candidate_asset_id": "OBJT_27",
+      "placement_type": "authored_ROOM_instance",
+      "dynamic_spawn": false,
+      "save_evidence": {
+        "object_record_offset": 2326732,
+        "object_parent": 25,
+        "native_parent": 25,
+        "behavior": "SavePoint.Step → savedialogue; oPray.Step → savedialogue2; SCPT78 → saveGame; inherited v4 rest binding agrees.",
+        "availability": "not a live state claim: proximity, input, room/story state not replayed; warp selection separately gated",
+        "full_native_actor": "blocked",
+        "binding_verified": true
+      }
+    },
+    {
+      "id": "R160_I103355",
+      "room": 160,
+      "section": "ROOM_160_S001",
+      "biome": "BIOME_05",
+      "object": 27,
+      "name": "SavePoint3",
+      "instance_id": 103355,
+      "source_xy": [
+        160,
+        128
+      ],
+      "world_xy": [
+        18080,
+        7088
+      ],
+      "cell": [
+        56,
+        29
+      ],
+      "record_offset": 5770728,
+      "creation_code": -1,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "rotation": 0.0,
+        "color": 4294967295
+      },
+      "source_depth": 2,
+      "kind": "save",
+      "status": "confirmed_authored_save_conditional_availability",
+      "verified_asset_ids": [
+        "INTERACT_545"
+      ],
+      "candidate_asset_id": "OBJT_27",
+      "placement_type": "authored_ROOM_instance",
+      "dynamic_spawn": false,
+      "save_evidence": {
+        "object_record_offset": 2326732,
+        "object_parent": 25,
+        "native_parent": 25,
+        "behavior": "SavePoint.Step → savedialogue; oPray.Step → savedialogue2; SCPT78 → saveGame; inherited v4 rest binding agrees.",
+        "availability": "not a live state claim: proximity, input, room/story state not replayed; warp selection separately gated",
+        "full_native_actor": "blocked",
+        "binding_verified": true
+      }
+    },
+    {
+      "id": "R172_I103639",
+      "room": 172,
+      "section": "ROOM_172_S001",
+      "biome": "BIOME_06",
+      "object": 28,
+      "name": "SavePoint4",
+      "instance_id": 103639,
+      "source_xy": [
+        128,
+        128
+      ],
+      "world_xy": [
+        20288,
+        6608
+      ],
+      "cell": [
+        63,
+        27
+      ],
+      "record_offset": 6050240,
+      "creation_code": -1,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "rotation": 0.0,
+        "color": 4294967295
+      },
+      "source_depth": 2,
+      "kind": "save",
+      "status": "confirmed_authored_save_conditional_availability",
+      "verified_asset_ids": [
+        "INTERACT_547"
+      ],
+      "candidate_asset_id": "OBJT_28",
+      "placement_type": "authored_ROOM_instance",
+      "dynamic_spawn": false,
+      "save_evidence": {
+        "object_record_offset": 2326928,
+        "object_parent": 25,
+        "native_parent": 25,
+        "behavior": "SavePoint.Step → savedialogue; oPray.Step → savedialogue2; SCPT78 → saveGame; inherited v4 rest binding agrees.",
+        "availability": "not a live state claim: proximity, input, room/story state not replayed; warp selection separately gated",
+        "full_native_actor": "blocked",
+        "binding_verified": true
+      }
+    },
+    {
+      "id": "R189_I104184",
+      "room": 189,
+      "section": "ROOM_189_S001",
+      "biome": "BIOME_06",
+      "object": 28,
+      "name": "SavePoint4",
+      "instance_id": 104184,
+      "source_xy": [
+        224,
+        192
+      ],
+      "world_xy": [
+        20384,
+        7872
+      ],
+      "cell": [
+        63,
+        32
+      ],
+      "record_offset": 6648020,
+      "creation_code": -1,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "rotation": 0.0,
+        "color": 4294967295
+      },
+      "source_depth": 2,
+      "kind": "save",
+      "status": "confirmed_authored_save_conditional_availability",
+      "verified_asset_ids": [
+        "INTERACT_547"
+      ],
+      "candidate_asset_id": "OBJT_28",
+      "placement_type": "authored_ROOM_instance",
+      "dynamic_spawn": false,
+      "save_evidence": {
+        "object_record_offset": 2326928,
+        "object_parent": 25,
+        "native_parent": 25,
+        "behavior": "SavePoint.Step → savedialogue; oPray.Step → savedialogue2; SCPT78 → saveGame; inherited v4 rest binding agrees.",
+        "availability": "not a live state claim: proximity, input, room/story state not replayed; warp selection separately gated",
+        "full_native_actor": "blocked",
+        "binding_verified": true
+      }
+    },
+    {
+      "id": "R195_I104339",
+      "room": 195,
+      "section": "ROOM_195_S002",
+      "biome": "BIOME_06",
+      "object": 28,
+      "name": "SavePoint4",
+      "instance_id": 104339,
+      "source_xy": [
+        568,
+        144
+      ],
+      "world_xy": [
+        22328,
+        8304
+      ],
+      "cell": [
+        69,
+        34
+      ],
+      "record_offset": 6835848,
+      "creation_code": -1,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "rotation": 0.0,
+        "color": 4294967295
+      },
+      "source_depth": 2,
+      "kind": "save",
+      "status": "confirmed_authored_save_conditional_availability",
+      "verified_asset_ids": [
+        "INTERACT_547"
+      ],
+      "candidate_asset_id": "OBJT_28",
+      "placement_type": "authored_ROOM_instance",
+      "dynamic_spawn": false,
+      "save_evidence": {
+        "object_record_offset": 2326928,
+        "object_parent": 25,
+        "native_parent": 25,
+        "behavior": "SavePoint.Step → savedialogue; oPray.Step → savedialogue2; SCPT78 → saveGame; inherited v4 rest binding agrees.",
+        "availability": "not a live state claim: proximity, input, room/story state not replayed; warp selection separately gated",
+        "full_native_actor": "blocked",
+        "binding_verified": true
+      }
+    },
+    {
+      "id": "R198_I104389",
+      "room": 198,
+      "section": "ROOM_198_S001",
+      "biome": "BIOME_07",
+      "object": 29,
+      "name": "SavePoint5",
+      "instance_id": 104389,
+      "source_xy": [
+        64,
+        128
+      ],
+      "world_xy": [
+        13504,
+        3488
+      ],
+      "cell": [
+        42,
+        14
+      ],
+      "record_offset": 6895216,
+      "creation_code": -1,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "rotation": 0.0,
+        "color": 4294967295
+      },
+      "source_depth": 2,
+      "kind": "save",
+      "status": "confirmed_authored_save_conditional_availability",
+      "verified_asset_ids": [
+        "INTERACT_606"
+      ],
+      "candidate_asset_id": "OBJT_29",
+      "placement_type": "authored_ROOM_instance",
+      "dynamic_spawn": false,
+      "save_evidence": {
+        "object_record_offset": 2327124,
+        "object_parent": 25,
+        "native_parent": 25,
+        "behavior": "SavePoint.Step → savedialogue; oPray.Step → savedialogue2; SCPT78 → saveGame; inherited v4 rest binding agrees.",
+        "availability": "not a live state claim: proximity, input, room/story state not replayed; warp selection separately gated",
+        "full_native_actor": "blocked",
+        "binding_verified": true
+      }
+    },
+    {
+      "id": "R205_I104563",
+      "room": 205,
+      "section": "ROOM_205_S001",
+      "biome": "BIOME_07",
+      "object": 29,
+      "name": "SavePoint5",
+      "instance_id": 104563,
+      "source_xy": [
+        128,
+        128
+      ],
+      "world_xy": [
+        12928,
+        3008
+      ],
+      "cell": [
+        40,
+        12
+      ],
+      "record_offset": 7105132,
+      "creation_code": -1,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "rotation": 0.0,
+        "color": 4294967295
+      },
+      "source_depth": 2,
+      "kind": "save",
+      "status": "confirmed_authored_save_conditional_availability",
+      "verified_asset_ids": [
+        "INTERACT_606"
+      ],
+      "candidate_asset_id": "OBJT_29",
+      "placement_type": "authored_ROOM_instance",
+      "dynamic_spawn": false,
+      "save_evidence": {
+        "object_record_offset": 2327124,
+        "object_parent": 25,
+        "native_parent": 25,
+        "behavior": "SavePoint.Step → savedialogue; oPray.Step → savedialogue2; SCPT78 → saveGame; inherited v4 rest binding agrees.",
+        "availability": "not a live state claim: proximity, input, room/story state not replayed; warp selection separately gated",
+        "full_native_actor": "blocked",
+        "binding_verified": true
+      }
+    },
+    {
+      "id": "R229_I105103",
+      "room": 229,
+      "section": "ROOM_229_S003",
+      "biome": "TRANSITION_COURTYARD",
+      "object": 26,
+      "name": "SavePoint2",
+      "instance_id": 105103,
+      "source_xy": [
+        816,
+        160
+      ],
+      "world_xy": [
+        16816,
+        3040
+      ],
+      "cell": [
+        52,
+        12
+      ],
+      "record_offset": 7843924,
+      "creation_code": -1,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "rotation": 0.0,
+        "color": 4294967295
+      },
+      "source_depth": 2,
+      "kind": "save",
+      "status": "confirmed_authored_save_conditional_availability",
+      "verified_asset_ids": [
+        "INTERACT_497"
+      ],
+      "candidate_asset_id": "OBJT_26",
+      "placement_type": "authored_ROOM_instance",
+      "dynamic_spawn": false,
+      "save_evidence": {
+        "object_record_offset": 2326536,
+        "object_parent": 25,
+        "native_parent": 25,
+        "behavior": "SavePoint.Step → savedialogue; oPray.Step → savedialogue2; SCPT78 → saveGame; inherited v4 rest binding agrees.",
+        "availability": "not a live state claim: proximity, input, room/story state not replayed; warp selection separately gated",
+        "full_native_actor": "blocked",
+        "binding_verified": true
+      }
+    },
+    {
+      "id": "R231_I105120",
+      "room": 231,
+      "section": "ROOM_231_S001",
+      "biome": "BIOME_08",
+      "object": 30,
+      "name": "SavePoint6",
+      "instance_id": 105120,
+      "source_xy": [
+        136,
+        160
+      ],
+      "world_xy": [
+        19656,
+        400
+      ],
+      "cell": [
+        61,
+        1
+      ],
+      "record_offset": 7891840,
+      "creation_code": -1,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "rotation": 0.0,
+        "color": 4294967295
+      },
+      "source_depth": 2,
+      "kind": "save",
+      "status": "confirmed_authored_save_conditional_availability",
+      "verified_asset_ids": [
+        "INTERACT_508"
+      ],
+      "candidate_asset_id": "OBJT_30",
+      "placement_type": "authored_ROOM_instance",
+      "dynamic_spawn": false,
+      "save_evidence": {
+        "object_record_offset": 2327320,
+        "object_parent": 25,
+        "native_parent": 25,
+        "behavior": "SavePoint.Step → savedialogue; oPray.Step → savedialogue2; SCPT78 → saveGame; inherited v4 rest binding agrees.",
+        "availability": "not a live state claim: proximity, input, room/story state not replayed; warp selection separately gated",
+        "full_native_actor": "blocked",
+        "binding_verified": true
+      }
+    },
+    {
+      "id": "R245_I105420",
+      "room": 245,
+      "section": "ROOM_245_S001",
+      "biome": "BIOME_08",
+      "object": 30,
+      "name": "SavePoint6",
+      "instance_id": 105420,
+      "source_xy": [
+        144,
+        144
+      ],
+      "world_xy": [
+        22544,
+        1824
+      ],
+      "cell": [
+        70,
+        7
+      ],
+      "record_offset": 8302964,
+      "creation_code": -1,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "rotation": 0.0,
+        "color": 4294967295
+      },
+      "source_depth": 2,
+      "kind": "save",
+      "status": "confirmed_authored_save_conditional_availability",
+      "verified_asset_ids": [
+        "INTERACT_508"
+      ],
+      "candidate_asset_id": "OBJT_30",
+      "placement_type": "authored_ROOM_instance",
+      "dynamic_spawn": false,
+      "save_evidence": {
+        "object_record_offset": 2327320,
+        "object_parent": 25,
+        "native_parent": 25,
+        "behavior": "SavePoint.Step → savedialogue; oPray.Step → savedialogue2; SCPT78 → saveGame; inherited v4 rest binding agrees.",
+        "availability": "not a live state claim: proximity, input, room/story state not replayed; warp selection separately gated",
+        "full_native_actor": "blocked",
+        "binding_verified": true
+      }
+    },
+    {
+      "id": "R247_I105462",
+      "room": 247,
+      "section": "ROOM_247_S002",
+      "biome": "BIOME_08",
+      "object": 30,
+      "name": "SavePoint6",
+      "instance_id": 105462,
+      "source_xy": [
+        80,
+        336
+      ],
+      "world_xy": [
+        19600,
+        2976
+      ],
+      "cell": [
+        61,
+        12
+      ],
+      "record_offset": 8337148,
+      "creation_code": -1,
+      "transform": {
+        "scale_x": 1.0,
+        "scale_y": 1.0,
+        "rotation": 0.0,
+        "color": 4294967295
+      },
+      "source_depth": 2,
+      "kind": "save",
+      "status": "confirmed_authored_save_conditional_availability",
+      "verified_asset_ids": [
+        "INTERACT_508"
+      ],
+      "candidate_asset_id": "OBJT_30",
+      "placement_type": "authored_ROOM_instance",
+      "dynamic_spawn": false,
+      "save_evidence": {
+        "object_record_offset": 2327320,
+        "object_parent": 25,
+        "native_parent": 25,
+        "behavior": "SavePoint.Step → savedialogue; oPray.Step → savedialogue2; SCPT78 → saveGame; inherited v4 rest binding agrees.",
+        "availability": "not a live state claim: proximity, input, room/story state not replayed; warp selection separately gated",
+        "full_native_actor": "blocked",
+        "binding_verified": true
+      }
+    }
+  ],
+  "native_sha256": "5c61dd3c19ff65908dbba87c54c04c5eb945f311e377588383e760899c09c4c9",
+  "script78": {
+    "name": "saveGame",
+    "code": 78,
+    "offset": 1591884
+  },
+  "evidence": "../evidence/save-native/"
+}

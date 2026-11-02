@@ -1,0 +1,17 @@
+{
+  "classifier": "data/biomes.json",
+  "all_preview_roles_previously_verified": true,
+  "new_asset_admissions": 0,
+  "gallery_reviewed": true,
+  "review_evidence": [
+    "biomes/gallery-desktop.png",
+    "biomes/gallery-mobile.png",
+    "biomes/gallery-verification.json"
+  ],
+  "review_note": "All11 cards inspected; colour topology454 cells; exact masks/pivots/support overlays visible. Frore base marked incomplete and no native swap or unknown FX admitted.",
+  "map_annotation_connected_after_review": true,
+  "game_admission": "unchanged",
+  "classification_sha256": "d5cec6f0dedb48cdac965ea00f885cad2cfaf611a0fde047a96636603b8a90e9",
+  "gallery_checks": 31,
+  "map_checks": 11
+}

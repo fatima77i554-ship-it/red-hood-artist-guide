@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "profile_images": 20,
+  "background_shader_regression": {
+    "0": {
+      "max_error": 0,
+      "channels": 230400
+    },
+    "320": {
+      "max_error": 0,
+      "channels": 230400
+    }
+  },
+  "classifier_before_composition": true
+}

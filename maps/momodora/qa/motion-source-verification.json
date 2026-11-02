@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "source_profiles": 26,
+  "oscillators": 19,
+  "lifts": 4,
+  "bridges": 3,
+  "source_tick_samples": 46327,
+  "oscillator_matches_inherited_tick_replay": true,
+  "lift_and_bridge_triggers": "diagnostic demonstration, not autonomous source behavior",
+  "source_masks_unchanged": true
+}

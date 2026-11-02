@@ -1,0 +1,274 @@
+﻿ROOM,source_name,production,biome_id,biome_ru,basis,native_title_semantics,native_fog_presets,native_music_files
+0,rmInit,False,,,outside production map; no unique native biome assignment,cleared,,
+1,rmMenu,False,,,outside production map; no unique native biome assignment,unresolved,,
+2,rmTest,False,BIOME_01,Святая роща Ордалия,native ROOM.Create area assignment,assigned,5,music/forest_ambiance.oggx
+3,rmTest1,False,BIOME_01,Святая роща Ордалия,native ROOM.Create area assignment,assigned,0,
+4,rmTest2,False,BIOME_02,Город Карст,native ROOM.Create area assignment,assigned,2,
+5,rmTest3,False,,,outside production map; no unique native biome assignment,inherited,,music/city_ambiance.oggx
+6,rmTest4,False,,,outside production map; no unique native biome assignment,inherited,0,music/forest_ambiance2.oggx
+7,rmTest5,False,,,outside production map; no unique native biome assignment,unresolved,,
+8,rmCellsTest,False,BIOME_04,Подземная гробница,native ROOM.Create area assignment,assigned,6,music/mausoleum_ambiance.oggx
+9,rmDev01,False,,,outside production map; no unique native biome assignment,cleared,2,
+10,rmDev02,False,BIOME_03,Покинутый монастырь,native ROOM.Create area assignment,assigned,2,
+11,rmIntro,False,,,outside production map; no unique native biome assignment,inherited,,
+12,rmStaffRoll,False,,,outside production map; no unique native biome assignment,unresolved,0,
+13,rmStaffRoll1,False,,,outside production map; no unique native biome assignment,inherited,5,
+14,rmStaffRoll2,False,,,outside production map; no unique native biome assignment,inherited,2,
+15,rmStaffRoll3,False,,,outside production map; no unique native biome assignment,inherited,7,
+16,rmStaffRoll4,False,,,outside production map; no unique native biome assignment,inherited,0,
+17,rmStaffRoll5,False,,,outside production map; no unique native biome assignment,inherited,4,
+18,rmStaffRoll6,False,BIOME_05,Кладбище Белого Листа,native ROOM.Create area assignment,assigned,9,
+19,rmStaffRoll7,False,BIOME_08,Карстский дворец,native ROOM.Create area assignment,assigned,0,
+20,rmForest00,False,BIOME_01,Святая роща Ордалия,native ROOM.Create area assignment,assigned,,music/forest_ambiance.oggx
+21,rmForest01,True,BIOME_01,Святая роща Ордалия,native ROOM.Create area assignment,assigned,5,music/forest_ambiance.oggx
+22,rmForest01B,True,BIOME_01,Святая роща Ордалия,native ROOM.Create area assignment,assigned,5,music/forest_ambiance.oggx
+23,rmForest02,True,BIOME_01,Святая роща Ордалия,native ROOM.Create area assignment,assigned,5,music/forest_ambiance.oggx
+24,rmForest02B,True,BIOME_01,Святая роща Ордалия,native ROOM.Create area assignment,assigned,5,music/forest_ambiance.oggx
+25,rmForest02C,True,BIOME_01,Святая роща Ордалия,native ROOM.Create area assignment,assigned,5,music/forest_ambiance.oggx
+26,rmForest02C_OLD,False,BIOME_01,Святая роща Ордалия,native ROOM.Create area assignment,assigned,5,music/forest_ambiance.oggx
+27,rmForest03,True,BIOME_01,Святая роща Ордалия,native ROOM.Create area assignment,assigned,5,music/forest_ambiance.oggx
+28,rmForest04,True,BIOME_01,Святая роща Ордалия,native ROOM.Create area assignment,assigned,5,music/forest_ambiance.oggx
+29,rmForest05B,True,BIOME_01,Святая роща Ордалия,native ROOM.Create area assignment,assigned,5,music/forest_ambiance.oggx
+30,rmForest05,True,BIOME_01,Святая роща Ордалия,native ROOM.Create area assignment,assigned,5,music/forest_ambiance.oggx
+31,rmForest06,True,BIOME_01,Святая роща Ордалия,native ROOM.Create area assignment,assigned,5,music/forest_ambiance.oggx
+32,rmForest07,True,BIOME_01,Святая роща Ордалия,native ROOM.Create area assignment,assigned,5,music/forest_ambiance.oggx
+33,rmForest08,True,BIOME_01,Святая роща Ордалия,native ROOM.Create area assignment,assigned,5,music/forest_ambiance.oggx
+34,rmForest09,True,BIOME_01,Святая роща Ордалия,native ROOM.Create area assignment,assigned,5,music/forest_ambiance.oggx
+35,rmForest09B,True,BIOME_01,Святая роща Ордалия,native ROOM.Create area assignment,assigned,5,music/forest_ambiance.oggx
+36,rmForest10,True,BIOME_01,Святая роща Ордалия,native ROOM.Create area assignment,assigned,1,music/forest_ambiance.oggx
+37,rmForest10B,True,BIOME_01,Святая роща Ордалия,native ROOM.Create area assignment,assigned,5,music/forest_ambiance.oggx
+38,rmForest10C,True,BIOME_01,Святая роща Ордалия,native ROOM.Create area assignment,assigned,5,music/forest_ambiance.oggx
+39,rmForest10D,True,BIOME_01,Святая роща Ордалия,native ROOM.Create area assignment,assigned,5,music/forest_ambiance.oggx
+40,rmForest11,True,BIOME_01,Святая роща Ордалия,native ROOM.Create area assignment,assigned,5,music/forest_ambiance.oggx
+41,rmForest11B,True,BIOME_01,Святая роща Ордалия,native ROOM.Create area assignment,assigned,5,music/forest_ambiance.oggx
+42,rmForest12,True,BIOME_01,Святая роща Ордалия,native ROOM.Create area assignment,assigned,5,music/forest_ambiance.oggx
+43,rmForest12B,True,BIOME_01,Святая роща Ордалия,native ROOM.Create area assignment,assigned,5,music/forest_ambiance.oggx
+44,rmForest12C,True,BIOME_01,Святая роща Ордалия,native ROOM.Create area assignment,assigned,5,music/forest_ambiance.oggx
+45,rmForest12D,True,BIOME_01,Святая роща Ордалия,native ROOM.Create area assignment,assigned,1,music/forest_ambiance.oggx
+46,rmForest12E,True,BIOME_01,Святая роща Ордалия,native ROOM.Create area assignment,assigned,5,music/forest_ambiance.oggx
+47,rmForest12F,True,BIOME_01,Святая роща Ордалия,native ROOM.Create area assignment,assigned,5,music/forest_ambiance.oggx
+48,rmForest13,True,BIOME_01,Святая роща Ордалия,native ROOM.Create area assignment,assigned,1,music/forest_ambiance.oggx
+49,rmForest14,True,BIOME_01,Святая роща Ордалия,native ROOM.Create area assignment,assigned,1,music/forest_ambiance.oggx
+50,rmForest15,True,BIOME_01,Святая роща Ордалия,native ROOM.Create area assignment,assigned,1,music/forest_ambiance.oggx
+51,rmForest15B,True,BIOME_01,Святая роща Ордалия,native ROOM.Create area assignment,assigned,1,music/forest_ambiance.oggx
+52,rmForest16,True,BIOME_01,Святая роща Ордалия,native ROOM.Create area assignment,assigned,1,music/forest_ambiance.oggx
+53,rmForest17,True,BIOME_01,Святая роща Ордалия,native ROOM.Create area assignment,assigned,1,music/forest_ambiance.oggx
+54,rmForest18,True,BIOME_01,Святая роща Ордалия,native ROOM.Create area assignment,assigned,5,music/forest_ambiance2.oggx
+55,rmWinterForest00,False,BIOME_09,Стылая Сиэль,native ROOM.Create area assignment,assigned,8,music/winter.oggx
+56,rmWinterForest01,True,TRANSITION_ORDALIA_FRORE,Переход роща — Стылая Сиэль,native previous-area comparison; both branches replayed,inherited,"1,8","music/forest_ambiance.oggx,music/winter.oggx"
+57,rmWinterForest02,True,BIOME_09,Стылая Сиэль,native ROOM.Create area assignment,assigned,8,music/winter.oggx
+58,rmWinterForest03,True,BIOME_09,Стылая Сиэль,native ROOM.Create area assignment,assigned,8,music/winter.oggx
+59,rmWinterForest04,True,BIOME_09,Стылая Сиэль,native ROOM.Create area assignment,assigned,8,music/winter.oggx
+60,rmWinterForest05,True,BIOME_09,Стылая Сиэль,native ROOM.Create area assignment,assigned,8,music/winter.oggx
+61,rmCity00,False,BIOME_02,Город Карст,native ROOM.Create area assignment,assigned,2,music/city_ambiance.oggx
+62,rmCity01,True,BIOME_02,Город Карст,native ROOM.Create area assignment,assigned,2,music/city_ambiance.oggx
+63,rmCity02,True,BIOME_02,Город Карст,native ROOM.Create area assignment,assigned,2,music/city_ambiance.oggx
+64,rmCity03,True,BIOME_02,Город Карст,native ROOM.Create area assignment,assigned,2,music/city_ambiance.oggx
+65,rmCity03B,True,BIOME_02,Город Карст,native ROOM.Create area assignment,assigned,2,music/city_ambiance.oggx
+66,rmCity03C,True,BIOME_02,Город Карст,native ROOM.Create area assignment,assigned,2,music/city_ambiance.oggx
+67,rmCity04,True,BIOME_02,Город Карст,native ROOM.Create area assignment,assigned,2,music/city_ambiance.oggx
+68,rmCity05,True,BIOME_02,Город Карст,native ROOM.Create area assignment,assigned,2,music/city_ambiance.oggx
+69,rmCity06,True,BIOME_02,Город Карст,native ROOM.Create area assignment,assigned,3,music/city_ambiance.oggx
+70,rmCity07,True,BIOME_02,Город Карст,native ROOM.Create area assignment,assigned,3,music/city_ambiance.oggx
+71,rmCity08,True,BIOME_02,Город Карст,native ROOM.Create area assignment,assigned,3,music/city_ambiance.oggx
+72,rmCity09,True,BIOME_02,Город Карст,native ROOM.Create area assignment,assigned,3,music/city_ambiance.oggx
+73,rmCity10,True,BIOME_02,Город Карст,native ROOM.Create area assignment,assigned,2,music/city_ambiance.oggx
+74,rmCity10B,True,BIOME_02,Город Карст,native ROOM.Create area assignment,assigned,2,music/city_ambiance.oggx
+75,rmCity11,True,BIOME_02,Город Карст,native ROOM.Create area assignment,assigned,2,music/city_ambiance.oggx
+76,rmCity12,True,BIOME_02,Город Карст,native ROOM.Create area assignment,assigned,2,music/city_ambiance.oggx
+77,rmCity13,True,BIOME_02,Город Карст,native ROOM.Create area assignment,assigned,2,music/city_ambiance.oggx
+78,rmCity14,True,BIOME_02,Город Карст,native ROOM.Create area assignment,assigned,2,music/city_ambiance.oggx
+79,rmCity14B,True,BIOME_02,Город Карст,native ROOM.Create area assignment,assigned,3,music/city_ambiance.oggx
+80,rmCity15,True,BIOME_02,Город Карст,native ROOM.Create area assignment,assigned,2,music/city_ambiance.oggx
+81,rmCity15B,True,BIOME_02,Город Карст,native ROOM.Create area assignment,assigned,2,music/city_ambiance.oggx
+82,rmCity16,True,BIOME_02,Город Карст,native ROOM.Create area assignment,assigned,2,music/city_ambiance.oggx
+83,rmCity16B,True,BIOME_02,Город Карст,native ROOM.Create area assignment,assigned,2,music/city_ambiance.oggx
+84,rmCity17,True,BIOME_02,Город Карст,native ROOM.Create area assignment,assigned,3,music/city_ambiance.oggx
+85,rmCity18,True,BIOME_02,Город Карст,native ROOM.Create area assignment,assigned,3,music/city_ambiance.oggx
+86,rmCity19,True,BIOME_02,Город Карст,native ROOM.Create area assignment,assigned,2,music/city_ambiance.oggx
+87,rmCity20,True,BIOME_02,Город Карст,native ROOM.Create area assignment,assigned,3,music/city_ambiance.oggx
+88,rmCity21,True,BIOME_02,Город Карст,native ROOM.Create area assignment,assigned,3,music/city_ambiance.oggx
+89,rmCity22,True,BIOME_02,Город Карст,native ROOM.Create area assignment,assigned,2,music/city_ambiance.oggx
+90,rmCity23,True,BIOME_02,Город Карст,native ROOM.Create area assignment,assigned,2,music/city_ambiance.oggx
+91,rmChurch00,False,BIOME_03,Покинутый монастырь,native ROOM.Create area assignment,assigned,3,music/church.oggx
+92,rmChurch01,True,BIOME_03,Покинутый монастырь,native ROOM.Create area assignment,assigned,7,music/church.oggx
+93,rmChurch02,True,BIOME_03,Покинутый монастырь,native ROOM.Create area assignment,assigned,7,music/church.oggx
+94,rmChurch03,True,BIOME_03,Покинутый монастырь,native ROOM.Create area assignment,assigned,3,music/church.oggx
+95,rmChurch04,True,BIOME_03,Покинутый монастырь,native ROOM.Create area assignment,assigned,3,music/church.oggx
+96,rmChurch04B,True,BIOME_03,Покинутый монастырь,native ROOM.Create area assignment,assigned,3,music/church.oggx
+97,rmChurch04C,True,BIOME_03,Покинутый монастырь,native ROOM.Create area assignment,assigned,3,music/church.oggx
+98,rmChurch05,True,BIOME_03,Покинутый монастырь,native ROOM.Create area assignment,assigned,3,music/church.oggx
+99,rmChurch06,True,BIOME_03,Покинутый монастырь,native ROOM.Create area assignment,assigned,7,music/church.oggx
+100,rmChurch07,True,BIOME_03,Покинутый монастырь,native ROOM.Create area assignment,assigned,3,music/church.oggx
+101,rmChurch08,True,BIOME_03,Покинутый монастырь,native ROOM.Create area assignment,assigned,3,music/church.oggx
+102,rmChurch08B,True,BIOME_03,Покинутый монастырь,native ROOM.Create area assignment,assigned,3,music/church.oggx
+103,rmChurch08C,True,BIOME_03,Покинутый монастырь,native ROOM.Create area assignment,assigned,3,music/church.oggx
+104,rmChurch09,True,BIOME_03,Покинутый монастырь,native ROOM.Create area assignment,assigned,7,music/church.oggx
+105,rmChurch09B,True,BIOME_03,Покинутый монастырь,native ROOM.Create area assignment,assigned,7,music/church.oggx
+106,rmChurch10,True,BIOME_03,Покинутый монастырь,native ROOM.Create area assignment,assigned,2,
+107,rmChurch11,True,BIOME_03,Покинутый монастырь,native ROOM.Create area assignment,assigned,2,
+108,rmChurch12,True,BIOME_03,Покинутый монастырь,native ROOM.Create area assignment,assigned,3,music/church.oggx
+109,rmChurch13,True,BIOME_03,Покинутый монастырь,native ROOM.Create area assignment,assigned,3,music/church.oggx
+110,rmChurch14,True,BIOME_03,Покинутый монастырь,native ROOM.Create area assignment,assigned,3,music/church.oggx
+111,rmChurch15,True,BIOME_03,Покинутый монастырь,native ROOM.Create area assignment,assigned,3,music/church.oggx
+112,rmChurch16,True,BIOME_03,Покинутый монастырь,native ROOM.Create area assignment,assigned,3,music/church.oggx
+113,rmChurch17,True,BIOME_03,Покинутый монастырь,native ROOM.Create area assignment,assigned,3,music/church.oggx
+114,rmChurch18,True,BIOME_03,Покинутый монастырь,native ROOM.Create area assignment,assigned,7,music/church.oggx
+115,rmChurch19,True,BIOME_03,Покинутый монастырь,native ROOM.Create area assignment,assigned,3,music/church.oggx
+116,rmChurch20,True,BIOME_03,Покинутый монастырь,native ROOM.Create area assignment,assigned,3,music/church.oggx
+117,rmChurch21,True,BIOME_03,Покинутый монастырь,native ROOM.Create area assignment,assigned,3,music/church.oggx
+118,rmChurch22,True,BIOME_03,Покинутый монастырь,native ROOM.Create area assignment,assigned,3,music/church.oggx
+119,rmCells00,False,BIOME_04,Подземная гробница,native ROOM.Create area assignment,assigned,6,music/mausoleum_ambiance.oggx
+120,rmCells01,True,BIOME_04,Подземная гробница,native ROOM.Create area assignment,assigned,6,
+121,rmCells01B,True,BIOME_04,Подземная гробница,native ROOM.Create area assignment,assigned,6,music/mausoleum_ambiance.oggx
+122,rmCells02,True,BIOME_04,Подземная гробница,native ROOM.Create area assignment,assigned,6,music/mausoleum_ambiance.oggx
+123,rmCells03,True,BIOME_04,Подземная гробница,native ROOM.Create area assignment,assigned,6,music/mausoleum_ambiance.oggx
+124,rmCells04,True,BIOME_04,Подземная гробница,native ROOM.Create area assignment,assigned,6,music/mausoleum_ambiance.oggx
+125,rmCells05,True,BIOME_04,Подземная гробница,native ROOM.Create area assignment,assigned,4,music/mausoleum_ambiance.oggx
+126,rmCells05B,True,BIOME_04,Подземная гробница,native ROOM.Create area assignment,assigned,4,music/mausoleum_ambiance.oggx
+127,rmCells06,True,BIOME_04,Подземная гробница,native ROOM.Create area assignment,assigned,6,music/mausoleum_ambiance.oggx
+128,rmCells07,True,BIOME_04,Подземная гробница,native ROOM.Create area assignment,assigned,4,music/mausoleum_ambiance.oggx
+129,rmCells08,True,BIOME_04,Подземная гробница,native ROOM.Create area assignment,assigned,4,music/mausoleum_ambiance.oggx
+130,rmCells09,True,BIOME_04,Подземная гробница,native ROOM.Create area assignment,assigned,6,music/mausoleum_ambiance.oggx
+131,rmCells10,True,BIOME_04,Подземная гробница,native ROOM.Create area assignment,assigned,6,music/mausoleum_ambiance.oggx
+132,rmCells11,True,BIOME_04,Подземная гробница,native ROOM.Create area assignment,assigned,6,music/mausoleum_ambiance.oggx
+133,rmCells12,True,BIOME_04,Подземная гробница,native ROOM.Create area assignment,assigned,4,music/mausoleum_ambiance.oggx
+134,rmCells13,True,BIOME_04,Подземная гробница,native ROOM.Create area assignment,assigned,4,music/mausoleum_ambiance.oggx
+135,rmCells14,True,BIOME_04,Подземная гробница,native ROOM.Create area assignment,assigned,6,music/mausoleum_ambiance.oggx
+136,rmCells14B,True,BIOME_04,Подземная гробница,native ROOM.Create area assignment,assigned,4,
+137,rmCells14C,True,BIOME_04,Подземная гробница,native ROOM.Create area assignment,assigned,4,
+138,rmCells15,True,BIOME_04,Подземная гробница,native ROOM.Create area assignment,assigned,6,music/mausoleum_ambiance.oggx
+139,rmCells16,True,BIOME_04,Подземная гробница,native ROOM.Create area assignment,assigned,6,music/mausoleum_ambiance.oggx
+140,rmCells17,True,BIOME_04,Подземная гробница,native ROOM.Create area assignment,assigned,6,music/mausoleum_ambiance.oggx
+141,rmCells18,True,BIOME_04,Подземная гробница,native ROOM.Create area assignment,assigned,6,music/mausoleum_ambiance.oggx
+142,rmCells19,True,BIOME_04,Подземная гробница,native ROOM.Create area assignment,assigned,6,music/mausoleum_ambiance.oggx
+143,rmCells20,True,BIOME_04,Подземная гробница,native ROOM.Create area assignment,assigned,6,music/mausoleum_ambiance.oggx
+144,rmCells20B,True,BIOME_04,Подземная гробница,native ROOM.Create area assignment,assigned,6,music/mausoleum_ambiance.oggx
+145,rmCells21,True,BIOME_04,Подземная гробница,native ROOM.Create area assignment,assigned,4,music/mausoleum_ambiance.oggx
+146,rmGarden00,False,BIOME_05,Кладбище Белого Листа,native ROOM.Create area assignment,assigned,9,music/garden.oggx
+147,rmGarden01,True,BIOME_05,Кладбище Белого Листа,native ROOM.Create area assignment,assigned,9,music/garden.oggx
+148,rmGarden02,True,BIOME_05,Кладбище Белого Листа,native ROOM.Create area assignment,assigned,9,music/garden.oggx
+149,rmGarden03,True,BIOME_05,Кладбище Белого Листа,native ROOM.Create area assignment,assigned,9,music/garden.oggx
+150,rmGarden03B,True,BIOME_05,Кладбище Белого Листа,native ROOM.Create area assignment,assigned,9,music/garden.oggx
+151,rmGarden03C,True,BIOME_05,Кладбище Белого Листа,native ROOM.Create area assignment,assigned,9,music/garden.oggx
+152,rmGarden03D,True,BIOME_05,Кладбище Белого Листа,native ROOM.Create area assignment,assigned,9,music/garden.oggx
+153,rmGarden04,True,BIOME_05,Кладбище Белого Листа,native ROOM.Create area assignment,assigned,6,
+154,rmGarden04B,True,BIOME_05,Кладбище Белого Листа,native ROOM.Create area assignment,assigned,6,music/mausoleum_ambiance.oggx
+155,rmGarden04C,True,BIOME_05,Кладбище Белого Листа,native ROOM.Create area assignment,assigned,6,music/mausoleum_ambiance.oggx
+156,rmGarden04D,True,BIOME_05,Кладбище Белого Листа,native ROOM.Create area assignment,assigned,6,music/mausoleum_ambiance.oggx
+157,rmGarden04E,True,BIOME_05,Кладбище Белого Листа,native ROOM.Create area assignment,assigned,6,music/mausoleum_ambiance.oggx
+158,rmGarden04F,True,BIOME_05,Кладбище Белого Листа,native ROOM.Create area assignment,assigned,6,music/mausoleum_ambiance.oggx
+159,rmGarden04G,True,BIOME_05,Кладбище Белого Листа,native ROOM.Create area assignment,assigned,6,music/mausoleum_ambiance.oggx
+160,rmGarden05,True,BIOME_05,Кладбище Белого Листа,native ROOM.Create area assignment,assigned,9,music/garden.oggx
+161,rmGarden06,True,BIOME_05,Кладбище Белого Листа,native ROOM.Create area assignment,assigned,9,music/garden.oggx
+162,rmGarden06B,True,BIOME_05,Кладбище Белого Листа,native ROOM.Create area assignment,assigned,9,music/garden.oggx
+163,rmGarden07,True,BIOME_05,Кладбище Белого Листа,native ROOM.Create area assignment,assigned,9,music/garden.oggx
+164,rmGarden08,True,BIOME_05,Кладбище Белого Листа,native ROOM.Create area assignment,assigned,9,music/garden.oggx
+165,rmGarden08B,True,BIOME_05,Кладбище Белого Листа,native ROOM.Create area assignment,assigned,9,music/garden.oggx
+166,rmGarden09,True,BIOME_05,Кладбище Белого Листа,native ROOM.Create area assignment,assigned,9,music/garden.oggx
+167,rmGarden10,True,BIOME_05,Кладбище Белого Листа,native ROOM.Create area assignment,assigned,9,music/garden.oggx
+168,rmGarden11,True,BIOME_05,Кладбище Белого Листа,native ROOM.Create area assignment,assigned,9,music/garden.oggx
+169,rmExile00,False,BIOME_06,Залы Золы,native ROOM.Create area assignment,assigned,0,music/cinder.oggx
+170,rmExile01,True,BIOME_06,Залы Золы,native ROOM.Create area assignment,assigned,0,music/cinder.oggx
+171,rmExile02,True,BIOME_06,Залы Золы,native ROOM.Create area assignment,assigned,0,
+172,rmExile03,True,BIOME_06,Залы Золы,native ROOM.Create area assignment,assigned,0,music/cinder.oggx
+173,rmExile04,True,BIOME_06,Залы Золы,native ROOM.Create area assignment,assigned,0,music/cinder.oggx
+174,rmExile05,True,BIOME_06,Залы Золы,native ROOM.Create area assignment,assigned,0,music/cinder.oggx
+175,rmExile06,True,BIOME_06,Залы Золы,native ROOM.Create area assignment,assigned,0,music/cinder.oggx
+176,rmExile07,True,BIOME_06,Залы Золы,native ROOM.Create area assignment,assigned,0,music/cinder.oggx
+177,rmExile08,True,BIOME_06,Залы Золы,native ROOM.Create area assignment,assigned,0,music/cinder.oggx
+178,rmExile09,True,BIOME_06,Залы Золы,native ROOM.Create area assignment,assigned,0,music/cinder.oggx
+179,rmExile09B,True,BIOME_06,Залы Золы,native ROOM.Create area assignment,assigned,0,music/cinder.oggx
+180,rmExile10,True,BIOME_06,Залы Золы,native ROOM.Create area assignment,assigned,0,music/cinder.oggx
+181,rmExile11,True,BIOME_06,Залы Золы,native ROOM.Create area assignment,assigned,0,music/cinder.oggx
+182,rmExile12,True,BIOME_06,Залы Золы,native ROOM.Create area assignment,assigned,0,music/cinder.oggx
+183,rmExile13,True,BIOME_06,Залы Золы,native ROOM.Create area assignment,assigned,0,music/cinder.oggx
+184,rmExile13B,True,BIOME_06,Залы Золы,native ROOM.Create area assignment,assigned,0,music/cinder.oggx
+185,rmExile14,True,BIOME_06,Залы Золы,native ROOM.Create area assignment,assigned,0,music/cinder.oggx
+186,rmExile15,True,BIOME_06,Залы Золы,native ROOM.Create area assignment,assigned,0,music/cinder.oggx
+187,rmExile16,True,BIOME_06,Залы Золы,native ROOM.Create area assignment,assigned,0,music/cinder.oggx
+188,rmExile17,True,BIOME_06,Залы Золы,native ROOM.Create area assignment,assigned,0,music/cinder.oggx
+189,rmExile18,True,BIOME_06,Залы Золы,native ROOM.Create area assignment,assigned,0,music/cinder.oggx
+190,rmExile19,True,BIOME_06,Залы Золы,native ROOM.Create area assignment,assigned,0,music/cinder.oggx
+191,rmExile19B,True,BIOME_06,Залы Золы,native ROOM.Create area assignment,assigned,0,music/cinder.oggx
+192,rmExile20,True,BIOME_06,Залы Золы,native ROOM.Create area assignment,assigned,0,music/cinder.oggx
+193,rmExile21,True,BIOME_06,Залы Золы,native ROOM.Create area assignment,assigned,0,music/cinder.oggx
+194,rmExile22,True,BIOME_06,Залы Золы,native ROOM.Create area assignment,assigned,0,music/cinder.oggx
+195,rmExile23,True,BIOME_06,Залы Золы,native ROOM.Create area assignment,assigned,0,music/cinder.oggx
+196,rmExile23Old,False,BIOME_06,Залы Золы,native ROOM.Create area assignment,assigned,0,music/cinder.oggx
+197,rmPaint00,False,BIOME_07,Придворная пинакотека,native ROOM.Create area assignment,assigned,0,music/pinacotheca.oggx
+198,rmPaint01,True,BIOME_07,Придворная пинакотека,native ROOM.Create area assignment,assigned,0,music/pinacotheca.oggx
+199,rmPaint02,True,BIOME_07,Придворная пинакотека,native ROOM.Create area assignment,assigned,0,music/pinacotheca.oggx
+200,rmPaint03,True,BIOME_07,Придворная пинакотека,native ROOM.Create area assignment,assigned,0,music/pinacotheca.oggx
+201,rmPaint04,True,BIOME_07,Придворная пинакотека,native ROOM.Create area assignment,assigned,0,music/pinacotheca.oggx
+202,rmPaint05,True,BIOME_07,Придворная пинакотека,inherited area; only authored entry and exit ROOM201,inherited,0,music/pinacotheca.oggx
+203,rmPaint06,True,BIOME_07,Придворная пинакотека,native ROOM.Create area assignment,assigned,0,music/pinacotheca.oggx
+204,rmPaint07,True,BIOME_07,Придворная пинакотека,native ROOM.Create area assignment,assigned,0,music/pinacotheca.oggx
+205,rmPaint08,True,BIOME_07,Придворная пинакотека,native ROOM.Create area assignment,assigned,0,music/pinacotheca.oggx
+206,rmPaint09,True,BIOME_07,Придворная пинакотека,native ROOM.Create area assignment,assigned,0,music/pinacotheca.oggx
+207,rmPaint10,True,BIOME_07,Придворная пинакотека,native ROOM.Create area assignment,assigned,0,music/pinacotheca.oggx
+208,rmPaint11,True,BIOME_07,Придворная пинакотека,native ROOM.Create area assignment,assigned,0,music/pinacotheca.oggx
+209,rmPaint12,True,BIOME_07,Придворная пинакотека,native ROOM.Create area assignment,assigned,0,music/pinacotheca.oggx
+210,rmPaint12B,True,BIOME_07,Придворная пинакотека,native ROOM.Create area assignment,assigned,0,music/pinacotheca.oggx
+211,rmPaint13,True,BIOME_07,Придворная пинакотека,native ROOM.Create area assignment,assigned,0,music/pinacotheca.oggx
+212,rmPaint14,True,BIOME_07,Придворная пинакотека,native ROOM.Create area assignment,assigned,0,music/pinacotheca.oggx
+213,rmPaint15,True,BIOME_07,Придворная пинакотека,native ROOM.Create area assignment,assigned,0,music/pinacotheca.oggx
+214,rmPaint15B,True,BIOME_07,Придворная пинакотека,native ROOM.Create area assignment,assigned,0,music/pinacotheca.oggx
+215,rmPaint16,True,BIOME_07,Придворная пинакотека,native ROOM.Create area assignment,assigned,0,music/pinacotheca.oggx
+216,rmPaint17,True,BIOME_07,Придворная пинакотека,native ROOM.Create area assignment,assigned,0,music/pinacotheca.oggx
+217,rmPaint18,True,BIOME_07,Придворная пинакотека,native ROOM.Create area assignment,assigned,0,music/pinacotheca.oggx
+218,rmPaint19,True,BIOME_07,Придворная пинакотека,native ROOM.Create area assignment,assigned,0,music/pinacotheca.oggx
+219,rmPaint20,True,BIOME_07,Придворная пинакотека,native ROOM.Create area assignment,assigned,0,music/pinacotheca.oggx
+220,rmPaint21,True,BIOME_07,Придворная пинакотека,native ROOM.Create area assignment,assigned,0,music/pinacotheca.oggx
+221,rmPaint22,True,BIOME_07,Придворная пинакотека,native ROOM.Create area assignment,assigned,0,music/pinacotheca.oggx
+222,rmPaint23,True,BIOME_07,Придворная пинакотека,native ROOM.Create area assignment,assigned,0,music/pinacotheca.oggx
+223,rmPaint24,True,BIOME_07,Придворная пинакотека,native ROOM.Create area assignment,assigned,0,music/pinacotheca.oggx
+224,rmPaint25,True,BIOME_07,Придворная пинакотека,native ROOM.Create area assignment,assigned,0,music/pinacotheca.oggx
+225,rmPaint26,True,BIOME_07,Придворная пинакотека,native ROOM.Create area assignment,assigned,0,music/pinacotheca.oggx
+226,rmPaint27,True,BIOME_07,Придворная пинакотека,native ROOM.Create area assignment,assigned,0,music/pinacotheca.oggx
+227,rmPaint28,True,BIOME_07,Придворная пинакотека,native ROOM.Create area assignment,assigned,0,music/pinacotheca.oggx
+228,rmPaint29,True,BIOME_07,Придворная пинакотека,native ROOM.Create area assignment,assigned,0,music/pinacotheca.oggx
+229,rmCourtyard,True,TRANSITION_COURTYARD,Двор перед дворцом,"native explicit empty title, dedicated fog10, exact cross-area exits",cleared,10,music/castle1.oggx
+230,rmCastle00,False,BIOME_08,Карстский дворец,native ROOM.Create area assignment,assigned,3,music/castle2.oggx
+231,rmCastle01,True,BIOME_08,Карстский дворец,native ROOM.Create area assignment,assigned,3,music/castle3.oggx
+232,rmCastle02,True,BIOME_08,Карстский дворец,native ROOM.Create area assignment,assigned,3,music/castle3.oggx
+233,rmCastle02Debug,False,,,outside production map; no unique native biome assignment,unresolved,,
+234,rmCastle03,True,BIOME_08,Карстский дворец,native ROOM.Create area assignment,assigned,3,music/castle2.oggx
+235,rmCastle04,True,BIOME_08,Карстский дворец,native ROOM.Create area assignment,assigned,"3,4",music/castle2.oggx
+236,rmCastle05,True,BIOME_08,Карстский дворец,native ROOM.Create area assignment,assigned,3,music/castle2.oggx
+237,rmCastle06,True,BIOME_08,Карстский дворец,native ROOM.Create area assignment,assigned,3,music/castle2.oggx
+238,rmCastle06B,True,BIOME_08,Карстский дворец,native ROOM.Create area assignment,assigned,3,music/castle2.oggx
+239,rmCastle07,True,BIOME_08,Карстский дворец,native ROOM.Create area assignment,assigned,3,music/castle2.oggx
+240,rmCastle08,True,BIOME_08,Карстский дворец,native ROOM.Create area assignment,assigned,3,music/castle2.oggx
+241,rmCastle08B,True,BIOME_08,Карстский дворец,native ROOM.Create area assignment,assigned,3,music/castle2.oggx
+242,rmCastle09,True,BIOME_08,Карстский дворец,native ROOM.Create area assignment,assigned,3,music/castle2.oggx
+243,rmCastle10,True,BIOME_08,Карстский дворец,native ROOM.Create area assignment,assigned,"0,3",music/castle2.oggx
+244,rmCastle11,True,BIOME_08,Карстский дворец,native ROOM.Create area assignment,assigned,3,music/castle2.oggx
+245,rmCastle11B,True,BIOME_08,Карстский дворец,native ROOM.Create area assignment,assigned,3,music/castle2.oggx
+246,rmCastle11C,True,BIOME_08,Карстский дворец,native ROOM.Create area assignment,assigned,3,music/castle2.oggx
+247,rmCastle12,True,BIOME_08,Карстский дворец,native ROOM.Create area assignment,assigned,3,music/castle2.oggx
+248,rmCastle13,True,BIOME_08,Карстский дворец,native ROOM.Create area assignment,assigned,"0,3",music/castle2.oggx
+249,rmCastle14,True,BIOME_08,Карстский дворец,native ROOM.Create area assignment,assigned,3,music/castle2.oggx
+250,rmCastle15,True,BIOME_08,Карстский дворец,native ROOM.Create area assignment,assigned,3,music/castle2.oggx
+251,rmCastle16,True,BIOME_08,Карстский дворец,native ROOM.Create area assignment,assigned,3,music/castle2.oggx
+252,rmCastle17,True,BIOME_08,Карстский дворец,native ROOM.Create area assignment,assigned,3,music/castle2.oggx
+253,rmCastle18,True,BIOME_08,Карстский дворец,native ROOM.Create area assignment,assigned,3,music/castle2.oggx
+254,rmCastle18B,True,BIOME_08,Карстский дворец,native ROOM.Create area assignment,assigned,3,music/castle2.oggx
+255,rmCastle19,True,BIOME_08,Карстский дворец,native ROOM.Create area assignment,assigned,3,music/castle2.oggx
+256,rmCastle20,True,BIOME_08,Карстский дворец,native ROOM.Create area assignment,assigned,3,music/castle2.oggx
+257,rmCastle21,True,BIOME_08,Карстский дворец,native ROOM.Create area assignment,assigned,3,music/castle2.oggx
+258,rmCastle22,True,BIOME_08,Карстский дворец,native ROOM.Create area assignment,assigned,3,music/castle2.oggx
+259,rmCastle23,True,BIOME_08,Карстский дворец,native ROOM.Create area assignment,assigned,"0,3",music/castle2.oggx
+260,rmCastle24,True,BIOME_08,Карстский дворец,native ROOM.Create area assignment,assigned,3,music/castle2.oggx
+261,rmCastle25,True,BIOME_08,Карстский дворец,native ROOM.Create area assignment,assigned,3,music/castle2.oggx
+262,rmCastle26,True,BIOME_08,Карстский дворец,native ROOM.Create area assignment,assigned,3,music/castle2.oggx
+263,rmCastle27,True,BIOME_08,Карстский дворец,native ROOM.Create area assignment,assigned,3,music/castle2.oggx
+264,rmCastle28,True,BIOME_08,Карстский дворец,native ROOM.Create area assignment,assigned,3,music/castle2.oggx
+265,rmCastle29,True,BIOME_08,Карстский дворец,native ROOM.Create area assignment,assigned,3,music/castle2.oggx
+266,rmCastle30,True,BIOME_08,Карстский дворец,native ROOM.Create area assignment,assigned,3,music/castle2.oggx
+267,rmCastle31,True,BIOME_08,Карстский дворец,native ROOM.Create area assignment,assigned,3,music/castle2.oggx
+268,rmCastle32,True,BIOME_08,Карстский дворец,native ROOM.Create area assignment,assigned,3,music/castle2.oggx
+269,rmCastle33,True,BIOME_08,Карстский дворец,native ROOM.Create area assignment,assigned,3,music/castle2.oggx
+270,rmCastle34,True,BIOME_08,Карстский дворец,native ROOM.Create area assignment,assigned,3,music/castle2.oggx
+271,rmCastle35,True,BIOME_08,Карстский дворец,native ROOM.Create area assignment,assigned,3,music/castle2.oggx
+272,rmCastle36,True,BIOME_08,Карстский дворец,native ROOM.Create area assignment,assigned,3,music/castle2.oggx

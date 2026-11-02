@@ -1,0 +1,98 @@
+{
+  "id": "TRANSITION_ORDALIA_FRORE",
+  "name_ru": "Переход роща — Стылая Сиэль",
+  "pixel_size": [
+    640,
+    240
+  ],
+  "world_origin_px": [
+    10880,
+    4320
+  ],
+  "world_rect_px": [
+    10880,
+    4320,
+    640,
+    240
+  ],
+  "scale": 1,
+  "unit": "1 game pixel = 1 PNG pixel",
+  "rect_convention": "x,y,width,height half-open",
+  "outside_group": "RGBA transparent; holes and source cell spacing retained",
+  "visual_scope": "verified static source reference, not full native gameplay. Frore scr_world_swap(16)/VFX not rendered. No default actor frames baked.",
+  "layers": {
+    "static": "static.png",
+    "diagnostic_markers": "markers.png",
+    "static_with_markers": "annotated.png",
+    "preview_1_8": "preview.png"
+  },
+  "sections": [
+    {
+      "id": "ROOM_056_S001",
+      "room": 56,
+      "world_cell": [
+        34,
+        18
+      ],
+      "world_px": [
+        10880,
+        4320
+      ],
+      "png_rect": [
+        0,
+        0,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_056_S001.png"
+    },
+    {
+      "id": "ROOM_056_S002",
+      "room": 56,
+      "world_cell": [
+        35,
+        18
+      ],
+      "world_px": [
+        11200,
+        4320
+      ],
+      "png_rect": [
+        320,
+        0,
+        320,
+        240
+      ],
+      "source_image": "../../reference/images/sections/ROOM_056_S002.png"
+    }
+  ],
+  "marker_ids": [
+    "R056_I100823",
+    "R056_I100824",
+    "R056_I100825",
+    "R056_I100826",
+    "R056_I100827",
+    "R056_I100828",
+    "R056_I100829",
+    "R056_I100830",
+    "R056_I100831",
+    "R056_I100832",
+    "R056_I100833",
+    "R056_I100834",
+    "R056_I100835",
+    "R056_I100836",
+    "R056_I100837",
+    "R056_I100838",
+    "R056_I100839",
+    "R056_I100840",
+    "R056_I100841",
+    "R056_I100842",
+    "R056_I100843",
+    "R056_I100844",
+    "R056_I100845",
+    "R056_I100846",
+    "R056_I100847",
+    "E056_00",
+    "E056_01"
+  ]
+}

@@ -1,0 +1,1304 @@
+[
+  {
+    "id": 0,
+    "lang": "en",
+    "glyphs": [
+      {
+        "codepoint": 32,
+        "character": " ",
+        "source_record_offset": 1596812,
+        "atlas_crop": [
+          83,
+          49,
+          5,
+          14
+        ],
+        "advance": 5,
+        "bearing_x": 0,
+        "kerning_count": 0,
+        "path": "native-pass03/FONT_00_U0020.png",
+        "size": [
+          5,
+          14
+        ],
+        "rgba_sha256": "158e5b741be234978f752d44ee6aa7237c228e0464fa68a1f49a08219e593a49"
+      },
+      {
+        "codepoint": 40,
+        "character": "(",
+        "source_record_offset": 1596940,
+        "atlas_crop": [
+          105,
+          79,
+          3,
+          13
+        ],
+        "advance": 4,
+        "bearing_x": 0,
+        "kerning_count": 0,
+        "path": "native-pass03/FONT_00_U0028.png",
+        "size": [
+          3,
+          13
+        ],
+        "rgba_sha256": "5b8eb8f24b6607f03968b1d7616c1e932f1f1c52c75115ad97b6396ea54065fd"
+      },
+      {
+        "codepoint": 41,
+        "character": ")",
+        "source_record_offset": 1596956,
+        "atlas_crop": [
+          80,
+          79,
+          3,
+          13
+        ],
+        "advance": 3,
+        "bearing_x": -1,
+        "kerning_count": 0,
+        "path": "native-pass03/FONT_00_U0029.png",
+        "size": [
+          3,
+          13
+        ],
+        "rgba_sha256": "398b549c852d9342db07bc88a63ea492a0d0d454eb7f0dffb4db480a1c0438fe"
+      },
+      {
+        "codepoint": 47,
+        "character": "/",
+        "source_record_offset": 1597052,
+        "atlas_crop": [
+          48,
+          79,
+          4,
+          13
+        ],
+        "advance": 5,
+        "bearing_x": 0,
+        "kerning_count": 0,
+        "path": "native-pass03/FONT_00_U002F.png",
+        "size": [
+          4,
+          13
+        ],
+        "rgba_sha256": "290135c0058c9a82d95621a9049d342466ccbfab3cf056fc3a3b5a82d7051f97"
+      },
+      {
+        "codepoint": 58,
+        "character": ":",
+        "source_record_offset": 1597228,
+        "atlas_crop": [
+          44,
+          95,
+          1,
+          11
+        ],
+        "advance": 2,
+        "bearing_x": 0,
+        "kerning_count": 0,
+        "path": "native-pass03/FONT_00_U003A.png",
+        "size": [
+          1,
+          11
+        ],
+        "rgba_sha256": "b3df0ddb39615263e91ec4755af566fdb79fa86665e081d9bba597e154aab19c"
+      },
+      {
+        "codepoint": 65,
+        "character": "A",
+        "source_record_offset": 1597340,
+        "atlas_crop": [
+          86,
+          2,
+          9,
+          11
+        ],
+        "advance": 10,
+        "bearing_x": 0,
+        "kerning_count": 0,
+        "path": "native-pass03/FONT_00_U0041.png",
+        "size": [
+          9,
+          11
+        ],
+        "rgba_sha256": "7d23079e0e0386b5a1645f077300d95889f24504ffea66db29c0cd4c8212249e"
+      },
+      {
+        "codepoint": 68,
+        "character": "D",
+        "source_record_offset": 1597388,
+        "atlas_crop": [
+          84,
+          18,
+          8,
+          11
+        ],
+        "advance": 9,
+        "bearing_x": 0,
+        "kerning_count": 0,
+        "path": "native-pass03/FONT_00_U0044.png",
+        "size": [
+          8,
+          11
+        ],
+        "rgba_sha256": "ff551396d0a6cf46e11fbc5ad994c44aaab7c0ca5d31233e4a61c9931435816b"
+      },
+      {
+        "codepoint": 72,
+        "character": "H",
+        "source_record_offset": 1597452,
+        "atlas_crop": [
+          24,
+          18,
+          9,
+          11
+        ],
+        "advance": 10,
+        "bearing_x": 0,
+        "kerning_count": 0,
+        "path": "native-pass03/FONT_00_U0048.png",
+        "size": [
+          9,
+          11
+        ],
+        "rgba_sha256": "e01e3106af862a40c27412be1f9c0fa93f0e35179367155b81de2f918b4e59e6"
+      },
+      {
+        "codepoint": 74,
+        "character": "J",
+        "source_record_offset": 1597484,
+        "atlas_crop": [
+          2,
+          49,
+          7,
+          11
+        ],
+        "advance": 8,
+        "bearing_x": 0,
+        "kerning_count": 0,
+        "path": "native-pass03/FONT_00_U004A.png",
+        "size": [
+          7,
+          11
+        ],
+        "rgba_sha256": "00bae88a5859136582e0f12167339165ef42614a06a43746ee80639d84b539ca"
+      },
+      {
+        "codepoint": 76,
+        "character": "L",
+        "source_record_offset": 1597516,
+        "atlas_crop": [
+          11,
+          49,
+          7,
+          11
+        ],
+        "advance": 8,
+        "bearing_x": 0,
+        "kerning_count": 0,
+        "path": "native-pass03/FONT_00_U004C.png",
+        "size": [
+          7,
+          11
+        ],
+        "rgba_sha256": "8e3c6cc0ed66398f008f2e9667a5121fe6b62c1111eb09af399e67143a2e9dd1"
+      },
+      {
+        "codepoint": 77,
+        "character": "M",
+        "source_record_offset": 1597532,
+        "atlas_crop": [
+          14,
+          2,
+          11,
+          11
+        ],
+        "advance": 12,
+        "bearing_x": 0,
+        "kerning_count": 0,
+        "path": "native-pass03/FONT_00_U004D.png",
+        "size": [
+          11,
+          11
+        ],
+        "rgba_sha256": "1bc08de24f6e2c2408cc2e1dc30441487d54c230920e68aea6d137c3b2819c94"
+      },
+      {
+        "codepoint": 82,
+        "character": "R",
+        "source_record_offset": 1597612,
+        "atlas_crop": [
+          82,
+          34,
+          8,
+          11
+        ],
+        "advance": 9,
+        "bearing_x": 0,
+        "kerning_count": 0,
+        "path": "native-pass03/FONT_00_U0052.png",
+        "size": [
+          8,
+          11
+        ],
+        "rgba_sha256": "e9ea7fdbf2445085bed421f81a77f9999b6b3fe0dffe259b01f2fe14bf954d86"
+      },
+      {
+        "codepoint": 85,
+        "character": "U",
+        "source_record_offset": 1597660,
+        "atlas_crop": [
+          35,
+          18,
+          9,
+          11
+        ],
+        "advance": 10,
+        "bearing_x": 0,
+        "kerning_count": 0,
+        "path": "native-pass03/FONT_00_U0055.png",
+        "size": [
+          9,
+          11
+        ],
+        "rgba_sha256": "70dca8ce27ae29330c818b8e589309ffd6cd8aedb4c3a30544df761bc979181f"
+      },
+      {
+        "codepoint": 100,
+        "character": "d",
+        "source_record_offset": 1597900,
+        "atlas_crop": [
+          74,
+          49,
+          7,
+          11
+        ],
+        "advance": 8,
+        "bearing_x": 0,
+        "kerning_count": 0,
+        "path": "native-pass03/FONT_00_U0064.png",
+        "size": [
+          7,
+          11
+        ],
+        "rgba_sha256": "e31ddd2a1a88ef64fd569c751eddd8d9f0269cd7d2ee6982ac7dec033592946a"
+      },
+      {
+        "codepoint": 101,
+        "character": "e",
+        "source_record_offset": 1597916,
+        "atlas_crop": [
+          18,
+          65,
+          6,
+          11
+        ],
+        "advance": 7,
+        "bearing_x": 0,
+        "kerning_count": 0,
+        "path": "native-pass03/FONT_00_U0065.png",
+        "size": [
+          6,
+          11
+        ],
+        "rgba_sha256": "157d29cce1b9ef8cbcb2c5091a87eea7c777bb1bdd5fc51c8944c13f4fa5702d"
+      },
+      {
+        "codepoint": 102,
+        "character": "f",
+        "source_record_offset": 1597932,
+        "atlas_crop": [
+          90,
+          49,
+          6,
+          11
+        ],
+        "advance": 7,
+        "bearing_x": 0,
+        "kerning_count": 0,
+        "path": "native-pass03/FONT_00_U0066.png",
+        "size": [
+          6,
+          11
+        ],
+        "rgba_sha256": "b2d19d38342d72cdf0b2b4946739893889f760bf46b321345282a4484b4217c1"
+      },
+      {
+        "codepoint": 103,
+        "character": "g",
+        "source_record_offset": 1597948,
+        "atlas_crop": [
+          57,
+          18,
+          7,
+          14
+        ],
+        "advance": 8,
+        "bearing_x": 0,
+        "kerning_count": 0,
+        "path": "native-pass03/FONT_00_U0067.png",
+        "size": [
+          7,
+          14
+        ],
+        "rgba_sha256": "48ab7be75bd228e322a1d943938f2ecbd135daf6e94b5239a7a7945b940c9a5b"
+      },
+      {
+        "codepoint": 104,
+        "character": "h",
+        "source_record_offset": 1597964,
+        "atlas_crop": [
+          22,
+          34,
+          8,
+          11
+        ],
+        "advance": 9,
+        "bearing_x": 0,
+        "kerning_count": 0,
+        "path": "native-pass03/FONT_00_U0068.png",
+        "size": [
+          8,
+          11
+        ],
+        "rgba_sha256": "c8b1c29f6676260d7badd4b463ef92af1161fb95f69955222912361c90ae0657"
+      },
+      {
+        "codepoint": 105,
+        "character": "i",
+        "source_record_offset": 1597980,
+        "atlas_crop": [
+          117,
+          79,
+          3,
+          11
+        ],
+        "advance": 4,
+        "bearing_x": 0,
+        "kerning_count": 0,
+        "path": "native-pass03/FONT_00_U0069.png",
+        "size": [
+          3,
+          11
+        ],
+        "rgba_sha256": "d7a754be99aa20a6f8c4c779f1d89df36bfa61aeb0038e9266091a7ee2500265"
+      },
+      {
+        "codepoint": 106,
+        "character": "j",
+        "source_record_offset": 1597996,
+        "atlas_crop": [
+          75,
+          79,
+          3,
+          14
+        ],
+        "advance": 3,
+        "bearing_x": -1,
+        "kerning_count": 0,
+        "path": "native-pass03/FONT_00_U006A.png",
+        "size": [
+          3,
+          14
+        ],
+        "rgba_sha256": "6b9a9c542738a62aef957293475612b6b8011691db1c84d9ca727b4ab156577e"
+      },
+      {
+        "codepoint": 108,
+        "character": "l",
+        "source_record_offset": 1598028,
+        "atlas_crop": [
+          2,
+          95,
+          3,
+          11
+        ],
+        "advance": 4,
+        "bearing_x": 0,
+        "kerning_count": 0,
+        "path": "native-pass03/FONT_00_U006C.png",
+        "size": [
+          3,
+          11
+        ],
+        "rgba_sha256": "57b733dc87ec6be8022363dfe267a8acfc1bbef173c727ac354e4665096d565d"
+      },
+      {
+        "codepoint": 109,
+        "character": "m",
+        "source_record_offset": 1598044,
+        "atlas_crop": [
+          27,
+          2,
+          11,
+          11
+        ],
+        "advance": 12,
+        "bearing_x": 0,
+        "kerning_count": 0,
+        "path": "native-pass03/FONT_00_U006D.png",
+        "size": [
+          11,
+          11
+        ],
+        "rgba_sha256": "a595ca420377bc86308dbcb868095e09075ae9192b99098ef7f1a511a22973a2"
+      },
+      {
+        "codepoint": 110,
+        "character": "n",
+        "source_record_offset": 1598060,
+        "atlas_crop": [
+          12,
+          34,
+          8,
+          11
+        ],
+        "advance": 9,
+        "bearing_x": 0,
+        "kerning_count": 0,
+        "path": "native-pass03/FONT_00_U006E.png",
+        "size": [
+          8,
+          11
+        ],
+        "rgba_sha256": "380fe8131e7a53c643dc11f9956323dd63ec30ed96e21197d16e1f324f2a2f36"
+      },
+      {
+        "codepoint": 111,
+        "character": "o",
+        "source_record_offset": 1598076,
+        "atlas_crop": [
+          34,
+          65,
+          6,
+          11
+        ],
+        "advance": 7,
+        "bearing_x": 0,
+        "kerning_count": 0,
+        "path": "native-pass03/FONT_00_U006F.png",
+        "size": [
+          6,
+          11
+        ],
+        "rgba_sha256": "b9ee1530109a59329e73dfef9f5badee845bab4c54ddc78d96f0a5c2042a7991"
+      },
+      {
+        "codepoint": 112,
+        "character": "p",
+        "source_record_offset": 1598092,
+        "atlas_crop": [
+          66,
+          18,
+          7,
+          14
+        ],
+        "advance": 8,
+        "bearing_x": 0,
+        "kerning_count": 0,
+        "path": "native-pass03/FONT_00_U0070.png",
+        "size": [
+          7,
+          14
+        ],
+        "rgba_sha256": "77c1e7747a6beaaffc74b3281c059571b0f72efc1b03a59a5420f954e8415bab"
+      },
+      {
+        "codepoint": 114,
+        "character": "r",
+        "source_record_offset": 1598124,
+        "atlas_crop": [
+          74,
+          65,
+          6,
+          11
+        ],
+        "advance": 7,
+        "bearing_x": 0,
+        "kerning_count": 0,
+        "path": "native-pass03/FONT_00_U0072.png",
+        "size": [
+          6,
+          11
+        ],
+        "rgba_sha256": "d8149e7b959e68611da4ca9bf43183658737aea6d4b48b624243d874c5d595cd"
+      },
+      {
+        "codepoint": 116,
+        "character": "t",
+        "source_record_offset": 1598156,
+        "atlas_crop": [
+          27,
+          79,
+          5,
+          11
+        ],
+        "advance": 6,
+        "bearing_x": 0,
+        "kerning_count": 0,
+        "path": "native-pass03/FONT_00_U0074.png",
+        "size": [
+          5,
+          11
+        ],
+        "rgba_sha256": "ec1f708865bf83b06ef7f2daa4210e1a98211b5dfe72cd481ed6654ea4e52bf3"
+      },
+      {
+        "codepoint": 117,
+        "character": "u",
+        "source_record_offset": 1598172,
+        "atlas_crop": [
+          52,
+          34,
+          8,
+          11
+        ],
+        "advance": 9,
+        "bearing_x": 0,
+        "kerning_count": 0,
+        "path": "native-pass03/FONT_00_U0075.png",
+        "size": [
+          8,
+          11
+        ],
+        "rgba_sha256": "911edf638fcac72127b5a2f913c84e7c9e0190c60cf7acb6476197ecdaec97b5"
+      },
+      {
+        "codepoint": 118,
+        "character": "v",
+        "source_record_offset": 1598188,
+        "atlas_crop": [
+          2,
+          34,
+          8,
+          11
+        ],
+        "advance": 9,
+        "bearing_x": 0,
+        "kerning_count": 0,
+        "path": "native-pass03/FONT_00_U0076.png",
+        "size": [
+          8,
+          11
+        ],
+        "rgba_sha256": "f82f3942597ca26cd2a182cb36e8d69316db1277e747b7ba67384efd627ede76"
+      },
+      {
+        "codepoint": 119,
+        "character": "w",
+        "source_record_offset": 1598204,
+        "atlas_crop": [
+          40,
+          2,
+          11,
+          11
+        ],
+        "advance": 12,
+        "bearing_x": 0,
+        "kerning_count": 0,
+        "path": "native-pass03/FONT_00_U0077.png",
+        "size": [
+          11,
+          11
+        ],
+        "rgba_sha256": "7f62a62e1e6868a8a416055264f666df35cb804b3c4dbaeba21f56df525d3f15"
+      }
+    ],
+    "max_glyph_height": 14,
+    "texture": [
+      1574,
+      1370,
+      128,
+      128,
+      0,
+      0,
+      128,
+      128,
+      128,
+      128,
+      2
+    ],
+    "offset": 1596384
+  },
+  {
+    "id": 4,
+    "lang": "ru",
+    "glyphs": [
+      {
+        "codepoint": 32,
+        "character": " ",
+        "source_record_offset": 2291428,
+        "atlas_crop": [
+          138,
+          60,
+          3,
+          14
+        ],
+        "advance": 3,
+        "bearing_x": 0,
+        "kerning_count": 0,
+        "path": "native-pass03/FONT_04_U0020.png",
+        "size": [
+          3,
+          14
+        ],
+        "rgba_sha256": "97c932ba3d59d040375f19283966009335b33cce2c8164f506c7c5fb2fc2a47d"
+      },
+      {
+        "codepoint": 40,
+        "character": "(",
+        "source_record_offset": 2291556,
+        "atlas_crop": [
+          160,
+          60,
+          3,
+          13
+        ],
+        "advance": 4,
+        "bearing_x": 1,
+        "kerning_count": 0,
+        "path": "native-pass03/FONT_04_U0028.png",
+        "size": [
+          3,
+          13
+        ],
+        "rgba_sha256": "4fdd920d68231ec3b68a086ca44fbab83a6a7647b7186d281d17fbed4aa209ce"
+      },
+      {
+        "codepoint": 41,
+        "character": ")",
+        "source_record_offset": 2291572,
+        "atlas_crop": [
+          170,
+          60,
+          3,
+          13
+        ],
+        "advance": 4,
+        "bearing_x": 0,
+        "kerning_count": 0,
+        "path": "native-pass03/FONT_04_U0029.png",
+        "size": [
+          3,
+          13
+        ],
+        "rgba_sha256": "981860f049bac2add80e402e65bb3a8ff5c2ff8d8a010ec9813a1d8fdad47d19"
+      },
+      {
+        "codepoint": 44,
+        "character": ",",
+        "source_record_offset": 2291620,
+        "atlas_crop": [
+          237,
+          60,
+          2,
+          13
+        ],
+        "advance": 3,
+        "bearing_x": 0,
+        "kerning_count": 0,
+        "path": "native-pass03/FONT_04_U002C.png",
+        "size": [
+          2,
+          13
+        ],
+        "rgba_sha256": "f0c6c3ea951dc26d7ff2d694bc810d9fdad8fcb8ec80ce49be7f5fc34746167b"
+      },
+      {
+        "codepoint": 47,
+        "character": "/",
+        "source_record_offset": 2291668,
+        "atlas_crop": [
+          193,
+          60,
+          3,
+          11
+        ],
+        "advance": 3,
+        "bearing_x": 0,
+        "kerning_count": 0,
+        "path": "native-pass03/FONT_04_U002F.png",
+        "size": [
+          3,
+          11
+        ],
+        "rgba_sha256": "2bf3da23b4a6f074eaa1b420a2cd532133ac471b0d9e6dabe5c285bef3bdfa41"
+      },
+      {
+        "codepoint": 58,
+        "character": ":",
+        "source_record_offset": 2291844,
+        "atlas_crop": [
+          21,
+          76,
+          1,
+          11
+        ],
+        "advance": 3,
+        "bearing_x": 1,
+        "kerning_count": 0,
+        "path": "native-pass03/FONT_04_U003A.png",
+        "size": [
+          1,
+          11
+        ],
+        "rgba_sha256": "43a9f39185d420f768bb0be462bdaddbd1ce4264420ed1d178738e2d1616955e"
+      },
+      {
+        "codepoint": 65,
+        "character": "A",
+        "source_record_offset": 2291956,
+        "atlas_crop": [
+          139,
+          2,
+          9,
+          11
+        ],
+        "advance": 7,
+        "bearing_x": -1,
+        "kerning_count": 0,
+        "path": "native-pass03/FONT_04_U0041.png",
+        "size": [
+          9,
+          11
+        ],
+        "rgba_sha256": "9979efc3f9eb90c84d1cd6d80bf110827d77b4770d0bc42ad87802c93556e9c3"
+      },
+      {
+        "codepoint": 1042,
+        "character": "В",
+        "source_record_offset": 2293252,
+        "atlas_crop": [
+          156,
+          47,
+          5,
+          11
+        ],
+        "advance": 7,
+        "bearing_x": 1,
+        "kerning_count": 0,
+        "path": "native-pass03/FONT_04_U0412.png",
+        "size": [
+          5,
+          11
+        ],
+        "rgba_sha256": "eee297908c660fc1a7c6a7d776abd16679fc019b4b06f829304524e25a33b0e4"
+      },
+      {
+        "codepoint": 1055,
+        "character": "П",
+        "source_record_offset": 2293460,
+        "atlas_crop": [
+          18,
+          32,
+          6,
+          11
+        ],
+        "advance": 8,
+        "bearing_x": 1,
+        "kerning_count": 0,
+        "path": "native-pass03/FONT_04_U041F.png",
+        "size": [
+          6,
+          11
+        ],
+        "rgba_sha256": "f482308632a2300dd97af92840f5358e0c43de3e7f1af0ba065d7ee0abc6d92c"
+      },
+      {
+        "codepoint": 1059,
+        "character": "У",
+        "source_record_offset": 2293524,
+        "atlas_crop": [
+          206,
+          17,
+          7,
+          11
+        ],
+        "advance": 7,
+        "bearing_x": 0,
+        "kerning_count": 0,
+        "path": "native-pass03/FONT_04_U0423.png",
+        "size": [
+          7,
+          11
+        ],
+        "rgba_sha256": "15efcf58b4b08293fef90f5aa13baf8a55d384796b17ba3bcf44e37d647e2b9d"
+      },
+      {
+        "codepoint": 1072,
+        "character": "а",
+        "source_record_offset": 2293732,
+        "atlas_crop": [
+          2,
+          47,
+          5,
+          11
+        ],
+        "advance": 6,
+        "bearing_x": 0,
+        "kerning_count": 0,
+        "path": "native-pass03/FONT_04_U0430.png",
+        "size": [
+          5,
+          11
+        ],
+        "rgba_sha256": "ea45703b8bf4a1f34434e80491e083fb05034b4f6c2c84a436a5afd18037d583"
+      },
+      {
+        "codepoint": 1073,
+        "character": "б",
+        "source_record_offset": 2293748,
+        "atlas_crop": [
+          219,
+          47,
+          5,
+          11
+        ],
+        "advance": 6,
+        "bearing_x": 0,
+        "kerning_count": 0,
+        "path": "native-pass03/FONT_04_U0431.png",
+        "size": [
+          5,
+          11
+        ],
+        "rgba_sha256": "10964981021a4beaf127cf5a39c83246841bbd89ba506a686c5a593cfa998994"
+      },
+      {
+        "codepoint": 1074,
+        "character": "в",
+        "source_record_offset": 2293764,
+        "atlas_crop": [
+          16,
+          60,
+          5,
+          11
+        ],
+        "advance": 6,
+        "bearing_x": 0,
+        "kerning_count": 0,
+        "path": "native-pass03/FONT_04_U0432.png",
+        "size": [
+          5,
+          11
+        ],
+        "rgba_sha256": "9b5124ce7af62563192ac2acdd49caad592c19e7821c94271173b79fcdb13ed9"
+      },
+      {
+        "codepoint": 1075,
+        "character": "г",
+        "source_record_offset": 2293780,
+        "atlas_crop": [
+          198,
+          60,
+          3,
+          11
+        ],
+        "advance": 4,
+        "bearing_x": 0,
+        "kerning_count": 0,
+        "path": "native-pass03/FONT_04_U0433.png",
+        "size": [
+          3,
+          11
+        ],
+        "rgba_sha256": "95cce6a4c0233a44202fcf1b3d29e614775f24177690abc1e5e7d199d77aff7d"
+      },
+      {
+        "codepoint": 1076,
+        "character": "д",
+        "source_record_offset": 2293796,
+        "atlas_crop": [
+          145,
+          32,
+          5,
+          13
+        ],
+        "advance": 6,
+        "bearing_x": 0,
+        "kerning_count": 0,
+        "path": "native-pass03/FONT_04_U0434.png",
+        "size": [
+          5,
+          13
+        ],
+        "rgba_sha256": "e0b34e70f8553a179d881736baad7de083153ef76bce6a69384ccfa47982a1f0"
+      },
+      {
+        "codepoint": 1077,
+        "character": "е",
+        "source_record_offset": 2293812,
+        "atlas_crop": [
+          128,
+          47,
+          5,
+          11
+        ],
+        "advance": 6,
+        "bearing_x": 0,
+        "kerning_count": 0,
+        "path": "native-pass03/FONT_04_U0435.png",
+        "size": [
+          5,
+          11
+        ],
+        "rgba_sha256": "104e2cef0ab17b5ebffbd66c6048e99fa30b987482f008112e61750a1e8e28fd"
+      },
+      {
+        "codepoint": 1078,
+        "character": "ж",
+        "source_record_offset": 2293828,
+        "atlas_crop": [
+          152,
+          17,
+          7,
+          11
+        ],
+        "advance": 8,
+        "bearing_x": 0,
+        "kerning_count": 0,
+        "path": "native-pass03/FONT_04_U0436.png",
+        "size": [
+          7,
+          11
+        ],
+        "rgba_sha256": "2141a5ef90a5f8b9e76a8afe456382cf87b3482dfa3d2a56b7e76585401269c4"
+      },
+      {
+        "codepoint": 1079,
+        "character": "з",
+        "source_record_offset": 2293844,
+        "atlas_crop": [
+          84,
+          60,
+          4,
+          11
+        ],
+        "advance": 5,
+        "bearing_x": 0,
+        "kerning_count": 0,
+        "path": "native-pass03/FONT_04_U0437.png",
+        "size": [
+          4,
+          11
+        ],
+        "rgba_sha256": "1ed58663f496dadbbe58432c0bd02ee40ca5507085a89152e618e0ee109347cd"
+      },
+      {
+        "codepoint": 1080,
+        "character": "и",
+        "source_record_offset": 2293860,
+        "atlas_crop": [
+          107,
+          47,
+          5,
+          11
+        ],
+        "advance": 6,
+        "bearing_x": 0,
+        "kerning_count": 0,
+        "path": "native-pass03/FONT_04_U0438.png",
+        "size": [
+          5,
+          11
+        ],
+        "rgba_sha256": "626ad5af57b2a5b5c9f2f79bd39d4137bc4960701d8c75cc619f66bb4b8ed884"
+      },
+      {
+        "codepoint": 1081,
+        "character": "й",
+        "source_record_offset": 2293876,
+        "atlas_crop": [
+          37,
+          60,
+          5,
+          11
+        ],
+        "advance": 6,
+        "bearing_x": 0,
+        "kerning_count": 0,
+        "path": "native-pass03/FONT_04_U0439.png",
+        "size": [
+          5,
+          11
+        ],
+        "rgba_sha256": "ff19cd512292181080dceed482128e8512f284ea6fc11de2cc13986b1d92301d"
+      },
+      {
+        "codepoint": 1082,
+        "character": "к",
+        "source_record_offset": 2293892,
+        "atlas_crop": [
+          2,
+          60,
+          5,
+          11
+        ],
+        "advance": 6,
+        "bearing_x": 0,
+        "kerning_count": 0,
+        "path": "native-pass03/FONT_04_U043A.png",
+        "size": [
+          5,
+          11
+        ],
+        "rgba_sha256": "0985eb43d046f8d6a7ad42a29fc9986414ed7d1be7bc596810f794efad6d3c3f"
+      },
+      {
+        "codepoint": 1083,
+        "character": "л",
+        "source_record_offset": 2293908,
+        "atlas_crop": [
+          121,
+          47,
+          5,
+          11
+        ],
+        "advance": 6,
+        "bearing_x": 0,
+        "kerning_count": 0,
+        "path": "native-pass03/FONT_04_U043B.png",
+        "size": [
+          5,
+          11
+        ],
+        "rgba_sha256": "8b10554a554b33b258bec96bf66550a534d2beee7aa0351692a461301ace4d73"
+      },
+      {
+        "codepoint": 1085,
+        "character": "н",
+        "source_record_offset": 2293940,
+        "atlas_crop": [
+          226,
+          47,
+          5,
+          11
+        ],
+        "advance": 6,
+        "bearing_x": 0,
+        "kerning_count": 0,
+        "path": "native-pass03/FONT_04_U043D.png",
+        "size": [
+          5,
+          11
+        ],
+        "rgba_sha256": "7e91d0933c1a030c8a2790a09ab2bc09ff20c087bc7679f5b734f122e53092e6"
+      },
+      {
+        "codepoint": 1086,
+        "character": "о",
+        "source_record_offset": 2293956,
+        "atlas_crop": [
+          37,
+          47,
+          5,
+          11
+        ],
+        "advance": 6,
+        "bearing_x": 0,
+        "kerning_count": 0,
+        "path": "native-pass03/FONT_04_U043E.png",
+        "size": [
+          5,
+          11
+        ],
+        "rgba_sha256": "9314c91639e78419ef7de53ecf6b6d0980fa66c67551ff6c474d018e9e1da0fa"
+      },
+      {
+        "codepoint": 1087,
+        "character": "п",
+        "source_record_offset": 2293972,
+        "atlas_crop": [
+          135,
+          47,
+          5,
+          11
+        ],
+        "advance": 6,
+        "bearing_x": 0,
+        "kerning_count": 0,
+        "path": "native-pass03/FONT_04_U043F.png",
+        "size": [
+          5,
+          11
+        ],
+        "rgba_sha256": "908fc8bb72ef6ee74956757a5d6d40d16ff384f9ae7d4bf218db2ab939ced42f"
+      },
+      {
+        "codepoint": 1088,
+        "character": "р",
+        "source_record_offset": 2293988,
+        "atlas_crop": [
+          173,
+          32,
+          5,
+          13
+        ],
+        "advance": 6,
+        "bearing_x": 0,
+        "kerning_count": 0,
+        "path": "native-pass03/FONT_04_U0440.png",
+        "size": [
+          5,
+          13
+        ],
+        "rgba_sha256": "cca20ce5620cbeb2ee28ad7ec147eae81aa700094ecd91213156bbc03e5b5e1f"
+      },
+      {
+        "codepoint": 1090,
+        "character": "т",
+        "source_record_offset": 2294020,
+        "atlas_crop": [
+          184,
+          47,
+          5,
+          11
+        ],
+        "advance": 6,
+        "bearing_x": 0,
+        "kerning_count": 0,
+        "path": "native-pass03/FONT_04_U0442.png",
+        "size": [
+          5,
+          11
+        ],
+        "rgba_sha256": "5d07846000864d6aee5d7394c5e615de143e56c07eef0e41a9d6873d116b8964"
+      },
+      {
+        "codepoint": 1091,
+        "character": "у",
+        "source_record_offset": 2294036,
+        "atlas_crop": [
+          203,
+          2,
+          7,
+          13
+        ],
+        "advance": 6,
+        "bearing_x": -1,
+        "kerning_count": 0,
+        "path": "native-pass03/FONT_04_U0443.png",
+        "size": [
+          7,
+          13
+        ],
+        "rgba_sha256": "f0f9a32406d19d0f72161dcf9d00f8c837eae6e627b3b2a4ef84847dfe5b610b"
+      },
+      {
+        "codepoint": 1093,
+        "character": "х",
+        "source_record_offset": 2294068,
+        "atlas_crop": [
+          82,
+          32,
+          6,
+          11
+        ],
+        "advance": 5,
+        "bearing_x": -1,
+        "kerning_count": 0,
+        "path": "native-pass03/FONT_04_U0445.png",
+        "size": [
+          6,
+          11
+        ],
+        "rgba_sha256": "e2796d08710892e18d517cc96c41a49b0a3e7c6f049104f5ee327d3aadbe020b"
+      },
+      {
+        "codepoint": 1095,
+        "character": "ч",
+        "source_record_offset": 2294100,
+        "atlas_crop": [
+          233,
+          47,
+          5,
+          11
+        ],
+        "advance": 6,
+        "bearing_x": 0,
+        "kerning_count": 0,
+        "path": "native-pass03/FONT_04_U0447.png",
+        "size": [
+          5,
+          11
+        ],
+        "rgba_sha256": "21c319a5bb4a952e8b58db6daf0ed534d630547d424722d35c51a3b19c6745f8"
+      },
+      {
+        "codepoint": 1096,
+        "character": "ш",
+        "source_record_offset": 2294116,
+        "atlas_crop": [
+          35,
+          17,
+          7,
+          11
+        ],
+        "advance": 8,
+        "bearing_x": 0,
+        "kerning_count": 0,
+        "path": "native-pass03/FONT_04_U0448.png",
+        "size": [
+          7,
+          11
+        ],
+        "rgba_sha256": "505cf9f1fff07a2013e6c94956e96a5f3bab1de44f01bf36747b6847b29b533d"
+      },
+      {
+        "codepoint": 1099,
+        "character": "ы",
+        "source_record_offset": 2294164,
+        "atlas_crop": [
+          71,
+          17,
+          7,
+          11
+        ],
+        "advance": 8,
+        "bearing_x": 0,
+        "kerning_count": 0,
+        "path": "native-pass03/FONT_04_U044B.png",
+        "size": [
+          7,
+          11
+        ],
+        "rgba_sha256": "3082c4cdc2f2f2763f39c8432c92357f8eba3377ed650b72fbe980aa544c3c32"
+      },
+      {
+        "codepoint": 1100,
+        "character": "ь",
+        "source_record_offset": 2294180,
+        "atlas_crop": [
+          222,
+          32,
+          5,
+          11
+        ],
+        "advance": 6,
+        "bearing_x": 0,
+        "kerning_count": 0,
+        "path": "native-pass03/FONT_04_U044C.png",
+        "size": [
+          5,
+          11
+        ],
+        "rgba_sha256": "010264a499253406afea72bb30abd01e1c72e8f12177deb752b94b7ac4b960ba"
+      }
+    ],
+    "max_glyph_height": 14,
+    "texture": [
+      518,
+      518,
+      256,
+      128,
+      0,
+      0,
+      256,
+      128,
+      256,
+      128,
+      6
+    ],
+    "offset": 2290680
+  }
+]

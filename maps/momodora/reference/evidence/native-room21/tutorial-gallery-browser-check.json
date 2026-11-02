@@ -1,0 +1,21 @@
+{
+  "canvases": [
+    {
+      "id": "panel",
+      "nonempty": true
+    },
+    {
+      "id": "font0",
+      "nonempty": true
+    },
+    {
+      "id": "font4",
+      "nonempty": true
+    }
+  ],
+  "alpha_states": 5,
+  "animation": true,
+  "mask_overlay": true,
+  "errors": [],
+  "completed_at": "2026-11-01T20:54:57.225Z"
+}

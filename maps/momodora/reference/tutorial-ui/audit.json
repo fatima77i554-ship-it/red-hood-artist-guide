@@ -1,0 +1,34 @@
+{
+  "room": 21,
+  "instances": [
+    {
+      "id": 100311,
+      "type": 0,
+      "text_key": "sys_tut01",
+      "anchor": [
+        112,
+        192
+      ]
+    },
+    {
+      "id": 100314,
+      "type": 1,
+      "text_key": "sys_tut02",
+      "anchor": [
+        432,
+        176
+      ]
+    }
+  ],
+  "verified_components": [
+    "NATIVE_TUTORIAL_FONT00",
+    "NATIVE_TUTORIAL_FONT04",
+    "NATIVE_TUTORIAL_PANEL169"
+  ],
+  "complete_tutorial_admission": "verified_selected_native_visual_profiles_game_admission_blocked",
+  "remaining": [
+    "Whole player/world simulation and unrelated native actors remain outside visual profile scope"
+  ],
+  "negative_check": "Do not paste default SPRT785 at room anchors; native Draw uses SPRT169 + input icons + FONT glyphs",
+  "verified_native_profiles": "native-pass03/replay.json"
+}

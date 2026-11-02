@@ -1,0 +1,19 @@
+{
+  "classifier_written": true,
+  "gallery_reviewed": true,
+  "map_composited": true,
+  "roles": [
+    "NATIVE_R21_PARALLAX736",
+    "NATIVE_R21_GRASS591",
+    "NATIVE_R21_FLOWER589",
+    "NATIVE_R21_PARTICLE754",
+    "NATIVE_R21_PARTICLE755",
+    "NATIVE_R21_LEAF756"
+  ],
+  "review": {
+    "screenshot": "evidence/native-room21/gallery02-before-composition.png",
+    "browser": "evidence/native-room21/gallery02-browser-check.json",
+    "scope": "six isolated visual roles, original frames, source mask and pivot overlays; no map image existed at review",
+    "reviewed_source_frames": 21
+  }
+}

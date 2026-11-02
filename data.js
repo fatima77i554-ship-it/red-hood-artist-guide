@@ -23,7 +23,7 @@ window.RED_HOOD_GUIDE = {
       "kind": "page",
       "title": "Что уже решено",
       "status": "confirmed",
-      "body": "Всё происходящее — кошмар. Красная Шапочка восстаёт из мёртвых и ничего не помнит. Она — монстр, на которого охотятся. Человек по имени Альфред, охотник на нечистокровных, уже однажды убил её. Разиель воскресил героиню. В начале игры она просыпается в могиле и встречает его.\n\nРазиель искренне пытается быть добрым. Он видит ангела смерти и духов и буквально боится смерти.\n\nАлтари и точки сохранения — статуи Богоматери со свечением.\n\nМомент раскрытия каждой тайны игроку ещё не определён. Материал содержит авторские сюжетные спойлеры."
+      "body": "Всё происходящее — кошмар. Красная Шапочка восстаёт из мёртвых и ничего не помнит. Она — монстр, на которого охотятся. Человек по имени Альфред, охотник на нечистокровных, уже однажды убил её. Разиель воскресил героиню. В начале игры она просыпается в могиле и встречает его.\n\nРазиель искренне пытается быть добрым. Он видит ангела смерти и духов и буквально боится смерти.\n\nАлтари и точки сохранения — статуи Богоматери со свечением.\n\nМомент раскрытия каждой тайны игроку ещё не определён. Материал содержит авторские сюжетные спойлеры.\n\nДжоанна Дарк III — внучка великого Альфреда, последний ковенант и одна из боссов игры.\n\nОхотник на ведьм и защитник выживших людей и детей — ещё два босса. Для защитника кладбище пока лишь возможное место.\n\nВ роще встречается фея, потухшая от миазмов. Разиель убил её сестру и виновен в происходящем; она нападает на него и героиню, защищая оплот. Первое впечатление скрывает, что это фея.\n\nСвятая жрица обитает в заброшенном монастыре; её роль встречи пока не задана."
     },
     {
       "id": "story-questions",
@@ -31,7 +31,7 @@ window.RED_HOOD_GUIDE = {
       "kind": "page",
       "title": "Открытые вопросы истории",
       "status": "open",
-      "body": "Чего героиня хочет сразу после пробуждения и что заставляет её действовать?\n\nКогда и как игрок узнаёт, что она — монстр, что её убил Альфред и что Разиель её воскресил?\n\nКак устроен кошмар: чьё это переживание, какие у него правила и возможен ли выход?\n\nКак Разиель воскресил героиню и чего это ему стоило? Что он ей рассказывает?\n\nЧто означает «нечистокровные» в этом мире и почему Альфред на них охотится?\n\nКак ангел смерти и духи проявляются для Разиеля? Видит ли их героиня?\n\nКакие сказки нужны истории и как завершается первая игра? Романтическая линия и предательство пока не утверждены."
+      "body": "Чего героиня хочет сразу после пробуждения и что заставляет её действовать?\n\nКогда и как игрок узнаёт, что она — монстр, что её убил Альфред и что Разиель её воскресил?\n\nКак устроен кошмар: чьё это переживание, какие у него правила и возможен ли выход?\n\nКак Разиель воскресил героиню и чего это ему стоило? Что он ей рассказывает?\n\nЧто означает «нечистокровные» в этом мире и почему Альфред на них охотится?\n\nКак ангел смерти и духи проявляются для Разиеля? Видит ли их героиня?\n\nКакие сказки нужны истории и как завершается первая игра? Романтическая линия и предательство пока не утверждены.\n\nЧто означает «ковенант», как точно записывается имя или титул Альфреда и чего Джоанна хочет в этой истории?\n\nКого убивает и кого обнаруживает полуживым охотник на ведьм? Почему защитник выживших вступает в бой с героиней?\n\nПочему Разиель убил сестру феи, в чём именно его вина и когда игрок узнаёт правду? Что защищает оплот?\n\nКакую роль выполняет святая жрица в монастыре?"
     },
     {
       "id": "hero",
@@ -47,7 +47,7 @@ window.RED_HOOD_GUIDE = {
       "kind": "character",
       "title": "Разиель",
       "status": "confirmed",
-      "body": "Разиель — парень, оборотень-волк и проводник героини. Он воскресил Красную Шапочку.\n\nОн искренне пытается быть добрым и жутко боится смерти. Для него этот страх буквальный: он видит ангела смерти и духов.\n\nЕго прошлые поступки, надежда узнать правду и желание увидеть Красную Шапочку живой могут стать основой предыстории. Способ воскрешения, его цена, правила превращения и то, что Разиель рассказывает героине, ещё не определены."
+      "body": "Разиель — парень, оборотень-волк и проводник героини. Он воскресил Красную Шапочку.\n\nОн искренне пытается быть добрым и жутко боится смерти. Для него этот страх буквальный: он видит ангела смерти и духов.\n\nЕго прошлые поступки, надежда узнать правду и желание увидеть Красную Шапочку живой могут стать основой предыстории. Способ воскрешения, его цена, правила превращения и то, что Разиель рассказывает героине, ещё не определены.\n\nПодтверждённый тёмный поступок: Разиель убил сестру феи из рощи. Автор также называет его виновным в происходящем; точные обстоятельства и масштаб вины ещё не раскрыты. Фея пытается его убить."
     },
     {
       "id": "grave",
@@ -250,7 +250,7 @@ window.RED_HOOD_GUIDE = {
       "kind": "character",
       "title": "Альфред",
       "status": "confirmed",
-      "body": "Человек, охотник на нечистокровных. Уже однажды убил Красную Шапочку.\n\nЕго мотивы, понимание нечистокровности, внешность и роль во время игры ещё не определены. Статус босса или обычного противника ему пока не назначен."
+      "body": "Человек, охотник на нечистокровных. Уже однажды убил Красную Шапочку.\n\nЕго мотивы, понимание нечистокровности, внешность и роль во время игры ещё не определены. Статус босса или обычного противника ему пока не назначен.\n\nУ Альфреда есть внучка — Джоанна Дарк III, одна из боссов игры. Автор называет его великим Альфредом и связывает с термином «ковенант»; точная формулировка ещё уточняется."
     },
     {
       "id": "nightmare",
@@ -283,6 +283,430 @@ window.RED_HOOD_GUIDE = {
       "title": "Художнице о референсах",
       "status": "confirmed",
       "body": "Мне нравится твой собственный стиль. Работы Ёситаки Амано и Аями Кодзимы здесь — референсы для вдохновения и разговора об образах. Я хочу сохранить твою манеру рисунка; конкретные решения мы найдём вместе."
+    },
+    {
+      "id": "joanna-darc",
+      "section": "characters",
+      "kind": "boss",
+      "title": "Джоанна Дарк III · босс",
+      "status": "confirmed",
+      "body": "Джоанна Дарк III (Joanna Darc |||) — одна из боссов нашей игры.\n\nВнучка великого Альфреда. По формулировке автора — последний ковенант. Значение термина «ковенант» и его точное написание ещё нужно зафиксировать; род, орден или другие свойства за автора не определяются.\n\nЕё цель, отношение к героине и Разиелю, место встречи и исход боя пока не заданы.\n\nУказанный автором визуальный источник — Swordswoman, Joanna Darc ||| от Otsoga. Спрайты и анимации ещё не прошли проверку для нашей сборки.",
+      "meta": {
+        "relatedEntry": "asset-joanna",
+        "sourceUrl": "https://otsoga.itch.io/swordswoman",
+        "sourceTitle": "Joanna Darc ||| · Otsoga на itch.io",
+        "role": "boss",
+        "grandfather": "alfred"
+      }
+    },
+    {
+      "id": "asset-joanna",
+      "section": "assets",
+      "kind": "asset",
+      "title": "Joanna Darc III · ресурс босса",
+      "status": "draft",
+      "body": "Источник указан автором: набор Swordswoman, Joanna Darc ||| от Otsoga.\n\nСтраница описывает анимации персонажа; точные используемые файлы, версия, авторские pivots, кадры и состояния ещё не проверены. Наличие анимации в наборе не утверждает приём или фазу босса в нашей игре.\n\nСначала найти локальный исходник, проверить авторскую разметку и заполнить классификатор. Затем — галерея с наложениями и эталонный бой.",
+      "meta": {
+        "assetId": "BOSS_JOANNA_DARC_III",
+        "purpose": "Визуальный ресурс Джоанны Дарк III, одного из боссов",
+        "category": "boss_character_candidate",
+        "source": {
+          "status": "web_source_identified_local_file_unverified",
+          "url": "https://otsoga.itch.io/swordswoman",
+          "author": "Otsoga",
+          "localPath": null,
+          "version": null
+        },
+        "slicing": {
+          "status": "unknown",
+          "value": null
+        },
+        "scale": {
+          "status": "unknown",
+          "value": null
+        },
+        "pivot": {
+          "status": "unknown",
+          "value": null
+        },
+        "support": {
+          "status": "unknown",
+          "value": null
+        },
+        "animation": {
+          "status": "source_advertises_animations_not_verified",
+          "selectedStates": null,
+          "frames": null
+        },
+        "collision": {
+          "status": "unknown",
+          "value": null
+        },
+        "hitbox": {
+          "status": "unknown",
+          "value": null
+        },
+        "vfx": {
+          "status": "unknown",
+          "value": null
+        },
+        "placement": {
+          "status": "unknown",
+          "value": null
+        },
+        "validation": {
+          "status": "blocked_pending_classifier_and_gallery",
+          "gameBuildAdmission": false
+        },
+        "relatedEntry": "joanna-darc",
+        "sourceUrl": "https://otsoga.itch.io/swordswoman",
+        "sourceTitle": "Страница набора у Otsoga"
+      }
+    },
+    {
+      "id": "witch-hunter",
+      "section": "characters",
+      "kind": "boss",
+      "title": "Охотник на ведьм · босс",
+      "status": "confirmed",
+      "body": "Один из боссов игры. Личное имя пока не задано.\n\nСцена в формулировке автора: «будет убивать тварь и обнаружит ещё полуживую тварь». Кто именно участвует в этой сцене и относится ли описание к героине, пока не уточнено.\n\nМесто встречи, цель охотника, повод боя и его исход ещё не определены.",
+      "meta": {
+        "relatedEntry": "asset-witch-hunter",
+        "sourceUrl": "https://otsoga.itch.io/witch-hunter",
+        "sourceTitle": "Источник · Otsoga на itch.io",
+        "role": "boss"
+      }
+    },
+    {
+      "id": "asset-witch-hunter",
+      "section": "assets",
+      "kind": "asset",
+      "title": "Охотник на ведьм · ресурс",
+      "status": "draft",
+      "body": "Источник указан автором: https://otsoga.itch.io/witch-hunter .\n\nЛокальный исходник и его версия пока не установлены. Точные кадры, масштаб, pivot, точки опоры, состояния, коллизии, hitboxes и VFX нужно проверить по авторской разметке.\n\nСостав анимаций на странице источника не определяет приёмы босса нашей игры.\n\nДопуск в игровую сборку закрыт до классификатора, отрисованной галереи и эталонного участка.",
+      "meta": {
+        "assetId": "BOSS_WITCH_HUNTER",
+        "purpose": "Охотник на ведьм · босс",
+        "category": "character_resource_candidate",
+        "source": {
+          "status": "web_source_identified_local_file_unverified",
+          "url": "https://otsoga.itch.io/witch-hunter",
+          "author": "Otsoga",
+          "localPath": null,
+          "version": null
+        },
+        "slicing": {
+          "status": "unknown",
+          "value": null
+        },
+        "scale": {
+          "status": "unknown",
+          "value": null
+        },
+        "pivot": {
+          "status": "unknown",
+          "value": null
+        },
+        "support": {
+          "status": "unknown",
+          "value": null
+        },
+        "animation": {
+          "status": "source_advertises_animations_not_verified",
+          "selectedStates": null,
+          "frames": null
+        },
+        "collision": {
+          "status": "unknown",
+          "value": null
+        },
+        "hitbox": {
+          "status": "unknown",
+          "value": null
+        },
+        "vfx": {
+          "status": "unknown",
+          "value": null
+        },
+        "placement": {
+          "status": "unknown",
+          "value": null
+        },
+        "validation": {
+          "status": "blocked_pending_classifier_and_gallery",
+          "gameBuildAdmission": false
+        },
+        "relatedEntry": "witch-hunter",
+        "sourceUrl": "https://otsoga.itch.io/witch-hunter",
+        "sourceTitle": "Страница набора у Otsoga"
+      }
+    },
+    {
+      "id": "survivor-protector",
+      "section": "characters",
+      "kind": "boss",
+      "title": "Защитник выживших · Montante · босс",
+      "status": "confirmed",
+      "body": "Один из боссов игры. Защищает выживших людей и детей.\n\nВозможно, встречается на кладбище. Автор ещё не выбрала окончательное место: кладбище остаётся вариантом.\n\nЛичное имя, причина столкновения с героиней и исход боя ещё не заданы. Montante — название указанного набора, а не утверждённое имя персонажа.",
+      "meta": {
+        "relatedEntry": "asset-survivor-protector",
+        "sourceUrl": "https://otsoga.itch.io/montante",
+        "sourceTitle": "Источник · Otsoga на itch.io",
+        "role": "boss"
+      }
+    },
+    {
+      "id": "asset-survivor-protector",
+      "section": "assets",
+      "kind": "asset",
+      "title": "Защитник выживших · Montante · ресурс",
+      "status": "draft",
+      "body": "Источник указан автором: https://otsoga.itch.io/montante .\n\nЛокальный исходник и его версия пока не установлены. Точные кадры, масштаб, pivot, точки опоры, состояния, коллизии, hitboxes и VFX нужно проверить по авторской разметке.\n\nСостав анимаций на странице источника не определяет приёмы босса нашей игры.\n\nДопуск в игровую сборку закрыт до классификатора, отрисованной галереи и эталонного участка.",
+      "meta": {
+        "assetId": "BOSS_SURVIVOR_PROTECTOR",
+        "purpose": "Защитник выживших · Montante · босс",
+        "category": "character_resource_candidate",
+        "source": {
+          "status": "web_source_identified_local_file_unverified",
+          "url": "https://otsoga.itch.io/montante",
+          "author": "Otsoga",
+          "localPath": null,
+          "version": null
+        },
+        "slicing": {
+          "status": "unknown",
+          "value": null
+        },
+        "scale": {
+          "status": "unknown",
+          "value": null
+        },
+        "pivot": {
+          "status": "unknown",
+          "value": null
+        },
+        "support": {
+          "status": "unknown",
+          "value": null
+        },
+        "animation": {
+          "status": "source_advertises_animations_not_verified",
+          "selectedStates": null,
+          "frames": null
+        },
+        "collision": {
+          "status": "unknown",
+          "value": null
+        },
+        "hitbox": {
+          "status": "unknown",
+          "value": null
+        },
+        "vfx": {
+          "status": "unknown",
+          "value": null
+        },
+        "placement": {
+          "status": "unknown",
+          "value": null
+        },
+        "validation": {
+          "status": "blocked_pending_classifier_and_gallery",
+          "gameBuildAdmission": false
+        },
+        "relatedEntry": "survivor-protector",
+        "sourceUrl": "https://otsoga.itch.io/montante",
+        "sourceTitle": "Страница набора у Otsoga"
+      }
+    },
+    {
+      "id": "grove-fairy",
+      "section": "characters",
+      "kind": "boss",
+      "title": "Фея из рощи",
+      "status": "confirmed",
+      "body": "Встречается в роще и защищает оплот. Уже потухла от миазмов разрушающегося мира.\n\nАвторская правда: это фея. Разиель убил её сестру и виновен в происходящем. Она пытается убить его и заодно Красную Шапочку. Точный масштаб вины Разиеля и обстоятельства убийства сестры ещё не раскрыты.\n\nПодача встречи: всё выставлено так, словно перед нами грязная тварь. Её истинная природа и причина ярости скрыты от первого впечатления; точный момент раскрытия игроку пока не определён.\n\nНазвание исходного набора Goblin Boss Phase 2 не меняет авторскую сущность персонажа: в нашей истории она фея. Число игровых фаз из названия набора не выводится.",
+      "meta": {
+        "relatedEntry": "asset-grove-fairy",
+        "sourceUrl": "https://otsoga.itch.io/goblin-boss-phase-2",
+        "sourceTitle": "Источник · Otsoga на itch.io",
+        "role": "combat_encounter"
+      }
+    },
+    {
+      "id": "asset-grove-fairy",
+      "section": "assets",
+      "kind": "asset",
+      "title": "Фея из рощи · ресурс",
+      "status": "draft",
+      "body": "Источник указан автором: https://otsoga.itch.io/goblin-boss-phase-2 .\n\nЛокальный исходник и его версия пока не установлены. Точные кадры, масштаб, pivot, точки опоры, состояния, коллизии, hitboxes и VFX нужно проверить по авторской разметке.\n\nИсточник — дополнение для второй фазы Goblin Boss; состав базового ресурса и зависимости ещё не проверены. Персонаж нашей истории — фея.\n\nДопуск в игровую сборку закрыт до классификатора, отрисованной галереи и эталонного участка.",
+      "meta": {
+        "assetId": "BOSS_GROVE_FAIRY",
+        "purpose": "Фея из рощи",
+        "category": "character_resource_candidate",
+        "source": {
+          "status": "web_source_identified_local_file_unverified",
+          "url": "https://otsoga.itch.io/goblin-boss-phase-2",
+          "author": "Otsoga",
+          "localPath": null,
+          "version": null
+        },
+        "slicing": {
+          "status": "unknown",
+          "value": null
+        },
+        "scale": {
+          "status": "unknown",
+          "value": null
+        },
+        "pivot": {
+          "status": "unknown",
+          "value": null
+        },
+        "support": {
+          "status": "unknown",
+          "value": null
+        },
+        "animation": {
+          "status": "source_advertises_animations_not_verified",
+          "selectedStates": null,
+          "frames": null
+        },
+        "collision": {
+          "status": "unknown",
+          "value": null
+        },
+        "hitbox": {
+          "status": "unknown",
+          "value": null
+        },
+        "vfx": {
+          "status": "unknown",
+          "value": null
+        },
+        "placement": {
+          "status": "unknown",
+          "value": null
+        },
+        "validation": {
+          "status": "blocked_pending_classifier_and_gallery",
+          "gameBuildAdmission": false
+        },
+        "relatedEntry": "grove-fairy",
+        "sourceUrl": "https://otsoga.itch.io/goblin-boss-phase-2",
+        "sourceTitle": "Страница набора у Otsoga"
+      }
+    },
+    {
+      "id": "holy-priestess",
+      "section": "characters",
+      "kind": "character",
+      "title": "Святая жрица · заброшенный монастырь",
+      "status": "confirmed",
+      "body": "Святая жрица, обитающая в заброшенном монастыре.\n\nЛичное имя, её отношение к героине и Разиелю, цель и роль встречи ещё не определены. Статус босса, союзника или обычного NPC пока не назначен.\n\nАвтор указала ресурс Eleonore Addon#1. Это название исходного набора, а не утверждённое имя жрицы.",
+      "meta": {
+        "relatedEntry": "asset-holy-priestess",
+        "sourceUrl": "https://otsoga.itch.io/eleonore-addon1",
+        "sourceTitle": "Источник · Otsoga на itch.io",
+        "role": "undecided"
+      }
+    },
+    {
+      "id": "asset-holy-priestess",
+      "section": "assets",
+      "kind": "asset",
+      "title": "Святая жрица · заброшенный монастырь · ресурс",
+      "status": "draft",
+      "body": "Источник указан автором: https://otsoga.itch.io/eleonore-addon1 .\n\nЛокальный исходник и его версия пока не установлены. Точные кадры, масштаб, pivot, точки опоры, состояния, коллизии, hitboxes и VFX нужно проверить по авторской разметке.\n\nИсточник — дополнение Eleonore Addon#1. Состав базового ресурса Eleonore и зависимости ещё не проверены.\n\nДопуск в игровую сборку закрыт до классификатора, отрисованной галереи и эталонного участка.",
+      "meta": {
+        "assetId": "CHAR_HOLY_PRIESTESS",
+        "purpose": "Святая жрица · заброшенный монастырь",
+        "category": "character_resource_candidate",
+        "source": {
+          "status": "web_source_identified_local_file_unverified",
+          "url": "https://otsoga.itch.io/eleonore-addon1",
+          "author": "Otsoga",
+          "localPath": null,
+          "version": null
+        },
+        "slicing": {
+          "status": "unknown",
+          "value": null
+        },
+        "scale": {
+          "status": "unknown",
+          "value": null
+        },
+        "pivot": {
+          "status": "unknown",
+          "value": null
+        },
+        "support": {
+          "status": "unknown",
+          "value": null
+        },
+        "animation": {
+          "status": "source_advertises_animations_not_verified",
+          "selectedStates": null,
+          "frames": null
+        },
+        "collision": {
+          "status": "unknown",
+          "value": null
+        },
+        "hitbox": {
+          "status": "unknown",
+          "value": null
+        },
+        "vfx": {
+          "status": "unknown",
+          "value": null
+        },
+        "placement": {
+          "status": "unknown",
+          "value": null
+        },
+        "validation": {
+          "status": "blocked_pending_classifier_and_gallery",
+          "gameBuildAdmission": false
+        },
+        "relatedEntry": "holy-priestess",
+        "sourceUrl": "https://otsoga.itch.io/eleonore-addon1",
+        "sourceTitle": "Страница набора у Otsoga"
+      }
+    },
+    {
+      "id": "grove",
+      "section": "world",
+      "kind": "location",
+      "title": "Роща и оплот феи",
+      "status": "confirmed",
+      "body": "В роще герои встречают потухшую от миазмов фею, которая защищает оплот и нападает на Разиеля и героиню.\n\nЧто представляет собой оплот, его состав, геометрия и связь с другими локациями, пока не заданы.",
+      "meta": {
+        "relatedEntry": "grove-fairy"
+      }
+    },
+    {
+      "id": "abandoned-monastery",
+      "section": "world",
+      "kind": "location",
+      "title": "Заброшенный монастырь",
+      "status": "confirmed",
+      "body": "Место обитания святой жрицы.\n\nПланировка, маршрут, роль монастыря в прохождении и условия встречи с жрицей ещё не определены.",
+      "meta": {
+        "relatedEntry": "holy-priestess"
+      }
+    },
+    {
+      "id": "fairy-hidden-truth",
+      "section": "story",
+      "kind": "page",
+      "title": "Фея и скрытая вина Разиеля",
+      "status": "confirmed",
+      "body": "Истинная природа противницы из рощи — фея, потухшая от миазмов разрушающегося мира. Она защищает оплот.\n\nРазиель убил её сестру и виновен в происходящем. Поэтому она пытается убить его и заодно героиню. Утверждён именно этот факт; конкретные обстоятельства, мотивы Разиеля и масштаб последствий ещё не определены.\n\nПри встрече всё подаётся так, будто она грязная тварь. Авторская правда и первое впечатление игрока различаются. Когда и как игрок узнает о фее и её сестре, ещё нужно решить.",
+      "meta": {
+        "relatedEntry": "grove-fairy"
+      }
     }
   ],
   "source": "Подтверждённые факты автора. Примеры работ Амано и Кодзимы подбирает автор; художница сохраняет собственную манеру рисунка.",

@@ -1,6 +1,6 @@
 {
   "edition": "2026-11-02",
-  "sources": "User-confirmed nightmare narrative, artist owns her style, author selects reference artworks; visually reviewed current Word documents; unchanged verified Kaho frame",
+  "sources": "User-confirmed plot and characters; Otsoga source pages identified; local character assets unverified and blocked; reviewed Word documents; unchanged fixed Kaho image",
   "files": {
     "images/kaho-reference.png": {
       "sha256": "baa42af4218a60e49434d58c30fd42481fd0d2a9e800d72faefa6a0d26a36e40",
@@ -12,8 +12,8 @@
       "classifierId": "UI_REFERENCE_KAHO_FRAME0"
     },
     "downloads/01_Замысел_и_сюжет.docx": {
-      "sha256": "24994179f873399b98629f9f81d37370bff5340ae7a92da812c9ec57c9ff7bd8",
-      "bytes": 39734
+      "sha256": "ef886b6b08deb469eef8193383827223fb6ffe2701836c2f27b2447f47e3507c",
+      "bytes": 40644
     },
     "downloads/02_Работа_с_художницей.docx": {
       "sha256": "279520f17d5aaee0475df31f95cac9775ca10c556791eef0046e6859fb6722c4",
@@ -30,5 +30,12 @@
     "owner": "author",
     "status": "awaiting_author_selection",
     "newExamplesIncluded": false
+  },
+  "characterSources": {
+    "Joanna Darc III": "https://otsoga.itch.io/swordswoman",
+    "Witch Hunter": "https://otsoga.itch.io/witch-hunter",
+    "Survivor protector": "https://otsoga.itch.io/montante",
+    "Grove fairy": "https://otsoga.itch.io/goblin-boss-phase-2",
+    "Holy priestess": "https://otsoga.itch.io/eleonore-addon1"
   }
 }

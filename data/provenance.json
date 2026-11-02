@@ -204,8 +204,8 @@
       "bytes": 53525
     },
     "data.js": {
-      "sha256": "4479e442a767ad35b9793691d86b64ab7541599b3d09e9e43fc51fcf5d311236",
-      "bytes": 353097
+      "sha256": "ede238aacd61d89bb1e30bb588a0068dd30de0eef48196f3fe16d6327930b56a",
+      "bytes": 354239
     },
     "README.txt": {
       "sha256": "9a54feda9da494ae2a7e2993c2b7fcf02b4b563e2d00e7e23b579d5dfeb31e5f",
@@ -216,8 +216,8 @@
       "bytes": 53404
     },
     "downloads/03_Короткие_ТЗ_для_художницы.txt": {
-      "sha256": "c5488be074409ef27ad2a8021c426c2596ae285980b9f79bf2decaed02c99050",
-      "bytes": 22985
+      "sha256": "ce43703375810396385049c32970beafba816a275804c2590918735005819268",
+      "bytes": 23263
     }
   },
   "referenceSources": {
@@ -402,5 +402,9 @@
     "exactRecolorPaletteBy": "Claude",
     "sourceBitmapsUnchanged": true,
     "authorChestEmphasis": "author clarified attention/clickthrough appeal for game cover, video thumbnails and promotional images; adult character art request"
-  }
+  },
+  "additionalAuthorReferences": [
+    "Drakengard",
+    "Legacy of Kain"
+  ]
 }

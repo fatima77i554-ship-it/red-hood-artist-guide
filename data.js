@@ -2424,6 +2424,30 @@ window.RED_HOOD_GUIDE = {
           "BIOME_08"
         ]
       }
+    },
+    {
+      "id": "reference-drakengard",
+      "section": "references",
+      "kind": "page",
+      "title": "Drakengard",
+      "status": "confirmed",
+      "body": "Автор добавила серию Drakengard («Дракенгард») в референсы проекта.\n\nКонкретные части, сцены, персонажи и художественные приёмы автор ещё выберет.",
+      "meta": {
+        "referenceWork": "Drakengard",
+        "basis": "explicit_user_request"
+      }
+    },
+    {
+      "id": "reference-legacy-of-kain",
+      "section": "references",
+      "kind": "page",
+      "title": "Legacy of Kain · «Наследие Каина»",
+      "status": "confirmed",
+      "body": "Автор добавила серию Legacy of Kain («Наследие Каина») в референсы проекта.\n\nКонкретные части, сцены, персонажи и художественные приёмы автор ещё выберет.",
+      "meta": {
+        "referenceWork": "Legacy of Kain",
+        "basis": "explicit_user_request"
+      }
     }
   ],
   "source": "Подтверждённые факты автора. Примеры работ Амано и Кодзимы подбирает автор; художница сохраняет собственную манеру рисунка.",

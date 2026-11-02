@@ -779,6 +779,731 @@ window.RED_HOOD_GUIDE = {
         "assignee": "Не назначено",
         "relatedEntry": "hero-design"
       }
+    },
+    {
+      "id": "enemy-chest",
+      "section": "enemies",
+      "kind": "enemy",
+      "title": "Сундук",
+      "status": "confirmed",
+      "body": "Сундук входит в текущий список базовых врагов. Это отдельный ресурс, не сундук из Momodora.\n\nАвтор добавит источник позже. Внешний вид, способ атаки и поведение пока не описаны; изображение не подменяем случайным сундуком.",
+      "meta": {
+        "relatedEntry": "asset-enemy-chest",
+        "role": "basic_enemy"
+      }
+    },
+    {
+      "id": "asset-enemy-chest",
+      "section": "assets",
+      "kind": "asset",
+      "title": "Сундук · ресурс",
+      "status": "draft",
+      "body": "Автор добавит источник позже. До этого изображение и точная разметка неизвестны.\n\nИгровые масштаб, pivot, опоры, коллизии, хитбоксы, VFX-привязки и ограничения размещения требуют проверки. Неизвестное не считается отсутствующим; игровой допуск закрыт.",
+      "meta": {
+        "assetId": "ENEMY_CHEST",
+        "category": "enemy_resource_candidate",
+        "purpose": "Сундук",
+        "relatedEntry": "enemy-chest",
+        "source": {
+          "status": "awaiting_author_source",
+          "url": null,
+          "author": null,
+          "localPath": null,
+          "version": null
+        },
+        "slicing": {
+          "status": "unknown",
+          "value": null
+        },
+        "scale": {
+          "status": "unknown",
+          "value": null
+        },
+        "pivot": {
+          "status": "unknown",
+          "value": null
+        },
+        "support": {
+          "status": "unknown",
+          "value": null
+        },
+        "animation": {
+          "status": "unknown",
+          "value": null
+        },
+        "collision": {
+          "status": "unknown",
+          "value": null
+        },
+        "hitbox": {
+          "status": "unknown",
+          "value": null
+        },
+        "vfx": {
+          "status": "unknown",
+          "value": null
+        },
+        "placement": {
+          "status": "unknown",
+          "value": null
+        },
+        "validation": {
+          "status": "blocked_pending_source_classifier_gallery",
+          "gameBuildAdmission": false
+        }
+      }
+    },
+    {
+      "id": "enemy-paintings",
+      "section": "enemies",
+      "kind": "enemy",
+      "title": "Картины",
+      "status": "confirmed",
+      "body": "Картины входят в текущий список базовых врагов. Это отдельные ресурсы, не атакующие картины из Momodora.\n\nАвтор добавит источник позже. Количество разновидностей, внешний вид и поведение пока не заданы.",
+      "meta": {
+        "relatedEntry": "asset-enemy-paintings",
+        "role": "basic_enemy"
+      }
+    },
+    {
+      "id": "asset-enemy-paintings",
+      "section": "assets",
+      "kind": "asset",
+      "title": "Картины · ресурс",
+      "status": "draft",
+      "body": "Автор добавит источник позже. До этого изображение и точная разметка неизвестны.\n\nИгровые масштаб, pivot, опоры, коллизии, хитбоксы, VFX-привязки и ограничения размещения требуют проверки. Неизвестное не считается отсутствующим; игровой допуск закрыт.",
+      "meta": {
+        "assetId": "ENEMY_PAINTINGS",
+        "category": "enemy_resource_candidate",
+        "purpose": "Картины",
+        "relatedEntry": "enemy-paintings",
+        "source": {
+          "status": "awaiting_author_source",
+          "url": null,
+          "author": null,
+          "localPath": null,
+          "version": null
+        },
+        "slicing": {
+          "status": "unknown",
+          "value": null
+        },
+        "scale": {
+          "status": "unknown",
+          "value": null
+        },
+        "pivot": {
+          "status": "unknown",
+          "value": null
+        },
+        "support": {
+          "status": "unknown",
+          "value": null
+        },
+        "animation": {
+          "status": "unknown",
+          "value": null
+        },
+        "collision": {
+          "status": "unknown",
+          "value": null
+        },
+        "hitbox": {
+          "status": "unknown",
+          "value": null
+        },
+        "vfx": {
+          "status": "unknown",
+          "value": null
+        },
+        "placement": {
+          "status": "unknown",
+          "value": null
+        },
+        "validation": {
+          "status": "blocked_pending_source_classifier_gallery",
+          "gameBuildAdmission": false
+        }
+      }
+    },
+    {
+      "id": "enemy-phantom",
+      "section": "enemies",
+      "kind": "enemy",
+      "title": "Фантом",
+      "status": "confirmed",
+      "body": "Базовый враг на основе Phantom от Otsoga. В локальных файлах найден нужный набор.\n\nВ справочнике показаны ожидание и атака: 19 проверенных кадров с длительностями из авторского Aseprite. Это выбранные превью, а не полный набор состояний нашей игры.\n\nМесто в мире, сюжетная роль, характеристики и поведение в игре пока не заданы.",
+      "meta": {
+        "relatedEntry": "asset-enemy-phantom",
+        "role": "basic_enemy",
+        "sourceUrl": "https://otsoga.itch.io/phantom",
+        "sourceTitle": "Страница исходного набора Otsoga",
+        "previewRef": "UI_ENEMY_PHANTOM"
+      }
+    },
+    {
+      "id": "asset-enemy-phantom",
+      "section": "assets",
+      "kind": "asset",
+      "title": "Фантом · ресурс",
+      "status": "draft",
+      "body": "Локальный ресурс найден. Проверено только указанное превью для справочника. Полные исходники и состояния игры не объявляются проверенными.\n\nИгровые масштаб, pivot, опоры, коллизии, хитбоксы, VFX-привязки и ограничения размещения требуют проверки. Неизвестное не считается отсутствующим; игровой допуск закрыт.",
+      "meta": {
+        "assetId": "ENEMY_PHANTOM",
+        "category": "enemy_resource_candidate",
+        "purpose": "Фантом",
+        "relatedEntry": "enemy-phantom",
+        "source": {
+          "status": "local_files_identified_preview_verified",
+          "url": "https://otsoga.itch.io/phantom",
+          "author": "Otsoga",
+          "localPath": "/Users/fatimaauseva/Downloads/обещаные персонажи /Phantom_v1",
+          "version": null
+        },
+        "slicing": {
+          "status": "unknown",
+          "value": null
+        },
+        "scale": {
+          "status": "unknown",
+          "value": null
+        },
+        "pivot": {
+          "status": "unknown",
+          "value": null
+        },
+        "support": {
+          "status": "unknown",
+          "value": null
+        },
+        "animation": {
+          "status": "verified_website_preview_subset",
+          "clips": [
+            "UI_ENEMY_PHANTOM_IDLE",
+            "UI_ENEMY_PHANTOM_ATTACK"
+          ],
+          "frameCount": 19,
+          "gameStates": "unknown"
+        },
+        "collision": {
+          "status": "unknown",
+          "value": null
+        },
+        "hitbox": {
+          "status": "unknown",
+          "value": null
+        },
+        "vfx": {
+          "status": "unknown",
+          "value": null
+        },
+        "placement": {
+          "status": "unknown",
+          "value": null
+        },
+        "validation": {
+          "status": "website_subset_verified_game_admission_blocked",
+          "gameBuildAdmission": false
+        },
+        "sourceUrl": "https://otsoga.itch.io/phantom",
+        "sourceTitle": "Страница исходного набора Otsoga",
+        "previewRef": "UI_ENEMY_PHANTOM",
+        "previewClassifier": "data/enemy-preview-classifier.json"
+      }
+    },
+    {
+      "id": "enemy-skeleton-knight",
+      "section": "enemies",
+      "kind": "enemy",
+      "title": "Скелет-рыцарь",
+      "status": "confirmed",
+      "body": "Базовый враг на основе Skeleton Knight от Otsoga. Локальный набор найден.\n\nВ справочнике показаны ожидание и тяжёлая атака: 18 проверенных кадров с авторскими длительностями. Состав приёмов нашей игры по этому превью не назначается.\n\nЛокации, характеристики и боевое поведение пока не заданы.",
+      "meta": {
+        "relatedEntry": "asset-enemy-skeleton-knight",
+        "role": "basic_enemy",
+        "sourceUrl": "https://otsoga.itch.io/skeleton-knight",
+        "sourceTitle": "Страница исходного набора Otsoga",
+        "previewRef": "UI_ENEMY_SKELETON"
+      }
+    },
+    {
+      "id": "asset-enemy-skeleton-knight",
+      "section": "assets",
+      "kind": "asset",
+      "title": "Скелет-рыцарь · ресурс",
+      "status": "draft",
+      "body": "Локальный ресурс найден. Проверено только указанное превью для справочника. Полные исходники и состояния игры не объявляются проверенными.\n\nИгровые масштаб, pivot, опоры, коллизии, хитбоксы, VFX-привязки и ограничения размещения требуют проверки. Неизвестное не считается отсутствующим; игровой допуск закрыт.",
+      "meta": {
+        "assetId": "ENEMY_SKELETON_KNIGHT",
+        "category": "enemy_resource_candidate",
+        "purpose": "Скелет-рыцарь",
+        "relatedEntry": "enemy-skeleton-knight",
+        "source": {
+          "status": "local_files_identified_preview_verified",
+          "url": "https://otsoga.itch.io/skeleton-knight",
+          "author": "Otsoga",
+          "localPath": "/Users/fatimaauseva/Downloads/обещаные персонажи /SkeletonKinight_v1",
+          "version": null
+        },
+        "slicing": {
+          "status": "unknown",
+          "value": null
+        },
+        "scale": {
+          "status": "unknown",
+          "value": null
+        },
+        "pivot": {
+          "status": "unknown",
+          "value": null
+        },
+        "support": {
+          "status": "unknown",
+          "value": null
+        },
+        "animation": {
+          "status": "verified_website_preview_subset",
+          "clips": [
+            "UI_ENEMY_SKELETON_IDLE",
+            "UI_ENEMY_SKELETON_HEAVY"
+          ],
+          "frameCount": 18,
+          "gameStates": "unknown"
+        },
+        "collision": {
+          "status": "unknown",
+          "value": null
+        },
+        "hitbox": {
+          "status": "unknown",
+          "value": null
+        },
+        "vfx": {
+          "status": "unknown",
+          "value": null
+        },
+        "placement": {
+          "status": "unknown",
+          "value": null
+        },
+        "validation": {
+          "status": "website_subset_verified_game_admission_blocked",
+          "gameBuildAdmission": false
+        },
+        "sourceUrl": "https://otsoga.itch.io/skeleton-knight",
+        "sourceTitle": "Страница исходного набора Otsoga",
+        "previewRef": "UI_ENEMY_SKELETON",
+        "previewClassifier": "data/enemy-preview-classifier.json"
+      }
+    },
+    {
+      "id": "enemy-fighter-goblin",
+      "section": "enemies",
+      "kind": "enemy",
+      "title": "Гоблин-боец",
+      "status": "confirmed",
+      "body": "Базовый враг на основе Fighter Goblin от Otsoga. Локальные исходники найдены.\n\nПоказаны ожидание и бег: 15 проверенных кадров. В установленной версии число кадров отличается от описания страницы источника; для превью использованы фактические авторские файлы. Атаки из несверенных последовательностей не подключаются.\n\nЛокации, характеристики и набор атак нашей игры пока не заданы.",
+      "meta": {
+        "relatedEntry": "asset-enemy-fighter-goblin",
+        "role": "basic_enemy",
+        "sourceUrl": "https://otsoga.itch.io/fighter-goblin",
+        "sourceTitle": "Страница исходного набора Otsoga",
+        "previewRef": "UI_ENEMY_FIGHTER"
+      }
+    },
+    {
+      "id": "asset-enemy-fighter-goblin",
+      "section": "assets",
+      "kind": "asset",
+      "title": "Гоблин-боец · ресурс",
+      "status": "draft",
+      "body": "Локальный ресурс найден. Проверено только указанное превью для справочника. Полные исходники и состояния игры не объявляются проверенными.\n\nИгровые масштаб, pivot, опоры, коллизии, хитбоксы, VFX-привязки и ограничения размещения требуют проверки. Неизвестное не считается отсутствующим; игровой допуск закрыт.",
+      "meta": {
+        "assetId": "ENEMY_FIGHTER_GOBLIN",
+        "category": "enemy_resource_candidate",
+        "purpose": "Гоблин-боец",
+        "relatedEntry": "enemy-fighter-goblin",
+        "source": {
+          "status": "local_files_identified_preview_verified",
+          "url": "https://otsoga.itch.io/fighter-goblin",
+          "author": "Otsoga",
+          "localPath": "/Users/fatimaauseva/Downloads/обещаные персонажи /FighterGoblin",
+          "version": null
+        },
+        "slicing": {
+          "status": "unknown",
+          "value": null
+        },
+        "scale": {
+          "status": "unknown",
+          "value": null
+        },
+        "pivot": {
+          "status": "unknown",
+          "value": null
+        },
+        "support": {
+          "status": "unknown",
+          "value": null
+        },
+        "animation": {
+          "status": "verified_website_preview_subset",
+          "clips": [
+            "UI_ENEMY_FIGHTER_IDLE",
+            "UI_ENEMY_FIGHTER_RUN"
+          ],
+          "frameCount": 15,
+          "gameStates": "unknown"
+        },
+        "collision": {
+          "status": "unknown",
+          "value": null
+        },
+        "hitbox": {
+          "status": "unknown",
+          "value": null
+        },
+        "vfx": {
+          "status": "unknown",
+          "value": null
+        },
+        "placement": {
+          "status": "unknown",
+          "value": null
+        },
+        "validation": {
+          "status": "website_subset_verified_game_admission_blocked",
+          "gameBuildAdmission": false
+        },
+        "sourceUrl": "https://otsoga.itch.io/fighter-goblin",
+        "sourceTitle": "Страница исходного набора Otsoga",
+        "previewRef": "UI_ENEMY_FIGHTER",
+        "previewClassifier": "data/enemy-preview-classifier.json"
+      }
+    },
+    {
+      "id": "enemy-rogue-goblin",
+      "section": "enemies",
+      "kind": "enemy",
+      "title": "Гоблин-разбойник",
+      "status": "confirmed",
+      "body": "Базовый враг на основе Rogue Goblin от Otsoga. Локальный набор найден в папке Sprites-2 и опознан по RogueGoblin.aseprite.\n\nПоказаны ожидание и цикл бега: 21 проверенный кадр. Используются полные авторские PNG, включая исходный холст 48×48; кадры не обрезаны по силуэту.\n\nЛокации, характеристики и приёмы нашей игры пока не определены.",
+      "meta": {
+        "relatedEntry": "asset-enemy-rogue-goblin",
+        "role": "basic_enemy",
+        "sourceUrl": "https://otsoga.itch.io/rogue-goblin",
+        "sourceTitle": "Страница исходного набора Otsoga",
+        "previewRef": "UI_ENEMY_ROGUE"
+      }
+    },
+    {
+      "id": "asset-enemy-rogue-goblin",
+      "section": "assets",
+      "kind": "asset",
+      "title": "Гоблин-разбойник · ресурс",
+      "status": "draft",
+      "body": "Локальный ресурс найден. Проверено только указанное превью для справочника. Полные исходники и состояния игры не объявляются проверенными.\n\nИгровые масштаб, pivot, опоры, коллизии, хитбоксы, VFX-привязки и ограничения размещения требуют проверки. Неизвестное не считается отсутствующим; игровой допуск закрыт.",
+      "meta": {
+        "assetId": "ENEMY_ROGUE_GOBLIN",
+        "category": "enemy_resource_candidate",
+        "purpose": "Гоблин-разбойник",
+        "relatedEntry": "enemy-rogue-goblin",
+        "source": {
+          "status": "local_files_identified_preview_verified",
+          "url": "https://otsoga.itch.io/rogue-goblin",
+          "author": "Otsoga",
+          "localPath": "/Users/fatimaauseva/Downloads/обещаные персонажи /Sprites-2",
+          "version": null
+        },
+        "slicing": {
+          "status": "unknown",
+          "value": null
+        },
+        "scale": {
+          "status": "unknown",
+          "value": null
+        },
+        "pivot": {
+          "status": "unknown",
+          "value": null
+        },
+        "support": {
+          "status": "unknown",
+          "value": null
+        },
+        "animation": {
+          "status": "verified_website_preview_subset",
+          "clips": [
+            "UI_ENEMY_ROGUE_IDLE",
+            "UI_ENEMY_ROGUE_RUN"
+          ],
+          "frameCount": 21,
+          "gameStates": "unknown"
+        },
+        "collision": {
+          "status": "unknown",
+          "value": null
+        },
+        "hitbox": {
+          "status": "unknown",
+          "value": null
+        },
+        "vfx": {
+          "status": "unknown",
+          "value": null
+        },
+        "placement": {
+          "status": "unknown",
+          "value": null
+        },
+        "validation": {
+          "status": "website_subset_verified_game_admission_blocked",
+          "gameBuildAdmission": false
+        },
+        "sourceUrl": "https://otsoga.itch.io/rogue-goblin",
+        "sourceTitle": "Страница исходного набора Otsoga",
+        "previewRef": "UI_ENEMY_ROGUE",
+        "previewClassifier": "data/enemy-preview-classifier.json"
+      }
+    },
+    {
+      "id": "enemy-snare-flower",
+      "section": "enemies",
+      "kind": "enemy",
+      "title": "Snare Flower · роль не выбрана",
+      "status": "confirmed",
+      "body": "Добавлен в текущий список по ссылке Snare Flower Skill FX. Автор пока не решила, будет это самостоятельный враг-цветок или ловушка/эффект другого врага.\n\nЛокальный AttachedFlower найден. На сайте показан один полный авторский кадр распустившегося цветка. Это фиксированное превью: время анимации не выдумывается.\n\nСтраница источника описывает шесть состояний навыка: посев, расцветание, распустившийся цветок, захват, разрушение и исчезновение без захвата. Игровая роль и применение этих состояний не назначены.",
+      "meta": {
+        "relatedEntry": "asset-enemy-snare-flower",
+        "role": "role_undecided",
+        "sourceUrl": "https://otsoga.itch.io/snare-flower-skill-fx",
+        "sourceTitle": "Страница исходного набора Otsoga",
+        "previewRef": "UI_ENEMY_FLOWER_STATIC"
+      }
+    },
+    {
+      "id": "asset-enemy-snare-flower",
+      "section": "assets",
+      "kind": "asset",
+      "title": "Snare Flower · роль не выбрана · ресурс",
+      "status": "draft",
+      "body": "Локальный ресурс найден. Проверено только указанное превью для справочника. Полные исходники и состояния игры не объявляются проверенными.\n\nИгровые масштаб, pivot, опоры, коллизии, хитбоксы, VFX-привязки и ограничения размещения требуют проверки. Неизвестное не считается отсутствующим; игровой допуск закрыт.",
+      "meta": {
+        "assetId": "ENEMY_SNARE_FLOWER",
+        "category": "fx_role_candidate",
+        "purpose": "Snare Flower · роль не выбрана",
+        "relatedEntry": "enemy-snare-flower",
+        "source": {
+          "status": "local_files_identified_preview_verified",
+          "url": "https://otsoga.itch.io/snare-flower-skill-fx",
+          "author": "Otsoga",
+          "localPath": "/Users/fatimaauseva/Downloads/обещаные персонажи /AttachedFlower",
+          "version": null
+        },
+        "slicing": {
+          "status": "unknown",
+          "value": null
+        },
+        "scale": {
+          "status": "unknown",
+          "value": null
+        },
+        "pivot": {
+          "status": "unknown",
+          "value": null
+        },
+        "support": {
+          "status": "unknown",
+          "value": null
+        },
+        "animation": {
+          "website": "fixed_frame_only",
+          "sourceAnimation": "exists; timing not verified",
+          "gameStates": "unknown"
+        },
+        "collision": {
+          "status": "unknown",
+          "value": null
+        },
+        "hitbox": {
+          "status": "unknown",
+          "value": null
+        },
+        "vfx": {
+          "status": "unknown",
+          "value": null
+        },
+        "placement": {
+          "status": "unknown",
+          "value": null
+        },
+        "validation": {
+          "status": "website_subset_verified_game_admission_blocked",
+          "gameBuildAdmission": false
+        },
+        "sourceUrl": "https://otsoga.itch.io/snare-flower-skill-fx",
+        "sourceTitle": "Страница исходного набора Otsoga",
+        "previewRef": "UI_ENEMY_FLOWER_STATIC",
+        "previewClassifier": "data/enemy-preview-classifier.json"
+      }
+    },
+    {
+      "id": "enemy-hunter-weak",
+      "section": "enemies",
+      "kind": "enemy",
+      "title": "Охотники · слабая версия",
+      "status": "confirmed",
+      "body": "Базовые враги на основе Witch Hunter. По решению автора у слабой версии меньше атак.\n\nКакие атаки оставить и сколько их будет, пока не выбрано. В справочнике эта версия отделена от полноценного босса «Охотник на ведьм».\n\nЛокальный набор Witch Hunter / Gunner пока не найден в проверенных папках. Это не утверждение об отсутствии покупки. Статистики, локации и поведение не назначены.",
+      "meta": {
+        "relatedEntry": "asset-enemy-hunter-weak",
+        "role": "basic_enemy",
+        "sourceUrl": "https://otsoga.itch.io/witch-hunter",
+        "sourceTitle": "Страница исходного набора Otsoga",
+        "baseAssetEntry": "asset-witch-hunter"
+      }
+    },
+    {
+      "id": "asset-enemy-hunter-weak",
+      "section": "assets",
+      "kind": "asset",
+      "title": "Охотники · слабая версия · ресурс",
+      "status": "draft",
+      "body": "Источник указан, но точный локальный ресурс пока не найден в проверенных папках.\n\nИгровые масштаб, pivot, опоры, коллизии, хитбоксы, VFX-привязки и ограничения размещения требуют проверки. Неизвестное не считается отсутствующим; игровой допуск закрыт.",
+      "meta": {
+        "assetId": "ENEMY_HUNTER_WEAK",
+        "category": "enemy_variant_candidate",
+        "purpose": "Охотники · слабая версия",
+        "relatedEntry": "enemy-hunter-weak",
+        "source": {
+          "status": "web_source_local_not_found_in_checked_folders",
+          "url": "https://otsoga.itch.io/witch-hunter",
+          "author": "Otsoga",
+          "localPath": null,
+          "version": null
+        },
+        "slicing": {
+          "status": "unknown",
+          "value": null
+        },
+        "scale": {
+          "status": "unknown",
+          "value": null
+        },
+        "pivot": {
+          "status": "unknown",
+          "value": null
+        },
+        "support": {
+          "status": "unknown",
+          "value": null
+        },
+        "animation": {
+          "status": "unknown",
+          "value": null
+        },
+        "collision": {
+          "status": "unknown",
+          "value": null
+        },
+        "hitbox": {
+          "status": "unknown",
+          "value": null
+        },
+        "vfx": {
+          "status": "unknown",
+          "value": null
+        },
+        "placement": {
+          "status": "unknown",
+          "value": null
+        },
+        "validation": {
+          "status": "blocked_pending_source_classifier_gallery",
+          "gameBuildAdmission": false
+        },
+        "sourceUrl": "https://otsoga.itch.io/witch-hunter",
+        "sourceTitle": "Страница исходного набора Otsoga",
+        "baseAssetEntry": "asset-witch-hunter"
+      }
+    },
+    {
+      "id": "enemy-hunter-mutant",
+      "section": "enemies",
+      "kind": "enemy",
+      "title": "Охотники · заражённые мутанты",
+      "status": "confirmed",
+      "body": "Ещё одна группа базовых врагов — заражённые охотники-мутанты на основе Witch Hunter.\n\nКонкретные мутации, их внешний вид, характер заражения и набор атак пока не описаны автором. Обычный спрайт охотника не выдаётся за готовый дизайн мутанта.\n\nЛокальный исходник Witch Hunter / Gunner пока не найден в проверенных папках. Для изменений потребуется отдельная разметка и проверка кадров; игровой допуск закрыт.",
+      "meta": {
+        "relatedEntry": "asset-enemy-hunter-mutant",
+        "role": "basic_enemy",
+        "sourceUrl": "https://otsoga.itch.io/witch-hunter",
+        "sourceTitle": "Страница исходного набора Otsoga",
+        "baseAssetEntry": "asset-witch-hunter"
+      }
+    },
+    {
+      "id": "asset-enemy-hunter-mutant",
+      "section": "assets",
+      "kind": "asset",
+      "title": "Охотники · заражённые мутанты · ресурс",
+      "status": "draft",
+      "body": "Источник указан, но точный локальный ресурс пока не найден в проверенных папках.\n\nИгровые масштаб, pivot, опоры, коллизии, хитбоксы, VFX-привязки и ограничения размещения требуют проверки. Неизвестное не считается отсутствующим; игровой допуск закрыт.",
+      "meta": {
+        "assetId": "ENEMY_HUNTER_MUTANT",
+        "category": "enemy_variant_candidate",
+        "purpose": "Охотники · заражённые мутанты",
+        "relatedEntry": "enemy-hunter-mutant",
+        "source": {
+          "status": "web_source_local_not_found_in_checked_folders",
+          "url": "https://otsoga.itch.io/witch-hunter",
+          "author": "Otsoga",
+          "localPath": null,
+          "version": null
+        },
+        "slicing": {
+          "status": "unknown",
+          "value": null
+        },
+        "scale": {
+          "status": "unknown",
+          "value": null
+        },
+        "pivot": {
+          "status": "unknown",
+          "value": null
+        },
+        "support": {
+          "status": "unknown",
+          "value": null
+        },
+        "animation": {
+          "status": "unknown",
+          "value": null
+        },
+        "collision": {
+          "status": "unknown",
+          "value": null
+        },
+        "hitbox": {
+          "status": "unknown",
+          "value": null
+        },
+        "vfx": {
+          "status": "unknown",
+          "value": null
+        },
+        "placement": {
+          "status": "unknown",
+          "value": null
+        },
+        "validation": {
+          "status": "blocked_pending_source_classifier_gallery",
+          "gameBuildAdmission": false
+        },
+        "sourceUrl": "https://otsoga.itch.io/witch-hunter",
+        "sourceTitle": "Страница исходного набора Otsoga",
+        "baseAssetEntry": "asset-witch-hunter"
+      }
     }
   ],
   "source": "Подтверждённые факты автора. Примеры работ Амано и Кодзимы подбирает автор; художница сохраняет собственную манеру рисунка.",
@@ -2947,6 +3672,2659 @@ window.RED_HOOD_GUIDE = {
         "text": "You can use this asset for personal and commercial purpose,\nyou can modify this object to your needs.\nCredit is not required but would be appreciated\n\nYou can NOT redistribute or resell it."
       },
       "poster": "images/owned/ui_owned_fairy-poster.png"
+    }
+  ],
+  "enemyPreviews": [
+    {
+      "id": "UI_ENEMY_PHANTOM",
+      "characterId": "enemy-phantom",
+      "assetEntryId": "asset-enemy-phantom",
+      "title": "Фантом",
+      "sourceUrl": "https://otsoga.itch.io/phantom",
+      "category": "verified_website_animation_preview",
+      "purpose": "Selected local enemy previews for artist guide",
+      "author": "Otsoga / Pedro Pixels",
+      "sourceRoot": "/Users/fatimaauseva/Downloads/обещаные персонажи /Phantom_v1",
+      "nativeScale": [
+        1,
+        1
+      ],
+      "displayScale": {
+        "maximum": 3,
+        "mode": "uniform responsive fit; full original PNG canvas"
+      },
+      "pivot": {
+        "point": [
+          0,
+          0
+        ],
+        "space": "source canvas pixels",
+        "purpose": "website origin only"
+      },
+      "support": {
+        "website": "none; screen-space preview",
+        "game": "unknown"
+      },
+      "collision": {
+        "website": "none",
+        "game": "unknown"
+      },
+      "hitbox": {
+        "website": "none",
+        "game": "unknown"
+      },
+      "placement": {
+        "surfaces": [
+          "website canvas"
+        ],
+        "layers": [
+          "enemy card",
+          "preview viewer"
+        ],
+        "neighbors": [
+          "project text",
+          "preview controls"
+        ],
+        "restrictions": [
+          "No level placement",
+          "No game build admission",
+          "Keep full vendor PNG canvas",
+          "No alpha recentering"
+        ]
+      },
+      "validation": {
+        "status": "verified_for_website_preview",
+        "gameBuildAdmission": false,
+        "allUsedFramesVisuallyChecked": true,
+        "canvasAndOriginOverlayChecked": true
+      },
+      "clips": [
+        {
+          "id": "UI_ENEMY_PHANTOM_IDLE",
+          "key": "idle",
+          "label": "Ожидание",
+          "file": "images/owned/ui_enemy_phantom-idle.png",
+          "canvas": [
+            112,
+            96
+          ],
+          "frameCount": 10,
+          "frames": [
+            {
+              "index": 0,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /Phantom_v1/Sprites/Idle/Idle1.png",
+              "sourceSha256": "49e8d3fcc3652aa990992a453e24c812a7b7ecab71b4a369c790ceb4d1b0009a",
+              "sourceAseFrame": 0,
+              "rectangle": [
+                0,
+                0,
+                112,
+                96
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                112,
+                96
+              ],
+              "alphaBounds": [
+                32,
+                34,
+                89,
+                77
+              ],
+              "durationMs": 120,
+              "pixelsSha256": "8f897ab996de035283559b909346d324fb02b78e167f10090b1c70aa08bcca47"
+            },
+            {
+              "index": 1,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /Phantom_v1/Sprites/Idle/Idle2.png",
+              "sourceSha256": "cfce8d2a2f644bbfd14a89002300da5dec54779d7c24f8759e69b5c15a6631ef",
+              "sourceAseFrame": 1,
+              "rectangle": [
+                112,
+                0,
+                112,
+                96
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                112,
+                96
+              ],
+              "alphaBounds": [
+                28,
+                32,
+                89,
+                75
+              ],
+              "durationMs": 120,
+              "pixelsSha256": "a3a74d371f3c630f883528453ea9f98626483acbd79d068af4bb4bf3cd0949a9"
+            },
+            {
+              "index": 2,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /Phantom_v1/Sprites/Idle/Idle3.png",
+              "sourceSha256": "b5e6c3bf6e5a688afb5243753af3b6b9bd018f2b44f527e4e172d0b773ee73fd",
+              "sourceAseFrame": 2,
+              "rectangle": [
+                224,
+                0,
+                112,
+                96
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                112,
+                96
+              ],
+              "alphaBounds": [
+                24,
+                32,
+                89,
+                75
+              ],
+              "durationMs": 120,
+              "pixelsSha256": "a77842db64e1c4702caafb0d81e7ba44b0749eb62c4bea9996408a7c2a0d1f37"
+            },
+            {
+              "index": 3,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /Phantom_v1/Sprites/Idle/Idle4.png",
+              "sourceSha256": "66841ecb64f7bed29b1470615e843b10cf476dc89c740897779753bc6c32c289",
+              "sourceAseFrame": 3,
+              "rectangle": [
+                336,
+                0,
+                112,
+                96
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                112,
+                96
+              ],
+              "alphaBounds": [
+                26,
+                32,
+                89,
+                75
+              ],
+              "durationMs": 120,
+              "pixelsSha256": "294c16f597c00025777f660c30c63f515e0c5035ab6d54ebe4155214e0654bac"
+            },
+            {
+              "index": 4,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /Phantom_v1/Sprites/Idle/Idle5.png",
+              "sourceSha256": "cc1c123c66d76ca5cee968a5676bb63e34c23167b4925e4430636d37f4900146",
+              "sourceAseFrame": 4,
+              "rectangle": [
+                448,
+                0,
+                112,
+                96
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                112,
+                96
+              ],
+              "alphaBounds": [
+                28,
+                34,
+                89,
+                75
+              ],
+              "durationMs": 120,
+              "pixelsSha256": "f50226626344111bbc78858fb7c75d5dfa9bc8ff9841d4cb850393d066ced3ec"
+            },
+            {
+              "index": 5,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /Phantom_v1/Sprites/Idle/Idle6.png",
+              "sourceSha256": "1b02a1ea77e9cc89f02a999c9fc57fa60a60e8359fca91fa73cb8a310c7ce6db",
+              "sourceAseFrame": 5,
+              "rectangle": [
+                560,
+                0,
+                112,
+                96
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                112,
+                96
+              ],
+              "alphaBounds": [
+                29,
+                35,
+                90,
+                76
+              ],
+              "durationMs": 120,
+              "pixelsSha256": "c88df7b55c68b950997c307cb3011ebe1d19610cdc7b8f6f1598105a7045e18b"
+            },
+            {
+              "index": 6,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /Phantom_v1/Sprites/Idle/Idle7.png",
+              "sourceSha256": "c0cca955d638bf793f9c6b2004e4db7ea9d37c3e9fdd043c7601a7e5beb42e47",
+              "sourceAseFrame": 6,
+              "rectangle": [
+                672,
+                0,
+                112,
+                96
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                112,
+                96
+              ],
+              "alphaBounds": [
+                30,
+                36,
+                89,
+                78
+              ],
+              "durationMs": 120,
+              "pixelsSha256": "514bd77b1a04281a4076d6f39deeb2c1f6c41495fdc3dbd790206fe3e118acdf"
+            },
+            {
+              "index": 7,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /Phantom_v1/Sprites/Idle/Idle8.png",
+              "sourceSha256": "c91cdb437412abf568b371cc398532da80aee8dd2673eab8ed62f500f5177abb",
+              "sourceAseFrame": 7,
+              "rectangle": [
+                784,
+                0,
+                112,
+                96
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                112,
+                96
+              ],
+              "alphaBounds": [
+                31,
+                36,
+                89,
+                78
+              ],
+              "durationMs": 120,
+              "pixelsSha256": "325b20e2b3fdf67be8571b7d539a3ec4ce57ce2d89621c0cbbfbc3ac4a3010c5"
+            },
+            {
+              "index": 8,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /Phantom_v1/Sprites/Idle/Idle9.png",
+              "sourceSha256": "1c165249ca2ca4affe5b6ced04c26d64d5d5eb72a918017723bd62afbdd538f7",
+              "sourceAseFrame": 8,
+              "rectangle": [
+                896,
+                0,
+                112,
+                96
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                112,
+                96
+              ],
+              "alphaBounds": [
+                36,
+                35,
+                89,
+                78
+              ],
+              "durationMs": 120,
+              "pixelsSha256": "0777e6a3385d7c4d01034a8af15405e519930528412b7e4a13de74441276ada6"
+            },
+            {
+              "index": 9,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /Phantom_v1/Sprites/Idle/Idle10.png",
+              "sourceSha256": "f8af66e26b826163276d8e706a4c0523dbe3fa87ae0d1140cd8461a8f6534611",
+              "sourceAseFrame": 9,
+              "rectangle": [
+                1008,
+                0,
+                112,
+                96
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                112,
+                96
+              ],
+              "alphaBounds": [
+                35,
+                34,
+                89,
+                77
+              ],
+              "durationMs": 120,
+              "pixelsSha256": "84514851cda440920563789263b3d08c5587f1f78198811ea74a9d99ea1499bb"
+            }
+          ],
+          "durationsMs": [
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120
+          ],
+          "loop": true,
+          "sourceAse": {
+            "path": "/Users/fatimaauseva/Downloads/обещаные персонажи /Phantom_v1/Phantom.ase",
+            "sha256": "7369e6834b1a3efddc9544b28d344851945068b9b3bc1c39734af2cdab901262",
+            "canvas": [
+              112,
+              96
+            ]
+          },
+          "sourceTag": {
+            "name": "Idle",
+            "first": 0,
+            "last": 9,
+            "direction": 0
+          },
+          "slicing": "Whole author-exported PNGs; natural numeric order; no crop or inferred offsets",
+          "animationState": "website preview repeats; gameplay moveset not assigned",
+          "vfx": {
+            "website": "No added effects; source NoOutline variant preserved where selected",
+            "game": "unknown; bindings not assigned"
+          },
+          "reviewFile": "images/owned/ui_enemy_phantom-idle-review.png",
+          "reviewMeaning": "Cyan: full source canvas; orange: website origin. No inferred game collision or support."
+        },
+        {
+          "id": "UI_ENEMY_PHANTOM_ATTACK",
+          "key": "attack",
+          "label": "Атака · NoOutline",
+          "file": "images/owned/ui_enemy_phantom-attack.png",
+          "canvas": [
+            112,
+            96
+          ],
+          "frameCount": 9,
+          "frames": [
+            {
+              "index": 0,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /Phantom_v1/Sprites/Attacks/LightAtk/NoOutline/LightAtk1.png",
+              "sourceSha256": "49accce9c9a26c344592da00dd0584eeb77237658960b939544d0bae256cf564",
+              "sourceAseFrame": 54,
+              "rectangle": [
+                0,
+                0,
+                112,
+                96
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                112,
+                96
+              ],
+              "alphaBounds": [
+                36,
+                33,
+                89,
+                73
+              ],
+              "durationMs": 120,
+              "pixelsSha256": "95c41bc57980bfcfe2f252deba6dbe6732438a61aa66bade2646b4fd2484e956"
+            },
+            {
+              "index": 1,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /Phantom_v1/Sprites/Attacks/LightAtk/NoOutline/LightAtk2.png",
+              "sourceSha256": "dc8884fd1e1c464cf6b4d6c8b3be8411230df6dfe72cf72e9325f2fab6d731be",
+              "sourceAseFrame": 55,
+              "rectangle": [
+                112,
+                0,
+                112,
+                96
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                112,
+                96
+              ],
+              "alphaBounds": [
+                37,
+                11,
+                78,
+                71
+              ],
+              "durationMs": 120,
+              "pixelsSha256": "8eb36b3ab25302ec1c59627e77f0f5548a130e2a60cb62c78d6f7eccfc8e1372"
+            },
+            {
+              "index": 2,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /Phantom_v1/Sprites/Attacks/LightAtk/NoOutline/LightAtk3.png",
+              "sourceSha256": "7c04f153b2d565798659343af6652c23acee0e44359d601904451679b1382460",
+              "sourceAseFrame": 56,
+              "rectangle": [
+                224,
+                0,
+                112,
+                96
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                112,
+                96
+              ],
+              "alphaBounds": [
+                31,
+                3,
+                71,
+                71
+              ],
+              "durationMs": 120,
+              "pixelsSha256": "43b03b55ca4ffc73ee9c118fe88ff0f36f51081544baa030f290b540f849e2c1"
+            },
+            {
+              "index": 3,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /Phantom_v1/Sprites/Attacks/LightAtk/NoOutline/LightAtk4.png",
+              "sourceSha256": "619191caeba7a7ecb70261349cc4e66b4f31f75a3ba6421fab4bf0cfebee89a2",
+              "sourceAseFrame": 57,
+              "rectangle": [
+                336,
+                0,
+                112,
+                96
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                112,
+                96
+              ],
+              "alphaBounds": [
+                23,
+                11,
+                63,
+                70
+              ],
+              "durationMs": 120,
+              "pixelsSha256": "eced9d50118f68f7ee86c4ecfe5692a257f7258cbb9b88982db18ec3108d3fba"
+            },
+            {
+              "index": 4,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /Phantom_v1/Sprites/Attacks/LightAtk/NoOutline/LightAtk5.png",
+              "sourceSha256": "155d9540b0e124c6989f43c1b929df474aa6f066b8ffba648163fa8e9b465e3f",
+              "sourceAseFrame": 58,
+              "rectangle": [
+                448,
+                0,
+                112,
+                96
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                112,
+                96
+              ],
+              "alphaBounds": [
+                32,
+                24,
+                100,
+                84
+              ],
+              "durationMs": 100,
+              "pixelsSha256": "1ac8d0497d68b547c6a17c903446b75d2026acc6da02820bb54aa02177fc1b62"
+            },
+            {
+              "index": 5,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /Phantom_v1/Sprites/Attacks/LightAtk/NoOutline/LightAtk6.png",
+              "sourceSha256": "ee14dcad41657a6c820cddfe4fcc0235aa56a4de152b1329ba01462bb40e4bb8",
+              "sourceAseFrame": 59,
+              "rectangle": [
+                560,
+                0,
+                112,
+                96
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                112,
+                96
+              ],
+              "alphaBounds": [
+                33,
+                24,
+                93,
+                93
+              ],
+              "durationMs": 100,
+              "pixelsSha256": "d92453cb7c5792dfe0a6055e46a18635acc76fa767a51d674a31e991d141be8a"
+            },
+            {
+              "index": 6,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /Phantom_v1/Sprites/Attacks/LightAtk/NoOutline/LightAtk7.png",
+              "sourceSha256": "33cfc123650f4c2e53b3db6a6fdd069f656a0d44be892593660a069322e76739",
+              "sourceAseFrame": 60,
+              "rectangle": [
+                672,
+                0,
+                112,
+                96
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                112,
+                96
+              ],
+              "alphaBounds": [
+                33,
+                24,
+                93,
+                92
+              ],
+              "durationMs": 100,
+              "pixelsSha256": "c7f1793a2c91f14366cbf5f5e9a4aaed6afabf91c37d51349d9a7eb4c669ac1b"
+            },
+            {
+              "index": 7,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /Phantom_v1/Sprites/Attacks/LightAtk/NoOutline/LightAtk8.png",
+              "sourceSha256": "db0f4a2b3389346b8e76e9aede125e8679129918401bb69869d8e290030cc26d",
+              "sourceAseFrame": 61,
+              "rectangle": [
+                784,
+                0,
+                112,
+                96
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                112,
+                96
+              ],
+              "alphaBounds": [
+                36,
+                25,
+                93,
+                88
+              ],
+              "durationMs": 120,
+              "pixelsSha256": "7cfcfab6b6774e809677b962a364f237ec550ce5fd776bb8e059818ab29810be"
+            },
+            {
+              "index": 8,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /Phantom_v1/Sprites/Attacks/LightAtk/NoOutline/LightAtk9.png",
+              "sourceSha256": "12598dde850247a0ba077eb6b67ea27e0d00ce53bdfd05ffab013279fd65d411",
+              "sourceAseFrame": 62,
+              "rectangle": [
+                896,
+                0,
+                112,
+                96
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                112,
+                96
+              ],
+              "alphaBounds": [
+                37,
+                35,
+                87,
+                82
+              ],
+              "durationMs": 120,
+              "pixelsSha256": "2c5c9023225f700897d6d68a07bf28f11b228d05d9a809268f5101a5adccd851"
+            }
+          ],
+          "durationsMs": [
+            120,
+            120,
+            120,
+            120,
+            100,
+            100,
+            100,
+            120,
+            120
+          ],
+          "loop": true,
+          "sourceAse": {
+            "path": "/Users/fatimaauseva/Downloads/обещаные персонажи /Phantom_v1/Phantom.ase",
+            "sha256": "7369e6834b1a3efddc9544b28d344851945068b9b3bc1c39734af2cdab901262",
+            "canvas": [
+              112,
+              96
+            ]
+          },
+          "sourceTag": {
+            "name": "LightAtk",
+            "first": 54,
+            "last": 62,
+            "direction": 0
+          },
+          "slicing": "Whole author-exported PNGs; natural numeric order; no crop or inferred offsets",
+          "animationState": "website preview repeats; gameplay moveset not assigned",
+          "vfx": {
+            "website": "No added effects; source NoOutline variant preserved where selected",
+            "game": "unknown; bindings not assigned"
+          },
+          "reviewFile": "images/owned/ui_enemy_phantom-attack-review.png",
+          "reviewMeaning": "Cyan: full source canvas; orange: website origin. No inferred game collision or support."
+        }
+      ],
+      "licence": {
+        "path": "/Users/fatimaauseva/Downloads/обещаные персонажи /Phantom_v1/License.txt",
+        "sha256": "fe17ba9f2e13877d0bbefb9274cc4a32bd1deff647df10ca64e1e8dc8e1178e3",
+        "text": "You can use this asset for personal and commercial purpose,\nyou can modify this object to your needs.\nCredit is not required but would be appreciated\n\nYou can NOT redistribute or resell it."
+      },
+      "poster": "images/owned/ui_enemy_phantom-poster.png"
+    },
+    {
+      "id": "UI_ENEMY_SKELETON",
+      "characterId": "enemy-skeleton-knight",
+      "assetEntryId": "asset-enemy-skeleton-knight",
+      "title": "Скелет-рыцарь",
+      "sourceUrl": "https://otsoga.itch.io/skeleton-knight",
+      "category": "verified_website_animation_preview",
+      "purpose": "Selected local enemy previews for artist guide",
+      "author": "Otsoga / Pedro Pixels",
+      "sourceRoot": "/Users/fatimaauseva/Downloads/обещаные персонажи /SkeletonKinight_v1",
+      "nativeScale": [
+        1,
+        1
+      ],
+      "displayScale": {
+        "maximum": 3,
+        "mode": "uniform responsive fit; full original PNG canvas"
+      },
+      "pivot": {
+        "point": [
+          0,
+          0
+        ],
+        "space": "source canvas pixels",
+        "purpose": "website origin only"
+      },
+      "support": {
+        "website": "none; screen-space preview",
+        "game": "unknown"
+      },
+      "collision": {
+        "website": "none",
+        "game": "unknown"
+      },
+      "hitbox": {
+        "website": "none",
+        "game": "unknown"
+      },
+      "placement": {
+        "surfaces": [
+          "website canvas"
+        ],
+        "layers": [
+          "enemy card",
+          "preview viewer"
+        ],
+        "neighbors": [
+          "project text",
+          "preview controls"
+        ],
+        "restrictions": [
+          "No level placement",
+          "No game build admission",
+          "Keep full vendor PNG canvas",
+          "No alpha recentering"
+        ]
+      },
+      "validation": {
+        "status": "verified_for_website_preview",
+        "gameBuildAdmission": false,
+        "allUsedFramesVisuallyChecked": true,
+        "canvasAndOriginOverlayChecked": true
+      },
+      "clips": [
+        {
+          "id": "UI_ENEMY_SKELETON_IDLE",
+          "key": "idle",
+          "label": "Ожидание",
+          "file": "images/owned/ui_enemy_skeleton-idle.png",
+          "canvas": [
+            128,
+            80
+          ],
+          "frameCount": 6,
+          "frames": [
+            {
+              "index": 0,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /SkeletonKinight_v1/Sprites/Idle/Idle1.png",
+              "sourceSha256": "3721bbc69c26f2b1c253c45e025a8fc4ee641840d25b7cce6a951822791d4937",
+              "sourceAseFrame": 31,
+              "rectangle": [
+                0,
+                0,
+                128,
+                80
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                128,
+                80
+              ],
+              "alphaBounds": [
+                30,
+                33,
+                84,
+                72
+              ],
+              "durationMs": 120,
+              "pixelsSha256": "590342556845a1ff47b8b5a843cc8ae091794c5f63f83377c514b0f43590aad0"
+            },
+            {
+              "index": 1,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /SkeletonKinight_v1/Sprites/Idle/Idle2.png",
+              "sourceSha256": "6bff5fe5bd346af415d1b1be3b2084305eabe2238722e577bdbf236f53e46f84",
+              "sourceAseFrame": 32,
+              "rectangle": [
+                128,
+                0,
+                128,
+                80
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                128,
+                80
+              ],
+              "alphaBounds": [
+                30,
+                33,
+                84,
+                72
+              ],
+              "durationMs": 120,
+              "pixelsSha256": "674b2b7a15fa91dea0a1c1b47d5793e7f2a9f107665dba223b52391a19e13c1c"
+            },
+            {
+              "index": 2,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /SkeletonKinight_v1/Sprites/Idle/Idle3.png",
+              "sourceSha256": "2785d3964f4937e8e27ded91d71094f8bf831dc32e27a4185aa55393258ebb91",
+              "sourceAseFrame": 33,
+              "rectangle": [
+                256,
+                0,
+                128,
+                80
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                128,
+                80
+              ],
+              "alphaBounds": [
+                30,
+                32,
+                82,
+                72
+              ],
+              "durationMs": 120,
+              "pixelsSha256": "515e134af7408f6a5bfa929699f3dac7a831aef8f81a78a2910c404f38578d84"
+            },
+            {
+              "index": 3,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /SkeletonKinight_v1/Sprites/Idle/Idle4.png",
+              "sourceSha256": "65422d41a2de59ac9009f5d6d29e5137607f171d4dac6101b7eb009ec08c06a3",
+              "sourceAseFrame": 34,
+              "rectangle": [
+                384,
+                0,
+                128,
+                80
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                128,
+                80
+              ],
+              "alphaBounds": [
+                31,
+                31,
+                81,
+                72
+              ],
+              "durationMs": 120,
+              "pixelsSha256": "ca7e6d4fc1932b18f7f84e9a6effffd313020754de947ad9439f704859632f3a"
+            },
+            {
+              "index": 4,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /SkeletonKinight_v1/Sprites/Idle/Idle5.png",
+              "sourceSha256": "5cb21162c9754758720dd58462a941a341fe9e163d13e4bc157cd6ee06ae06e5",
+              "sourceAseFrame": 35,
+              "rectangle": [
+                512,
+                0,
+                128,
+                80
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                128,
+                80
+              ],
+              "alphaBounds": [
+                31,
+                35,
+                82,
+                72
+              ],
+              "durationMs": 120,
+              "pixelsSha256": "a3a5002e7315158853e74a0ce72e17284715389f7a0ed6bfd1b542ce385f8885"
+            },
+            {
+              "index": 5,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /SkeletonKinight_v1/Sprites/Idle/Idle6.png",
+              "sourceSha256": "76c81cd8256a140aed002d7dcd5dc80bffd453c72b94fb58252e02593de5d737",
+              "sourceAseFrame": 36,
+              "rectangle": [
+                640,
+                0,
+                128,
+                80
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                128,
+                80
+              ],
+              "alphaBounds": [
+                31,
+                33,
+                83,
+                72
+              ],
+              "durationMs": 120,
+              "pixelsSha256": "85452d9a9cf4a1278cbd3caeac6cebb674a039d49fb19a9c7b3f733b5a287c1d"
+            }
+          ],
+          "durationsMs": [
+            120,
+            120,
+            120,
+            120,
+            120,
+            120
+          ],
+          "loop": true,
+          "sourceAse": {
+            "path": "/Users/fatimaauseva/Downloads/обещаные персонажи /SkeletonKinight_v1/SkeletonKinight.ase",
+            "sha256": "8e3edc278ff3fe804396fc2d9ba8e550bf8bea9812c748d6a370ae6d8a6c16e6",
+            "canvas": [
+              128,
+              80
+            ]
+          },
+          "sourceTag": {
+            "name": "Idle",
+            "first": 31,
+            "last": 36,
+            "direction": 0
+          },
+          "slicing": "Whole author-exported PNGs; natural numeric order; no crop or inferred offsets",
+          "animationState": "website preview repeats; gameplay moveset not assigned",
+          "vfx": {
+            "website": "No added effects; source NoOutline variant preserved where selected",
+            "game": "unknown; bindings not assigned"
+          },
+          "reviewFile": "images/owned/ui_enemy_skeleton-idle-review.png",
+          "reviewMeaning": "Cyan: full source canvas; orange: website origin. No inferred game collision or support."
+        },
+        {
+          "id": "UI_ENEMY_SKELETON_HEAVY",
+          "key": "heavy",
+          "label": "Тяжёлая атака",
+          "file": "images/owned/ui_enemy_skeleton-heavy.png",
+          "canvas": [
+            128,
+            80
+          ],
+          "frameCount": 12,
+          "frames": [
+            {
+              "index": 0,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /SkeletonKinight_v1/Sprites/Attacks/FrontHeavyAtk/FrontHeavyAtk1.png",
+              "sourceSha256": "212b55693090428fe55d2c1c6a3dc30814b8347e2c9f4ae27ce19f35a234b9ea",
+              "sourceAseFrame": 117,
+              "rectangle": [
+                0,
+                0,
+                128,
+                80
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                128,
+                80
+              ],
+              "alphaBounds": [
+                33,
+                32,
+                84,
+                72
+              ],
+              "durationMs": 120,
+              "pixelsSha256": "b947af64c1ae5eda4b1c34fcba573a348c41787f984377735726a37227a8e3a6"
+            },
+            {
+              "index": 1,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /SkeletonKinight_v1/Sprites/Attacks/FrontHeavyAtk/FrontHeavyAtk2.png",
+              "sourceSha256": "585e220f7c915b9f6b4f3f1dc41c3f49a9bf398716faaef1b1929f2f05d37577",
+              "sourceAseFrame": 118,
+              "rectangle": [
+                128,
+                0,
+                128,
+                80
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                128,
+                80
+              ],
+              "alphaBounds": [
+                33,
+                33,
+                85,
+                72
+              ],
+              "durationMs": 120,
+              "pixelsSha256": "4c4199df661bca4525f0595f355af651b5cd4259eec44e5b9c65314f9d683f65"
+            },
+            {
+              "index": 2,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /SkeletonKinight_v1/Sprites/Attacks/FrontHeavyAtk/FrontHeavyAtk3.png",
+              "sourceSha256": "17987b49875cb1bf8fd1b2ed91ac5bf3afd2a4289c21e015a8fb976655a38a2d",
+              "sourceAseFrame": 119,
+              "rectangle": [
+                256,
+                0,
+                128,
+                80
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                128,
+                80
+              ],
+              "alphaBounds": [
+                27,
+                34,
+                83,
+                72
+              ],
+              "durationMs": 120,
+              "pixelsSha256": "52fc1d317ebcf5b1929596f8da17564628672509f59ee6b70bacf86af47c2ad5"
+            },
+            {
+              "index": 3,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /SkeletonKinight_v1/Sprites/Attacks/FrontHeavyAtk/FrontHeavyAtk4.png",
+              "sourceSha256": "4cb392fe854477a40c5a61c3f042e96501c74e9c1cf88cf3bac3ab5fc092c3a2",
+              "sourceAseFrame": 120,
+              "rectangle": [
+                384,
+                0,
+                128,
+                80
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                128,
+                80
+              ],
+              "alphaBounds": [
+                23,
+                35,
+                83,
+                72
+              ],
+              "durationMs": 120,
+              "pixelsSha256": "2ba31ebf260e6ab1505ad6ec458c150f2663535322f19b67b68cd0bd6c4c267e"
+            },
+            {
+              "index": 4,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /SkeletonKinight_v1/Sprites/Attacks/FrontHeavyAtk/FrontHeavyAtk5.png",
+              "sourceSha256": "f3eb4225b3bded4ced329b09cfdcb5b0de7a1e170cbdbfb867f04ab84469b3b3",
+              "sourceAseFrame": 121,
+              "rectangle": [
+                512,
+                0,
+                128,
+                80
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                128,
+                80
+              ],
+              "alphaBounds": [
+                27,
+                36,
+                83,
+                72
+              ],
+              "durationMs": 120,
+              "pixelsSha256": "1b0432523c8913c73a6942aa6214a5a605569479cd996b7fad150651da8a5e06"
+            },
+            {
+              "index": 5,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /SkeletonKinight_v1/Sprites/Attacks/FrontHeavyAtk/FrontHeavyAtk6.png",
+              "sourceSha256": "864af2de2547a25537f934b1d07c16096bbf4b669800cfa6d49224b5bd7b0de0",
+              "sourceAseFrame": 122,
+              "rectangle": [
+                640,
+                0,
+                128,
+                80
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                128,
+                80
+              ],
+              "alphaBounds": [
+                47,
+                35,
+                82,
+                72
+              ],
+              "durationMs": 120,
+              "pixelsSha256": "11761f9d45bd91df9cebfa1393087bd40706cf7d006a3853be4dbdfe1870b2d7"
+            },
+            {
+              "index": 6,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /SkeletonKinight_v1/Sprites/Attacks/FrontHeavyAtk/FrontHeavyAtk7.png",
+              "sourceSha256": "401deec418a7133e86143bbef3003b0ea9a5fff5fa5f3297478ed6cac2af37ca",
+              "sourceAseFrame": 123,
+              "rectangle": [
+                768,
+                0,
+                128,
+                80
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                128,
+                80
+              ],
+              "alphaBounds": [
+                45,
+                32,
+                128,
+                72
+              ],
+              "durationMs": 70,
+              "pixelsSha256": "5df93eb8e52854cb54b3b8638174dab2dc6a97ebcce0a94d0872a71669d99e6b"
+            },
+            {
+              "index": 7,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /SkeletonKinight_v1/Sprites/Attacks/FrontHeavyAtk/FrontHeavyAtk8.png",
+              "sourceSha256": "58d38f663b91ebb002f286790e10fe7427bd28b86d3f285df821dab9e57660fe",
+              "sourceAseFrame": 124,
+              "rectangle": [
+                896,
+                0,
+                128,
+                80
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                128,
+                80
+              ],
+              "alphaBounds": [
+                46,
+                33,
+                128,
+                72
+              ],
+              "durationMs": 70,
+              "pixelsSha256": "8e4c01ce674bad0c2a7d6436419c98a7327b04ac6eaaeedb1b380cbfdf998a95"
+            },
+            {
+              "index": 8,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /SkeletonKinight_v1/Sprites/Attacks/FrontHeavyAtk/FrontHeavyAtk9.png",
+              "sourceSha256": "03e3bf856d02a39f54d558595b525478374ff80864ba87a357504c34fbc877dc",
+              "sourceAseFrame": 125,
+              "rectangle": [
+                1024,
+                0,
+                128,
+                80
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                128,
+                80
+              ],
+              "alphaBounds": [
+                46,
+                33,
+                128,
+                72
+              ],
+              "durationMs": 70,
+              "pixelsSha256": "ed8917d17170909b176ca99bdca62db3c4dd352d22480c61edc62a22dd736067"
+            },
+            {
+              "index": 9,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /SkeletonKinight_v1/Sprites/Attacks/FrontHeavyAtk/FrontHeavyAtk10.png",
+              "sourceSha256": "7077082ba08f8b4fbf0d106bbc502fe36ac45ef3245f39dadf7464d2d54b5d38",
+              "sourceAseFrame": 126,
+              "rectangle": [
+                1152,
+                0,
+                128,
+                80
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                128,
+                80
+              ],
+              "alphaBounds": [
+                44,
+                39,
+                106,
+                72
+              ],
+              "durationMs": 120,
+              "pixelsSha256": "935500110d8289335db6e6c2470e4bbf1e39d0f6d50f0a5f6a22d1170c381f49"
+            },
+            {
+              "index": 10,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /SkeletonKinight_v1/Sprites/Attacks/FrontHeavyAtk/FrontHeavyAtk11.png",
+              "sourceSha256": "5878be9f36249472d1621a966f7cf822c148af2f43ec45a1f5e6f9bd9dac5bdb",
+              "sourceAseFrame": 127,
+              "rectangle": [
+                1280,
+                0,
+                128,
+                80
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                128,
+                80
+              ],
+              "alphaBounds": [
+                48,
+                38,
+                96,
+                72
+              ],
+              "durationMs": 120,
+              "pixelsSha256": "089629f153733c434dbc7c56304ba2978054bf7f41e7c81d0a8ebd58105a5200"
+            },
+            {
+              "index": 11,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /SkeletonKinight_v1/Sprites/Attacks/FrontHeavyAtk/FrontHeavyAtk12.png",
+              "sourceSha256": "8251ba25dbf57c6f26fef0efefe3be557499e1fa87b0d5906b61de8b6d7afc8c",
+              "sourceAseFrame": 128,
+              "rectangle": [
+                1408,
+                0,
+                128,
+                80
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                128,
+                80
+              ],
+              "alphaBounds": [
+                48,
+                34,
+                81,
+                73
+              ],
+              "durationMs": 120,
+              "pixelsSha256": "7c9da82d733d21d45da0b66ab78a363166d784c19b3d3cccb1678217b163669b"
+            }
+          ],
+          "durationsMs": [
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            70,
+            70,
+            70,
+            120,
+            120,
+            120
+          ],
+          "loop": true,
+          "sourceAse": {
+            "path": "/Users/fatimaauseva/Downloads/обещаные персонажи /SkeletonKinight_v1/SkeletonKinight.ase",
+            "sha256": "8e3edc278ff3fe804396fc2d9ba8e550bf8bea9812c748d6a370ae6d8a6c16e6",
+            "canvas": [
+              128,
+              80
+            ]
+          },
+          "sourceTag": {
+            "name": "FrontHeavyAtk",
+            "first": 117,
+            "last": 128,
+            "direction": 0
+          },
+          "slicing": "Whole author-exported PNGs; natural numeric order; no crop or inferred offsets",
+          "animationState": "website preview repeats; gameplay moveset not assigned",
+          "vfx": {
+            "website": "No added effects; source NoOutline variant preserved where selected",
+            "game": "unknown; bindings not assigned"
+          },
+          "reviewFile": "images/owned/ui_enemy_skeleton-heavy-review.png",
+          "reviewMeaning": "Cyan: full source canvas; orange: website origin. No inferred game collision or support."
+        }
+      ],
+      "licence": {
+        "path": "/Users/fatimaauseva/Downloads/обещаные персонажи /SkeletonKinight_v1/License.txt",
+        "sha256": "fe17ba9f2e13877d0bbefb9274cc4a32bd1deff647df10ca64e1e8dc8e1178e3",
+        "text": "You can use this asset for personal and commercial purpose,\nyou can modify this object to your needs.\nCredit is not required but would be appreciated\n\nYou can NOT redistribute or resell it."
+      },
+      "poster": "images/owned/ui_enemy_skeleton-poster.png"
+    },
+    {
+      "id": "UI_ENEMY_FIGHTER",
+      "characterId": "enemy-fighter-goblin",
+      "assetEntryId": "asset-enemy-fighter-goblin",
+      "title": "Гоблин-боец",
+      "sourceUrl": "https://otsoga.itch.io/fighter-goblin",
+      "category": "verified_website_animation_preview",
+      "purpose": "Selected local enemy previews for artist guide",
+      "author": "Otsoga / Pedro Pixels",
+      "sourceRoot": "/Users/fatimaauseva/Downloads/обещаные персонажи /FighterGoblin",
+      "nativeScale": [
+        1,
+        1
+      ],
+      "displayScale": {
+        "maximum": 3,
+        "mode": "uniform responsive fit; full original PNG canvas"
+      },
+      "pivot": {
+        "point": [
+          0,
+          0
+        ],
+        "space": "source canvas pixels",
+        "purpose": "website origin only"
+      },
+      "support": {
+        "website": "none; screen-space preview",
+        "game": "unknown"
+      },
+      "collision": {
+        "website": "none",
+        "game": "unknown"
+      },
+      "hitbox": {
+        "website": "none",
+        "game": "unknown"
+      },
+      "placement": {
+        "surfaces": [
+          "website canvas"
+        ],
+        "layers": [
+          "enemy card",
+          "preview viewer"
+        ],
+        "neighbors": [
+          "project text",
+          "preview controls"
+        ],
+        "restrictions": [
+          "No level placement",
+          "No game build admission",
+          "Keep full vendor PNG canvas",
+          "No alpha recentering"
+        ]
+      },
+      "validation": {
+        "status": "verified_for_website_preview",
+        "gameBuildAdmission": false,
+        "allUsedFramesVisuallyChecked": true,
+        "canvasAndOriginOverlayChecked": true
+      },
+      "clips": [
+        {
+          "id": "UI_ENEMY_FIGHTER_IDLE",
+          "key": "idle",
+          "label": "Ожидание",
+          "file": "images/owned/ui_enemy_fighter-idle.png",
+          "canvas": [
+            142,
+            80
+          ],
+          "frameCount": 7,
+          "frames": [
+            {
+              "index": 0,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /FighterGoblin/Idle/Idle1.png",
+              "sourceSha256": "8e0e53ab866a0e8bab2941b18689f0eee40d8a28a1aab5c49c603d11d1d4bf81",
+              "sourceAseFrame": 0,
+              "rectangle": [
+                0,
+                0,
+                142,
+                80
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                142,
+                80
+              ],
+              "alphaBounds": [
+                53,
+                14,
+                91,
+                62
+              ],
+              "durationMs": 120,
+              "pixelsSha256": "85bbcaa9cfa8a892cab62466b9ca96c8f6c7090cae90bd86381bd9ec61fe5e54"
+            },
+            {
+              "index": 1,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /FighterGoblin/Idle/Idle2.png",
+              "sourceSha256": "3087decbb5a122f131ad00b1b631ac0fa14af6e691ff5dd16338c9dc6fdc91c8",
+              "sourceAseFrame": 1,
+              "rectangle": [
+                142,
+                0,
+                142,
+                80
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                142,
+                80
+              ],
+              "alphaBounds": [
+                53,
+                14,
+                90,
+                62
+              ],
+              "durationMs": 120,
+              "pixelsSha256": "f4b6229d53810a8e16bb0b9693c40c93d5bb0e90578f8f4a0168586be884018c"
+            },
+            {
+              "index": 2,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /FighterGoblin/Idle/Idle3.png",
+              "sourceSha256": "f7a8da5629e465dfcfdaa0e5fd0b76af8f4435255cad5fc0bc696e41bc32fd37",
+              "sourceAseFrame": 2,
+              "rectangle": [
+                284,
+                0,
+                142,
+                80
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                142,
+                80
+              ],
+              "alphaBounds": [
+                54,
+                13,
+                89,
+                62
+              ],
+              "durationMs": 120,
+              "pixelsSha256": "882fefb195bc10596bc3fea75935b84a70922f66ebdc42231743a4d074d5b251"
+            },
+            {
+              "index": 3,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /FighterGoblin/Idle/Idle4.png",
+              "sourceSha256": "1a4bcaa881f09c93dc3814fb80c6728b64fabc77a16085db363fb08340a4f629",
+              "sourceAseFrame": 3,
+              "rectangle": [
+                426,
+                0,
+                142,
+                80
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                142,
+                80
+              ],
+              "alphaBounds": [
+                54,
+                13,
+                89,
+                62
+              ],
+              "durationMs": 120,
+              "pixelsSha256": "71671370aa26972d91ba0d8657debfafb83bcf185ec67e11767de4600360a7d8"
+            },
+            {
+              "index": 4,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /FighterGoblin/Idle/Idle5.png",
+              "sourceSha256": "2328d1ec44a5e87a631513752aeecdfb475729e53e4a2946625a486aa02fec41",
+              "sourceAseFrame": 4,
+              "rectangle": [
+                568,
+                0,
+                142,
+                80
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                142,
+                80
+              ],
+              "alphaBounds": [
+                54,
+                14,
+                89,
+                62
+              ],
+              "durationMs": 120,
+              "pixelsSha256": "a88b7cb3989872fd5ec6424f87def2f93e315a38f9ecc9c533f15726d4c1a3ed"
+            },
+            {
+              "index": 5,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /FighterGoblin/Idle/Idle6.png",
+              "sourceSha256": "65c54f77a25b50723fbdb85aa858eab180e032f66f74eeae023c4c6106c59c97",
+              "sourceAseFrame": 5,
+              "rectangle": [
+                710,
+                0,
+                142,
+                80
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                142,
+                80
+              ],
+              "alphaBounds": [
+                54,
+                16,
+                90,
+                62
+              ],
+              "durationMs": 120,
+              "pixelsSha256": "063e797f4cb1969c5423a14c4d58ae2e190e6881494dbc4b8b613c3e955e74dd"
+            },
+            {
+              "index": 6,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /FighterGoblin/Idle/Idle7.png",
+              "sourceSha256": "631744b6caf5df0e6c5ef84726595017bb24058120181b12dcfd8facef0e7ae4",
+              "sourceAseFrame": 6,
+              "rectangle": [
+                852,
+                0,
+                142,
+                80
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                142,
+                80
+              ],
+              "alphaBounds": [
+                53,
+                15,
+                91,
+                62
+              ],
+              "durationMs": 120,
+              "pixelsSha256": "4b272c1614d8a7cfb32a603bd11516f6ca77c1bb5c5a2d6ba732291f7c1baf23"
+            }
+          ],
+          "durationsMs": [
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120
+          ],
+          "loop": true,
+          "sourceAse": {
+            "path": "/Users/fatimaauseva/Downloads/обещаные персонажи /FighterGoblin/FighterGoblin.ase",
+            "sha256": "ed249706dff2302d3de20268c10dda7b063e8f0f6bed77be90b2d8351a5fb87a",
+            "canvas": [
+              142,
+              80
+            ]
+          },
+          "sourceTag": {
+            "name": "Idle",
+            "first": 0,
+            "last": 6,
+            "direction": 0
+          },
+          "slicing": "Whole author-exported PNGs; natural numeric order; no crop or inferred offsets",
+          "animationState": "website preview repeats; gameplay moveset not assigned",
+          "vfx": {
+            "website": "No added effects; source NoOutline variant preserved where selected",
+            "game": "unknown; bindings not assigned"
+          },
+          "reviewFile": "images/owned/ui_enemy_fighter-idle-review.png",
+          "reviewMeaning": "Cyan: full source canvas; orange: website origin. No inferred game collision or support."
+        },
+        {
+          "id": "UI_ENEMY_FIGHTER_RUN",
+          "key": "run",
+          "label": "Бег · цикл",
+          "file": "images/owned/ui_enemy_fighter-run.png",
+          "canvas": [
+            142,
+            80
+          ],
+          "frameCount": 8,
+          "frames": [
+            {
+              "index": 0,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /FighterGoblin/Run/Running/Running1.png",
+              "sourceSha256": "2534abfc09959a084eb4013fd245f5bf645424dde623470da4d3132f855dcba2",
+              "sourceAseFrame": 7,
+              "rectangle": [
+                0,
+                0,
+                142,
+                80
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                142,
+                80
+              ],
+              "alphaBounds": [
+                52,
+                16,
+                94,
+                62
+              ],
+              "durationMs": 120,
+              "pixelsSha256": "e5df5390a2c6ea593103798691fc48e5f104ccbce7ebb052b1f62d915886ef0e"
+            },
+            {
+              "index": 1,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /FighterGoblin/Run/Running/Running2.png",
+              "sourceSha256": "21c18d10d4f429a3a12ede81fea604a28918ae3ec7ea6a340522ab42c150abec",
+              "sourceAseFrame": 8,
+              "rectangle": [
+                142,
+                0,
+                142,
+                80
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                142,
+                80
+              ],
+              "alphaBounds": [
+                49,
+                17,
+                93,
+                61
+              ],
+              "durationMs": 120,
+              "pixelsSha256": "0cb414b365ed10445cfc8809939ef352d4b10c278f899ce6b37a5cc91a39deae"
+            },
+            {
+              "index": 2,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /FighterGoblin/Run/Running/Running3.png",
+              "sourceSha256": "93d6389a87cde61f9ef36d3d29b333164123823529f03653312eb09762f5d5bd",
+              "sourceAseFrame": 9,
+              "rectangle": [
+                284,
+                0,
+                142,
+                80
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                142,
+                80
+              ],
+              "alphaBounds": [
+                48,
+                16,
+                92,
+                60
+              ],
+              "durationMs": 120,
+              "pixelsSha256": "f00df75265a346cf85bdacd91fe1dc4166f65839c271b1677eba9425be0960c0"
+            },
+            {
+              "index": 3,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /FighterGoblin/Run/Running/Running4.png",
+              "sourceSha256": "b17b69b6df7131f51c7e6e875f51830295efb6749cb0963348a3f9a793746692",
+              "sourceAseFrame": 10,
+              "rectangle": [
+                426,
+                0,
+                142,
+                80
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                142,
+                80
+              ],
+              "alphaBounds": [
+                49,
+                15,
+                93,
+                59
+              ],
+              "durationMs": 120,
+              "pixelsSha256": "788d6d84f949d3ddb119b78e504b1efa75c75aab8f7050114764b7cb8b7e03d7"
+            },
+            {
+              "index": 4,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /FighterGoblin/Run/Running/Running5.png",
+              "sourceSha256": "841a8ffb9769bb191f29e57f3cbaab4ddf45c5ea50e2b8b2154e52dbd7f6df60",
+              "sourceAseFrame": 11,
+              "rectangle": [
+                568,
+                0,
+                142,
+                80
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                142,
+                80
+              ],
+              "alphaBounds": [
+                53,
+                16,
+                94,
+                61
+              ],
+              "durationMs": 120,
+              "pixelsSha256": "af3fbe5b806e4506b36718dbbbdee8f8dfebcd241030a79e2d8a9af07a962a7e"
+            },
+            {
+              "index": 5,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /FighterGoblin/Run/Running/Running6.png",
+              "sourceSha256": "0052b30844ed0fb9c202657d8340c1585c094461d24d29ed707c0e2b3cdac775",
+              "sourceAseFrame": 12,
+              "rectangle": [
+                710,
+                0,
+                142,
+                80
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                142,
+                80
+              ],
+              "alphaBounds": [
+                56,
+                19,
+                93,
+                61
+              ],
+              "durationMs": 120,
+              "pixelsSha256": "871b31fb7f97ebc79d20f155e51ce85824eecede1aac07e7c9675d56679e6f48"
+            },
+            {
+              "index": 6,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /FighterGoblin/Run/Running/Running7.png",
+              "sourceSha256": "995fab7352bd11d682f2ca209c26f8bda20d953fe054ffd34a1d29d8a8e15bde",
+              "sourceAseFrame": 13,
+              "rectangle": [
+                852,
+                0,
+                142,
+                80
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                142,
+                80
+              ],
+              "alphaBounds": [
+                56,
+                17,
+                91,
+                61
+              ],
+              "durationMs": 120,
+              "pixelsSha256": "f2a9daeaf481511ea58c2a87bbdf3e485291fbf9a75453cec63d9f1c9c9d5e61"
+            },
+            {
+              "index": 7,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /FighterGoblin/Run/Running/Running8.png",
+              "sourceSha256": "6e319a0a83ebff6c5c90a9ae8f76ba4408ce4686334039c463199dde6bc913c4",
+              "sourceAseFrame": 14,
+              "rectangle": [
+                994,
+                0,
+                142,
+                80
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                142,
+                80
+              ],
+              "alphaBounds": [
+                53,
+                15,
+                93,
+                60
+              ],
+              "durationMs": 120,
+              "pixelsSha256": "9e9967bcb3cf8c50d34b0bdb2b00abe4d9321c9ee3beda9ce100aa02cae329a7"
+            }
+          ],
+          "durationsMs": [
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120
+          ],
+          "loop": true,
+          "sourceAse": {
+            "path": "/Users/fatimaauseva/Downloads/обещаные персонажи /FighterGoblin/FighterGoblin.ase",
+            "sha256": "ed249706dff2302d3de20268c10dda7b063e8f0f6bed77be90b2d8351a5fb87a",
+            "canvas": [
+              142,
+              80
+            ]
+          },
+          "sourceTag": {
+            "name": "Running",
+            "first": 7,
+            "last": 14,
+            "direction": 0
+          },
+          "slicing": "Whole author-exported PNGs; natural numeric order; no crop or inferred offsets",
+          "animationState": "website preview repeats; gameplay moveset not assigned",
+          "vfx": {
+            "website": "No added effects; source NoOutline variant preserved where selected",
+            "game": "unknown; bindings not assigned"
+          },
+          "reviewFile": "images/owned/ui_enemy_fighter-run-review.png",
+          "reviewMeaning": "Cyan: full source canvas; orange: website origin. No inferred game collision or support."
+        }
+      ],
+      "licence": {
+        "path": "/Users/fatimaauseva/Downloads/обещаные персонажи /FighterGoblin/License.txt",
+        "sha256": "fe17ba9f2e13877d0bbefb9274cc4a32bd1deff647df10ca64e1e8dc8e1178e3",
+        "text": "You can use this asset for personal and commercial purpose,\nyou can modify this object to your needs.\nCredit is not required but would be appreciated\n\nYou can NOT redistribute or resell it."
+      },
+      "poster": "images/owned/ui_enemy_fighter-poster.png"
+    },
+    {
+      "id": "UI_ENEMY_ROGUE",
+      "characterId": "enemy-rogue-goblin",
+      "assetEntryId": "asset-enemy-rogue-goblin",
+      "title": "Гоблин-разбойник",
+      "sourceUrl": "https://otsoga.itch.io/rogue-goblin",
+      "category": "verified_website_animation_preview",
+      "purpose": "Selected local enemy previews for artist guide",
+      "author": "Otsoga / Pedro Pixels",
+      "sourceRoot": "/Users/fatimaauseva/Downloads/обещаные персонажи /Sprites-2",
+      "nativeScale": [
+        1,
+        1
+      ],
+      "displayScale": {
+        "maximum": 3,
+        "mode": "uniform responsive fit; full original PNG canvas"
+      },
+      "pivot": {
+        "point": [
+          0,
+          0
+        ],
+        "space": "source canvas pixels",
+        "purpose": "website origin only"
+      },
+      "support": {
+        "website": "none; screen-space preview",
+        "game": "unknown"
+      },
+      "collision": {
+        "website": "none",
+        "game": "unknown"
+      },
+      "hitbox": {
+        "website": "none",
+        "game": "unknown"
+      },
+      "placement": {
+        "surfaces": [
+          "website canvas"
+        ],
+        "layers": [
+          "enemy card",
+          "preview viewer"
+        ],
+        "neighbors": [
+          "project text",
+          "preview controls"
+        ],
+        "restrictions": [
+          "No level placement",
+          "No game build admission",
+          "Keep full vendor PNG canvas",
+          "No alpha recentering"
+        ]
+      },
+      "validation": {
+        "status": "verified_for_website_preview",
+        "gameBuildAdmission": false,
+        "allUsedFramesVisuallyChecked": true,
+        "canvasAndOriginOverlayChecked": true
+      },
+      "clips": [
+        {
+          "id": "UI_ENEMY_ROGUE_IDLE",
+          "key": "idle",
+          "label": "Ожидание",
+          "file": "images/owned/ui_enemy_rogue-idle.png",
+          "canvas": [
+            48,
+            48
+          ],
+          "frameCount": 11,
+          "frames": [
+            {
+              "index": 0,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /Sprites-2/Idle/Idle1.png",
+              "sourceSha256": "74f2c421cbdac48c4ceed4ef6d3d51af08077eeb1e8bdef718c7f1ed3f0babe6",
+              "sourceAseFrame": 0,
+              "rectangle": [
+                0,
+                0,
+                48,
+                48
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                48,
+                48
+              ],
+              "alphaBounds": [
+                7,
+                10,
+                42,
+                45
+              ],
+              "durationMs": 100,
+              "pixelsSha256": "cca2642009e2a4291bfecf5c71a64b365de679c09a19c1e96ab09d30f1cb5bda"
+            },
+            {
+              "index": 1,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /Sprites-2/Idle/Idle2.png",
+              "sourceSha256": "b73072b783038b7bea58258fe7ed999c1aa9f31f444a2d91aa2f475799b2f9f8",
+              "sourceAseFrame": 1,
+              "rectangle": [
+                48,
+                0,
+                48,
+                48
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                48,
+                48
+              ],
+              "alphaBounds": [
+                6,
+                11,
+                42,
+                45
+              ],
+              "durationMs": 100,
+              "pixelsSha256": "515bcda91c5367996ece29527551f28d66670d4f200c061fe8b5c6333e3dfa37"
+            },
+            {
+              "index": 2,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /Sprites-2/Idle/Idle3.png",
+              "sourceSha256": "cf52d3dbb679798bb97713eebfce08accf2a5cc4dd35be09659842b3af5c9225",
+              "sourceAseFrame": 2,
+              "rectangle": [
+                96,
+                0,
+                48,
+                48
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                48,
+                48
+              ],
+              "alphaBounds": [
+                7,
+                11,
+                41,
+                45
+              ],
+              "durationMs": 100,
+              "pixelsSha256": "75c2c6d8b585b02be33dfee36935ef10854eb0ebee16212b02c035ccbbaf89fc"
+            },
+            {
+              "index": 3,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /Sprites-2/Idle/Idle4.png",
+              "sourceSha256": "a12f002cfa1ea6dd999ed09eb0a304a69db847c078ac537c8c5b02e843da865b",
+              "sourceAseFrame": 3,
+              "rectangle": [
+                144,
+                0,
+                48,
+                48
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                48,
+                48
+              ],
+              "alphaBounds": [
+                7,
+                10,
+                41,
+                45
+              ],
+              "durationMs": 100,
+              "pixelsSha256": "8bd9c3eab9b6c5b8e3dcddfe8af5c2d6aa67f3c48df0df6ca8ea726d47963dee"
+            },
+            {
+              "index": 4,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /Sprites-2/Idle/Idle5.png",
+              "sourceSha256": "f5c0c1205d55aef1f6827a9aa45f0cf07b70d81f6c8f634535ebd5022f4b00b8",
+              "sourceAseFrame": 4,
+              "rectangle": [
+                192,
+                0,
+                48,
+                48
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                48,
+                48
+              ],
+              "alphaBounds": [
+                7,
+                9,
+                39,
+                45
+              ],
+              "durationMs": 100,
+              "pixelsSha256": "d19a8e025a51edc3c885468292953afa98e41d14ac1ae6e736134cb7d4e68e8d"
+            },
+            {
+              "index": 5,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /Sprites-2/Idle/Idle6.png",
+              "sourceSha256": "d40e81db89e3ff7985b60a371b30804cc773be47a0ef63710f26888b1d056f79",
+              "sourceAseFrame": 5,
+              "rectangle": [
+                240,
+                0,
+                48,
+                48
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                48,
+                48
+              ],
+              "alphaBounds": [
+                9,
+                9,
+                42,
+                45
+              ],
+              "durationMs": 100,
+              "pixelsSha256": "b3480b44343d425670eb9906622755790bf0ac08610c67a77963dcc298ea9243"
+            },
+            {
+              "index": 6,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /Sprites-2/Idle/Idle7.png",
+              "sourceSha256": "4fc37d73f5799b5f25b079070c972066013faf54bf5bc173b33251bef41a0fc5",
+              "sourceAseFrame": 6,
+              "rectangle": [
+                288,
+                0,
+                48,
+                48
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                48,
+                48
+              ],
+              "alphaBounds": [
+                10,
+                11,
+                44,
+                45
+              ],
+              "durationMs": 100,
+              "pixelsSha256": "981dbc1513fb0e63fcfabf790cd17bc861fbacff0934d02d01d36edc819731e6"
+            },
+            {
+              "index": 7,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /Sprites-2/Idle/Idle8.png",
+              "sourceSha256": "190cbcc345c42b4f7a80867b3950648ed3f1d7de5fa7b4c18334e14fc41f91cc",
+              "sourceAseFrame": 7,
+              "rectangle": [
+                336,
+                0,
+                48,
+                48
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                48,
+                48
+              ],
+              "alphaBounds": [
+                9,
+                12,
+                44,
+                45
+              ],
+              "durationMs": 100,
+              "pixelsSha256": "bbd4b7f95494472b513904d4b71f84a588182f0c5281ccae7b2c0aeeede8f680"
+            },
+            {
+              "index": 8,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /Sprites-2/Idle/Idle9.png",
+              "sourceSha256": "51c283ddb879366353bf989e7102dd2f0c0f7eef72a19782637b4a843242de5b",
+              "sourceAseFrame": 8,
+              "rectangle": [
+                384,
+                0,
+                48,
+                48
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                48,
+                48
+              ],
+              "alphaBounds": [
+                7,
+                11,
+                42,
+                45
+              ],
+              "durationMs": 100,
+              "pixelsSha256": "7c9c90740f6d46baa397b44e007976f852add471db49ad5995881032fd10d8d1"
+            },
+            {
+              "index": 9,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /Sprites-2/Idle/Idle10.png",
+              "sourceSha256": "68d214c7abe5122d1a71f12ff17125e9361eec66eb453be14d4a3b0d57a38132",
+              "sourceAseFrame": 9,
+              "rectangle": [
+                432,
+                0,
+                48,
+                48
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                48,
+                48
+              ],
+              "alphaBounds": [
+                8,
+                10,
+                40,
+                45
+              ],
+              "durationMs": 100,
+              "pixelsSha256": "7c7dab47f34244b6d1d08a50d066ca9dd662c4730022ed14c9c75d18a11a33e4"
+            },
+            {
+              "index": 10,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /Sprites-2/Idle/Idle11.png",
+              "sourceSha256": "49a6173d4f8180029f581379acf4bd0f639aa644bb03c95261be8ec2dd48e623",
+              "sourceAseFrame": 10,
+              "rectangle": [
+                480,
+                0,
+                48,
+                48
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                48,
+                48
+              ],
+              "alphaBounds": [
+                9,
+                10,
+                42,
+                45
+              ],
+              "durationMs": 100,
+              "pixelsSha256": "34f330345bdbfe02229dac578019ef3679b66aaa559d61f1c29e994dd2234865"
+            }
+          ],
+          "durationsMs": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "loop": true,
+          "sourceAse": {
+            "path": "/Users/fatimaauseva/Downloads/обещаные персонажи /Sprites-2/RogueGoblin.aseprite",
+            "sha256": "e272a3a14b2d46d372510cde126b7925d67c7124cf341abf34bb31e46dd96e3f",
+            "canvas": [
+              192,
+              156
+            ]
+          },
+          "sourceTag": {
+            "name": "Idle",
+            "first": 0,
+            "last": 10,
+            "direction": 0
+          },
+          "slicing": "Whole author-exported PNGs; natural numeric order; no crop or inferred offsets",
+          "animationState": "website preview repeats; gameplay moveset not assigned",
+          "vfx": {
+            "website": "No added effects; source NoOutline variant preserved where selected",
+            "game": "unknown; bindings not assigned"
+          },
+          "reviewFile": "images/owned/ui_enemy_rogue-idle-review.png",
+          "reviewMeaning": "Cyan: full source canvas; orange: website origin. No inferred game collision or support."
+        },
+        {
+          "id": "UI_ENEMY_ROGUE_RUN",
+          "key": "run",
+          "label": "Бег · цикл",
+          "file": "images/owned/ui_enemy_rogue-run.png",
+          "canvas": [
+            48,
+            48
+          ],
+          "frameCount": 10,
+          "frames": [
+            {
+              "index": 0,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /Sprites-2/Run/Loop/RunLoop1.png",
+              "sourceSha256": "b1107c3aa14efc5413112f4bcae0deef830bf6ea512a02cba6d36b7104838c80",
+              "sourceAseFrame": 12,
+              "rectangle": [
+                0,
+                0,
+                48,
+                48
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                48,
+                48
+              ],
+              "alphaBounds": [
+                11,
+                11,
+                41,
+                45
+              ],
+              "durationMs": 60,
+              "pixelsSha256": "b7ec993f8771ea853a567387ad7a0ebd2d78445ee44b6aac7e3a72c5fe4b6f1c"
+            },
+            {
+              "index": 1,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /Sprites-2/Run/Loop/RunLoop2.png",
+              "sourceSha256": "dd63c7b452db0dfa7e5f0fbf364fe81857593907297ad802b995d1a8e9d38ab9",
+              "sourceAseFrame": 13,
+              "rectangle": [
+                48,
+                0,
+                48,
+                48
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                48,
+                48
+              ],
+              "alphaBounds": [
+                12,
+                11,
+                41,
+                45
+              ],
+              "durationMs": 60,
+              "pixelsSha256": "f45e11a55654d84499bf1ad4e477e6470ffd0c4b615dee6ad0a1b1d234101eae"
+            },
+            {
+              "index": 2,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /Sprites-2/Run/Loop/RunLoop3.png",
+              "sourceSha256": "2d1eef8b9bc141471070031733e9635a042e85b5c25246915091ddd3b307373a",
+              "sourceAseFrame": 14,
+              "rectangle": [
+                96,
+                0,
+                48,
+                48
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                48,
+                48
+              ],
+              "alphaBounds": [
+                9,
+                11,
+                42,
+                43
+              ],
+              "durationMs": 60,
+              "pixelsSha256": "f4548ffe936e3efeb413d27f90900ab4bf34e391337d0736bcfbac7b1261e9e3"
+            },
+            {
+              "index": 3,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /Sprites-2/Run/Loop/RunLoop4.png",
+              "sourceSha256": "deaeaf734572d83d00c25b88b9aecf1a9b4394b07f668c923d814e810e7997cc",
+              "sourceAseFrame": 15,
+              "rectangle": [
+                144,
+                0,
+                48,
+                48
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                48,
+                48
+              ],
+              "alphaBounds": [
+                10,
+                12,
+                37,
+                45
+              ],
+              "durationMs": 60,
+              "pixelsSha256": "23305fbbf076920996965aed6b2800d151b1cc27e2eecdfc8f08827e2beec7c2"
+            },
+            {
+              "index": 4,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /Sprites-2/Run/Loop/RunLoop5.png",
+              "sourceSha256": "fb48e05d70990c73c97b37c89011cb037e60cf88048fa2217cda5d5c3401506d",
+              "sourceAseFrame": 16,
+              "rectangle": [
+                192,
+                0,
+                48,
+                48
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                48,
+                48
+              ],
+              "alphaBounds": [
+                12,
+                13,
+                39,
+                45
+              ],
+              "durationMs": 60,
+              "pixelsSha256": "8a223bbb2c71a94e4732b8fed81e31f48603da506c852dc5b6b5fc2447ce5ded"
+            },
+            {
+              "index": 5,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /Sprites-2/Run/Loop/RunLoop6.png",
+              "sourceSha256": "71e923e77185bacd4db8679b87b8ce5005b31c49bc547d987f5b555624f912f9",
+              "sourceAseFrame": 17,
+              "rectangle": [
+                240,
+                0,
+                48,
+                48
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                48,
+                48
+              ],
+              "alphaBounds": [
+                10,
+                12,
+                38,
+                45
+              ],
+              "durationMs": 60,
+              "pixelsSha256": "30a069449f71ec98e7b6ff583ad73d49187a40a37d6f3bcb719dd6b07a6321cb"
+            },
+            {
+              "index": 6,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /Sprites-2/Run/Loop/RunLoop7.png",
+              "sourceSha256": "416a6b93b971e3992d4c8320cd6bfa0a85c7cac50cb7776a18f2e100d6785916",
+              "sourceAseFrame": 18,
+              "rectangle": [
+                288,
+                0,
+                48,
+                48
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                48,
+                48
+              ],
+              "alphaBounds": [
+                10,
+                12,
+                38,
+                42
+              ],
+              "durationMs": 60,
+              "pixelsSha256": "a462aa7da7e77dd3edd1c78dd61fe3e46006acb6898d94769157d9c04e1025f1"
+            },
+            {
+              "index": 7,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /Sprites-2/Run/Loop/RunLoop8.png",
+              "sourceSha256": "dbd4aab27806f9da013c10babb1ccd0850dc4f07db445dcabcba8b22964999dc",
+              "sourceAseFrame": 19,
+              "rectangle": [
+                336,
+                0,
+                48,
+                48
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                48,
+                48
+              ],
+              "alphaBounds": [
+                11,
+                12,
+                37,
+                44
+              ],
+              "durationMs": 60,
+              "pixelsSha256": "ef78c7313a5936757cda177788d6c192496dca96ad3e851a46c796b00f6666e7"
+            },
+            {
+              "index": 8,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /Sprites-2/Run/Loop/RunLoop9.png",
+              "sourceSha256": "6540aae6ca99dc626b9b96d3456dc4bc5dede38534a6759bd1d6bbc221cab371",
+              "sourceAseFrame": 20,
+              "rectangle": [
+                384,
+                0,
+                48,
+                48
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                48,
+                48
+              ],
+              "alphaBounds": [
+                11,
+                14,
+                38,
+                45
+              ],
+              "durationMs": 60,
+              "pixelsSha256": "d829f279292f2eb0d3026c21901afcf8ede389ca390f7a13d5f0aea0839f8fa0"
+            },
+            {
+              "index": 9,
+              "sourcePath": "/Users/fatimaauseva/Downloads/обещаные персонажи /Sprites-2/Run/Loop/RunLoop10.png",
+              "sourceSha256": "a4ce35b0082a58a6547dd18ebbb3f97984cf8404c1d538eab9a4954109692bcd",
+              "sourceAseFrame": 21,
+              "rectangle": [
+                432,
+                0,
+                48,
+                48
+              ],
+              "sourceRectangle": [
+                0,
+                0,
+                48,
+                48
+              ],
+              "alphaBounds": [
+                11,
+                13,
+                40,
+                45
+              ],
+              "durationMs": 60,
+              "pixelsSha256": "472333763d80d0207cafdee1a6c146d2c0fe7a9f87eae746c343e9a216ad715b"
+            }
+          ],
+          "durationsMs": [
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60
+          ],
+          "loop": true,
+          "sourceAse": {
+            "path": "/Users/fatimaauseva/Downloads/обещаные персонажи /Sprites-2/RogueGoblin.aseprite",
+            "sha256": "e272a3a14b2d46d372510cde126b7925d67c7124cf341abf34bb31e46dd96e3f",
+            "canvas": [
+              192,
+              156
+            ]
+          },
+          "sourceTag": {
+            "name": "Running",
+            "first": 12,
+            "last": 21,
+            "direction": 0
+          },
+          "slicing": "Whole author-exported PNGs; natural numeric order; no crop or inferred offsets",
+          "animationState": "website preview repeats; gameplay moveset not assigned",
+          "vfx": {
+            "website": "No added effects; source NoOutline variant preserved where selected",
+            "game": "unknown; bindings not assigned"
+          },
+          "reviewFile": "images/owned/ui_enemy_rogue-run-review.png",
+          "reviewMeaning": "Cyan: full source canvas; orange: website origin. No inferred game collision or support."
+        }
+      ],
+      "licence": {
+        "path": "/Users/fatimaauseva/Downloads/обещаные персонажи /Sprites-2/License.txt",
+        "sha256": "fe17ba9f2e13877d0bbefb9274cc4a32bd1deff647df10ca64e1e8dc8e1178e3",
+        "text": "You can use this asset for personal and commercial purpose,\nyou can modify this object to your needs.\nCredit is not required but would be appreciated\n\nYou can NOT redistribute or resell it."
+      },
+      "poster": "images/owned/ui_enemy_rogue-poster.png"
+    }
+  ],
+  "staticPreviews": [
+    {
+      "id": "UI_ENEMY_FLOWER_STATIC",
+      "characterId": "enemy-snare-flower",
+      "assetEntryId": "asset-enemy-snare-flower",
+      "title": "Snare Flower · распустившийся цветок",
+      "category": "website_fixed_asset_preview",
+      "purpose": "Single fixed author frame; animation timing not inferred",
+      "sourceUrl": "https://otsoga.itch.io/snare-flower-skill-fx",
+      "source": {
+        "path": "/Users/fatimaauseva/Downloads/обещаные персонажи /AttachedFlower/Idle(Flourished)/Flourished1.png",
+        "sha256": "57f524494b61f2ea8f80c296239e33c888a0e3cec3cce91ed3ea88db88380409",
+        "author": "Otsoga"
+      },
+      "poster": "images/owned/ui_enemy_flower-static.png",
+      "slicing": {
+        "frameCount": 1,
+        "sourceFrame": "Flourished1.png",
+        "rectangle": [
+          0,
+          0,
+          64,
+          96
+        ],
+        "policy": "entire original author PNG"
+      },
+      "scale": {
+        "native": [
+          1,
+          1
+        ],
+        "display": "contain, at most 3x; no source crop"
+      },
+      "pivot": {
+        "point": [
+          0,
+          0
+        ],
+        "space": "website canvas origin, not game pivot"
+      },
+      "support": {
+        "website": "none",
+        "game": "unknown"
+      },
+      "collision": {
+        "website": "none",
+        "game": "unknown"
+      },
+      "hitbox": {
+        "website": "none",
+        "game": "unknown"
+      },
+      "animation": {
+        "website": "none: fixed frame only",
+        "source": "animated author pack; exact timing not verified"
+      },
+      "vfx": {
+        "website": "no additional effects",
+        "game": "author FX pack; bindings unknown"
+      },
+      "placement": {
+        "surfaces": [
+          "website card",
+          "reference figure"
+        ],
+        "layers": [
+          "screen-space illustration"
+        ],
+        "neighbors": [
+          "text only"
+        ],
+        "restrictions": [
+          "No game admission",
+          "Do not infer frame timing or mechanics"
+        ]
+      },
+      "validation": {
+        "status": "verified_for_fixed_website_reference",
+        "gameBuildAdmission": false,
+        "sourceImageInspected": true
+      },
+      "licence": {
+        "path": "/Users/fatimaauseva/Downloads/обещаные персонажи /AttachedFlower/License.txt",
+        "sha256": "fe17ba9f2e13877d0bbefb9274cc4a32bd1deff647df10ca64e1e8dc8e1178e3",
+        "text": "You can use this asset for personal and commercial purpose,\nyou can modify this object to your needs.\nCredit is not required but would be appreciated\n\nYou can NOT redistribute or resell it."
+      }
     }
   ]
 };

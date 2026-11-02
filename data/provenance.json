@@ -92,8 +92,8 @@
       "bytes": 91867
     },
     "bloodborne.css": {
-      "sha256": "f60425073046a4cb3361948c3389bb8e84a119004f12eb540cd40af89912fb28",
-      "bytes": 12303
+      "sha256": "34ed9e896bcd396eca30a81fde281f705d3f56db931d2ae47bae5d10ada55401",
+      "bytes": 12539
     },
     "data/ui-theme.json": {
       "sha256": "227ce3b4f8a894e45caa58eb238c482e739cc2def225e9658098284a2ccf373d",
@@ -106,6 +106,94 @@
     "data/ui-assets.json": {
       "sha256": "93f60222a8bd9ad6b24a0bae512bd963a98e5d2d394395a0210548074da8282a",
       "bytes": 2091
+    },
+    "images/owned/ui_enemy_phantom-poster.png": {
+      "sha256": "ced16b2ed7ee0a470e388cbe967a2b8a20eedce0abc94323293cc2f2e1702f84",
+      "bytes": 3302
+    },
+    "images/owned/ui_enemy_skeleton-heavy-review.png": {
+      "sha256": "aabcb9d92d8ce6e53647b9348ef8ccbd368c6bcf95e9ab53c69a4ec11400d0ab",
+      "bytes": 20983
+    },
+    "images/owned/ui_enemy_rogue-idle.png": {
+      "sha256": "c547c1ac8dcdf251bf029cd4d4711a7c881a910ad755b6322c7d8417d47c1c7d",
+      "bytes": 5499
+    },
+    "images/owned/ui_enemy_phantom-idle.png": {
+      "sha256": "0b93467a5b6b846f8324ac58403c994ba96c173e219a74eb5161261e645200f7",
+      "bytes": 14804
+    },
+    "images/owned/ui_enemy_skeleton-poster.png": {
+      "sha256": "45018ea6d6699230a2cd803f3afed524a92222e604842b37345c0c1ed1f098d9",
+      "bytes": 1384
+    },
+    "images/owned/ui_enemy_fighter-idle.png": {
+      "sha256": "93069ee298a9f001047f6930ba335020f56575e718250fe73ba45591e4041310",
+      "bytes": 5220
+    },
+    "images/owned/ui_enemy_flower-static.png": {
+      "sha256": "57f524494b61f2ea8f80c296239e33c888a0e3cec3cce91ed3ea88db88380409",
+      "bytes": 645
+    },
+    "images/owned/ui_enemy_rogue-run-review.png": {
+      "sha256": "25a90c16b85c7638ab994ccb126dbf138c68e08b6417f215088341652e75385b",
+      "bytes": 13417
+    },
+    "images/owned/ui_enemy_skeleton-heavy.png": {
+      "sha256": "a465060152ffba49c6be05af7c27893d15497a6b4cdc948442c5136696b8b740",
+      "bytes": 9035
+    },
+    "images/owned/ui_enemy_rogue-poster.png": {
+      "sha256": "3bbe6cba0aca9f47b0b57cf735eb5e8f5f61ddd169a0c279e685cdd68927aa55",
+      "bytes": 1190
+    },
+    "images/owned/ui_enemy_fighter-run-review.png": {
+      "sha256": "28a996174b9869ca50efbc4c2f1ce26ca249f9724e002fb4f20317720ea5d48f",
+      "bytes": 16119
+    },
+    "images/owned/ui_enemy_fighter-idle-review.png": {
+      "sha256": "0ecccb6edbb14f2b57df823fa70a9bb5caf6cf2e6e674134351b153df2c1216f",
+      "bytes": 12754
+    },
+    "images/owned/ui_enemy_skeleton-idle-review.png": {
+      "sha256": "c917c30cdfab806a19b5cdd6f3f14f094a25d8ccfc1088a90d8a93e1955fb73a",
+      "bytes": 11311
+    },
+    "images/owned/ui_enemy_fighter-poster.png": {
+      "sha256": "46f9de115df7b06ed9da0955fa2e354bca1af40d35ab70d20ae21a250dbc05d0",
+      "bytes": 1550
+    },
+    "images/owned/ui_enemy_fighter-run.png": {
+      "sha256": "d3d204c8a19963dc675514374f6478ebfc9153da52c155483d771758d0383b7f",
+      "bytes": 7741
+    },
+    "images/owned/ui_enemy_rogue-idle-review.png": {
+      "sha256": "eb0b5be4153b33a38595735b5cb62ec7d0475c4cd9626d019ac1cd893f4930df",
+      "bytes": 17217
+    },
+    "images/owned/ui_enemy_skeleton-idle.png": {
+      "sha256": "26b23d3f464f2b58a797a580c6d38d4b58a4fb10cbdb239d1264cb55b7db6385",
+      "bytes": 4392
+    },
+    "images/owned/ui_enemy_phantom-attack-review.png": {
+      "sha256": "e2a147e7dd648a19021271eee2aa8bd04300de2269998347865bc83cddead454",
+      "bytes": 37479
+    },
+    "images/owned/ui_enemy_phantom-attack.png": {
+      "sha256": "09954ce2d4121d61a6edb2ff0ad74ef1827d41845189b523c20005e936507f1b",
+      "bytes": 24472
+    },
+    "images/owned/ui_enemy_rogue-run.png": {
+      "sha256": "5103e498891ff0f1b810e392584cee530d1fb9e2e12d4e00f646194df643b70a",
+      "bytes": 4945
+    },
+    "images/owned/ui_enemy_phantom-idle-review.png": {
+      "sha256": "12087b608bfb7b2803ab033a406549cf58ef79c683fb8929efb46fe4dc6557f5",
+      "bytes": 25489
+    },
+    "data/enemy-preview-classifier.json": {
+      "sha256": "3b15f5165aff118ccd914fa9f76510203a50a5906b552746b9460f329cd0092d",
+      "bytes": 100386
     }
   },
   "referenceSources": {
@@ -178,5 +266,34 @@
     "openQuestions": [
       "specific small refinements to the design"
     ]
+  },
+  "enemyRoster": {
+    "entries": 9,
+    "sources": [
+      "https://otsoga.itch.io/phantom",
+      "https://otsoga.itch.io/skeleton-knight",
+      "https://otsoga.itch.io/fighter-goblin",
+      "https://otsoga.itch.io/rogue-goblin",
+      "https://otsoga.itch.io/snare-flower-skill-fx",
+      "https://otsoga.itch.io/witch-hunter"
+    ],
+    "localPacksFound": [
+      "Phantom_v1",
+      "SkeletonKinight_v1",
+      "FighterGoblin",
+      "Sprites-2/RogueGoblin.aseprite",
+      "AttachedFlower"
+    ],
+    "animatedClips": 8,
+    "animatedFrames": 73,
+    "fixedFrames": 1,
+    "gameBuildAdmission": false,
+    "chestAndPaintings": "separate resources, not Momodora; author will add sources later",
+    "flowerRole": "undecided by author",
+    "hunterVariants": [
+      "fewer-attacks weak version, moves not selected",
+      "infected mutants, visual mutations not specified"
+    ],
+    "witchHunterLocal": "not found in checked Downloads/Desktop/Documents/Projects; purchase not inferred"
   }
 }

@@ -157,6 +157,8 @@ footer {border-color:#514a3e;color:#a19683;}
 .design-gallery figcaption {font-size:12px;line-height:1.8;color:#c4b69e;margin-bottom:12px;}
 .design-gallery img {display:block;width:100%;height:auto;border:1px solid #6d624f;}
 .design-gallery a:focus-visible {display:block;}
+.fixed-asset-image {display:block;width:192px;max-width:100%;height:auto;image-rendering:pixelated;}
+@media(min-width:761px){.sidebar nav{min-height:0;overflow-y:auto;overflow-x:hidden;scrollbar-width:thin}.sidebar-note{flex-shrink:0}}
 @media(min-width:1500px){.hero-copy{padding:48px}.hero{min-height:450px}.hero-art{min-height:450px}.hero-art::before{top:57px}.archive-ornament{margin-bottom:5px}}
 @media(max-width:1100px){.hero-copy{padding:36px 28px}.hero-copy h1{font-size:50px}.hero{grid-template-columns:1.2fr 1fr}.hero-art::before{width:175px;height:280px;border-radius:90px 90px 0 0;top:55px}}
 @media(max-width:760px){

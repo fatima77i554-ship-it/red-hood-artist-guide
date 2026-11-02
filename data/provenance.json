@@ -201,7 +201,8 @@
     "Final Fantasy": "https://jp.finalfantasy.com/titles/finalfantasy6/",
     "Ayami Kojima interview": "https://fullfrontal.moe/countess-of-castlevania-ayami-kojima/",
     "Ayami Kojima self-taught profile": "https://www.creativeuncut.com/artist-profile-ayami-kojima.html",
-    "Alfred · user-confirmed Bloodborne reference": "https://bloodborne.fandom.com/ru/wiki/Альфред,_охотник_на_Нечистокровных"
+    "Alfred · user-confirmed Bloodborne reference": "https://bloodborne.fandom.com/ru/wiki/Альфред,_охотник_на_Нечистокровных",
+    "NieR Automata": "https://www.square-enix-games.com/en_GB/games/nier-automata"
   },
   "artworkSelection": {
     "owner": "author",
@@ -213,7 +214,8 @@
     "Witch Hunter": "https://otsoga.itch.io/witch-hunter",
     "Survivor protector": "https://otsoga.itch.io/montante",
     "Grove fairy": "https://otsoga.itch.io/goblin-boss-phase-2",
-    "Holy priestess": "https://otsoga.itch.io/eleonore-addon1"
+    "Holy priestess": "https://otsoga.itch.io/eleonore-addon1",
+    "Raziel / Night Lord": "https://otsoga.itch.io/night-lord"
   },
   "ownedPreviewSummary": {
     "characters": 3,
@@ -295,5 +297,19 @@
       "infected mutants, visual mutations not specified"
     ],
     "witchHunterLocal": "not found in checked Downloads/Desktop/Documents/Projects; purchase not inferred"
+  },
+  "characterRecolor": {
+    "assignee": "Claude",
+    "exactColorDecisions": "Claude",
+    "status": "dispatched_and_started",
+    "sessionUrl": "https://claude.ai/epitaxy/local_6e21838f-ba21-4162-aaff-5b6984aff015",
+    "briefPath": "/Users/fatimaauseva/Documents/Codex/2026-10-31/new-chat-2/outputs/Red-Hood-Character-Recolor/Задание для Claude.txt",
+    "directions": {
+      "joanna-darc": "Closer to Alfred Bloodborne colors; exact palette chosen by Claude",
+      "holy-priestess": "White priestess robes; exact palette chosen by Claude",
+      "grove-fairy": "Ugly blue fairy; exact palette chosen by Claude",
+      "raziel": "Night Lord is Raziel; palette chosen by Claude to fit Red Hood"
+    },
+    "recoloredAssetsAddedByCodex": false
   }
 }

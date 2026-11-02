@@ -12,8 +12,8 @@
       "classifierId": "UI_REFERENCE_KAHO_FRAME0"
     },
     "downloads/01_Замысел_и_сюжет.docx": {
-      "sha256": "28374ee63163fcb00d950efc51b96e0db739482bb6b1fbbd445e1522ca94bb42",
-      "bytes": 40721
+      "sha256": "e37d304c3662147371734944cb56056ac2cc6d53572edf3e8f394fe4568bdbcb",
+      "bytes": 40750
     },
     "downloads/02_Работа_с_художницей.docx": {
       "sha256": "279520f17d5aaee0475df31f95cac9775ca10c556791eef0046e6859fb6722c4",
@@ -88,7 +88,8 @@
     "Yoshitaka Amano": "https://www.yoshitakaamanoinc.com/",
     "Final Fantasy": "https://jp.finalfantasy.com/titles/finalfantasy6/",
     "Ayami Kojima interview": "https://fullfrontal.moe/countess-of-castlevania-ayami-kojima/",
-    "Ayami Kojima self-taught profile": "https://www.creativeuncut.com/artist-profile-ayami-kojima.html"
+    "Ayami Kojima self-taught profile": "https://www.creativeuncut.com/artist-profile-ayami-kojima.html",
+    "Alfred · user-confirmed Bloodborne reference": "https://bloodborne.fandom.com/ru/wiki/Альфред,_охотник_на_Нечистокровных"
   },
   "artworkSelection": {
     "owner": "author",
@@ -113,5 +114,16 @@
       "Montante",
       "Goblin Boss Phase 2 addon"
     ]
+  },
+  "characterReferenceNotes": {
+    "alfred": {
+      "basis": "explicit user confirmation",
+      "url": "https://bloodborne.fandom.com/ru/wiki/Альфред,_охотник_на_Нечистокровных",
+      "pageContentVerification": "not claimed; browser fetch unavailable",
+      "projectFacts": [
+        "killed Red Riding Hood",
+        "grandfather of Joanna Darc III"
+      ]
+    }
   }
 }

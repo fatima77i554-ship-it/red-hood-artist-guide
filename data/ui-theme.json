@@ -1,0 +1,75 @@
+{
+  "theme": "Bloodborne-inspired archive",
+  "records": [
+    {
+      "id": "UI_ARCHIVE_CSS_ORNAMENT",
+      "category": "website_decoration",
+      "purpose": "Original geometric archive cover ornament inspired by the requested UI mood",
+      "source": {
+        "path": "bloodborne.css + guide.js/.archive-ornament",
+        "author": "Original CSS written in this project",
+        "referenceOnly": "https://interfaceingame.com/games/bloodborne/"
+      },
+      "slicing": {
+        "type": "none",
+        "reason": "CSS geometry; no image sheet or borrowed game texture"
+      },
+      "scale": {
+        "nativeBox": [
+          170,
+          250
+        ],
+        "mobileCssScale": 0.78
+      },
+      "pivot": {
+        "point": [
+          85,
+          125
+        ],
+        "space": "CSS box pixels",
+        "role": "transform origin"
+      },
+      "support": {
+        "type": "none",
+        "reason": "screen-space decoration"
+      },
+      "animation": {
+        "type": "none",
+        "states": [
+          "static"
+        ]
+      },
+      "collision": {
+        "type": "none"
+      },
+      "hitbox": {
+        "type": "none"
+      },
+      "vfx": {
+        "type": "static CSS gradients and shadows",
+        "bindings": []
+      },
+      "placement": {
+        "surfaces": [
+          "website cover"
+        ],
+        "layers": [
+          "decorative background"
+        ],
+        "neighbors": [
+          "cover text"
+        ],
+        "restrictions": [
+          "No level or game build placement",
+          "aria-hidden=true"
+        ]
+      },
+      "validation": {
+        "status": "verified_for_website",
+        "renderedDesktop": true,
+        "renderedMobile": true,
+        "gameBuildAdmission": false
+      }
+    }
+  ]
+}

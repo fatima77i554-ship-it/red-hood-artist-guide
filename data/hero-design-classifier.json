@@ -1,0 +1,160 @@
+{
+  "version": 1,
+  "scope": "website illustrations only",
+  "assets": [
+    {
+      "id": "UI_CLAUDE_HERO_GALLERY",
+      "category": "website_design_reference",
+      "source": {
+        "path": "/private/tmp/claude-501/-Users-fatimaauseva-Library-Application-Support-Claude-scratch-workspaces-bf8fdab0-aea1-4d61-99df-04af2afb1e30-a7b991bb-0ae1-4dd4-afe3-779b7072db38-scratch-2026-11-01-dec60f/3cd3f784-2363-4676-b66f-e1bf662be8fe/scratchpad/gal2/page1_frame00.png",
+        "sha256": "65e5a6e335cc7a54180ba93c537a8986d5c98d9d7a625d2582ecc99c74b6af3d",
+        "author": "Claude; source sprites Momodora"
+      },
+      "file": "images/design/claude-hero-gallery.png",
+      "label": "Галерея Claude: исходная Кахо слева, изменённая героиня справа",
+      "designStatus": "current_gallery_from_author_folder",
+      "slicing": {
+        "frameCount": 1,
+        "rectangle": [
+          0,
+          0,
+          1280,
+          960
+        ],
+        "policy": "entire original rendered image; unchanged bytes; no extraction from screenshot"
+      },
+      "scale": {
+        "native": [
+          1,
+          1
+        ],
+        "display": "responsive contain; aspect ratio preserved; full-resolution link"
+      },
+      "pivot": {
+        "point": [
+          0,
+          0
+        ],
+        "space": "document image top-left; not game pivot"
+      },
+      "support": {
+        "type": "none",
+        "scope": "document illustration only"
+      },
+      "animation": {
+        "type": "none",
+        "scope": "this fixed reference image; original animations not declared absent"
+      },
+      "collision": {
+        "type": "none",
+        "scope": "website only"
+      },
+      "hitbox": {
+        "type": "none",
+        "scope": "website only"
+      },
+      "vfx": {
+        "type": "none",
+        "scope": "no additional website effects; depicted game effects remain source content"
+      },
+      "placement": {
+        "surfaces": [
+          "website document"
+        ],
+        "layers": [
+          "design reference figure"
+        ],
+        "neighbors": [
+          "description",
+          "source captions"
+        ],
+        "restrictions": [
+          "No game admission",
+          "Do not crop or infer frame slicing from rendered reference"
+        ]
+      },
+      "validation": {
+        "status": "verified_for_static_website_reference",
+        "sourceImageInspected": true,
+        "gameBuildAdmission": false
+      }
+    },
+    {
+      "id": "UI_CLAUDE_BLOOD_STUDY",
+      "category": "website_design_reference",
+      "source": {
+        "path": "/private/tmp/claude-501/-Users-fatimaauseva-Library-Application-Support-Claude-scratch-workspaces-bf8fdab0-aea1-4d61-99df-04af2afb1e30-a7b991bb-0ae1-4dd4-afe3-779b7072db38-scratch-2026-11-01-dec60f/3cd3f784-2363-4676-b66f-e1bf662be8fe/scratchpad/nl_gloss.png",
+        "sha256": "b8911d86334061646337c53aa65269c0de52e440b9ef559f1550f6a453a888fb",
+        "author": "Claude; source sprites Momodora"
+      },
+      "file": "images/design/claude-blood-study.png",
+      "label": "Вверху — прежний эффект; внизу — выбранное автором направление магии крови",
+      "designStatus": "blood_magic_direction_confirmed_by_author",
+      "slicing": {
+        "frameCount": 1,
+        "rectangle": [
+          0,
+          0,
+          2056,
+          640
+        ],
+        "policy": "entire original rendered image; unchanged bytes; no extraction from screenshot"
+      },
+      "scale": {
+        "native": [
+          1,
+          1
+        ],
+        "display": "responsive contain; aspect ratio preserved; full-resolution link"
+      },
+      "pivot": {
+        "point": [
+          0,
+          0
+        ],
+        "space": "document image top-left; not game pivot"
+      },
+      "support": {
+        "type": "none",
+        "scope": "document illustration only"
+      },
+      "animation": {
+        "type": "none",
+        "scope": "this fixed reference image; original animations not declared absent"
+      },
+      "collision": {
+        "type": "none",
+        "scope": "website only"
+      },
+      "hitbox": {
+        "type": "none",
+        "scope": "website only"
+      },
+      "vfx": {
+        "type": "none",
+        "scope": "no additional website effects; depicted game effects remain source content"
+      },
+      "placement": {
+        "surfaces": [
+          "website document"
+        ],
+        "layers": [
+          "design reference figure"
+        ],
+        "neighbors": [
+          "description",
+          "source captions"
+        ],
+        "restrictions": [
+          "No game admission",
+          "Do not crop or infer frame slicing from rendered reference"
+        ]
+      },
+      "validation": {
+        "status": "verified_for_static_website_reference",
+        "sourceImageInspected": true,
+        "gameBuildAdmission": false
+      }
+    }
+  ]
+}

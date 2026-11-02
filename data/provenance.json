@@ -82,6 +82,30 @@
     "data/owned-preview-classifier.json": {
       "sha256": "cce76acc65afcc80ed110b57209e495b0c8258ae09ae88acf4fafe6c3a47d6c1",
       "bytes": 71022
+    },
+    "images/design/claude-blood-study.png": {
+      "sha256": "b8911d86334061646337c53aa65269c0de52e440b9ef559f1550f6a453a888fb",
+      "bytes": 28356
+    },
+    "images/design/claude-hero-gallery.png": {
+      "sha256": "65e5a6e335cc7a54180ba93c537a8986d5c98d9d7a625d2582ecc99c74b6af3d",
+      "bytes": 91867
+    },
+    "bloodborne.css": {
+      "sha256": "f60425073046a4cb3361948c3389bb8e84a119004f12eb540cd40af89912fb28",
+      "bytes": 12303
+    },
+    "data/ui-theme.json": {
+      "sha256": "227ce3b4f8a894e45caa58eb238c482e739cc2def225e9658098284a2ccf373d",
+      "bytes": 1769
+    },
+    "data/hero-design-classifier.json": {
+      "sha256": "ad22431fe70225de1c0afa2ae4fcf5b926f269aa3df8dc1bccee90a016533f14",
+      "bytes": 4983
+    },
+    "data/ui-assets.json": {
+      "sha256": "93f60222a8bd9ad6b24a0bae512bd963a98e5d2d394395a0210548074da8282a",
+      "bytes": 2091
     }
   },
   "referenceSources": {
@@ -125,5 +149,30 @@
         "grandfather of Joanna Darc III"
       ]
     }
+  },
+  "uiTheme": {
+    "name": "Bloodborne-inspired archive",
+    "implementation": "bloodborne.css",
+    "externalFonts": false,
+    "borrowedGameTextures": false,
+    "references": [
+      "https://interfaceingame.com/games/bloodborne/"
+    ],
+    "decorativeClassifier": "data/ui-theme.json"
+  },
+  "heroDesign": {
+    "source": "Author-supplied Claude scratchpad path",
+    "classifier": "data/hero-design-classifier.json",
+    "imagesUnchanged": true,
+    "confirmedByAuthor": [
+      "hand rots and withers; miasmas",
+      "heroine is almost a reanimated corpse",
+      "dark scarlet glossy blood magic with drips and splashes"
+    ],
+    "openQuestions": [
+      "anatomical side and extent of hand decay",
+      "apparent age, eye color, hair length",
+      "garment construction and accessories"
+    ]
   }
 }

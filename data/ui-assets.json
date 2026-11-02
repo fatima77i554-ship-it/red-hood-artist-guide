@@ -76,7 +76,7 @@
       1,
       1
     ],
-    "display": "270px square;240px at <=1000px;220px at <=700px;object-fit:contain;pixelated",
+    "display": "142px card portrait; 160px detail portrait; full 48x48 source canvas, contain, pixelated. Removed from cover.",
     "gameBuildAdmission": false
   }
 }

@@ -204,8 +204,8 @@
       "bytes": 53525
     },
     "data.js": {
-      "sha256": "f139221b71ddd705ee573ed2f15a5c6d8fc6ae0efa841b87899a5b5e21c7f98c",
-      "bytes": 350750
+      "sha256": "4479e442a767ad35b9793691d86b64ab7541599b3d09e9e43fc51fcf5d311236",
+      "bytes": 353097
     },
     "README.txt": {
       "sha256": "9a54feda9da494ae2a7e2993c2b7fcf02b4b563e2d00e7e23b579d5dfeb31e5f",
@@ -216,8 +216,8 @@
       "bytes": 53404
     },
     "downloads/03_Короткие_ТЗ_для_художницы.txt": {
-      "sha256": "bf92cb9c7124ff3faf236b8657027da8db87b510f6bc14801c20bcd166c7a0d5",
-      "bytes": 21248
+      "sha256": "c5488be074409ef27ad2a8021c426c2596ae285980b9f79bf2decaed02c99050",
+      "bytes": 22985
     }
   },
   "referenceSources": {
@@ -400,6 +400,7 @@
     "gameBuildAdmission": false,
     "styleReference": "Bloodborne palette, architecture, lighting and atmosphere",
     "exactRecolorPaletteBy": "Claude",
-    "sourceBitmapsUnchanged": true
+    "sourceBitmapsUnchanged": true,
+    "authorChestEmphasis": "author clarified attention/clickthrough appeal for game cover, video thumbnails and promotional images; adult character art request"
   }
 }

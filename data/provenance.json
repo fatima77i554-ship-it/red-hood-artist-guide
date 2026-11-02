@@ -1,6 +1,6 @@
 {
   "edition": "2026-11-02",
-  "sources": "User-confirmed plot and characters; Otsoga source pages identified; local character assets unverified and blocked; reviewed Word documents; unchanged fixed Kaho image",
+  "sources": "User-owned local Otsoga resources; 63 selected original PNG frames, source Aseprite timings and all-frame visual review; gameplay admission remains blocked",
   "files": {
     "images/kaho-reference.png": {
       "sha256": "baa42af4218a60e49434d58c30fd42481fd0d2a9e800d72faefa6a0d26a36e40",
@@ -12,12 +12,76 @@
       "classifierId": "UI_REFERENCE_KAHO_FRAME0"
     },
     "downloads/01_Замысел_и_сюжет.docx": {
-      "sha256": "ef886b6b08deb469eef8193383827223fb6ffe2701836c2f27b2447f47e3507c",
-      "bytes": 40644
+      "sha256": "28374ee63163fcb00d950efc51b96e0db739482bb6b1fbbd445e1522ca94bb42",
+      "bytes": 40721
     },
     "downloads/02_Работа_с_художницей.docx": {
       "sha256": "279520f17d5aaee0475df31f95cac9775ca10c556791eef0046e6859fb6722c4",
       "bytes": 39647
+    },
+    "images/owned/ui_owned_fairy-idle-review.png": {
+      "sha256": "1a2baf426aad910d533a427b86a6abe29350bd46ca9d5c75d09219fa8b006515",
+      "bytes": 28236
+    },
+    "images/owned/ui_owned_fairy-idle.png": {
+      "sha256": "38b3d3d539ec45f2db5843242ef8d15e29692e2527be139abc1383e8ad77da65",
+      "bytes": 14026
+    },
+    "images/owned/ui_owned_fairy-poster.png": {
+      "sha256": "80427166fe266dddb88bbfe6cb2c4f8c50c9a0f84eaecaedf2a9c1f3c971cf19",
+      "bytes": 3228
+    },
+    "images/owned/ui_owned_fairy-walk-review.png": {
+      "sha256": "f1f99240e8b99ef67cf7d8dda60f435fcc52b6dfb384b14d7d57c5a1e6547915",
+      "bytes": 18250
+    },
+    "images/owned/ui_owned_fairy-walk.png": {
+      "sha256": "ca8ecdbfbd2dfa781cc200f34c2092689aa82462bb45ce1baa3e431d4959b154",
+      "bytes": 10585
+    },
+    "images/owned/ui_owned_joanna-idle-review.png": {
+      "sha256": "08eec063f2484285bcc863ad220a143903b40fd04ee2e391b951e4059fb90ec6",
+      "bytes": 7524
+    },
+    "images/owned/ui_owned_joanna-idle.png": {
+      "sha256": "59a066eb8ca34231f8c02a77276a5a20b09acaea393e1bfbc4d4a28bd298b12b",
+      "bytes": 3430
+    },
+    "images/owned/ui_owned_joanna-poster.png": {
+      "sha256": "ae4b1923a3c3e29b83dc1136f2ea8681267b0930139957d0e385b36f15a69e33",
+      "bytes": 1212
+    },
+    "images/owned/ui_owned_joanna-walk-review.png": {
+      "sha256": "352ddacfa8da0de5117635d4044128c3700596fb9cfad99a2e225f78e9d9887e",
+      "bytes": 23621
+    },
+    "images/owned/ui_owned_joanna-walk.png": {
+      "sha256": "ba19df38859c5da04a4b5e4d51ca54249b0167d4ea73413b501c019c5fb12c66",
+      "bytes": 8546
+    },
+    "images/owned/ui_owned_priestess-battle-review.png": {
+      "sha256": "49e2910b527443bef6d6575342c5cc202436976d4c8f526c21bbdba7cd84edcf",
+      "bytes": 15598
+    },
+    "images/owned/ui_owned_priestess-battle.png": {
+      "sha256": "1f2fc79477f8e13a135528651a40a611ba4af69a4f8bc08c755fca4f0b9950db",
+      "bytes": 6302
+    },
+    "images/owned/ui_owned_priestess-idle-review.png": {
+      "sha256": "bf30a57ee09e7593213307614c0e49c68d3eb1eff8661c906717e721a919e8fe",
+      "bytes": 24566
+    },
+    "images/owned/ui_owned_priestess-idle.png": {
+      "sha256": "db67cc3c3754fe7eccb1c8cddf4348716822c4fe76fa7f3e67eff068bb133cd0",
+      "bytes": 12523
+    },
+    "images/owned/ui_owned_priestess-poster.png": {
+      "sha256": "3c6391809265528e12c26a10962c759a1dc30af67226d35a9c8b6a37db4b05d0",
+      "bytes": 2111
+    },
+    "data/owned-preview-classifier.json": {
+      "sha256": "cce76acc65afcc80ed110b57209e495b0c8258ae09ae88acf4fafe6c3a47d6c1",
+      "bytes": 71022
     }
   },
   "referenceSources": {
@@ -37,5 +101,17 @@
     "Survivor protector": "https://otsoga.itch.io/montante",
     "Grove fairy": "https://otsoga.itch.io/goblin-boss-phase-2",
     "Holy priestess": "https://otsoga.itch.io/eleonore-addon1"
+  },
+  "ownedPreviewSummary": {
+    "characters": 3,
+    "clips": 6,
+    "frames": 63,
+    "originalFilesChanged": false,
+    "gameBuildAdmission": false,
+    "missingInCheckedFolders": [
+      "Witch Hunter / Gunner",
+      "Montante",
+      "Goblin Boss Phase 2 addon"
+    ]
   }
 }

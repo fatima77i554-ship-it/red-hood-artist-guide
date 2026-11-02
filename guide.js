@@ -4,7 +4,7 @@
   const entries = data.entries;
   const sections = [
     ['overview','Обзор'],['story','Мир и сюжет'],['characters','Персонажи'],['enemies','Бестиарий'],
-    ['world','Локации и системы'],['maps','Карта и биомы'],['art','Визуальные ориентиры'],['assets','Классификатор'],
+    ['world','Локации и системы'],['backgrounds','Фоны'],['maps','Карта и биомы'],['art','Визуальные ориентиры'],['assets','Классификатор'],
     ['tasks','Задания художнице'],['documents','Документы'],['references','Референсы']
   ];
   const descriptions = {
@@ -12,6 +12,7 @@
     characters:'Что известно о героях и какие решения ещё предстоит принять для их визуальных образов.',
     enemies:'Текущий список базовых врагов и связанных ресурсов. Список будет пополняться; роль цветка пока не выбрана.',
     world:'Начальная ситуация и точка сохранения. Состав мира постепенно уточняется автором.',
+    backgrounds:'ТЗ художнице, исходные слои Momodora и нужное наполнение наших локаций. Общая палитра и стиль — Bloodborne.',
     maps:'Подписанный грейбокс и биомы исходной Momodora: основа для обсуждения и переработки карты нашей игры.',
     art:'Собственная манера художницы и референсы для вдохновения. Конкретные арты подбирает автор.',
     assets:'Каждый используемый игровой ресурс проходит классификацию, галерею проверки и эталонный участок.',
@@ -28,6 +29,8 @@
   let active = 'overview';
   let query = '';
   let filter = 'all';
+  let backgroundLocation = 'all';
+  let backgroundType = 'scene';
   const find = id => entries.find(e=>e.id===id);
   const owned = e => [...(data.ownedPreviews||[]),...(data.enemyPreviews||[])].find(p=>p.id===e.meta?.previewRef);
   const fixed = e => (data.staticPreviews||[]).find(p=>p.id===e.meta?.previewRef);
@@ -35,14 +38,22 @@
   const name = id => sections.find(s=>s[0]===id)?.[1] || '';
   let localDesigns = {};
   const localDesign = e => localDesigns[e.meta?.designRef || e.id];
+  const backgroundRef = id => (data.backgroundReferences||[]).find(b=>b.id===id);
+  const backgroundProfile = id => (data.parallaxReferences||[]).find(p=>p.id===id);
+  const locationBrief = id => (data.locationBriefs||[]).find(l=>l.id===id);
+  function backgroundPoster(e) {
+    const profile=backgroundProfile(e.meta?.backgroundProfile);
+    const b=backgroundRef(e.meta?.backgroundId)||(profile?backgroundRef(profile.backgroundIds.find(id=>id!=='BG08')||profile.backgroundIds[0]):null);
+    return b?{title:b.title,poster:b.file}:null;
+  }
 
   function badge(e) {
     const label=e.kind==='asset'?'Кандидат · допуск закрыт':labels[e.status]||e.status;
     return `<span class="tag ${e.status==='confirmed'?'green':e.status==='guide'?'cyan':'gold'}">${esc(label)}</span>`;
   }
   function card(e) {
-    const design=localDesign(e),preview=design||owned(e)||fixed(e);
-    const art=preview?`<img class="owned-portrait ${design?'claude-card-portrait':''}" src="${esc(preview.poster)}" alt="${esc(preview.title)}" loading="lazy">${design?`<span class="design-ribbon">${esc(design.status)}</span>`:''}`:`<span class="initial" aria-hidden="true">${esc(e.title[0])}</span>`;
+    const design=localDesign(e),background=backgroundPoster(e),preview=design||background||owned(e)||fixed(e);
+    const art=preview?`<img class="owned-portrait ${design?'claude-card-portrait':''} ${background?'background-portrait':''}" src="${esc(preview.poster)}" alt="${esc(preview.title)}" loading="lazy">${design?`<span class="design-ribbon">${esc(design.status)}</span>`:background?'<span class="design-ribbon">Исходный референс Momodora</span>':''}`:`<span class="initial" aria-hidden="true">${esc(e.title[0])}</span>`;
     const kicker=e.kind==='task'?`Задание · ${e.meta?.assignee||'Не назначено'}`:name(e.section);
     return `<button class="card interactive guide-card" data-entry="${esc(e.id)}"><div class="card-art">${art}</div><div class="card-kicker">${esc(kicker)}</div><h3>${esc(e.title)}</h3><p>${esc(e.body.slice(0,152))}${e.body.length>152?'…':''}</p><div class="card-bottom">${badge(e)}<span class="arrow" aria-hidden="true">↗</span></div></button>`;
   }
@@ -66,7 +77,34 @@
     return `<section class="maps-intro" aria-label="Карта для художницы"><div class="guide-note"><strong>Исходная геометрия для переработки</strong><p>Здесь карта Momodora: 241 комната, 454 клетки и 9 биомов, а также два отдельных перехода. Это рабочая основа для нашей игры. География и названия мира Красной Шапочки ещё не утверждены. Исходные сейвы не заменены автоматически на статуи Богоматери.</p></div><div class="inline-actions maps-actions"><a class="button-link primary" href="${atlas}" target="_blank" rel="noopener noreferrer">Открыть атлас на весь экран ↗</a><a class="button-link quiet" href="maps/momodora/index.html?artist=1#map/BIOME_01/ROOM45" target="_blank" rel="noopener noreferrer">Пример с платформами · ROOM045 ↗</a></div><div class="guide-checks maps-help"><article><span class="step-number">01</span><h3>Выбрать место</h3><p>Нажмите биом или комнату. «Весь мир», «Биом» и «Комната» меняют масштаб; рамка и номер ROOM показывают выбранный участок.</p></article><article><span class="step-number">02</span><h3>Понять геометрию</h3><p>Цветной грейбокс и подписи включены. Под кадром комнаты перечислены проверенные стены, опоры и механизмы с пояснениями и паспортами.</p></article><article><span class="step-number">03</span><h3>Посмотреть движение</h3><p>«Пауза», «Сначала» и «Траектории» помогают разобрать пути. Запуск лифтов и моста демонстрационный; игрок и игровые флаги не симулируются.</p></article></div></section><section class="maps-viewer" aria-labelledby="maps-viewer-title"><div class="section-row"><h2 id="maps-viewer-title">Грейбокс · что есть что</h2><a class="quiet" href="maps/momodora/README.txt" target="_blank" rel="noopener noreferrer">Инструкция атласа ↗</a></div><iframe id="biome-map-frame" title="Карта и биомы Momodora: подписанный грейбокс и движение механизмов" src="${atlas}" loading="eager" allow="fullscreen" allowfullscreen sandbox="allow-scripts allow-same-origin allow-popups allow-downloads"></iframe></section><details class="map-source-limits"><summary>Границы исследования и непроверенные места</summary><p>Сейвы показаны в исходных местах: 23 SavePoint и отдельно BrokenSavePoint; доступность зависит от условий. Это не готовые точки сохранения Красной Шапочки.</p><p>Стылая Сиэль (Frore Ciele) и ROOM56 требуют native scr_world_swap(16) и VFX: их полный вид пока не восстановлен. ROOM151 pad103117 остаётся blocked.</p><p>ROOM262 / anchor105818: raw anchor [112,224], source effective pivot [120,240] и repair [136,208] хранятся раздельно. Непроверенные кандидаты не получают коллизии или игровой допуск.</p><p>Внутри атласа сохранены исходные классификаторы, галереи, условия и отчёты проверок. <a href="maps/momodora/FILE-MANIFEST.json" target="_blank" rel="noopener noreferrer">Манифест поставки ↗</a></p></details>`;
   }
   function biomeNamesMarkup() {
+    if(data.workingLocations?.length)return `<section class="biome-names"><div class="section-row"><h2>Рабочие названия нашего мира</h2><span class="tag gold">Пока используем этот набор</span></div><p>Девять названий приняты автором как рабочие. Исходные ID биомов и ROOM сохраняются; ниже — карта Momodora для переработки.</p><div class="biome-table-wrap"><table><thead><tr><th>ID</th><th>Наше рабочее название</th><th>Исходный биом</th></tr></thead><tbody>${data.workingLocations.filter(l=>l.id.startsWith('BIOME_')).map(l=>`<tr><td>${esc(l.id)}</td><td>${esc(l.name)}</td><td>${esc(l.sourceName)}</td></tr>`).join('')}</tbody></table></div><div class="inline-actions"><a class="button-link primary" href="#backgrounds">Фоны и короткие ТЗ на локации →</a></div></section>`;
     return `<section class="biome-names"><div class="section-row"><h2>Сказка и путь через смерть</h2><span class="tag gold">Новая подборка · не утверждена</span></div><p>В основе — конкретные образы Гримм, путь через загробный мир у Данте и осаждённый город из «Царства небесного». Обращение к Корану остаётся бережным и косвенным: граница, ожидание, надежда на милость.</p><p>Для каждого биома предложены два названия. Это рабочие образы для согласования. ROOM и ID биомов сохраняются; в исходном атласе ниже пока стоят названия Momodora.</p><div class="biome-table-wrap"><table><thead><tr><th>Исходный биом</th><th>Основной вариант</th><th>Альтернатива</th></tr></thead><tbody>${(data.biomeNameProposals||[]).map(b=>`<tr><td><small>${esc(b.id)}</small>${esc(b.sourceName)}</td><td><strong>${esc(b.options[0])}</strong><span class="biome-name-reason">${esc(b.reason||'')}</span></td><td>${esc(b.options[1])}</td></tr>`).join('')}</tbody></table></div><details class="biome-inspiration"><summary>Источники и принципы адаптации</summary>${(data.biomeNameSources||[]).map(s=>`<article><h3>${esc(s.title)}</h3><p>${esc(s.theme)}</p><a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">Открыть источник ↗</a></article>`).join('')}<p><a href="https://quran.com/39/53" target="_blank" rel="noopener noreferrer">Коран · 39:53 ↗</a></p></details><p class="source-line">Переходы и двор назовём после выбора основных мест. Названия не утверждают новые события, архитектуру или расположение боссов.</p></section>`;
+  }
+  const briefDownload = '<a class="button-link quiet" href="downloads/03_Короткие_ТЗ_для_художницы.txt" download>Скачать все короткие ТЗ · TXT ↧</a>';
+  function characterBriefIntro() {
+    return `<div class="guide-note"><strong>Для художницы · концепт персонажа в полный рост</strong><p>${esc(data.artistBriefDirection.characterOutput)}</p><p>Короткое ТЗ есть в каждой карточке, рядом с текущим ресурсом. Неутверждённые детали помечены отдельно; новые рисунки ещё не выполнены.</p><div class="inline-actions">${briefDownload}</div></div>`;
+  }
+  function artistBriefMarkup(e) {
+    const b=e.meta?.artistBrief;if(!b)return '';
+    return `<section class="artist-short-brief"><div class="eyebrow">ТЗ ХУДОЖНИЦЕ · ПОЛНЫЙ РОСТ</div><p>${esc(b.task)}</p><details><summary>Формат результата и что уточнить</summary><p>${esc(data.artistBriefDirection.characterOutput)}</p><p><strong>Уточнить:</strong> ${esc(b.open)}</p></details></section>`;
+  }
+  function locationBriefMarkup(l) {
+    if(!l)return '';
+    return `<section class="artist-short-brief location-short-brief"><div class="eyebrow">КОНЦЕПТ ЛОКАЦИИ · ЧЕРНОВИК ТЗ</div><h3>${esc(l.name)}</h3><p>${esc(l.task)}</p><p class="brief-open"><strong>Уточнить:</strong> ${esc(l.open)}</p><div class="inline-actions"><a class="button-link quiet" href="${esc(l.mapUrl)}" target="_blank" rel="noopener">Исходная комната ROOM${l.exampleRoom} ↗</a></div>${l.backgroundIds.length?`<div class="background-strip">${l.backgroundIds.map(id=>{const b=backgroundRef(id);return `<button data-entry="background-${id.toLowerCase()}" class="background-layer-chip"><img src="${esc(b.file)}" alt="${esc(id)} — ${esc(b.title)}" loading="lazy"><span>${esc(id)} · ${esc(b.title)}</span></button>`;}).join('')}</div>`:'<p class="source-line">Отдельный проверенный BG для этого биома не найден. Смотрим исходную комнату; новый фон пока только в ТЗ.</p>'}</section>`;
+  }
+  function backgroundsIntro() {
+    const a=data.artistBriefDirection;
+    return `<div class="guide-note"><strong>Общий ориентир фонов — Bloodborne</strong><p>${esc(a.bloodborne)}</p><p>${esc(a.readability)}</p><details class="brief-output"><summary>Что сдаёт художница</summary><p>${esc(a.locationOutput)}</p><p>${esc(a.backgroundOutput)}</p><p>Это задания на рисунки. Новые игровые ресурсы затем проходят классификатор, галерею и отдельный допуск.</p></details><div class="inline-actions"><a class="button-link quiet" href="${esc(a.source)}" target="_blank" rel="noopener">Bloodborne · официальный ориентир ↗</a>${briefDownload}</div></div><div class="background-filters"><label>Локация<select id="background-location"><option value="all">Все локации</option>${data.locationBriefs.map(l=>`<option value="${esc(l.id)}">${esc(l.name)}</option>`).join('')}</select></label><label>Референсы<select id="background-type"><option value="scene">Наборы слоёв · 9</option><option value="layer">Отдельные исходные слои · 15</option><option value="all">Все референсы</option></select></label></div><div id="background-context"></div><p class="source-line">9 сочетаний слоёв из 5 прослеженных моделей параллакса, 15 исходных битмапов. Цветные подложки, прозрачность и эффекты в игре зависят от рендера; здесь точные слои целиком. Полный зимний world_swap/VFX ещё не восстановлен. Коэффициенты нового параллакса не назначены.</p>`;
+  }
+  function renderBackgroundContext() {
+    const el=document.querySelector('#background-context');if(!el)return;
+    if(backgroundLocation==='all')el.innerHTML=`<div class="location-brief-index">${data.locationBriefs.map(l=>`<button class="chip" data-location-choice="${esc(l.id)}">${esc(l.name)} · ТЗ →</button>`).join('')}</div>`;
+    else el.innerHTML=locationBriefMarkup(locationBrief(backgroundLocation));
+  }
+  function backgroundMarkup(e) {
+    const p=backgroundProfile(e.meta?.backgroundProfile),single=backgroundRef(e.meta?.backgroundId),ids=p?p.backgroundIds:single?[single.id]:[];
+    if(!ids.length)return '';
+    return `<section class="background-reference-view"><p class="source-line">Исходные слои Momodora — референс композиции и глубины. Новые цвет, свет и стиль — по Bloodborne. Изображения ниже сохранены целиком.</p>${p?`<p class="source-line">${esc(p.model)} · ${p.rooms.length} исходных ROOM · ${esc(ids.join(' + '))}. Это сочетание исходных слоёв; движение камеры на этой странице не воспроизводится.</p><div class="inline-actions"><a href="${esc(p.mapUrl)}" class="button-link quiet" target="_blank" rel="noopener">Посмотреть исходную комнату ↗</a></div>`:''}<div class="background-layer-gallery">${ids.map(id=>{const b=backgroundRef(id);return `<figure><figcaption>${esc(b.id)} · ${esc(b.title)} · ${b.size[0]}×${b.size[1]} px</figcaption><a href="${esc(b.file)}" target="_blank" rel="noopener"><img src="${esc(b.file)}" alt="${esc(b.id)} — полный исходный слой ${esc(b.title)}"></a>${p?`<button class="chip" data-entry="background-${id.toLowerCase()}">Короткое ТЗ на этот слой →</button>`:''}</figure>`;}).join('')}</div><details class="background-contract"><summary>Разметка и ограничения референса</summary><p>Один статичный кадр каждого битмапа, полный холст; масштаб источника 1:1, pivot (0,0), физических опор, коллизий и хитбоксов у фоновой картинки нет. Веб-просмотр без дополнительных VFX. Параллакс — отдельное движение слоёв камерой, не покадровая анимация картинки.</p><p>Новые размеры, повторы, pivot и привязки к камере, эффекты и коэффициенты требуют проверки после отрисовки. <a href="data/background-reference-classifier.json" target="_blank" rel="noopener">Классификатор 15 референсов ↗</a></p></details><div class="inline-actions">${(e.meta?.biomes||[]).map(id=>{const l=locationBrief(id);return l?`<button class="chip" data-entry="${esc(l.briefEntry)}">Нужно для ${esc(l.name)} →</button>`:'';}).join('')}</div></section>`;
   }
   function localDesignMarkup(d) {
     const frames=d.frames||[];
@@ -101,11 +139,14 @@
     let html=active==='overview'?overview():`<div class="page-head"><div><div class="eyebrow">СПРАВОЧНИК / ${active==='assets'?'ДОПУСК РЕСУРСОВ':'МАТЕРИАЛЫ ДЛЯ СОГЛАСОВАНИЯ'}</div><h1>${esc(name(active))}</h1><p class="intro">${descriptions[active]}</p></div></div>`;
     if(active==='story')html+='<div class="guide-note"><strong>Авторский сюжетный спойлер</strong><p>Героиня — монстр в кошмаре. Альфред убил её, Разиель воскресил. Она просыпается без памяти. Порядок раскрытия этих тайн игроку ещё не определён.</p></div>';
     if(active==='art')html+=artIntro();
+    if(active==='characters'||active==='enemies')html+=characterBriefIntro();
+    if(active==='world')html+=`<div class="guide-note"><strong>Короткие ТЗ на концепты локаций</strong><p>${esc(data.artistBriefDirection.locationOutput)} Общая палитра, архитектура и свет — Bloodborne. Подробности и исходные слои — в разделе «Фоны».</p><div class="inline-actions"><a class="button-link primary" href="#backgrounds">К фонам →</a>${briefDownload}</div></div>`;
+    if(active==='backgrounds')html+=backgroundsIntro();
     if(active==='maps')html+=biomeNamesMarkup()+mapsMarkup();
     if(active==='enemies')html+='<div class="guide-note"><strong>Первый список · 9 позиций</strong><p>Враги, выбранные автором на данный момент. Для четырёх наборов доступен покадровый просмотр, для цветка — фиксированный кадр. Сундук и картины ждут источников. Слабые охотники и заражённые мутанты учитываются отдельно от босса.</p></div><div class="inline-actions"><button class="chip" data-entry="enemy-hunter-weak">Слабые охотники →</button><button class="chip" data-entry="enemy-hunter-mutant">Заражённые мутанты →</button></div>';
     if(active==='assets')html+='<div class="asset-lock">Сначала классификатор и отрисованная галерея всех используемых кадров с коллизиями и опорами, затем эталонный участок. Неизвестное не считается отсутствующим.</div>';
-    if(active==='tasks')html+='<div class="guide-note"><strong>Первый конкретный вопрос — найти статую</strong><p>Подходящий ресурс уже есть у автора. Сначала идентифицируем точный файл, затем решаем, какая помощь художницы действительно нужна.</p></div>';
-    if(active==='documents')html+=downloads();
+    if(active==='tasks')html+=`<div class="guide-note"><strong>Короткие задания уже в карточках</strong><p>Персонажи — концепт в полный рост и детали; локации — общий концепт; фоны — исходные слои и нужное наполнение. Нерешённые детали остаются вопросами автору.</p><div class="inline-actions">${briefDownload}<a class="button-link quiet" href="#backgrounds">Фоны →</a></div></div>`;
+    if(active==='documents')html+=downloads()+`<div class="guide-note"><strong>Короткие ТЗ для художницы</strong><p>Персонажи, концепты локаций и отдельные слои фонов — одним текстовым файлом.</p>${briefDownload}</div>`;
     if(active==='references')html+='<div class="guide-note"><strong>Референс помогает обсуждать решение</strong><p>Автору нравится собственный стиль художницы. Примеры Амано и Кодзимы служат вдохновением; конкретные иллюстрации автор подберёт сама. Полный атлас Momodora передаётся отдельно.</p></div>';
     if(active!=='overview')html+=toolbar();
     html+=`<p class="source-line">${esc(data.source)} Редакция ${esc(data.edition)}.</p>`;
@@ -113,11 +154,19 @@
     document.querySelector('#status-filter').value=filter;
     document.querySelector('#search').addEventListener('input',event=>{query=event.target.value;renderResults();});
     document.querySelector('#status-filter').addEventListener('change',event=>{filter=event.target.value;renderResults();});
+    if(active==='backgrounds'){
+      document.querySelector('#background-location').value=backgroundLocation;
+      document.querySelector('#background-type').value=backgroundType;
+      document.querySelector('#background-location').addEventListener('change',event=>{backgroundLocation=event.target.value;renderBackgroundContext();renderResults();});
+      document.querySelector('#background-type').addEventListener('change',event=>{backgroundType=event.target.value;renderResults();});
+      renderBackgroundContext();
+    }
     renderResults();
   }
   function renderResults() {
     const text=query.trim().toLocaleLowerCase('ru');
-    let shown=entries.filter(e=>(active==='overview'||e.section===active)&&(filter==='all'||e.status===filter)&&`${e.title} ${e.body} ${e.meta?.assignee||''}`.toLocaleLowerCase('ru').includes(text));
+    let shown=entries.filter(e=>(active==='overview'||e.section===active)&&(filter==='all'||e.status===filter)&&`${e.title} ${e.body} ${e.meta?.assignee||''} ${e.meta?.artistBrief?.task||''} ${e.meta?.artistBrief?.open||''}`.toLocaleLowerCase('ru').includes(text));
+    if(active==='backgrounds')shown=shown.filter(e=>(backgroundType==='all'||e.meta?.backgroundType===backgroundType)&&(backgroundLocation==='all'||e.meta?.biomes?.includes(backgroundLocation)));
     if(active==='overview'&&!text&&filter==='all')shown=['artist-start','project'].map(find);
     document.querySelector('#results-title').textContent=text?'Результаты поиска':active==='overview'?'Краткие памятки':'Материалы раздела';
     document.querySelector('#result-count').textContent=`НАЙДЕНО: ${shown.length}`;
@@ -193,8 +242,8 @@
     const e=find(id);if(!e)return;
     stopPreview();const design=localDesign(e),preview=design?null:owned(e);
     document.querySelector('#dialog-caption').textContent=name(e.section)+' / МАТЕРИАЛ ПРОЕКТА';
-    const portrait=design?localDesignMarkup(design):e.id==='hero-design'?designMarkup():fixed(e)?fixedMarkup(fixed(e)):'';
-    let html=`<div class="eyebrow">${esc(name(e.section))}</div><h2 class="detail-title">${esc(e.title)}</h2><div class="detail-meta">${badge(e)}${e.kind==='task'?`<span class="small muted">Исполнитель: ${esc(e.meta?.assignee||'Не назначено')}</span>`:''}</div>${preview?previewMarkup(preview):portrait}<div class="article-body">${paragraphs(e.body)}</div>`;
+    const portrait=design?localDesignMarkup(design):e.section==='backgrounds'?backgroundMarkup(e):e.meta?.locationBrief?locationBriefMarkup(locationBrief(e.meta.locationBrief)):e.id==='hero-design'?designMarkup():fixed(e)?fixedMarkup(fixed(e)):'';
+    let html=`<div class="eyebrow">${esc(name(e.section))}</div><h2 class="detail-title">${esc(e.title)}</h2><div class="detail-meta">${badge(e)}${e.kind==='task'?`<span class="small muted">Исполнитель: ${esc(e.meta?.assignee||'Не назначено')}</span>`:''}</div>${artistBriefMarkup(e)}${e.section==='backgrounds'?`<section class="artist-short-brief"><div class="eyebrow">КОРОТКОЕ ТЗ НА ФОН</div>${paragraphs(e.body)}</section>`:''}${preview?previewMarkup(preview):portrait}${e.meta?.locationBrief||e.section==='backgrounds'?'':`<div class="article-body">${paragraphs(e.body)}</div>`}`;
     if(e.meta?.relatedEntry&&find(e.meta.relatedEntry))html+=`<div class="inline-actions"><button class="chip" data-entry="${esc(e.meta.relatedEntry)}">Связанный материал · ${esc(find(e.meta.relatedEntry).title)} →</button></div>`;
     if(e.kind==='asset')html+=classifier(e);
     if(e.meta?.sourceUrl && /^https:\/\//.test(e.meta.sourceUrl))html+=`<div class="inline-actions"><a class="button-link quiet" href="${esc(e.meta.sourceUrl)}" target="_blank" rel="noopener noreferrer">${esc(e.meta.sourceTitle||'Открыть источник')} ↗</a></div>`;
@@ -210,7 +259,7 @@
   function route() {
     const hash=location.hash.slice(1);active=sections.some(s=>s[0]===hash)?hash:'overview';query='';filter='all';if(detail.open)detail.close();renderMain();window.scrollTo(0,0);
   }
-  document.addEventListener('click',event=>{const button=event.target.closest('[data-entry]');if(button)openEntry(button.dataset.entry);});
+  document.addEventListener('click',event=>{const button=event.target.closest('[data-entry]');if(button)openEntry(button.dataset.entry);const location=event.target.closest('[data-location-choice]');if(location){backgroundLocation=location.dataset.locationChoice;document.querySelector('#background-location').value=backgroundLocation;renderBackgroundContext();renderResults();}});
   document.querySelector('.skip-link').addEventListener('click',event=>{event.preventDefault();main.focus({preventScroll:true});main.scrollIntoView({block:'start'});});
   document.querySelector('#close-dialog').addEventListener('click',()=>detail.close());
   detail.addEventListener('close',()=>stopPreview());

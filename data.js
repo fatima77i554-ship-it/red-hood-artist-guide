@@ -42,7 +42,13 @@ window.RED_HOOD_GUIDE = {
       "body": "Красная Шапочка — героиня без воспоминаний. Она монстр, на которого охотятся. Альфред уже однажды убил её; Разиель воскресил. В начале игры она просыпается в могиле.\n\nПроисходящее — кошмар. Героиня не совсем жива: она почти оживший труп. Одна рука гниёт и отсыхает, вокруг неё миазмы. Выбранный вид магии — тёмно-алая кровь с глянцем, потёками и брызгами. Осознание героиней собственной природы пока не определено.\n\nДизайн уже подготовлен Claude. Галерея и подробный разбор вынесены в связанный материал «Красная Шапочка — детали дизайна». Конструктивные и сюжетные детали, которые не читаются по спрайтам, уточняются у автора. Имя ещё согласуется.\n\nВнешность по уточнению автора: очень молодая, совершеннолетняя в рамках мира; глаза красные, губы алые. Костюм — кожаный корсет, красная накидка, длинные сапоги и пышные шорты «пуфы», напоминающие юбку. Дизайн ещё немного дорабатывается.\n\nПередача Claude от 02.11.2026: обновлены сапоги и гниющая кисть; есть временная белая кошка и одобренный дизайн гарпии «Пепельный лик». Гарпия в игру не встроена. Формы вынесены в визуальные материалы.",
       "meta": {
         "relatedEntry": "hero-design",
-        "designRef": "hero"
+        "designRef": "hero",
+        "artistBrief": {
+          "type": "full_body_character_concept",
+          "task": "Полный рост очень молодой совершеннолетней героини по текущему дизайну: красный капюшон, серебристые волосы, красные глаза, алые губы, кожаный корсет, пуфы и длинные сапоги. Отдельно показать лицо, гниющую руку с миазмами, лук и магию тёмно-алой крови.",
+          "open": "Мелкие доработки костюма согласовать; сторону и степень гниения брать с ассетов.",
+          "status": "draft_for_artist"
+        }
       }
     },
     {
@@ -59,7 +65,13 @@ window.RED_HOOD_GUIDE = {
         "sourceUrl": "https://otsoga.itch.io/night-lord",
         "sourceTitle": "Night Lord · исходный набор Разиэля",
         "relatedEntry": "asset-raziel",
-        "designStage": "claude_candidate_v2_not_author_approved"
+        "designStage": "claude_candidate_v2_not_author_approved",
+        "artistBrief": {
+          "type": "full_body_character_concept",
+          "task": "Полный рост по текущему варианту Night Lord / Разиэля от Claude. Показать лицо, одежду, кисти и детали экипировки; сохранить связь по цвету с героиней.",
+          "open": "Палитра Claude пока вариант; волчья форма и её детали отдельно не определены.",
+          "status": "draft_for_artist"
+        }
       }
     },
     {
@@ -227,7 +239,7 @@ window.RED_HOOD_GUIDE = {
       "kind": "page",
       "title": "Bloodborne",
       "status": "confirmed",
-      "body": "Автор выбрала мотив кошмара как нарративный ориентир.\n\nВ нашей игре Красная Шапочка — монстр, на которого охотятся. Альфред, человек и охотник на нечистокровных, уже убил её; Разиель воскресил.\n\nЭто зафиксированное описание нашего проекта. Устройство кошмара, его происхождение и исход пока открыты.\n\nПрямая персонажная отсылка: наш Альфред отсылает к Альфреду, охотнику на Нечистокровных из Bloodborne. Убийство Красной Шапочки и родство с Джоанной записаны как факты нашей истории.",
+      "body": "Автор выбрала мотив кошмара как нарративный ориентир.\n\nВ нашей игре Красная Шапочка — монстр, на которого охотятся. Альфред, человек и охотник на нечистокровных, уже убил её; Разиель воскресил.\n\nЭто зафиксированное описание нашего проекта. Устройство кошмара, его происхождение и исход пока открыты.\n\nПрямая персонажная отсылка: наш Альфред отсылает к Альфреду, охотнику на Нечистокровных из Bloodborne. Убийство Красной Шапочки и родство с Джоанной записаны как факты нашей истории.\n\nУточнение автора: Bloodborne — общий ориентир не только интерфейса и персонажей, но и цветовой гаммы, архитектуры, освещения и атмосферы фонов. В разделе «Фоны» это раскрыто в коротких заданиях. Конкретные оттенки для игровых перекрасок определяет Claude.",
       "meta": {
         "sourceUrl": "https://bloodborne.fandom.com/ru/wiki/Альфред,_охотник_на_Нечистокровных",
         "sourceTitle": "Альфред · указанный автором референс"
@@ -277,7 +289,13 @@ window.RED_HOOD_GUIDE = {
         "sourceTitle": "Референс Альфреда · Bloodborne Wiki",
         "referenceWork": "Bloodborne",
         "referenceCharacter": "Альфред, охотник на Нечистокровных",
-        "referenceBasis": "explicit_user_confirmation"
+        "referenceBasis": "explicit_user_confirmation",
+        "artistBrief": {
+          "type": "full_body_character_concept",
+          "task": "Полный рост охотника по закреплённому референсу Альфреда из Bloodborne. Отдельно показать лицо, костюм и оружие; сохранить цветовую связь с Джоанной.",
+          "open": "Отличия нашего образа от референса и окончательное оружие уточнить у автора.",
+          "status": "draft_for_artist"
+        }
       }
     },
     {
@@ -329,7 +347,13 @@ window.RED_HOOD_GUIDE = {
         "recolorDirection": "Closer to Alfred Bloodborne colors; exact palette chosen by Claude",
         "recolorAssignee": "Claude",
         "recolorTask": "task-character-recolor",
-        "designStage": "claude_candidate_v2_not_author_approved"
+        "designStage": "claude_candidate_v2_not_author_approved",
+        "artistBrief": {
+          "type": "full_body_character_concept",
+          "task": "Полный рост по исходнику Joanna и перекраске Claude v2. Показать лицо, доспех, крепления и оружие; по цветам она близка к Альфреду.",
+          "open": "Вариант палитры ещё согласуется; новые эмблемы и крой не назначены.",
+          "status": "draft_for_artist"
+        }
       }
     },
     {
@@ -417,7 +441,13 @@ window.RED_HOOD_GUIDE = {
         "relatedEntry": "asset-witch-hunter",
         "sourceUrl": "https://otsoga.itch.io/witch-hunter",
         "sourceTitle": "Источник · Otsoga на itch.io",
-        "role": "boss"
+        "role": "boss",
+        "artistBrief": {
+          "type": "full_body_character_concept",
+          "task": "Полный рост по набору Witch Hunter: костюм, лицо и вся экипировка должны читаться. Сделать выноски оружия, ремней и застёжек.",
+          "open": "Личный дизайн и локальные файлы ещё не сверены; использовать ссылку на набор как источник, не другого охотника.",
+          "status": "draft_for_artist"
+        }
       }
     },
     {
@@ -495,7 +525,13 @@ window.RED_HOOD_GUIDE = {
         "relatedEntry": "asset-survivor-protector",
         "sourceUrl": "https://otsoga.itch.io/montante",
         "sourceTitle": "Источник · Otsoga на itch.io",
-        "role": "boss"
+        "role": "boss",
+        "artistBrief": {
+          "type": "full_body_character_concept",
+          "task": "Полный рост защитника людей и детей по набору Montante. Показать доспех, лицо, оружие и детали крепления экипировки.",
+          "open": "Место встречи, включая кладбище, ещё не выбрано; дополнительные символы согласовать.",
+          "status": "draft_for_artist"
+        }
       }
     },
     {
@@ -578,7 +614,13 @@ window.RED_HOOD_GUIDE = {
         "recolorDirection": "Ugly blue fairy; exact palette chosen by Claude",
         "recolorAssignee": "Claude",
         "recolorTask": "task-character-recolor",
-        "designStage": "claude_candidate_v2_not_author_approved"
+        "designStage": "claude_candidate_v2_not_author_approved",
+        "artistBrief": {
+          "type": "full_body_character_concept",
+          "task": "Полный рост потухшей от миазмов уродливой голубой феи по варианту Claude. Сохранить существующий неприятный силуэт; отдельно показать лицо, кожу и детали экипировки.",
+          "open": "Найден базовый Bertha, не Phase 2. Крылья и новую анатомию не добавлять по догадке.",
+          "status": "draft_for_artist"
+        }
       }
     },
     {
@@ -672,7 +714,13 @@ window.RED_HOOD_GUIDE = {
         "recolorDirection": "White priestess robes; exact palette chosen by Claude",
         "recolorAssignee": "Claude",
         "recolorTask": "task-character-recolor",
-        "designStage": "claude_candidate_v2_not_author_approved"
+        "designStage": "claude_candidate_v2_not_author_approved",
+        "artistBrief": {
+          "type": "full_body_character_concept",
+          "task": "Полный рост жрицы заброшенного монастыря по Eleonore и белой перекраске Claude. Показать лицо, слои одеяния, отделку и предметы из выбранного исходника.",
+          "open": "Белое сохраняет складки и объём; украшения и статус босса не назначены, часть VFX ещё дорабатывается.",
+          "status": "draft_for_artist"
+        }
       }
     },
     {
@@ -795,7 +843,13 @@ window.RED_HOOD_GUIDE = {
         "source": "Claude scratchpad supplied by author; gal2/page1_frame00.png and nl_gloss.png",
         "approval": "Author confirmed eyes, lips, adulthood, leather corset, cape, long boots, hand decay and blood magic; costume still in refinement",
         "bloodMagic": "Confirmed by author: dark scarlet glossy blood with drips and splashes",
-        "designRef": "hero"
+        "designRef": "hero",
+        "artistBrief": {
+          "type": "full_body_character_concept",
+          "task": "Полный рост очень молодой совершеннолетней героини по текущему дизайну: красный капюшон, серебристые волосы, красные глаза, алые губы, кожаный корсет, пуфы и длинные сапоги. Отдельно показать лицо, гниющую руку с миазмами, лук и магию тёмно-алой крови.",
+          "open": "Мелкие доработки костюма согласовать; сторону и степень гниения брать с ассетов.",
+          "status": "draft_for_artist"
+        }
       }
     },
     {
@@ -819,7 +873,13 @@ window.RED_HOOD_GUIDE = {
       "body": "Сундук входит в текущий список базовых врагов. Это отдельный ресурс, не сундук из Momodora.\n\nАвтор добавит источник позже. Внешний вид, способ атаки и поведение пока не описаны; изображение не подменяем случайным сундуком.",
       "meta": {
         "relatedEntry": "asset-enemy-chest",
-        "role": "basic_enemy"
+        "role": "basic_enemy",
+        "artistBrief": {
+          "type": "full_body_character_concept",
+          "task": "Подготовить полный вид сундука-врага после получения нужного исходника от автора. Показать конструкцию и характерные опасные детали.",
+          "open": "Источник ожидается; это не сундук Momodora. До выбора источника дизайн не назначать.",
+          "status": "draft_for_artist"
+        }
       }
     },
     {
@@ -892,7 +952,13 @@ window.RED_HOOD_GUIDE = {
       "body": "Картины входят в текущий список базовых врагов. Это отдельные ресурсы, не атакующие картины из Momodora.\n\nАвтор добавит источник позже. Количество разновидностей, внешний вид и поведение пока не заданы.",
       "meta": {
         "relatedEntry": "asset-enemy-paintings",
-        "role": "basic_enemy"
+        "role": "basic_enemy",
+        "artistBrief": {
+          "type": "full_body_character_concept",
+          "task": "Подготовить полный вид картины-врага по исходнику, который выберет автор; показать полотно и раму.",
+          "open": "Источник ожидается; картины Momodora не подставлять. Вид атаки и скрытая форма не утверждены.",
+          "status": "draft_for_artist"
+        }
       }
     },
     {
@@ -968,7 +1034,13 @@ window.RED_HOOD_GUIDE = {
         "role": "basic_enemy",
         "sourceUrl": "https://otsoga.itch.io/phantom",
         "sourceTitle": "Страница исходного набора Otsoga",
-        "previewRef": "UI_ENEMY_PHANTOM"
+        "previewRef": "UI_ENEMY_PHANTOM",
+        "artistBrief": {
+          "type": "full_body_character_concept",
+          "task": "Полный вид Фантома по текущему купленному набору. Выделить лицо, края силуэта и детали, которые должны сохраниться в рисунке.",
+          "open": "Степень переработки и финальную палитру согласовать; цвета для игровых ассетов выбирает Claude.",
+          "status": "draft_for_artist"
+        }
       }
     },
     {
@@ -1053,7 +1125,13 @@ window.RED_HOOD_GUIDE = {
         "role": "basic_enemy",
         "sourceUrl": "https://otsoga.itch.io/skeleton-knight",
         "sourceTitle": "Страница исходного набора Otsoga",
-        "previewRef": "UI_ENEMY_SKELETON"
+        "previewRef": "UI_ENEMY_SKELETON",
+        "artistBrief": {
+          "type": "full_body_character_concept",
+          "task": "Полный рост скелета-рыцаря по набору Skeleton Knight. Показать череп, доспех, сочленения и оружие крупными деталями.",
+          "open": "Новые знаки ордена и дополнительное вооружение не заданы.",
+          "status": "draft_for_artist"
+        }
       }
     },
     {
@@ -1138,7 +1216,13 @@ window.RED_HOOD_GUIDE = {
         "role": "basic_enemy",
         "sourceUrl": "https://otsoga.itch.io/fighter-goblin",
         "sourceTitle": "Страница исходного набора Otsoga",
-        "previewRef": "UI_ENEMY_FIGHTER"
+        "previewRef": "UI_ENEMY_FIGHTER",
+        "artistBrief": {
+          "type": "full_body_character_concept",
+          "task": "Полный рост гоблина-бойца по Fighter Goblin. Отдельно показать лицо, костюм, оружие и крепления экипировки.",
+          "open": "Сохранить отличия от гоблина-разбойника; финальную степень редизайна согласовать.",
+          "status": "draft_for_artist"
+        }
       }
     },
     {
@@ -1223,7 +1307,13 @@ window.RED_HOOD_GUIDE = {
         "role": "basic_enemy",
         "sourceUrl": "https://otsoga.itch.io/rogue-goblin",
         "sourceTitle": "Страница исходного набора Otsoga",
-        "previewRef": "UI_ENEMY_ROGUE"
+        "previewRef": "UI_ENEMY_ROGUE",
+        "artistBrief": {
+          "type": "full_body_character_concept",
+          "task": "Полный рост гоблина-разбойника по Rogue Goblin. Показать лицо, одежду и оружие; сохранить узнаваемый силуэт исходника.",
+          "open": "Новые предметы и финальная палитра не заданы.",
+          "status": "draft_for_artist"
+        }
       }
     },
     {
@@ -1308,7 +1398,13 @@ window.RED_HOOD_GUIDE = {
         "role": "role_undecided",
         "sourceUrl": "https://otsoga.itch.io/snare-flower-skill-fx",
         "sourceTitle": "Страница исходного набора Otsoga",
-        "previewRef": "UI_ENEMY_FLOWER_STATIC"
+        "previewRef": "UI_ENEMY_FLOWER_STATIC",
+        "artistBrief": {
+          "type": "full_body_character_concept",
+          "task": "Полный вид цветка Snare Flower по текущему исходнику. Отдельно показать строение растения и опасную часть.",
+          "open": "Автор ещё не решила: самостоятельный враг или ловушка/VFX. Финальную прорисовку состояний отложить до выбора роли.",
+          "status": "draft_for_artist"
+        }
       }
     },
     {
@@ -1389,7 +1485,13 @@ window.RED_HOOD_GUIDE = {
         "role": "basic_enemy",
         "sourceUrl": "https://otsoga.itch.io/witch-hunter",
         "sourceTitle": "Страница исходного набора Otsoga",
-        "baseAssetEntry": "asset-witch-hunter"
+        "baseAssetEntry": "asset-witch-hunter",
+        "artistBrief": {
+          "type": "full_body_character_concept",
+          "task": "Полный рост рядового охотника на основе Witch Hunter, с читаемой экипировкой и общей принадлежностью к охотникам.",
+          "open": "Число атак будет меньше, но это не определяет новый костюм; визуальные отличия от босса согласовать.",
+          "status": "draft_for_artist"
+        }
       }
     },
     {
@@ -1468,7 +1570,13 @@ window.RED_HOOD_GUIDE = {
         "role": "basic_enemy",
         "sourceUrl": "https://otsoga.itch.io/witch-hunter",
         "sourceTitle": "Страница исходного набора Otsoga",
-        "baseAssetEntry": "asset-witch-hunter"
+        "baseAssetEntry": "asset-witch-hunter",
+        "artistBrief": {
+          "type": "full_body_character_concept",
+          "task": "Полный рост заражённого охотника на основе Witch Hunter. Показать узнаваемую экипировку и крупные детали заражения.",
+          "open": "Места и степень мутаций не утверждены: сначала согласовать эскиз, не придумывать финальную анатомию.",
+          "status": "draft_for_artist"
+        }
       }
     },
     {
@@ -1670,7 +1778,13 @@ window.RED_HOOD_GUIDE = {
       "body": "По передаче Claude: в v03 используется белая кошка Momodora с красными глазами и золотым полумесяцем на лбу. Ошейник убран. Полумесяц дорисован. Это временная форма, собственный спрайт волчицы ещё не сделан.\n\nЛокальная карточка содержит проверенные исходные кадры ожидания из каталога v03. Обновление сайта не меняет игровую сборку.",
       "meta": {
         "designRef": "hero-cat-form",
-        "relatedEntry": "hero-design"
+        "relatedEntry": "hero-design",
+        "artistBrief": {
+          "type": "full_body_character_concept",
+          "task": "Показать белую кошку целиком по текущим кадрам: красные глаза и золотой полумесяц, без ошейника. Отдельно — морда и отметина на лбу.",
+          "open": "Временная форма; отдельный законченный концепт пока низкий приоритет, волчицу не придумывать.",
+          "status": "draft_for_artist"
+        }
       }
     },
     {
@@ -1682,19 +1796,25 @@ window.RED_HOOD_GUIDE = {
       "body": "По передаче Claude автор выбрала вариант В «Пепельный лик»: почти чёрное тело и волосы, бледное измученное лицо, алые глаза, тёмно-алый ореол и кровавые слёзы. Крылья и атаки — в магии крови. Дизайн показывает боль этой формы.\n\nДизайн одобрен, но в игру не встроен. Масштаб, превращение, управление, полёт, игровые тайминги, коллизии и хитбоксы ещё не назначены. Примерный pivot из старого проекта нельзя считать проверенным для этой игры.\n\nЛокально доступны GIF выбранного варианта и сравнение атак Claude. Распространение изображений купленного пака ограничено; эти файлы не входят в Git и общий архив сайта.",
       "meta": {
         "designRef": "hero-harpy-form",
-        "relatedEntry": "hero-design"
+        "relatedEntry": "hero-design",
+        "artistBrief": {
+          "type": "full_body_character_concept",
+          "task": "Полный рост формы «Пепельный лик»: почти чёрное тело, бледное лицо, алые глаза, кровавые слёзы и крылья тёмной крови. Вынести лицо, перепонку крыла и атаку магией крови.",
+          "open": "Дизайн одобрен, в игру не встроен; масштаб и игровые параметры ещё не выбраны.",
+          "status": "draft_for_artist"
+        }
       }
     },
     {
       "id": "biome-names-proposals",
       "section": "maps",
       "kind": "page",
-      "title": "Переименование биомов · варианты для согласования",
+      "title": "Рабочие названия локаций",
       "status": "draft",
-      "body": "Предыдущие варианты названий отклонены автором и заменены новой подборкой по мотивам братьев Гримм, «Божественной комедии», осторожного обращения к Корану и фильма «Царство небесное».\n\nДля каждого из девяти биомов предложены основной и альтернативный варианты; под основным поясняется образ. Все названия остаются предложениями. Новые события, культ, архитектура, объекты и расположение боссов этим не утверждены.\n\nID биомов, ROOM, геометрия и доказательства исходной Momodora сохраняются. Новые подписи карты подключим после выбора автора.",
+      "body": "Автор согласилась пока использовать текущий набор рабочих названий: Ротвенская чаща, Ротвен, Аббатство Белой Матери, Нижний некрополь, Старый церковный погост, Королевские горнила, Галерея Первой династии, Замок Вальтерн и Хладные пределы.\n\nЭто рабочие названия. Прежние подборки отклонены. ID биомов, ROOM и исходная карта Momodora сохраняются; архитектура и новая история мест требуют отдельного согласования.",
       "meta": {
         "revision": 2,
-        "approval": "not_approved",
+        "approval": "working_accepted_for_now",
         "previousRevision": "rejected_by_author"
       }
     },
@@ -1729,10 +1849,562 @@ window.RED_HOOD_GUIDE = {
       "kind": "page",
       "title": "«Царство небесное»",
       "status": "confirmed",
-      "body": "Автор добавила фильм «Царство небесное» (Kingdom of Heaven, Ridley Scott) в список референсов.\n\nПредлагаемые направления для обсуждения: осаждённый город, паломники, долг защитника, личная вера и политическая власть. Это предложения, а не уже выбранные автором сцены.\n\nДля биома города предложены названия «Град обета» и «Город паломников». Их значение и место в нашем мире ещё согласуются.\n\nПрямой перенос Иерусалима, исторического конфликта, костюмов или религиозных символов этим не назначен. Конкретные визуальные примеры автор ещё выберет.",
+      "body": "Автор добавила фильм «Царство небесное» (Kingdom of Heaven, Ridley Scott) в список референсов.\n\nПредлагаемые направления для обсуждения: осаждённый город, паломники, долг защитника, личная вера и политическая власть. Это предложения, а не уже выбранные автором сцены.\n\nГород пока носит рабочее название «Ротвен». Конкретные сцены и архитектура для нашей игры ещё согласуются.\n\nПрямой перенос Иерусалима, исторического конфликта, костюмов или религиозных символов этим не назначен. Конкретные визуальные примеры автор ещё выберет.",
       "meta": {
         "sourceUrl": "https://castillayleonfilm.com/en/filmografia/kingdom-of-heaven/",
         "sourceTitle": "Kingdom of Heaven · страница региональной кинокомиссии"
+      }
+    },
+    {
+      "id": "concept-biome_01",
+      "section": "world",
+      "kind": "page",
+      "title": "Ротвенская чаща · ТЗ на концепт",
+      "status": "draft",
+      "body": "Показать мёртвую чащу с оплотом феи: стволы, заросли и глубину леса в тумане. Предложить каменные остатки старого мира и свободный силуэт прохода.\n\nРоща, миазмы и оплот феи подтверждены; вид оплота и положение могилы пробуждения ещё не выбраны.",
+      "meta": {
+        "locationBrief": "BIOME_01",
+        "assetReferences": [
+          "BG00",
+          "BG01",
+          "BG02",
+          "BG03"
+        ],
+        "sourceUrlLocal": "maps/momodora/index.html?artist=1#map/BIOME_01/ROOM21"
+      }
+    },
+    {
+      "id": "concept-biome_02",
+      "section": "world",
+      "kind": "page",
+      "title": "Ротвен · ТЗ на концепт",
+      "status": "draft",
+      "body": "Набросать старый город: тесные фасады, мосты/арки и дальние шпили. Холодный камень, копоть и редкие тёплые окна; масштаб зданий должен подавлять героиню.\n\nАрхитектурный состав — предложение для согласования; новые игровые маршруты не назначать.",
+      "meta": {
+        "locationBrief": "BIOME_02",
+        "assetReferences": [
+          "BG04",
+          "BG07",
+          "BG08"
+        ],
+        "sourceUrlLocal": "maps/momodora/index.html?artist=1#map/BIOME_02/ROOM63"
+      }
+    },
+    {
+      "id": "concept-biome_03",
+      "section": "world",
+      "kind": "page",
+      "title": "Аббатство Белой Матери · ТЗ на концепт",
+      "status": "draft",
+      "body": "Показать заброшенный монастырь жрицы: высокие арки, галереи и повреждённую кладку. Оставить место для спокойной встречи; белое одеяние должно читаться на фоне.\n\nМонастырь и жрица подтверждены; место встречи, символика и конкретные помещения ещё выбираются.",
+      "meta": {
+        "locationBrief": "BIOME_03",
+        "assetReferences": [
+          "BG08",
+          "BG12",
+          "BG13"
+        ],
+        "sourceUrlLocal": "maps/momodora/index.html?artist=1#map/BIOME_03/ROOM94"
+      }
+    },
+    {
+      "id": "concept-biome_04",
+      "section": "world",
+      "kind": "page",
+      "title": "Нижний некрополь · ТЗ на концепт",
+      "status": "draft",
+      "body": "Набросать подземные усыпальницы: ниши, каменные своды, тесные проходы и дальние проёмы. Глубину разделить холодным туманом и редкими огнями.\n\nСостав деталей — предложение; погребальный обряд и новые сюжетные события не заданы.",
+      "meta": {
+        "locationBrief": "BIOME_04",
+        "assetReferences": [
+          "BG14"
+        ],
+        "sourceUrlLocal": "maps/momodora/index.html?artist=1#map/BIOME_04/ROOM124"
+      }
+    },
+    {
+      "id": "concept-biome_05",
+      "section": "world",
+      "kind": "page",
+      "title": "Старый церковный погост · ТЗ на концепт",
+      "status": "draft",
+      "body": "Показать старый погост: надгробия разного размера, ограды, склепы и голые деревья. Статуя Богоматери может служить световым ориентиром.\n\nМонтанте пока не привязан к кладбищу; конкретный ресурс статуи ещё нужно идентифицировать.",
+      "meta": {
+        "locationBrief": "BIOME_05",
+        "assetReferences": [
+          "BG05",
+          "BG06",
+          "BG08"
+        ],
+        "sourceUrlLocal": "maps/momodora/index.html?artist=1#map/BIOME_05/ROOM149"
+      }
+    },
+    {
+      "id": "concept-biome_06",
+      "section": "world",
+      "kind": "page",
+      "title": "Королевские горнила · ТЗ на концепт",
+      "status": "draft",
+      "body": "Предложить королевские горнила: тяжёлую кладку, печи, металл и закопчённые пролёты. Тёплый жар локальный, основная среда холодная и тёмная.\n\nНовый состав локации — черновик; отдельный проверенный BG для этого биома в пакете не найден.",
+      "meta": {
+        "locationBrief": "BIOME_06",
+        "assetReferences": [],
+        "sourceUrlLocal": "maps/momodora/index.html?artist=1#map/BIOME_06/ROOM172"
+      }
+    },
+    {
+      "id": "concept-biome_07",
+      "section": "world",
+      "kind": "page",
+      "title": "Галерея Первой династии · ТЗ на концепт",
+      "status": "draft",
+      "body": "Показать дворцовую галерею: высокие стены, тяжёлые рамы, потемневшие полотна и глубину залов. Светом выделить проход и опасные объекты.\n\nИсточники картин-врагов ещё не выбраны; отдельный проверенный BG этого биома не найден.",
+      "meta": {
+        "locationBrief": "BIOME_07",
+        "assetReferences": [],
+        "sourceUrlLocal": "maps/momodora/index.html?artist=1#map/BIOME_07/ROOM200"
+      }
+    },
+    {
+      "id": "concept-biome_08",
+      "section": "world",
+      "kind": "page",
+      "title": "Замок Вальтерн · ТЗ на концепт",
+      "status": "draft",
+      "body": "Набросать старую королевскую резиденцию: протяжённые залы, стрельчатые проёмы, тяжёлые портьеры и выветренный камень. Предложить один узнаваемый силуэт замка.\n\nАрхитектура и декор — предложения; гербы, династия и место финального боя не утверждены.",
+      "meta": {
+        "locationBrief": "BIOME_08",
+        "assetReferences": [
+          "BG11",
+          "BG14"
+        ],
+        "sourceUrlLocal": "maps/momodora/index.html?artist=1#map/BIOME_08/ROOM239"
+      }
+    },
+    {
+      "id": "concept-biome_09",
+      "section": "world",
+      "kind": "page",
+      "title": "Хладные пределы · ТЗ на концепт",
+      "status": "draft",
+      "body": "Показать холодную окраину мира: голые стволы, иней, дальние каменные силуэты и плотную морозную дымку. Разделить снег, небо и фигуру по светлоте.\n\nИсходная Frore Ciele и world_swap/VFX восстановлены не полностью; BG00–03 здесь повторно используются, не подтверждают готовый зимний вид.",
+      "meta": {
+        "locationBrief": "BIOME_09",
+        "assetReferences": [
+          "BG00",
+          "BG01",
+          "BG02",
+          "BG03"
+        ],
+        "sourceUrlLocal": "maps/momodora/index.html?artist=1#map/BIOME_09/ROOM57"
+      }
+    },
+    {
+      "id": "concept-transition_ordalia_frore",
+      "section": "world",
+      "kind": "page",
+      "title": "Переход чаща — Хладные пределы · ТЗ на концепт",
+      "status": "draft",
+      "body": "Сделать переход от тёмной чащи к холоду: постепенно редеющие ветви, иней и сгущающаяся дымка. Сохранить родство с обеими соседними локациями.\n\nПереход ROOM56; полный исходный world_swap/VFX не восстановлен.",
+      "meta": {
+        "locationBrief": "TRANSITION_ORDALIA_FRORE",
+        "assetReferences": [
+          "BG00",
+          "BG01",
+          "BG02",
+          "BG03"
+        ],
+        "sourceUrlLocal": "maps/momodora/index.html?artist=1#map/TRANSITION_ORDALIA_FRORE/ROOM56"
+      }
+    },
+    {
+      "id": "concept-transition_courtyard",
+      "section": "world",
+      "kind": "page",
+      "title": "Двор замка Вальтерн · ТЗ на концепт",
+      "status": "draft",
+      "body": "Набросать двор перед замком: ограда, массивные опоры ворот и силуэт дворца в глубине. Пространство должно подготавливать вход в резиденцию.\n\nНовые враги, сцена боя и точное расположение сохранения не назначены.",
+      "meta": {
+        "locationBrief": "TRANSITION_COURTYARD",
+        "assetReferences": [
+          "BG09",
+          "BG10"
+        ],
+        "sourceUrlLocal": "maps/momodora/index.html?artist=1#map/TRANSITION_COURTYARD/ROOM229"
+      }
+    },
+    {
+      "id": "background-bg00",
+      "section": "backgrounds",
+      "kind": "page",
+      "title": "BG00 · Дальние стволы",
+      "status": "draft",
+      "body": "Нарисовать глубинный лесной план: высокие мёртвые стволы, редкие ветви и холодную дымку. Сохранить пространство между деревьями, чтобы не забить силуэт героини.",
+      "meta": {
+        "backgroundId": "BG00",
+        "backgroundType": "layer",
+        "biomes": [
+          "BIOME_01",
+          "BIOME_09",
+          "TRANSITION_ORDALIA_FRORE"
+        ]
+      }
+    },
+    {
+      "id": "background-bg01",
+      "section": "backgrounds",
+      "kind": "page",
+      "title": "BG01 · Трава и низкая растительность",
+      "status": "draft",
+      "body": "Сделать отдельный план спутанной сухой травы и корней. Детали укрупнить для игрового масштаба, насыщенную бирюзу исходника заменить общей гаммой Bloodborne.",
+      "meta": {
+        "backgroundId": "BG01",
+        "backgroundType": "layer",
+        "biomes": [
+          "BIOME_01",
+          "BIOME_09",
+          "TRANSITION_ORDALIA_FRORE"
+        ]
+      }
+    },
+    {
+      "id": "background-bg02",
+      "section": "backgrounds",
+      "kind": "page",
+      "title": "BG02 · Средние деревья",
+      "status": "draft",
+      "body": "Нарисовать тяжёлые тёмные стволы и нависающие ветви как отдельный план. Красные участки исходника не считать выбранным цветом неба нашей игры.",
+      "meta": {
+        "backgroundId": "BG02",
+        "backgroundType": "layer",
+        "biomes": [
+          "BIOME_01",
+          "BIOME_09",
+          "TRANSITION_ORDALIA_FRORE"
+        ]
+      }
+    },
+    {
+      "id": "background-bg03",
+      "section": "backgrounds",
+      "kind": "page",
+      "title": "BG03 · Ближняя тёмная кромка",
+      "status": "draft",
+      "body": "Подготовить сдержанные силуэты кустов и подлеска, обрамляющие сцену. Оставить проход и ноги героини хорошо читаемыми.",
+      "meta": {
+        "backgroundId": "BG03",
+        "backgroundType": "layer",
+        "biomes": [
+          "BIOME_01",
+          "BIOME_09",
+          "TRANSITION_ORDALIA_FRORE"
+        ]
+      }
+    },
+    {
+      "id": "background-bg04",
+      "section": "backgrounds",
+      "kind": "page",
+      "title": "BG04 · Дальний готический силуэт",
+      "status": "draft",
+      "body": "Предложить дальний силуэт старого города: крыши, шпили и ограды. Камень холодный и потемневший, контраст ниже, чем у игрового плана.",
+      "meta": {
+        "backgroundId": "BG04",
+        "backgroundType": "layer",
+        "biomes": [
+          "BIOME_02"
+        ]
+      }
+    },
+    {
+      "id": "background-bg05",
+      "section": "backgrounds",
+      "kind": "page",
+      "title": "BG05 · Силуэт за погостом",
+      "status": "draft",
+      "body": "Нарисовать отдельный дальний силуэт часовни/городских крыш за кладбищем. Привязать архитектуру к нашему миру, сохранив глубину исходного плана.",
+      "meta": {
+        "backgroundId": "BG05",
+        "backgroundType": "layer",
+        "biomes": [
+          "BIOME_05"
+        ]
+      }
+    },
+    {
+      "id": "background-bg06",
+      "section": "backgrounds",
+      "kind": "page",
+      "title": "BG06 · Лес за кладбищем",
+      "status": "draft",
+      "body": "Подготовить план тёмных хвойных или голых деревьев за погостом. Конкретную породу согласовать; не перегружать края мелкой листвой.",
+      "meta": {
+        "backgroundId": "BG06",
+        "backgroundType": "layer",
+        "biomes": [
+          "BIOME_05"
+        ]
+      }
+    },
+    {
+      "id": "background-bg07",
+      "section": "backgrounds",
+      "kind": "page",
+      "title": "BG07 · Городские фасады",
+      "status": "draft",
+      "body": "Нарисовать плотный городской план с высокими фасадами, крышами и арками. Разделить материалы камня, металла и тёмных окон.",
+      "meta": {
+        "backgroundId": "BG07",
+        "backgroundType": "layer",
+        "biomes": [
+          "BIOME_02"
+        ]
+      }
+    },
+    {
+      "id": "background-bg08",
+      "section": "backgrounds",
+      "kind": "page",
+      "title": "BG08 · Небо и облака с луной",
+      "status": "draft",
+      "body": "Предложить облачное ночное небо в общей палитре Bloodborne. Наличие, цвет и форму луны нашей игры согласовать; красную луну Momodora автоматически не переносить.",
+      "meta": {
+        "backgroundId": "BG08",
+        "backgroundType": "layer",
+        "biomes": [
+          "BIOME_02",
+          "BIOME_03",
+          "BIOME_05"
+        ]
+      }
+    },
+    {
+      "id": "background-bg09",
+      "section": "backgrounds",
+      "kind": "page",
+      "title": "BG09 · Небо двора",
+      "status": "draft",
+      "body": "Сделать дальнее небо с тяжёлыми облаками над двором. Цвет и свет связать с соседними замковыми сценами.",
+      "meta": {
+        "backgroundId": "BG09",
+        "backgroundType": "layer",
+        "biomes": [
+          "TRANSITION_COURTYARD"
+        ]
+      }
+    },
+    {
+      "id": "background-bg10",
+      "section": "backgrounds",
+      "kind": "page",
+      "title": "BG10 · Ограда и опоры двора",
+      "status": "draft",
+      "body": "Нарисовать отдельный архитектурный план ограды и опор ворот. Не превращать графические просветы исходника в новые физические стены.",
+      "meta": {
+        "backgroundId": "BG10",
+        "backgroundType": "layer",
+        "biomes": [
+          "TRANSITION_COURTYARD"
+        ]
+      }
+    },
+    {
+      "id": "background-bg11",
+      "section": "backgrounds",
+      "kind": "page",
+      "title": "BG11 · Широкая небесная панорама",
+      "status": "draft",
+      "body": "Предложить широкое облачное небо для открытых замковых участков. Луну и световые акценты согласовать; возможность бесшовного повтора проверить отдельно.",
+      "meta": {
+        "backgroundId": "BG11",
+        "backgroundType": "layer",
+        "biomes": [
+          "BIOME_08"
+        ]
+      }
+    },
+    {
+      "id": "background-bg12",
+      "section": "backgrounds",
+      "kind": "page",
+      "title": "BG12 · Монастырские аркады · первая часть",
+      "status": "draft",
+      "body": "Нарисовать повреждённые двухъярусные аркады монастыря: камень, провалы и ограждения. Сохранить общую линию перспективы с соседней частью.",
+      "meta": {
+        "backgroundId": "BG12",
+        "backgroundType": "layer",
+        "biomes": [
+          "BIOME_03"
+        ]
+      }
+    },
+    {
+      "id": "background-bg13",
+      "section": "backgrounds",
+      "kind": "page",
+      "title": "BG13 · Монастырские аркады · вторая часть",
+      "status": "draft",
+      "body": "Продолжить архитектуру соседней части аркад с теми же масштабом и светом. Проверить стык с первым фрагментом; не зеркалить его автоматически.",
+      "meta": {
+        "backgroundId": "BG13",
+        "backgroundType": "layer",
+        "biomes": [
+          "BIOME_03"
+        ]
+      }
+    },
+    {
+      "id": "background-bg14",
+      "section": "backgrounds",
+      "kind": "page",
+      "title": "BG14 · Повторяемая каменная подложка",
+      "status": "draft",
+      "body": "Предложить сдержанную каменную подложку для подземелий и замка. Это тайлируемый фрагмент 64×64 исходника, не самостоятельная панорама; швы проверять отдельно.",
+      "meta": {
+        "backgroundId": "BG14",
+        "backgroundType": "layer",
+        "biomes": [
+          "BIOME_04",
+          "BIOME_08"
+        ]
+      }
+    },
+    {
+      "id": "background-scene-1",
+      "section": "backgrounds",
+      "kind": "page",
+      "title": "Лес · четыре плана",
+      "status": "draft",
+      "body": "Нарисовать лесную сцену с дальними стволами, средними деревьями, травой и ближней кромкой. Дать глубину туманом; гамма и общий стиль — Bloodborne.",
+      "meta": {
+        "backgroundProfile": "PARALLAX_REF_01",
+        "backgroundType": "scene",
+        "biomes": [
+          "BIOME_01",
+          "BIOME_09",
+          "TRANSITION_ORDALIA_FRORE"
+        ]
+      }
+    },
+    {
+      "id": "background-scene-2",
+      "section": "backgrounds",
+      "kind": "page",
+      "title": "Город · тесные фасады",
+      "status": "draft",
+      "body": "Предложить тесные старые фасады, башни и арки на фоне облачного неба. Разделить холодный камень и редкие тёплые окна; оставить героиню читаемой.",
+      "meta": {
+        "backgroundProfile": "PARALLAX_REF_02",
+        "backgroundType": "scene",
+        "biomes": [
+          "BIOME_02"
+        ]
+      }
+    },
+    {
+      "id": "background-scene-3",
+      "section": "backgrounds",
+      "kind": "page",
+      "title": "Город · дальние шпили",
+      "status": "draft",
+      "body": "Предложить дальний силуэт готического города: крыши, шпили и ограды. Силуэт мягче игрового плана, палитра и свет — Bloodborne.",
+      "meta": {
+        "backgroundProfile": "PARALLAX_REF_03",
+        "backgroundType": "scene",
+        "biomes": [
+          "BIOME_02"
+        ]
+      }
+    },
+    {
+      "id": "background-scene-4",
+      "section": "backgrounds",
+      "kind": "page",
+      "title": "Монастырь · первая аркада",
+      "status": "draft",
+      "body": "Нарисовать первую часть заброшенных монастырских аркад с единой перспективой и холодным камнем. Сохранить глубину проёмов и возможность перехода к следующему фрагменту.",
+      "meta": {
+        "backgroundProfile": "PARALLAX_REF_04",
+        "backgroundType": "scene",
+        "biomes": [
+          "BIOME_03"
+        ]
+      }
+    },
+    {
+      "id": "background-scene-5",
+      "section": "backgrounds",
+      "kind": "page",
+      "title": "Монастырь · вторая аркада",
+      "status": "draft",
+      "body": "Продолжить монастырские аркады вторым фрагментом, сохранив масштаб, свет и стык. Повреждения кладки и силуэты проёмов согласовать на эскизе.",
+      "meta": {
+        "backgroundProfile": "PARALLAX_REF_05",
+        "backgroundType": "scene",
+        "biomes": [
+          "BIOME_03"
+        ]
+      }
+    },
+    {
+      "id": "background-scene-6",
+      "section": "backgrounds",
+      "kind": "page",
+      "title": "Подземелья · каменная подложка",
+      "status": "draft",
+      "body": "Подготовить каменную подложку подземелий по маленькому повторяемому фрагменту. Это задача на материал и бесшовность, не отдельная широкая панорама.",
+      "meta": {
+        "backgroundProfile": "PARALLAX_REF_06",
+        "backgroundType": "scene",
+        "biomes": [
+          "BIOME_04",
+          "BIOME_08"
+        ]
+      }
+    },
+    {
+      "id": "background-scene-7",
+      "section": "backgrounds",
+      "kind": "page",
+      "title": "Погост · лес и город вдали",
+      "status": "draft",
+      "body": "Нарисовать погост с лесом и далёкими городскими шпилями. Разнести планы по светлоте и туману, не загромождая проход мелкими деталями.",
+      "meta": {
+        "backgroundProfile": "PARALLAX_REF_07",
+        "backgroundType": "scene",
+        "biomes": [
+          "BIOME_05"
+        ]
+      }
+    },
+    {
+      "id": "background-scene-8",
+      "section": "backgrounds",
+      "kind": "page",
+      "title": "Замковый двор · небо и ограда",
+      "status": "draft",
+      "body": "Предложить небо, тяжёлую ограду и опоры ворот перед замком. Двор должен принадлежать той же архитектуре и освещению, что замковые сцены.",
+      "meta": {
+        "backgroundProfile": "PARALLAX_REF_08",
+        "backgroundType": "scene",
+        "biomes": [
+          "TRANSITION_COURTYARD"
+        ]
+      }
+    },
+    {
+      "id": "background-scene-9",
+      "section": "backgrounds",
+      "kind": "page",
+      "title": "Замок · широкая небесная панорама",
+      "status": "draft",
+      "body": "Нарисовать широкое ночное небо для открытых участков замка. Свет и облака — в гамме Bloodborne; необходимость и облик луны согласовать отдельно.",
+      "meta": {
+        "backgroundProfile": "PARALLAX_REF_09",
+        "backgroundType": "scene",
+        "biomes": [
+          "BIOME_08"
+        ]
       }
     }
   ],
@@ -6678,6 +7350,1309 @@ window.RED_HOOD_GUIDE = {
       "title": "«Царство небесное» · Ridley Scott",
       "url": "https://castillayleonfilm.com/en/filmografia/kingdom-of-heaven/",
       "theme": "Фильм добавлен автором в референсы. Предлагаем обсудить осаждённый город, паломничество, долг защитника и напряжение между верой и властью. Конкретные сцены и элементы дизайна ещё выбираются."
+    }
+  ],
+  "locationBriefs": [
+    {
+      "id": "BIOME_01",
+      "name": "Ротвенская чаща",
+      "sourceName": "Святая роща Ордалия",
+      "nameStatus": "working_accepted_for_now",
+      "task": "Показать мёртвую чащу с оплотом феи: стволы, заросли и глубину леса в тумане. Предложить каменные остатки старого мира и свободный силуэт прохода.",
+      "open": "Роща, миазмы и оплот феи подтверждены; вид оплота и положение могилы пробуждения ещё не выбраны.",
+      "backgroundIds": [
+        "BG00",
+        "BG01",
+        "BG02",
+        "BG03"
+      ],
+      "exampleRoom": 21,
+      "rooms": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54
+      ],
+      "briefEntry": "concept-biome_01",
+      "mapUrl": "maps/momodora/index.html?artist=1#map/BIOME_01/ROOM21"
+    },
+    {
+      "id": "BIOME_02",
+      "name": "Ротвен",
+      "sourceName": "Город Карст",
+      "nameStatus": "working_accepted_for_now",
+      "task": "Набросать старый город: тесные фасады, мосты/арки и дальние шпили. Холодный камень, копоть и редкие тёплые окна; масштаб зданий должен подавлять героиню.",
+      "open": "Архитектурный состав — предложение для согласования; новые игровые маршруты не назначать.",
+      "backgroundIds": [
+        "BG04",
+        "BG07",
+        "BG08"
+      ],
+      "exampleRoom": 63,
+      "rooms": [
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90
+      ],
+      "briefEntry": "concept-biome_02",
+      "mapUrl": "maps/momodora/index.html?artist=1#map/BIOME_02/ROOM63"
+    },
+    {
+      "id": "BIOME_03",
+      "name": "Аббатство Белой Матери",
+      "sourceName": "Покинутый монастырь",
+      "nameStatus": "working_accepted_for_now",
+      "task": "Показать заброшенный монастырь жрицы: высокие арки, галереи и повреждённую кладку. Оставить место для спокойной встречи; белое одеяние должно читаться на фоне.",
+      "open": "Монастырь и жрица подтверждены; место встречи, символика и конкретные помещения ещё выбираются.",
+      "backgroundIds": [
+        "BG08",
+        "BG12",
+        "BG13"
+      ],
+      "exampleRoom": 94,
+      "rooms": [
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118
+      ],
+      "briefEntry": "concept-biome_03",
+      "mapUrl": "maps/momodora/index.html?artist=1#map/BIOME_03/ROOM94"
+    },
+    {
+      "id": "BIOME_04",
+      "name": "Нижний некрополь",
+      "sourceName": "Подземная гробница",
+      "nameStatus": "working_accepted_for_now",
+      "task": "Набросать подземные усыпальницы: ниши, каменные своды, тесные проходы и дальние проёмы. Глубину разделить холодным туманом и редкими огнями.",
+      "open": "Состав деталей — предложение; погребальный обряд и новые сюжетные события не заданы.",
+      "backgroundIds": [
+        "BG14"
+      ],
+      "exampleRoom": 124,
+      "rooms": [
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145
+      ],
+      "briefEntry": "concept-biome_04",
+      "mapUrl": "maps/momodora/index.html?artist=1#map/BIOME_04/ROOM124"
+    },
+    {
+      "id": "BIOME_05",
+      "name": "Старый церковный погост",
+      "sourceName": "Кладбище Белого Листа",
+      "nameStatus": "working_accepted_for_now",
+      "task": "Показать старый погост: надгробия разного размера, ограды, склепы и голые деревья. Статуя Богоматери может служить световым ориентиром.",
+      "open": "Монтанте пока не привязан к кладбищу; конкретный ресурс статуи ещё нужно идентифицировать.",
+      "backgroundIds": [
+        "BG05",
+        "BG06",
+        "BG08"
+      ],
+      "exampleRoom": 149,
+      "rooms": [
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168
+      ],
+      "briefEntry": "concept-biome_05",
+      "mapUrl": "maps/momodora/index.html?artist=1#map/BIOME_05/ROOM149"
+    },
+    {
+      "id": "BIOME_06",
+      "name": "Королевские горнила",
+      "sourceName": "Залы Золы",
+      "nameStatus": "working_accepted_for_now",
+      "task": "Предложить королевские горнила: тяжёлую кладку, печи, металл и закопчённые пролёты. Тёплый жар локальный, основная среда холодная и тёмная.",
+      "open": "Новый состав локации — черновик; отдельный проверенный BG для этого биома в пакете не найден.",
+      "backgroundIds": [],
+      "exampleRoom": 172,
+      "rooms": [
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195
+      ],
+      "briefEntry": "concept-biome_06",
+      "mapUrl": "maps/momodora/index.html?artist=1#map/BIOME_06/ROOM172"
+    },
+    {
+      "id": "BIOME_07",
+      "name": "Галерея Первой династии",
+      "sourceName": "Придворная пинакотека",
+      "nameStatus": "working_accepted_for_now",
+      "task": "Показать дворцовую галерею: высокие стены, тяжёлые рамы, потемневшие полотна и глубину залов. Светом выделить проход и опасные объекты.",
+      "open": "Источники картин-врагов ещё не выбраны; отдельный проверенный BG этого биома не найден.",
+      "backgroundIds": [],
+      "exampleRoom": 200,
+      "rooms": [
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228
+      ],
+      "briefEntry": "concept-biome_07",
+      "mapUrl": "maps/momodora/index.html?artist=1#map/BIOME_07/ROOM200"
+    },
+    {
+      "id": "BIOME_08",
+      "name": "Замок Вальтерн",
+      "sourceName": "Карстский дворец",
+      "nameStatus": "working_accepted_for_now",
+      "task": "Набросать старую королевскую резиденцию: протяжённые залы, стрельчатые проёмы, тяжёлые портьеры и выветренный камень. Предложить один узнаваемый силуэт замка.",
+      "open": "Архитектура и декор — предложения; гербы, династия и место финального боя не утверждены.",
+      "backgroundIds": [
+        "BG11",
+        "BG14"
+      ],
+      "exampleRoom": 239,
+      "rooms": [
+        231,
+        232,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261,
+        262,
+        263,
+        264,
+        265,
+        266,
+        267,
+        268,
+        269,
+        270,
+        271,
+        272
+      ],
+      "briefEntry": "concept-biome_08",
+      "mapUrl": "maps/momodora/index.html?artist=1#map/BIOME_08/ROOM239"
+    },
+    {
+      "id": "BIOME_09",
+      "name": "Хладные пределы",
+      "sourceName": "Стылая Сиэль",
+      "nameStatus": "working_accepted_for_now",
+      "task": "Показать холодную окраину мира: голые стволы, иней, дальние каменные силуэты и плотную морозную дымку. Разделить снег, небо и фигуру по светлоте.",
+      "open": "Исходная Frore Ciele и world_swap/VFX восстановлены не полностью; BG00–03 здесь повторно используются, не подтверждают готовый зимний вид.",
+      "backgroundIds": [
+        "BG00",
+        "BG01",
+        "BG02",
+        "BG03"
+      ],
+      "exampleRoom": 57,
+      "rooms": [
+        57,
+        58,
+        59,
+        60
+      ],
+      "briefEntry": "concept-biome_09",
+      "mapUrl": "maps/momodora/index.html?artist=1#map/BIOME_09/ROOM57"
+    },
+    {
+      "id": "TRANSITION_ORDALIA_FRORE",
+      "name": "Переход чаща — Хладные пределы",
+      "sourceName": "Переход роща — Стылая Сиэль",
+      "nameStatus": "derived_working_label",
+      "task": "Сделать переход от тёмной чащи к холоду: постепенно редеющие ветви, иней и сгущающаяся дымка. Сохранить родство с обеими соседними локациями.",
+      "open": "Переход ROOM56; полный исходный world_swap/VFX не восстановлен.",
+      "backgroundIds": [
+        "BG00",
+        "BG01",
+        "BG02",
+        "BG03"
+      ],
+      "exampleRoom": 56,
+      "rooms": [
+        56
+      ],
+      "briefEntry": "concept-transition_ordalia_frore",
+      "mapUrl": "maps/momodora/index.html?artist=1#map/TRANSITION_ORDALIA_FRORE/ROOM56"
+    },
+    {
+      "id": "TRANSITION_COURTYARD",
+      "name": "Двор замка Вальтерн",
+      "sourceName": "Двор перед дворцом",
+      "nameStatus": "derived_working_label",
+      "task": "Набросать двор перед замком: ограда, массивные опоры ворот и силуэт дворца в глубине. Пространство должно подготавливать вход в резиденцию.",
+      "open": "Новые враги, сцена боя и точное расположение сохранения не назначены.",
+      "backgroundIds": [
+        "BG09",
+        "BG10"
+      ],
+      "exampleRoom": 229,
+      "rooms": [
+        229
+      ],
+      "briefEntry": "concept-transition_courtyard",
+      "mapUrl": "maps/momodora/index.html?artist=1#map/TRANSITION_COURTYARD/ROOM229"
+    }
+  ],
+  "workingLocations": [
+    {
+      "id": "BIOME_01",
+      "name": "Ротвенская чаща",
+      "sourceName": "Святая роща Ордалия",
+      "status": "working_accepted_for_now"
+    },
+    {
+      "id": "BIOME_02",
+      "name": "Ротвен",
+      "sourceName": "Город Карст",
+      "status": "working_accepted_for_now"
+    },
+    {
+      "id": "BIOME_03",
+      "name": "Аббатство Белой Матери",
+      "sourceName": "Покинутый монастырь",
+      "status": "working_accepted_for_now"
+    },
+    {
+      "id": "BIOME_04",
+      "name": "Нижний некрополь",
+      "sourceName": "Подземная гробница",
+      "status": "working_accepted_for_now"
+    },
+    {
+      "id": "BIOME_05",
+      "name": "Старый церковный погост",
+      "sourceName": "Кладбище Белого Листа",
+      "status": "working_accepted_for_now"
+    },
+    {
+      "id": "BIOME_06",
+      "name": "Королевские горнила",
+      "sourceName": "Залы Золы",
+      "status": "working_accepted_for_now"
+    },
+    {
+      "id": "BIOME_07",
+      "name": "Галерея Первой династии",
+      "sourceName": "Придворная пинакотека",
+      "status": "working_accepted_for_now"
+    },
+    {
+      "id": "BIOME_08",
+      "name": "Замок Вальтерн",
+      "sourceName": "Карстский дворец",
+      "status": "working_accepted_for_now"
+    },
+    {
+      "id": "BIOME_09",
+      "name": "Хладные пределы",
+      "sourceName": "Стылая Сиэль",
+      "status": "working_accepted_for_now"
+    },
+    {
+      "id": "TRANSITION_ORDALIA_FRORE",
+      "name": "Переход чаща — Хладные пределы",
+      "sourceName": "Переход роща — Стылая Сиэль",
+      "status": "derived_working_label"
+    },
+    {
+      "id": "TRANSITION_COURTYARD",
+      "name": "Двор замка Вальтерн",
+      "sourceName": "Двор перед дворцом",
+      "status": "derived_working_label"
+    }
+  ],
+  "artistBriefDirection": {
+    "characterOutput": "Один концепт в полный рост с читаемыми деталями + 3–5 выносок: лицо, руки, костюм/крепления, оружие. Спина или дополнительный ракурс — если без них устройство костюма непонятно. PNG и редактируемый исходник со слоями.",
+    "locationOutput": "Один общий концепт локации с масштабной фигурой героини и разделением планов. Это эскиз направления; финальные игровые слои делаются после согласования.",
+    "backgroundOutput": "Согласованный фон разделить на дальний, средний и ближний планы; PNG с прозрачностью по необходимости + исходник со слоями. Размеры, повторяемость и коэффициенты параллакса утвердить перед финальным экспортом.",
+    "bloodborne": "Общий ориентир всех фонов — Bloodborne: готические вертикали и старый камень, копоть, сырость, туман и большая глубина. Для нашей палитры предлагаем холодные серые/сланцевые и приглушённые зеленоватые тени, редкие тёплые огни; красное остаётся заметным акцентом героини. Численные цвета и перекраску игровых ассетов определяет Claude.",
+    "readability": "Героиня и проходимый план читаются на фоне; дальние планы мягче и менее контрастны. Исходные изображения Momodora служат разбором композиции и слоёв, не готовой палитрой нашей игры.",
+    "source": "https://www.playstation.com/en-us/games/bloodborne/",
+    "sourceGallery": "https://blog.playstation.com/archive/2014/11/20/new-bloodborne-environments-characters-weapons-unveiled"
+  },
+  "backgroundReferences": [
+    {
+      "id": "BG00",
+      "uiId": "UI_BG_REFERENCE_BG00",
+      "title": "Дальние стволы",
+      "task": "Нарисовать глубинный лесной план: высокие мёртвые стволы, редкие ветви и холодную дымку. Сохранить пространство между деревьями, чтобы не забить силуэт героини.",
+      "file": "maps/momodora/assets-by-biome/shared/BG00_000.png",
+      "size": [
+        320,
+        241
+      ],
+      "biomes": [
+        "BIOME_01",
+        "BIOME_09",
+        "TRANSITION_ORDALIA_FRORE"
+      ],
+      "rooms": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        56,
+        57,
+        58,
+        59,
+        60
+      ]
+    },
+    {
+      "id": "BG01",
+      "uiId": "UI_BG_REFERENCE_BG01",
+      "title": "Трава и низкая растительность",
+      "task": "Сделать отдельный план спутанной сухой травы и корней. Детали укрупнить для игрового масштаба, насыщенную бирюзу исходника заменить общей гаммой Bloodborne.",
+      "file": "maps/momodora/assets-by-biome/shared/BG01_000.png",
+      "size": [
+        320,
+        241
+      ],
+      "biomes": [
+        "BIOME_01",
+        "BIOME_09",
+        "TRANSITION_ORDALIA_FRORE"
+      ],
+      "rooms": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        56,
+        57,
+        58,
+        59,
+        60
+      ]
+    },
+    {
+      "id": "BG02",
+      "uiId": "UI_BG_REFERENCE_BG02",
+      "title": "Средние деревья",
+      "task": "Нарисовать тяжёлые тёмные стволы и нависающие ветви как отдельный план. Красные участки исходника не считать выбранным цветом неба нашей игры.",
+      "file": "maps/momodora/assets-by-biome/shared/BG02_000.png",
+      "size": [
+        320,
+        241
+      ],
+      "biomes": [
+        "BIOME_01",
+        "BIOME_09",
+        "TRANSITION_ORDALIA_FRORE"
+      ],
+      "rooms": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        56,
+        57,
+        58,
+        59,
+        60
+      ]
+    },
+    {
+      "id": "BG03",
+      "uiId": "UI_BG_REFERENCE_BG03",
+      "title": "Ближняя тёмная кромка",
+      "task": "Подготовить сдержанные силуэты кустов и подлеска, обрамляющие сцену. Оставить проход и ноги героини хорошо читаемыми.",
+      "file": "maps/momodora/assets-by-biome/shared/BG03_000.png",
+      "size": [
+        320,
+        241
+      ],
+      "biomes": [
+        "BIOME_01",
+        "BIOME_09",
+        "TRANSITION_ORDALIA_FRORE"
+      ],
+      "rooms": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        56,
+        57,
+        58,
+        59,
+        60
+      ]
+    },
+    {
+      "id": "BG04",
+      "uiId": "UI_BG_REFERENCE_BG04",
+      "title": "Дальний готический силуэт",
+      "task": "Предложить дальний силуэт старого города: крыши, шпили и ограды. Камень холодный и потемневший, контраст ниже, чем у игрового плана.",
+      "file": "maps/momodora/assets-by-biome/shared/BG04_000.png",
+      "size": [
+        320,
+        241
+      ],
+      "biomes": [
+        "BIOME_02"
+      ],
+      "rooms": [
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        81,
+        83,
+        84,
+        85,
+        87,
+        88,
+        89,
+        90
+      ]
+    },
+    {
+      "id": "BG05",
+      "uiId": "UI_BG_REFERENCE_BG05",
+      "title": "Силуэт за погостом",
+      "task": "Нарисовать отдельный дальний силуэт часовни/городских крыш за кладбищем. Привязать архитектуру к нашему миру, сохранив глубину исходного плана.",
+      "file": "maps/momodora/assets-by-biome/shared/BG05_000.png",
+      "size": [
+        320,
+        241
+      ],
+      "biomes": [
+        "BIOME_05"
+      ],
+      "rooms": [
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168
+      ]
+    },
+    {
+      "id": "BG06",
+      "uiId": "UI_BG_REFERENCE_BG06",
+      "title": "Лес за кладбищем",
+      "task": "Подготовить план тёмных хвойных или голых деревьев за погостом. Конкретную породу согласовать; не перегружать края мелкой листвой.",
+      "file": "maps/momodora/assets-by-biome/shared/BG06_000.png",
+      "size": [
+        320,
+        241
+      ],
+      "biomes": [
+        "BIOME_05"
+      ],
+      "rooms": [
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168
+      ]
+    },
+    {
+      "id": "BG07",
+      "uiId": "UI_BG_REFERENCE_BG07",
+      "title": "Городские фасады",
+      "task": "Нарисовать плотный городской план с высокими фасадами, крышами и арками. Разделить материалы камня, металла и тёмных окон.",
+      "file": "maps/momodora/assets-by-biome/shared/BG07_000.png",
+      "size": [
+        320,
+        241
+      ],
+      "biomes": [
+        "BIOME_02"
+      ],
+      "rooms": [
+        62,
+        75,
+        76,
+        77,
+        78,
+        80,
+        82,
+        86
+      ]
+    },
+    {
+      "id": "BG08",
+      "uiId": "UI_BG_REFERENCE_BG08",
+      "title": "Небо и облака с луной",
+      "task": "Предложить облачное ночное небо в общей палитре Bloodborne. Наличие, цвет и форму луны нашей игры согласовать; красную луну Momodora автоматически не переносить.",
+      "file": "maps/momodora/assets-by-biome/shared/BG08_000.png",
+      "size": [
+        320,
+        240
+      ],
+      "biomes": [
+        "BIOME_02",
+        "BIOME_03",
+        "BIOME_05"
+      ],
+      "rooms": [
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        106,
+        107,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168
+      ]
+    },
+    {
+      "id": "BG09",
+      "uiId": "UI_BG_REFERENCE_BG09",
+      "title": "Небо двора",
+      "task": "Сделать дальнее небо с тяжёлыми облаками над двором. Цвет и свет связать с соседними замковыми сценами.",
+      "file": "maps/momodora/assets-by-biome/shared/BG09_000.png",
+      "size": [
+        320,
+        240
+      ],
+      "biomes": [
+        "TRANSITION_COURTYARD"
+      ],
+      "rooms": [
+        229
+      ]
+    },
+    {
+      "id": "BG10",
+      "uiId": "UI_BG_REFERENCE_BG10",
+      "title": "Ограда и опоры двора",
+      "task": "Нарисовать отдельный архитектурный план ограды и опор ворот. Не превращать графические просветы исходника в новые физические стены.",
+      "file": "maps/momodora/assets-by-biome/shared/BG10_000.png",
+      "size": [
+        320,
+        240
+      ],
+      "biomes": [
+        "TRANSITION_COURTYARD"
+      ],
+      "rooms": [
+        229
+      ]
+    },
+    {
+      "id": "BG11",
+      "uiId": "UI_BG_REFERENCE_BG11",
+      "title": "Широкая небесная панорама",
+      "task": "Предложить широкое облачное небо для открытых замковых участков. Луну и световые акценты согласовать; возможность бесшовного повтора проверить отдельно.",
+      "file": "maps/momodora/assets-by-biome/shared/BG11_000.png",
+      "size": [
+        640,
+        240
+      ],
+      "biomes": [
+        "BIOME_08"
+      ],
+      "rooms": [
+        243,
+        248,
+        259
+      ]
+    },
+    {
+      "id": "BG12",
+      "uiId": "UI_BG_REFERENCE_BG12",
+      "title": "Монастырские аркады · первая часть",
+      "task": "Нарисовать повреждённые двухъярусные аркады монастыря: камень, провалы и ограждения. Сохранить общую линию перспективы с соседней частью.",
+      "file": "maps/momodora/assets-by-biome/shared/BG12_000.png",
+      "size": [
+        640,
+        241
+      ],
+      "biomes": [
+        "BIOME_03"
+      ],
+      "rooms": [
+        106
+      ]
+    },
+    {
+      "id": "BG13",
+      "uiId": "UI_BG_REFERENCE_BG13",
+      "title": "Монастырские аркады · вторая часть",
+      "task": "Продолжить архитектуру соседней части аркад с теми же масштабом и светом. Проверить стык с первым фрагментом; не зеркалить его автоматически.",
+      "file": "maps/momodora/assets-by-biome/shared/BG13_000.png",
+      "size": [
+        640,
+        241
+      ],
+      "biomes": [
+        "BIOME_03"
+      ],
+      "rooms": [
+        107
+      ]
+    },
+    {
+      "id": "BG14",
+      "uiId": "UI_BG_REFERENCE_BG14",
+      "title": "Повторяемая каменная подложка",
+      "task": "Предложить сдержанную каменную подложку для подземелий и замка. Это тайлируемый фрагмент 64×64 исходника, не самостоятельная панорама; швы проверять отдельно.",
+      "file": "maps/momodora/assets-by-biome/shared/BG14_000.png",
+      "size": [
+        64,
+        64
+      ],
+      "biomes": [
+        "BIOME_04",
+        "BIOME_08"
+      ],
+      "rooms": [
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        235
+      ]
+    }
+  ],
+  "parallaxReferences": [
+    {
+      "id": "PARALLAX_REF_01",
+      "model": "parallax_ob",
+      "backgroundIds": [
+        "BG00",
+        "BG01",
+        "BG02",
+        "BG03"
+      ],
+      "rooms": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "biomes": [
+        "BIOME_01",
+        "BIOME_09",
+        "TRANSITION_ORDALIA_FRORE"
+      ],
+      "exampleRoom": 21,
+      "title": "Лес · четыре плана",
+      "mapUrl": "maps/momodora/index.html?artist=1#map/all/ROOM21"
+    },
+    {
+      "id": "PARALLAX_REF_02",
+      "model": "parallax_ob2",
+      "backgroundIds": [
+        "BG07",
+        "BG08"
+      ],
+      "rooms": [
+        62,
+        75,
+        76,
+        77,
+        78,
+        80,
+        82,
+        86
+      ],
+      "biomes": [
+        "BIOME_02"
+      ],
+      "exampleRoom": 62,
+      "title": "Город · тесные фасады",
+      "mapUrl": "maps/momodora/index.html?artist=1#map/all/ROOM62"
+    },
+    {
+      "id": "PARALLAX_REF_03",
+      "model": "parallax_ob2",
+      "backgroundIds": [
+        "BG04",
+        "BG08"
+      ],
+      "rooms": [
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        81,
+        83,
+        84,
+        85,
+        87,
+        88,
+        89,
+        90
+      ],
+      "biomes": [
+        "BIOME_02"
+      ],
+      "exampleRoom": 63,
+      "title": "Город · дальние шпили",
+      "mapUrl": "maps/momodora/index.html?artist=1#map/all/ROOM63"
+    },
+    {
+      "id": "PARALLAX_REF_04",
+      "model": "parallax_ob2",
+      "backgroundIds": [
+        "BG08",
+        "BG12"
+      ],
+      "rooms": [
+        106
+      ],
+      "biomes": [
+        "BIOME_03"
+      ],
+      "exampleRoom": 106,
+      "title": "Монастырь · первая аркада",
+      "mapUrl": "maps/momodora/index.html?artist=1#map/all/ROOM106"
+    },
+    {
+      "id": "PARALLAX_REF_05",
+      "model": "parallax_ob2",
+      "backgroundIds": [
+        "BG08",
+        "BG13"
+      ],
+      "rooms": [
+        107
+      ],
+      "biomes": [
+        "BIOME_03"
+      ],
+      "exampleRoom": 107,
+      "title": "Монастырь · вторая аркада",
+      "mapUrl": "maps/momodora/index.html?artist=1#map/all/ROOM107"
+    },
+    {
+      "id": "PARALLAX_REF_06",
+      "model": "parallax_ob3",
+      "backgroundIds": [
+        "BG14"
+      ],
+      "rooms": [
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        235
+      ],
+      "biomes": [
+        "BIOME_04",
+        "BIOME_08"
+      ],
+      "exampleRoom": 120,
+      "title": "Подземелья · каменная подложка",
+      "mapUrl": "maps/momodora/index.html?artist=1#map/all/ROOM120"
+    },
+    {
+      "id": "PARALLAX_REF_07",
+      "model": "parallax_ob4",
+      "backgroundIds": [
+        "BG05",
+        "BG06",
+        "BG08"
+      ],
+      "rooms": [
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168
+      ],
+      "biomes": [
+        "BIOME_05"
+      ],
+      "exampleRoom": 147,
+      "title": "Погост · лес и город вдали",
+      "mapUrl": "maps/momodora/index.html?artist=1#map/all/ROOM147"
+    },
+    {
+      "id": "PARALLAX_REF_08",
+      "model": "parallax_ob5",
+      "backgroundIds": [
+        "BG09",
+        "BG10"
+      ],
+      "rooms": [
+        229
+      ],
+      "biomes": [
+        "TRANSITION_COURTYARD"
+      ],
+      "exampleRoom": 229,
+      "title": "Замковый двор · небо и ограда",
+      "mapUrl": "maps/momodora/index.html?artist=1#map/all/ROOM229"
+    },
+    {
+      "id": "PARALLAX_REF_09",
+      "model": "parallax_ob5",
+      "backgroundIds": [
+        "BG11"
+      ],
+      "rooms": [
+        243,
+        248,
+        259
+      ],
+      "biomes": [
+        "BIOME_08"
+      ],
+      "exampleRoom": 243,
+      "title": "Замок · широкая небесная панорама",
+      "mapUrl": "maps/momodora/index.html?artist=1#map/all/ROOM243"
     }
   ]
 };

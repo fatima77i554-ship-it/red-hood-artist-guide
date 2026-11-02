@@ -1,0 +1,2258 @@
+{
+  "version": 1,
+  "scope": "website references only",
+  "assets": [
+    {
+      "id": "UI_BG_REFERENCE_BG00",
+      "sourceAssetId": "BG00",
+      "category": "website_background_reference",
+      "purpose": "Reference for artist brief; not a new game asset",
+      "source": {
+        "module": "maps/momodora",
+        "classifierAssetId": "BG00",
+        "gameSource": {
+          "file": "game.ios",
+          "sha256": "cb878475628929213c3060417d5d322327c698715989d3a3f47bbec33ee23248",
+          "chunk": "BGND + TPAG",
+          "background_id": 0,
+          "atlas": {
+            "source_x": 652,
+            "source_y": 4,
+            "source_w": 320,
+            "source_h": 241,
+            "target_x": 0,
+            "target_y": 0,
+            "target_w": 320,
+            "target_h": 241,
+            "bound_w": 320,
+            "bound_h": 241,
+            "page": 1
+          },
+          "crop": [
+            0,
+            0,
+            320,
+            241
+          ]
+        },
+        "fileSha256": "9ad45f1a9cedd49c92ff02b2e4635564af2d4cf0eb87f9124cf2d29ccb0af128",
+        "rgbaSha256": "cd1c4b1a0178a9ef4e2eb52ce9e00849d90fd868013e26e8c0bc1c73975087e0"
+      },
+      "file": "maps/momodora/assets-by-biome/shared/BG00_000.png",
+      "slicing": {
+        "frames": [
+          0
+        ],
+        "rectangle": [
+          0,
+          0,
+          320,
+          241
+        ],
+        "policy": "entire verified source bitmap; no crop"
+      },
+      "scale": {
+        "source": [
+          1,
+          1
+        ],
+        "web": "contain, original aspect ratio"
+      },
+      "pivot": {
+        "web": [
+          0,
+          0
+        ],
+        "source": [
+          0,
+          0
+        ]
+      },
+      "support": {
+        "web": "none; document image",
+        "source": []
+      },
+      "animation": {
+        "bitmap": "none; one authored frame",
+        "gameParallax": "camera-driven in traced source models; not simulated by this page",
+        "newGameParameters": "unknown"
+      },
+      "collision": "none for website; original background bitmap is visual only",
+      "hitbox": "none for website/background bitmap",
+      "vfx": {
+        "web": "none",
+        "source": {
+          "type": "none",
+          "bindings": [
+            "camera only through verified parallax_ob draw rules"
+          ]
+        },
+        "newGameBindings": "unknown"
+      },
+      "placement": {
+        "surfaces": [
+          "website reference panel"
+        ],
+        "layers": [
+          "background reference"
+        ],
+        "neighbors": [
+          "brief",
+          "source caption"
+        ],
+        "support": "none for website",
+        "restrictions": [
+          "no game admission",
+          "source usage ROOM only as reference",
+          "no guessed parallax coefficients"
+        ]
+      },
+      "sourceUsageRooms": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "validation": {
+        "status": "verified_for_website_reference",
+        "gameBuildAdmission": false,
+        "browserImageLoaded": true,
+        "fullCanvasReviewed": true
+      }
+    },
+    {
+      "id": "UI_BG_REFERENCE_BG01",
+      "sourceAssetId": "BG01",
+      "category": "website_background_reference",
+      "purpose": "Reference for artist brief; not a new game asset",
+      "source": {
+        "module": "maps/momodora",
+        "classifierAssetId": "BG01",
+        "gameSource": {
+          "file": "game.ios",
+          "sha256": "cb878475628929213c3060417d5d322327c698715989d3a3f47bbec33ee23248",
+          "chunk": "BGND + TPAG",
+          "background_id": 1,
+          "atlas": {
+            "source_x": 660,
+            "source_y": 1008,
+            "source_w": 320,
+            "source_h": 183,
+            "target_x": 0,
+            "target_y": 58,
+            "target_w": 320,
+            "target_h": 183,
+            "bound_w": 320,
+            "bound_h": 241,
+            "page": 1
+          },
+          "crop": [
+            0,
+            0,
+            320,
+            241
+          ]
+        },
+        "fileSha256": "21322afda4789b0a85bf69bd8500783f0848af62be12bb8e042b23192714144d",
+        "rgbaSha256": "7183330b83b48b18d7d0fe45cde576f15fa63afcb98b900a562b928ffed08d33"
+      },
+      "file": "maps/momodora/assets-by-biome/shared/BG01_000.png",
+      "slicing": {
+        "frames": [
+          0
+        ],
+        "rectangle": [
+          0,
+          0,
+          320,
+          241
+        ],
+        "policy": "entire verified source bitmap; no crop"
+      },
+      "scale": {
+        "source": [
+          1,
+          1
+        ],
+        "web": "contain, original aspect ratio"
+      },
+      "pivot": {
+        "web": [
+          0,
+          0
+        ],
+        "source": [
+          0,
+          0
+        ]
+      },
+      "support": {
+        "web": "none; document image",
+        "source": []
+      },
+      "animation": {
+        "bitmap": "none; one authored frame",
+        "gameParallax": "camera-driven in traced source models; not simulated by this page",
+        "newGameParameters": "unknown"
+      },
+      "collision": "none for website; original background bitmap is visual only",
+      "hitbox": "none for website/background bitmap",
+      "vfx": {
+        "web": "none",
+        "source": {
+          "type": "none",
+          "bindings": [
+            "camera only through verified parallax_ob draw rules"
+          ]
+        },
+        "newGameBindings": "unknown"
+      },
+      "placement": {
+        "surfaces": [
+          "website reference panel"
+        ],
+        "layers": [
+          "background reference"
+        ],
+        "neighbors": [
+          "brief",
+          "source caption"
+        ],
+        "support": "none for website",
+        "restrictions": [
+          "no game admission",
+          "source usage ROOM only as reference",
+          "no guessed parallax coefficients"
+        ]
+      },
+      "sourceUsageRooms": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "validation": {
+        "status": "verified_for_website_reference",
+        "gameBuildAdmission": false,
+        "browserImageLoaded": true,
+        "fullCanvasReviewed": true
+      }
+    },
+    {
+      "id": "UI_BG_REFERENCE_BG02",
+      "sourceAssetId": "BG02",
+      "category": "website_background_reference",
+      "purpose": "Reference for artist brief; not a new game asset",
+      "source": {
+        "module": "maps/momodora",
+        "classifierAssetId": "BG02",
+        "gameSource": {
+          "file": "game.ios",
+          "sha256": "cb878475628929213c3060417d5d322327c698715989d3a3f47bbec33ee23248",
+          "chunk": "BGND + TPAG",
+          "background_id": 2,
+          "atlas": {
+            "source_x": 652,
+            "source_y": 256,
+            "source_w": 320,
+            "source_h": 241,
+            "target_x": 0,
+            "target_y": 0,
+            "target_w": 320,
+            "target_h": 241,
+            "bound_w": 320,
+            "bound_h": 241,
+            "page": 1
+          },
+          "crop": [
+            0,
+            0,
+            320,
+            241
+          ]
+        },
+        "fileSha256": "d4436cdc11bd9eb999afe9fe89d7b1d24d660baa2fd54741c89f9c6bfe989533",
+        "rgbaSha256": "cdafd905f15f39a310ba13ac481ff83488385c31656aa3a0c1cc9046a7f37ba9"
+      },
+      "file": "maps/momodora/assets-by-biome/shared/BG02_000.png",
+      "slicing": {
+        "frames": [
+          0
+        ],
+        "rectangle": [
+          0,
+          0,
+          320,
+          241
+        ],
+        "policy": "entire verified source bitmap; no crop"
+      },
+      "scale": {
+        "source": [
+          1,
+          1
+        ],
+        "web": "contain, original aspect ratio"
+      },
+      "pivot": {
+        "web": [
+          0,
+          0
+        ],
+        "source": [
+          0,
+          0
+        ]
+      },
+      "support": {
+        "web": "none; document image",
+        "source": []
+      },
+      "animation": {
+        "bitmap": "none; one authored frame",
+        "gameParallax": "camera-driven in traced source models; not simulated by this page",
+        "newGameParameters": "unknown"
+      },
+      "collision": "none for website; original background bitmap is visual only",
+      "hitbox": "none for website/background bitmap",
+      "vfx": {
+        "web": "none",
+        "source": {
+          "type": "none",
+          "bindings": [
+            "camera only through verified parallax_ob draw rules"
+          ]
+        },
+        "newGameBindings": "unknown"
+      },
+      "placement": {
+        "surfaces": [
+          "website reference panel"
+        ],
+        "layers": [
+          "background reference"
+        ],
+        "neighbors": [
+          "brief",
+          "source caption"
+        ],
+        "support": "none for website",
+        "restrictions": [
+          "no game admission",
+          "source usage ROOM only as reference",
+          "no guessed parallax coefficients"
+        ]
+      },
+      "sourceUsageRooms": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "validation": {
+        "status": "verified_for_website_reference",
+        "gameBuildAdmission": false,
+        "browserImageLoaded": true,
+        "fullCanvasReviewed": true
+      }
+    },
+    {
+      "id": "UI_BG_REFERENCE_BG03",
+      "sourceAssetId": "BG03",
+      "category": "website_background_reference",
+      "purpose": "Reference for artist brief; not a new game asset",
+      "source": {
+        "module": "maps/momodora",
+        "classifierAssetId": "BG03",
+        "gameSource": {
+          "file": "game.ios",
+          "sha256": "cb878475628929213c3060417d5d322327c698715989d3a3f47bbec33ee23248",
+          "chunk": "BGND + TPAG",
+          "background_id": 3,
+          "atlas": {
+            "source_x": 4,
+            "source_y": 1244,
+            "source_w": 320,
+            "source_h": 109,
+            "target_x": 0,
+            "target_y": 131,
+            "target_w": 320,
+            "target_h": 109,
+            "bound_w": 320,
+            "bound_h": 241,
+            "page": 1
+          },
+          "crop": [
+            0,
+            0,
+            320,
+            241
+          ]
+        },
+        "fileSha256": "de7b9779241f5ebacc55830a7dfa0d6b75a5f7966cb707d99a9ccfce35ee9b17",
+        "rgbaSha256": "5305266bd4b4d5a4b142de38b4cc6f34b11f41ba86e57c1e21037acf2118b5e4"
+      },
+      "file": "maps/momodora/assets-by-biome/shared/BG03_000.png",
+      "slicing": {
+        "frames": [
+          0
+        ],
+        "rectangle": [
+          0,
+          0,
+          320,
+          241
+        ],
+        "policy": "entire verified source bitmap; no crop"
+      },
+      "scale": {
+        "source": [
+          1,
+          1
+        ],
+        "web": "contain, original aspect ratio"
+      },
+      "pivot": {
+        "web": [
+          0,
+          0
+        ],
+        "source": [
+          0,
+          0
+        ]
+      },
+      "support": {
+        "web": "none; document image",
+        "source": []
+      },
+      "animation": {
+        "bitmap": "none; one authored frame",
+        "gameParallax": "camera-driven in traced source models; not simulated by this page",
+        "newGameParameters": "unknown"
+      },
+      "collision": "none for website; original background bitmap is visual only",
+      "hitbox": "none for website/background bitmap",
+      "vfx": {
+        "web": "none",
+        "source": {
+          "type": "none",
+          "bindings": [
+            "camera only through verified parallax_ob draw rules"
+          ]
+        },
+        "newGameBindings": "unknown"
+      },
+      "placement": {
+        "surfaces": [
+          "website reference panel"
+        ],
+        "layers": [
+          "background reference"
+        ],
+        "neighbors": [
+          "brief",
+          "source caption"
+        ],
+        "support": "none for website",
+        "restrictions": [
+          "no game admission",
+          "source usage ROOM only as reference",
+          "no guessed parallax coefficients"
+        ]
+      },
+      "sourceUsageRooms": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "validation": {
+        "status": "verified_for_website_reference",
+        "gameBuildAdmission": false,
+        "browserImageLoaded": true,
+        "fullCanvasReviewed": true
+      }
+    },
+    {
+      "id": "UI_BG_REFERENCE_BG04",
+      "sourceAssetId": "BG04",
+      "category": "website_background_reference",
+      "purpose": "Reference for artist brief; not a new game asset",
+      "source": {
+        "module": "maps/momodora",
+        "classifierAssetId": "BG04",
+        "gameSource": {
+          "file": "game.ios",
+          "sha256": "cb878475628929213c3060417d5d322327c698715989d3a3f47bbec33ee23248",
+          "chunk": "BGND + TPAG",
+          "background_id": 4,
+          "atlas": {
+            "source_x": 4,
+            "source_y": 996,
+            "source_w": 320,
+            "source_h": 237,
+            "target_x": 0,
+            "target_y": 3,
+            "target_w": 320,
+            "target_h": 237,
+            "bound_w": 320,
+            "bound_h": 241,
+            "page": 1
+          },
+          "crop": [
+            0,
+            0,
+            320,
+            241
+          ]
+        },
+        "fileSha256": "8e36ad331bacdf8c6a3a16b4ad1a7f4a10a3854054e938ca09135b6e9c734f2e",
+        "rgbaSha256": "82183fa5b85ac55ccf081e03a59d67bd2532212560e35c8df2f80241961d2a01"
+      },
+      "file": "maps/momodora/assets-by-biome/shared/BG04_000.png",
+      "slicing": {
+        "frames": [
+          0
+        ],
+        "rectangle": [
+          0,
+          0,
+          320,
+          241
+        ],
+        "policy": "entire verified source bitmap; no crop"
+      },
+      "scale": {
+        "source": [
+          1,
+          1
+        ],
+        "web": "contain, original aspect ratio"
+      },
+      "pivot": {
+        "web": [
+          0,
+          0
+        ],
+        "source": [
+          0,
+          0
+        ]
+      },
+      "support": {
+        "web": "none; document image",
+        "source": []
+      },
+      "animation": {
+        "bitmap": "none; one authored frame",
+        "gameParallax": "camera-driven in traced source models; not simulated by this page",
+        "newGameParameters": "unknown"
+      },
+      "collision": "none for website; original background bitmap is visual only",
+      "hitbox": "none for website/background bitmap",
+      "vfx": {
+        "web": "none",
+        "source": {
+          "type": "none",
+          "bindings": [
+            "camera only through verified parallax_ob draw rules"
+          ]
+        },
+        "newGameBindings": "unknown"
+      },
+      "placement": {
+        "surfaces": [
+          "website reference panel"
+        ],
+        "layers": [
+          "background reference"
+        ],
+        "neighbors": [
+          "brief",
+          "source caption"
+        ],
+        "support": "none for website",
+        "restrictions": [
+          "no game admission",
+          "source usage ROOM only as reference",
+          "no guessed parallax coefficients"
+        ]
+      },
+      "sourceUsageRooms": [
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        81,
+        83,
+        84,
+        85,
+        87,
+        88,
+        89,
+        90
+      ],
+      "validation": {
+        "status": "verified_for_website_reference",
+        "gameBuildAdmission": false,
+        "browserImageLoaded": true,
+        "fullCanvasReviewed": true
+      }
+    },
+    {
+      "id": "UI_BG_REFERENCE_BG05",
+      "sourceAssetId": "BG05",
+      "category": "website_background_reference",
+      "purpose": "Reference for artist brief; not a new game asset",
+      "source": {
+        "module": "maps/momodora",
+        "classifierAssetId": "BG05",
+        "gameSource": {
+          "file": "game.ios",
+          "sha256": "cb878475628929213c3060417d5d322327c698715989d3a3f47bbec33ee23248",
+          "chunk": "BGND + TPAG",
+          "background_id": 5,
+          "atlas": {
+            "source_x": 332,
+            "source_y": 1008,
+            "source_w": 320,
+            "source_h": 237,
+            "target_x": 0,
+            "target_y": 3,
+            "target_w": 320,
+            "target_h": 237,
+            "bound_w": 320,
+            "bound_h": 241,
+            "page": 1
+          },
+          "crop": [
+            0,
+            0,
+            320,
+            241
+          ]
+        },
+        "fileSha256": "96a873573091cf899ddc713e0b831f84ba305a9364e31affc595ba25e64f8836",
+        "rgbaSha256": "7329bd4c7cd504eee1bd3cb3de3fb93035d6fb44fe72e674346629d17fa49315"
+      },
+      "file": "maps/momodora/assets-by-biome/shared/BG05_000.png",
+      "slicing": {
+        "frames": [
+          0
+        ],
+        "rectangle": [
+          0,
+          0,
+          320,
+          241
+        ],
+        "policy": "entire verified source bitmap; no crop"
+      },
+      "scale": {
+        "source": [
+          1,
+          1
+        ],
+        "web": "contain, original aspect ratio"
+      },
+      "pivot": {
+        "web": [
+          0,
+          0
+        ],
+        "source": [
+          0,
+          0
+        ]
+      },
+      "support": {
+        "web": "none; document image",
+        "source": []
+      },
+      "animation": {
+        "bitmap": "none; one authored frame",
+        "gameParallax": "camera-driven in traced source models; not simulated by this page",
+        "newGameParameters": "unknown"
+      },
+      "collision": "none for website; original background bitmap is visual only",
+      "hitbox": "none for website/background bitmap",
+      "vfx": {
+        "web": "none",
+        "source": {
+          "type": "none",
+          "bindings": [
+            "camera only through verified parallax_ob draw rules"
+          ]
+        },
+        "newGameBindings": "unknown"
+      },
+      "placement": {
+        "surfaces": [
+          "website reference panel"
+        ],
+        "layers": [
+          "background reference"
+        ],
+        "neighbors": [
+          "brief",
+          "source caption"
+        ],
+        "support": "none for website",
+        "restrictions": [
+          "no game admission",
+          "source usage ROOM only as reference",
+          "no guessed parallax coefficients"
+        ]
+      },
+      "sourceUsageRooms": [
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168
+      ],
+      "validation": {
+        "status": "verified_for_website_reference",
+        "gameBuildAdmission": false,
+        "browserImageLoaded": true,
+        "fullCanvasReviewed": true
+      }
+    },
+    {
+      "id": "UI_BG_REFERENCE_BG06",
+      "sourceAssetId": "BG06",
+      "category": "website_background_reference",
+      "purpose": "Reference for artist brief; not a new game asset",
+      "source": {
+        "module": "maps/momodora",
+        "classifierAssetId": "BG06",
+        "gameSource": {
+          "file": "game.ios",
+          "sha256": "cb878475628929213c3060417d5d322327c698715989d3a3f47bbec33ee23248",
+          "chunk": "BGND + TPAG",
+          "background_id": 6,
+          "atlas": {
+            "source_x": 4,
+            "source_y": 748,
+            "source_w": 320,
+            "source_h": 240,
+            "target_x": 0,
+            "target_y": 0,
+            "target_w": 320,
+            "target_h": 240,
+            "bound_w": 320,
+            "bound_h": 241,
+            "page": 1
+          },
+          "crop": [
+            0,
+            0,
+            320,
+            241
+          ]
+        },
+        "fileSha256": "545785f4af0b0db25ba36fcc05379cdd5bb8d247589c37a50c732a42d9265ee8",
+        "rgbaSha256": "fa8924ae0f87c86f866433fdfd6b199e2555cd4aa91de5a9f93a4ecc7f7c7b17"
+      },
+      "file": "maps/momodora/assets-by-biome/shared/BG06_000.png",
+      "slicing": {
+        "frames": [
+          0
+        ],
+        "rectangle": [
+          0,
+          0,
+          320,
+          241
+        ],
+        "policy": "entire verified source bitmap; no crop"
+      },
+      "scale": {
+        "source": [
+          1,
+          1
+        ],
+        "web": "contain, original aspect ratio"
+      },
+      "pivot": {
+        "web": [
+          0,
+          0
+        ],
+        "source": [
+          0,
+          0
+        ]
+      },
+      "support": {
+        "web": "none; document image",
+        "source": []
+      },
+      "animation": {
+        "bitmap": "none; one authored frame",
+        "gameParallax": "camera-driven in traced source models; not simulated by this page",
+        "newGameParameters": "unknown"
+      },
+      "collision": "none for website; original background bitmap is visual only",
+      "hitbox": "none for website/background bitmap",
+      "vfx": {
+        "web": "none",
+        "source": {
+          "type": "none",
+          "bindings": [
+            "camera only through verified parallax_ob draw rules"
+          ]
+        },
+        "newGameBindings": "unknown"
+      },
+      "placement": {
+        "surfaces": [
+          "website reference panel"
+        ],
+        "layers": [
+          "background reference"
+        ],
+        "neighbors": [
+          "brief",
+          "source caption"
+        ],
+        "support": "none for website",
+        "restrictions": [
+          "no game admission",
+          "source usage ROOM only as reference",
+          "no guessed parallax coefficients"
+        ]
+      },
+      "sourceUsageRooms": [
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168
+      ],
+      "validation": {
+        "status": "verified_for_website_reference",
+        "gameBuildAdmission": false,
+        "browserImageLoaded": true,
+        "fullCanvasReviewed": true
+      }
+    },
+    {
+      "id": "UI_BG_REFERENCE_BG07",
+      "sourceAssetId": "BG07",
+      "category": "website_background_reference",
+      "purpose": "Reference for artist brief; not a new game asset",
+      "source": {
+        "module": "maps/momodora",
+        "classifierAssetId": "BG07",
+        "gameSource": {
+          "file": "game.ios",
+          "sha256": "cb878475628929213c3060417d5d322327c698715989d3a3f47bbec33ee23248",
+          "chunk": "BGND + TPAG",
+          "background_id": 7,
+          "atlas": {
+            "source_x": 652,
+            "source_y": 508,
+            "source_w": 320,
+            "source_h": 241,
+            "target_x": 0,
+            "target_y": 0,
+            "target_w": 320,
+            "target_h": 241,
+            "bound_w": 320,
+            "bound_h": 241,
+            "page": 1
+          },
+          "crop": [
+            0,
+            0,
+            320,
+            241
+          ]
+        },
+        "fileSha256": "c71d0c54b92c1891da83c687d2875a217d4389297f6d3b8d1f235e1588a2f80f",
+        "rgbaSha256": "1ac5a8696bd41a6342dc877cf48d4100d33235815ccf9bc41d3da7e324dff69b"
+      },
+      "file": "maps/momodora/assets-by-biome/shared/BG07_000.png",
+      "slicing": {
+        "frames": [
+          0
+        ],
+        "rectangle": [
+          0,
+          0,
+          320,
+          241
+        ],
+        "policy": "entire verified source bitmap; no crop"
+      },
+      "scale": {
+        "source": [
+          1,
+          1
+        ],
+        "web": "contain, original aspect ratio"
+      },
+      "pivot": {
+        "web": [
+          0,
+          0
+        ],
+        "source": [
+          0,
+          0
+        ]
+      },
+      "support": {
+        "web": "none; document image",
+        "source": []
+      },
+      "animation": {
+        "bitmap": "none; one authored frame",
+        "gameParallax": "camera-driven in traced source models; not simulated by this page",
+        "newGameParameters": "unknown"
+      },
+      "collision": "none for website; original background bitmap is visual only",
+      "hitbox": "none for website/background bitmap",
+      "vfx": {
+        "web": "none",
+        "source": {
+          "type": "none",
+          "bindings": [
+            "camera only through verified parallax_ob draw rules"
+          ]
+        },
+        "newGameBindings": "unknown"
+      },
+      "placement": {
+        "surfaces": [
+          "website reference panel"
+        ],
+        "layers": [
+          "background reference"
+        ],
+        "neighbors": [
+          "brief",
+          "source caption"
+        ],
+        "support": "none for website",
+        "restrictions": [
+          "no game admission",
+          "source usage ROOM only as reference",
+          "no guessed parallax coefficients"
+        ]
+      },
+      "sourceUsageRooms": [
+        62,
+        75,
+        76,
+        77,
+        78,
+        80,
+        82,
+        86
+      ],
+      "validation": {
+        "status": "verified_for_website_reference",
+        "gameBuildAdmission": false,
+        "browserImageLoaded": true,
+        "fullCanvasReviewed": true
+      }
+    },
+    {
+      "id": "UI_BG_REFERENCE_BG08",
+      "sourceAssetId": "BG08",
+      "category": "website_background_reference",
+      "purpose": "Reference for artist brief; not a new game asset",
+      "source": {
+        "module": "maps/momodora",
+        "classifierAssetId": "BG08",
+        "gameSource": {
+          "file": "game.ios",
+          "sha256": "cb878475628929213c3060417d5d322327c698715989d3a3f47bbec33ee23248",
+          "chunk": "BGND + TPAG",
+          "background_id": 8,
+          "atlas": {
+            "source_x": 332,
+            "source_y": 760,
+            "source_w": 320,
+            "source_h": 240,
+            "target_x": 0,
+            "target_y": 0,
+            "target_w": 320,
+            "target_h": 240,
+            "bound_w": 320,
+            "bound_h": 240,
+            "page": 1
+          },
+          "crop": [
+            0,
+            0,
+            320,
+            240
+          ]
+        },
+        "fileSha256": "a134b453027f0d0cc0d18385a28f503c7c2a561677ca1498508cf89e07d26ffe",
+        "rgbaSha256": "fb2bd9ee43c83eca244917159d5fb36a555246d7c0a9685e281dbe948a964d7c"
+      },
+      "file": "maps/momodora/assets-by-biome/shared/BG08_000.png",
+      "slicing": {
+        "frames": [
+          0
+        ],
+        "rectangle": [
+          0,
+          0,
+          320,
+          240
+        ],
+        "policy": "entire verified source bitmap; no crop"
+      },
+      "scale": {
+        "source": [
+          1,
+          1
+        ],
+        "web": "contain, original aspect ratio"
+      },
+      "pivot": {
+        "web": [
+          0,
+          0
+        ],
+        "source": [
+          0,
+          0
+        ]
+      },
+      "support": {
+        "web": "none; document image",
+        "source": []
+      },
+      "animation": {
+        "bitmap": "none; one authored frame",
+        "gameParallax": "camera-driven in traced source models; not simulated by this page",
+        "newGameParameters": "unknown"
+      },
+      "collision": "none for website; original background bitmap is visual only",
+      "hitbox": "none for website/background bitmap",
+      "vfx": {
+        "web": "none",
+        "source": {
+          "type": "none",
+          "bindings": [
+            "camera only through verified parallax_ob draw rules"
+          ]
+        },
+        "newGameBindings": "unknown"
+      },
+      "placement": {
+        "surfaces": [
+          "website reference panel"
+        ],
+        "layers": [
+          "background reference"
+        ],
+        "neighbors": [
+          "brief",
+          "source caption"
+        ],
+        "support": "none for website",
+        "restrictions": [
+          "no game admission",
+          "source usage ROOM only as reference",
+          "no guessed parallax coefficients"
+        ]
+      },
+      "sourceUsageRooms": [
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        106,
+        107,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168
+      ],
+      "validation": {
+        "status": "verified_for_website_reference",
+        "gameBuildAdmission": false,
+        "browserImageLoaded": true,
+        "fullCanvasReviewed": true
+      }
+    },
+    {
+      "id": "UI_BG_REFERENCE_BG09",
+      "sourceAssetId": "BG09",
+      "category": "website_background_reference",
+      "purpose": "Reference for artist brief; not a new game asset",
+      "source": {
+        "module": "maps/momodora",
+        "classifierAssetId": "BG09",
+        "gameSource": {
+          "file": "game.ios",
+          "sha256": "cb878475628929213c3060417d5d322327c698715989d3a3f47bbec33ee23248",
+          "chunk": "BGND + TPAG",
+          "background_id": 9,
+          "atlas": {
+            "source_x": 660,
+            "source_y": 760,
+            "source_w": 320,
+            "source_h": 240,
+            "target_x": 0,
+            "target_y": 0,
+            "target_w": 320,
+            "target_h": 240,
+            "bound_w": 320,
+            "bound_h": 240,
+            "page": 1
+          },
+          "crop": [
+            0,
+            0,
+            320,
+            240
+          ]
+        },
+        "fileSha256": "8922e964d21d6bada8e6f99dcb0f88596a79e27e88fa01fdcf5fd7f5dbbd05e7",
+        "rgbaSha256": "e40ada97fbaf016db9d012d9ec529de5ce412ec28fc4e80226260938463acf1a"
+      },
+      "file": "maps/momodora/assets-by-biome/shared/BG09_000.png",
+      "slicing": {
+        "frames": [
+          0
+        ],
+        "rectangle": [
+          0,
+          0,
+          320,
+          240
+        ],
+        "policy": "entire verified source bitmap; no crop"
+      },
+      "scale": {
+        "source": [
+          1,
+          1
+        ],
+        "web": "contain, original aspect ratio"
+      },
+      "pivot": {
+        "web": [
+          0,
+          0
+        ],
+        "source": [
+          0,
+          0
+        ]
+      },
+      "support": {
+        "web": "none; document image",
+        "source": []
+      },
+      "animation": {
+        "bitmap": "none; one authored frame",
+        "gameParallax": "camera-driven in traced source models; not simulated by this page",
+        "newGameParameters": "unknown"
+      },
+      "collision": "none for website; original background bitmap is visual only",
+      "hitbox": "none for website/background bitmap",
+      "vfx": {
+        "web": "none",
+        "source": {
+          "type": "none",
+          "bindings": [
+            "camera only through verified parallax_ob draw rules"
+          ]
+        },
+        "newGameBindings": "unknown"
+      },
+      "placement": {
+        "surfaces": [
+          "website reference panel"
+        ],
+        "layers": [
+          "background reference"
+        ],
+        "neighbors": [
+          "brief",
+          "source caption"
+        ],
+        "support": "none for website",
+        "restrictions": [
+          "no game admission",
+          "source usage ROOM only as reference",
+          "no guessed parallax coefficients"
+        ]
+      },
+      "sourceUsageRooms": [
+        229
+      ],
+      "validation": {
+        "status": "verified_for_website_reference",
+        "gameBuildAdmission": false,
+        "browserImageLoaded": true,
+        "fullCanvasReviewed": true
+      }
+    },
+    {
+      "id": "UI_BG_REFERENCE_BG10",
+      "sourceAssetId": "BG10",
+      "category": "website_background_reference",
+      "purpose": "Reference for artist brief; not a new game asset",
+      "source": {
+        "module": "maps/momodora",
+        "classifierAssetId": "BG10",
+        "gameSource": {
+          "file": "game.ios",
+          "sha256": "cb878475628929213c3060417d5d322327c698715989d3a3f47bbec33ee23248",
+          "chunk": "BGND + TPAG",
+          "background_id": 10,
+          "atlas": {
+            "source_x": 660,
+            "source_y": 1200,
+            "source_w": 320,
+            "source_h": 165,
+            "target_x": 0,
+            "target_y": 75,
+            "target_w": 320,
+            "target_h": 165,
+            "bound_w": 320,
+            "bound_h": 240,
+            "page": 1
+          },
+          "crop": [
+            0,
+            0,
+            320,
+            240
+          ]
+        },
+        "fileSha256": "82e1cd51f421c97133769f3f575c732d29150592ed54b7ec55170c2add4ef89c",
+        "rgbaSha256": "115920fe2286b26c1d958cdd25e718145215f4a1875304a71d73af9fec9206c2"
+      },
+      "file": "maps/momodora/assets-by-biome/shared/BG10_000.png",
+      "slicing": {
+        "frames": [
+          0
+        ],
+        "rectangle": [
+          0,
+          0,
+          320,
+          240
+        ],
+        "policy": "entire verified source bitmap; no crop"
+      },
+      "scale": {
+        "source": [
+          1,
+          1
+        ],
+        "web": "contain, original aspect ratio"
+      },
+      "pivot": {
+        "web": [
+          0,
+          0
+        ],
+        "source": [
+          0,
+          0
+        ]
+      },
+      "support": {
+        "web": "none; document image",
+        "source": []
+      },
+      "animation": {
+        "bitmap": "none; one authored frame",
+        "gameParallax": "camera-driven in traced source models; not simulated by this page",
+        "newGameParameters": "unknown"
+      },
+      "collision": "none for website; original background bitmap is visual only",
+      "hitbox": "none for website/background bitmap",
+      "vfx": {
+        "web": "none",
+        "source": {
+          "type": "none",
+          "bindings": [
+            "camera only through verified parallax_ob draw rules"
+          ]
+        },
+        "newGameBindings": "unknown"
+      },
+      "placement": {
+        "surfaces": [
+          "website reference panel"
+        ],
+        "layers": [
+          "background reference"
+        ],
+        "neighbors": [
+          "brief",
+          "source caption"
+        ],
+        "support": "none for website",
+        "restrictions": [
+          "no game admission",
+          "source usage ROOM only as reference",
+          "no guessed parallax coefficients"
+        ]
+      },
+      "sourceUsageRooms": [
+        229
+      ],
+      "validation": {
+        "status": "verified_for_website_reference",
+        "gameBuildAdmission": false,
+        "browserImageLoaded": true,
+        "fullCanvasReviewed": true
+      }
+    },
+    {
+      "id": "UI_BG_REFERENCE_BG11",
+      "sourceAssetId": "BG11",
+      "category": "website_background_reference",
+      "purpose": "Reference for artist brief; not a new game asset",
+      "source": {
+        "module": "maps/momodora",
+        "classifierAssetId": "BG11",
+        "gameSource": {
+          "file": "game.ios",
+          "sha256": "cb878475628929213c3060417d5d322327c698715989d3a3f47bbec33ee23248",
+          "chunk": "BGND + TPAG",
+          "background_id": 11,
+          "atlas": {
+            "source_x": 4,
+            "source_y": 4,
+            "source_w": 640,
+            "source_h": 240,
+            "target_x": 0,
+            "target_y": 0,
+            "target_w": 640,
+            "target_h": 240,
+            "bound_w": 640,
+            "bound_h": 240,
+            "page": 1
+          },
+          "crop": [
+            0,
+            0,
+            640,
+            240
+          ]
+        },
+        "fileSha256": "577ad0ace161bdf9c9ba19af1cc213d0de3c54155494f5b58e969307062b1af2",
+        "rgbaSha256": "2da3fbd7a1d5a9a3939e2ca88dda3da4c6844552aaeda7468e7f5a8aab2bc2f3"
+      },
+      "file": "maps/momodora/assets-by-biome/shared/BG11_000.png",
+      "slicing": {
+        "frames": [
+          0
+        ],
+        "rectangle": [
+          0,
+          0,
+          640,
+          240
+        ],
+        "policy": "entire verified source bitmap; no crop"
+      },
+      "scale": {
+        "source": [
+          1,
+          1
+        ],
+        "web": "contain, original aspect ratio"
+      },
+      "pivot": {
+        "web": [
+          0,
+          0
+        ],
+        "source": [
+          0,
+          0
+        ]
+      },
+      "support": {
+        "web": "none; document image",
+        "source": []
+      },
+      "animation": {
+        "bitmap": "none; one authored frame",
+        "gameParallax": "camera-driven in traced source models; not simulated by this page",
+        "newGameParameters": "unknown"
+      },
+      "collision": "none for website; original background bitmap is visual only",
+      "hitbox": "none for website/background bitmap",
+      "vfx": {
+        "web": "none",
+        "source": {
+          "type": "none",
+          "bindings": [
+            "camera only through verified parallax_ob draw rules"
+          ]
+        },
+        "newGameBindings": "unknown"
+      },
+      "placement": {
+        "surfaces": [
+          "website reference panel"
+        ],
+        "layers": [
+          "background reference"
+        ],
+        "neighbors": [
+          "brief",
+          "source caption"
+        ],
+        "support": "none for website",
+        "restrictions": [
+          "no game admission",
+          "source usage ROOM only as reference",
+          "no guessed parallax coefficients"
+        ]
+      },
+      "sourceUsageRooms": [
+        243,
+        248,
+        259
+      ],
+      "validation": {
+        "status": "verified_for_website_reference",
+        "gameBuildAdmission": false,
+        "browserImageLoaded": true,
+        "fullCanvasReviewed": true
+      }
+    },
+    {
+      "id": "UI_BG_REFERENCE_BG12",
+      "sourceAssetId": "BG12",
+      "category": "website_background_reference",
+      "purpose": "Reference for artist brief; not a new game asset",
+      "source": {
+        "module": "maps/momodora",
+        "classifierAssetId": "BG12",
+        "gameSource": {
+          "file": "game.ios",
+          "sha256": "cb878475628929213c3060417d5d322327c698715989d3a3f47bbec33ee23248",
+          "chunk": "BGND + TPAG",
+          "background_id": 12,
+          "atlas": {
+            "source_x": 4,
+            "source_y": 252,
+            "source_w": 640,
+            "source_h": 240,
+            "target_x": 0,
+            "target_y": 0,
+            "target_w": 640,
+            "target_h": 240,
+            "bound_w": 640,
+            "bound_h": 241,
+            "page": 1
+          },
+          "crop": [
+            0,
+            0,
+            640,
+            241
+          ]
+        },
+        "fileSha256": "f49625e380fc73b700a881622264218d5cf3c11dae1e9e01740433f580831b05",
+        "rgbaSha256": "114e8aa41c1ac6b46bacf2f169d9959707117f4bd111db4accddce51212112f8"
+      },
+      "file": "maps/momodora/assets-by-biome/shared/BG12_000.png",
+      "slicing": {
+        "frames": [
+          0
+        ],
+        "rectangle": [
+          0,
+          0,
+          640,
+          241
+        ],
+        "policy": "entire verified source bitmap; no crop"
+      },
+      "scale": {
+        "source": [
+          1,
+          1
+        ],
+        "web": "contain, original aspect ratio"
+      },
+      "pivot": {
+        "web": [
+          0,
+          0
+        ],
+        "source": [
+          0,
+          0
+        ]
+      },
+      "support": {
+        "web": "none; document image",
+        "source": []
+      },
+      "animation": {
+        "bitmap": "none; one authored frame",
+        "gameParallax": "camera-driven in traced source models; not simulated by this page",
+        "newGameParameters": "unknown"
+      },
+      "collision": "none for website; original background bitmap is visual only",
+      "hitbox": "none for website/background bitmap",
+      "vfx": {
+        "web": "none",
+        "source": {
+          "type": "none",
+          "bindings": [
+            "camera only through verified parallax_ob draw rules"
+          ]
+        },
+        "newGameBindings": "unknown"
+      },
+      "placement": {
+        "surfaces": [
+          "website reference panel"
+        ],
+        "layers": [
+          "background reference"
+        ],
+        "neighbors": [
+          "brief",
+          "source caption"
+        ],
+        "support": "none for website",
+        "restrictions": [
+          "no game admission",
+          "source usage ROOM only as reference",
+          "no guessed parallax coefficients"
+        ]
+      },
+      "sourceUsageRooms": [
+        106
+      ],
+      "validation": {
+        "status": "verified_for_website_reference",
+        "gameBuildAdmission": false,
+        "browserImageLoaded": true,
+        "fullCanvasReviewed": true
+      }
+    },
+    {
+      "id": "UI_BG_REFERENCE_BG13",
+      "sourceAssetId": "BG13",
+      "category": "website_background_reference",
+      "purpose": "Reference for artist brief; not a new game asset",
+      "source": {
+        "module": "maps/momodora",
+        "classifierAssetId": "BG13",
+        "gameSource": {
+          "file": "game.ios",
+          "sha256": "cb878475628929213c3060417d5d322327c698715989d3a3f47bbec33ee23248",
+          "chunk": "BGND + TPAG",
+          "background_id": 13,
+          "atlas": {
+            "source_x": 4,
+            "source_y": 500,
+            "source_w": 640,
+            "source_h": 240,
+            "target_x": 0,
+            "target_y": 0,
+            "target_w": 640,
+            "target_h": 240,
+            "bound_w": 640,
+            "bound_h": 241,
+            "page": 1
+          },
+          "crop": [
+            0,
+            0,
+            640,
+            241
+          ]
+        },
+        "fileSha256": "2f031590f14fa4bc213dc95f845e3cfffb83a530aeeb1d50cd89361ab39e314e",
+        "rgbaSha256": "7c6587e2805d784d97335ccd1362fa985c0276ecb2bc42841ab37ee2a8dbc3cc"
+      },
+      "file": "maps/momodora/assets-by-biome/shared/BG13_000.png",
+      "slicing": {
+        "frames": [
+          0
+        ],
+        "rectangle": [
+          0,
+          0,
+          640,
+          241
+        ],
+        "policy": "entire verified source bitmap; no crop"
+      },
+      "scale": {
+        "source": [
+          1,
+          1
+        ],
+        "web": "contain, original aspect ratio"
+      },
+      "pivot": {
+        "web": [
+          0,
+          0
+        ],
+        "source": [
+          0,
+          0
+        ]
+      },
+      "support": {
+        "web": "none; document image",
+        "source": []
+      },
+      "animation": {
+        "bitmap": "none; one authored frame",
+        "gameParallax": "camera-driven in traced source models; not simulated by this page",
+        "newGameParameters": "unknown"
+      },
+      "collision": "none for website; original background bitmap is visual only",
+      "hitbox": "none for website/background bitmap",
+      "vfx": {
+        "web": "none",
+        "source": {
+          "type": "none",
+          "bindings": [
+            "camera only through verified parallax_ob draw rules"
+          ]
+        },
+        "newGameBindings": "unknown"
+      },
+      "placement": {
+        "surfaces": [
+          "website reference panel"
+        ],
+        "layers": [
+          "background reference"
+        ],
+        "neighbors": [
+          "brief",
+          "source caption"
+        ],
+        "support": "none for website",
+        "restrictions": [
+          "no game admission",
+          "source usage ROOM only as reference",
+          "no guessed parallax coefficients"
+        ]
+      },
+      "sourceUsageRooms": [
+        107
+      ],
+      "validation": {
+        "status": "verified_for_website_reference",
+        "gameBuildAdmission": false,
+        "browserImageLoaded": true,
+        "fullCanvasReviewed": true
+      }
+    },
+    {
+      "id": "UI_BG_REFERENCE_BG14",
+      "sourceAssetId": "BG14",
+      "category": "website_background_reference",
+      "purpose": "Reference for artist brief; not a new game asset",
+      "source": {
+        "module": "maps/momodora",
+        "classifierAssetId": "BG14",
+        "gameSource": {
+          "file": "game.ios",
+          "sha256": "cb878475628929213c3060417d5d322327c698715989d3a3f47bbec33ee23248",
+          "chunk": "BGND + TPAG",
+          "background_id": 14,
+          "atlas": {
+            "source_x": 332,
+            "source_y": 1256,
+            "source_w": 64,
+            "source_h": 64,
+            "target_x": 0,
+            "target_y": 0,
+            "target_w": 64,
+            "target_h": 64,
+            "bound_w": 64,
+            "bound_h": 64,
+            "page": 1
+          },
+          "crop": [
+            0,
+            0,
+            64,
+            64
+          ]
+        },
+        "fileSha256": "e0a600268e4e838cbb2d645ad9b64530a4ccac386ae25907aad6d9f68271b733",
+        "rgbaSha256": "62fb561c59d0cea247fc588f3311ee665375f35d8675b186e2792cb7dfcff88c"
+      },
+      "file": "maps/momodora/assets-by-biome/shared/BG14_000.png",
+      "slicing": {
+        "frames": [
+          0
+        ],
+        "rectangle": [
+          0,
+          0,
+          64,
+          64
+        ],
+        "policy": "entire verified source bitmap; no crop"
+      },
+      "scale": {
+        "source": [
+          1,
+          1
+        ],
+        "web": "contain, original aspect ratio"
+      },
+      "pivot": {
+        "web": [
+          0,
+          0
+        ],
+        "source": [
+          0,
+          0
+        ]
+      },
+      "support": {
+        "web": "none; document image",
+        "source": []
+      },
+      "animation": {
+        "bitmap": "none; one authored frame",
+        "gameParallax": "camera-driven in traced source models; not simulated by this page",
+        "newGameParameters": "unknown"
+      },
+      "collision": "none for website; original background bitmap is visual only",
+      "hitbox": "none for website/background bitmap",
+      "vfx": {
+        "web": "none",
+        "source": {
+          "type": "none",
+          "bindings": [
+            "camera only through verified parallax_ob draw rules"
+          ]
+        },
+        "newGameBindings": "unknown"
+      },
+      "placement": {
+        "surfaces": [
+          "website reference panel"
+        ],
+        "layers": [
+          "background reference"
+        ],
+        "neighbors": [
+          "brief",
+          "source caption"
+        ],
+        "support": "none for website",
+        "restrictions": [
+          "no game admission",
+          "source usage ROOM only as reference",
+          "no guessed parallax coefficients"
+        ]
+      },
+      "sourceUsageRooms": [
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        235
+      ],
+      "validation": {
+        "status": "verified_for_website_reference",
+        "gameBuildAdmission": false,
+        "browserImageLoaded": true,
+        "fullCanvasReviewed": true
+      }
+    }
+  ],
+  "sourceModelGroups": [
+    {
+      "id": "PARALLAX_REF_01",
+      "model": "parallax_ob",
+      "backgroundIds": [
+        "BG00",
+        "BG01",
+        "BG02",
+        "BG03"
+      ],
+      "rooms": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "biomes": [
+        "BIOME_01",
+        "BIOME_09",
+        "TRANSITION_ORDALIA_FRORE"
+      ],
+      "exampleRoom": 21,
+      "title": "BG00 + BG01 + BG02 + BG03",
+      "mapUrl": "maps/momodora/index.html?artist=1#map/all/ROOM21"
+    },
+    {
+      "id": "PARALLAX_REF_02",
+      "model": "parallax_ob2",
+      "backgroundIds": [
+        "BG07",
+        "BG08"
+      ],
+      "rooms": [
+        62,
+        75,
+        76,
+        77,
+        78,
+        80,
+        82,
+        86
+      ],
+      "biomes": [
+        "BIOME_02"
+      ],
+      "exampleRoom": 62,
+      "title": "BG07 + BG08",
+      "mapUrl": "maps/momodora/index.html?artist=1#map/all/ROOM62"
+    },
+    {
+      "id": "PARALLAX_REF_03",
+      "model": "parallax_ob2",
+      "backgroundIds": [
+        "BG04",
+        "BG08"
+      ],
+      "rooms": [
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        81,
+        83,
+        84,
+        85,
+        87,
+        88,
+        89,
+        90
+      ],
+      "biomes": [
+        "BIOME_02"
+      ],
+      "exampleRoom": 63,
+      "title": "BG04 + BG08",
+      "mapUrl": "maps/momodora/index.html?artist=1#map/all/ROOM63"
+    },
+    {
+      "id": "PARALLAX_REF_04",
+      "model": "parallax_ob2",
+      "backgroundIds": [
+        "BG08",
+        "BG12"
+      ],
+      "rooms": [
+        106
+      ],
+      "biomes": [
+        "BIOME_03"
+      ],
+      "exampleRoom": 106,
+      "title": "BG08 + BG12",
+      "mapUrl": "maps/momodora/index.html?artist=1#map/all/ROOM106"
+    },
+    {
+      "id": "PARALLAX_REF_05",
+      "model": "parallax_ob2",
+      "backgroundIds": [
+        "BG08",
+        "BG13"
+      ],
+      "rooms": [
+        107
+      ],
+      "biomes": [
+        "BIOME_03"
+      ],
+      "exampleRoom": 107,
+      "title": "BG08 + BG13",
+      "mapUrl": "maps/momodora/index.html?artist=1#map/all/ROOM107"
+    },
+    {
+      "id": "PARALLAX_REF_06",
+      "model": "parallax_ob3",
+      "backgroundIds": [
+        "BG14"
+      ],
+      "rooms": [
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        235
+      ],
+      "biomes": [
+        "BIOME_04",
+        "BIOME_08"
+      ],
+      "exampleRoom": 120,
+      "title": "BG14",
+      "mapUrl": "maps/momodora/index.html?artist=1#map/all/ROOM120"
+    },
+    {
+      "id": "PARALLAX_REF_07",
+      "model": "parallax_ob4",
+      "backgroundIds": [
+        "BG05",
+        "BG06",
+        "BG08"
+      ],
+      "rooms": [
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168
+      ],
+      "biomes": [
+        "BIOME_05"
+      ],
+      "exampleRoom": 147,
+      "title": "BG05 + BG06 + BG08",
+      "mapUrl": "maps/momodora/index.html?artist=1#map/all/ROOM147"
+    },
+    {
+      "id": "PARALLAX_REF_08",
+      "model": "parallax_ob5",
+      "backgroundIds": [
+        "BG09",
+        "BG10"
+      ],
+      "rooms": [
+        229
+      ],
+      "biomes": [
+        "TRANSITION_COURTYARD"
+      ],
+      "exampleRoom": 229,
+      "title": "BG09 + BG10",
+      "mapUrl": "maps/momodora/index.html?artist=1#map/all/ROOM229"
+    },
+    {
+      "id": "PARALLAX_REF_09",
+      "model": "parallax_ob5",
+      "backgroundIds": [
+        "BG11"
+      ],
+      "rooms": [
+        243,
+        248,
+        259
+      ],
+      "biomes": [
+        "BIOME_08"
+      ],
+      "exampleRoom": 243,
+      "title": "BG11",
+      "mapUrl": "maps/momodora/index.html?artist=1#map/all/ROOM243"
+    }
+  ],
+  "gameBuildAllowedIds": []
+}

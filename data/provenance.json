@@ -92,8 +92,8 @@
       "bytes": 91867
     },
     "bloodborne.css": {
-      "sha256": "6bd2b07860b8f70a1c1979c8946c57ad027ed9414b78269ca88b1b88bf577a8f",
-      "bytes": 16049
+      "sha256": "c592249eeb840e87b92fde089fd17d5045a6655433fae835798874cf0732a212",
+      "bytes": 18561
     },
     "data/ui-theme.json": {
       "sha256": "227ce3b4f8a894e45caa58eb238c482e739cc2def225e9658098284a2ccf373d",
@@ -200,16 +200,24 @@
       "bytes": 1938968
     },
     "guide.js": {
-      "sha256": "14c7990787e63871023c069d5f1ce686c09d627e0e9adbefcb237dac5b077d63",
-      "bytes": 41910
+      "sha256": "5b391de1a2f537a4a06f96541213bbae25fadeda987bed676c90da169c2ac8aa",
+      "bytes": 53525
     },
     "data.js": {
-      "sha256": "654ea4ed81007ce3546a0e1153b707933a5b00f4cd892bbace9569c4757e92b2",
-      "bytes": 279305
+      "sha256": "f139221b71ddd705ee573ed2f15a5c6d8fc6ae0efa841b87899a5b5e21c7f98c",
+      "bytes": 350750
     },
     "README.txt": {
-      "sha256": "ef1f3c040698cfa26b6fe2e42741b6c9f7a7623be508fb744cd867edbcfa9d94",
-      "bytes": 10064
+      "sha256": "9a54feda9da494ae2a7e2993c2b7fcf02b4b563e2d00e7e23b579d5dfeb31e5f",
+      "bytes": 12205
+    },
+    "data/background-reference-classifier.json": {
+      "sha256": "4f9470833150c8bdc507badcab3770f1368536ad2b3dbe1b2e8203b19abf306d",
+      "bytes": 53404
+    },
+    "downloads/03_Короткие_ТЗ_для_художницы.txt": {
+      "sha256": "bf92cb9c7124ff3faf236b8657027da8db87b510f6bc14801c20bcd166c7a0d5",
+      "bytes": 21248
     }
   },
   "referenceSources": {
@@ -366,12 +374,12 @@
     "sourceHandoff": "/Users/fatimaauseva/Documents/Codex/2026-11-01/new-chat-3/outputs/Красная Шапочка — Momodora/08 Перекраска Claude/Передача ChatGPT — весь проект.md"
   },
   "biomeNaming": {
-    "status": "proposed_not_approved",
+    "status": "working_accepted_for_now",
     "biomes": 9,
-    "optionsPerBiome": 2,
+    "optionsPerBiome": 1,
     "sourceIdsPreserved": true,
     "originalModuleUnchanged": true,
-    "revision": 2,
+    "revision": 3,
     "previousRevision": "rejected_by_author",
     "inspirations": [
       "Brothers Grimm",
@@ -379,5 +387,19 @@
       "Quran, indirect respectful motifs",
       "Kingdom of Heaven"
     ]
+  },
+  "artistBriefs": {
+    "charactersAndEnemies": 19,
+    "locations": 11,
+    "biomes": 9,
+    "transitions": 2,
+    "backgroundLayers": 15,
+    "parallaxCombinations": 9,
+    "sourceParallaxModels": 5,
+    "artworkProduced": false,
+    "gameBuildAdmission": false,
+    "styleReference": "Bloodborne palette, architecture, lighting and atmosphere",
+    "exactRecolorPaletteBy": "Claude",
+    "sourceBitmapsUnchanged": true
   }
 }

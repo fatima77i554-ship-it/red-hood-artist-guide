@@ -226,3 +226,16 @@ footer {border-color:#514a3e;color:#a19683;}
 .biome-inspiration article{padding-top:14px}
 .biome-inspiration h3{font:20px Georgia,serif;color:#e4d7c0;margin:9px 0}
 .biome-inspiration p{margin:7px 0}
+.artist-short-brief{padding:20px 24px;margin:22px 0;border:1px solid #6e5f48;background:#b49a650a;line-height:1.75}
+.artist-short-brief p{margin:10px 0;font-size:14px}.artist-short-brief h3{font:25px Georgia,serif;margin:10px 0}.artist-short-brief details{font-size:12px;color:#b5aa9a}.artist-short-brief summary{cursor:pointer;color:#d8c7a9}.brief-open{font-size:12px!important;color:#b5aa9a}
+.background-filters{display:flex;flex-wrap:wrap;gap:18px;margin:25px 0}.background-filters label{display:flex;flex-direction:column;gap:8px;flex:1;min-width:220px;color:#c4b89f;font-size:12px}
+.background-filters select{width:100%;min-height:43px;padding:10px;background:#202024;color:#ece0c6;border:1px solid #655943;font:inherit}
+.location-brief-index{display:flex;flex-wrap:wrap;gap:9px;margin-bottom:25px}.location-brief-index .chip{white-space:normal;text-align:left}
+.background-strip{display:grid;grid-template-columns:repeat(auto-fit,minmax(125px,1fr));gap:12px;margin-top:20px}
+.background-layer-chip{padding:0;background:#1b1b21;border:1px solid #494139;color:#c8bdab;font-family:inherit;font-size:11px;line-height:1.5;cursor:pointer;min-width:0;text-align:left}
+.background-layer-chip img{display:block;width:100%;height:95px;object-fit:contain;image-rendering:pixelated;background:#27252b}.background-layer-chip span{display:block;padding:8px}
+.guide-card .card-art:has(.background-portrait){height:204px;min-height:204px;padding-bottom:32px;box-sizing:border-box}
+.guide-card .card-art img.background-portrait{width:100%;max-width:100%;height:160px;object-fit:contain}
+.background-layer-gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;margin:25px 0}.background-layer-gallery figure{margin:0;min-width:0}.background-layer-gallery figcaption{font-size:12px;line-height:1.6;margin-bottom:10px;color:#c6b79f}.background-layer-gallery img{width:100%;height:auto;max-height:330px;object-fit:contain;image-rendering:pixelated;background:#27252b;border:1px solid #9ddad577}.background-layer-gallery button{margin-top:10px}
+.background-contract{font-size:12px;line-height:1.75;border-top:1px solid #494139;padding-top:18px;color:#b4aa9b}.background-contract summary,.brief-output summary{cursor:pointer;color:#d8c7a9}.brief-output{margin:14px 0}
+@media(max-width:600px){.artist-short-brief{padding:14px}.background-filters label{min-width:0;flex-basis:100%}.background-layer-gallery{grid-template-columns:1fr}.background-strip{grid-template-columns:repeat(2,minmax(0,1fr))}}

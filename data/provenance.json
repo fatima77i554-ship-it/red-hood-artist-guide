@@ -204,8 +204,8 @@
       "bytes": 53525
     },
     "data.js": {
-      "sha256": "ede238aacd61d89bb1e30bb588a0068dd30de0eef48196f3fe16d6327930b56a",
-      "bytes": 354239
+      "sha256": "d87e8586289cf9aff96a7f8bbfb92872cd186e71f252743e196a856ca175d442",
+      "bytes": 353617
     },
     "README.txt": {
       "sha256": "9a54feda9da494ae2a7e2993c2b7fcf02b4b563e2d00e7e23b579d5dfeb31e5f",
@@ -216,8 +216,8 @@
       "bytes": 53404
     },
     "downloads/03_Короткие_ТЗ_для_художницы.txt": {
-      "sha256": "ce43703375810396385049c32970beafba816a275804c2590918735005819268",
-      "bytes": 23263
+      "sha256": "c34f991de28030252f0075872cd9caae50f5a100a7b88b2366ebf79803c04500",
+      "bytes": 22323
     }
   },
   "referenceSources": {
@@ -401,7 +401,8 @@
     "styleReference": "Bloodborne palette, architecture, lighting and atmosphere",
     "exactRecolorPaletteBy": "Claude",
     "sourceBitmapsUnchanged": true,
-    "authorChestEmphasis": "author clarified attention/clickthrough appeal for game cover, video thumbnails and promotional images; adult character art request"
+    "authorChestEmphasis": "professional art brief for adult heroine silhouette, costume and promotional appeal",
+    "editorialTone": "professional paraphrase, preserve intent, avoid informal direct quotes"
   },
   "additionalAuthorReferences": [
     "Drakengard",

@@ -1,6 +1,7 @@
 (() => {
   'use strict';
   const data = window.RED_HOOD_GUIDE;
+  const editor = window.GuideEditor;
   const entries = data.entries;
   const sections = [
     ['overview','Обзор'],['story','Мир и сюжет'],['characters','Персонажи'],['enemies','Бестиарий'],
@@ -35,6 +36,7 @@
   const owned = e => [...(data.ownedPreviews||[]),...(data.enemyPreviews||[])].find(p=>p.id===e.meta?.previewRef);
   const fixed = e => (data.staticPreviews||[]).find(p=>p.id===e.meta?.previewRef);
   let stopPreview = () => {};
+  let currentEntryId = '';
   const name = id => sections.find(s=>s[0]===id)?.[1] || '';
   let localDesigns = {};
   const localDesign = e => localDesigns[e.meta?.designRef || e.id];
@@ -52,6 +54,7 @@
     return `<span class="tag ${e.status==='confirmed'?'green':e.status==='guide'?'cyan':'gold'}">${esc(label)}</span>`;
   }
   function card(e) {
+    if(!e||editor.isHidden(e.id))return '';
     const design=localDesign(e),background=backgroundPoster(e),preview=design||background||owned(e)||fixed(e);
     const art=preview?`<img class="owned-portrait ${design?'claude-card-portrait':''} ${background?'background-portrait':''}" src="${esc(preview.poster)}" alt="${esc(preview.title)}" loading="lazy">${design?`<span class="design-ribbon">${esc(design.status)}</span>`:background?'<span class="design-ribbon">Исходный референс Momodora</span>':''}`:`<span class="initial" aria-hidden="true">${esc(e.title[0])}</span>`;
     const kicker=e.kind==='task'?`Задание · ${e.meta?.assignee||'Не назначено'}`:name(e.section);
@@ -64,7 +67,7 @@
     return `<div class="toolbar"><input id="search" class="search" type="search" aria-label="Поиск по материалам" placeholder="${active==='overview'?'Найти по всему справочнику…':'Найти в этом разделе…'}" value="${esc(query)}"><select id="status-filter" aria-label="Состояние материала"><option value="all">Все материалы</option><option value="confirmed">Подтверждено</option><option value="open">Открытые вопросы</option><option value="draft">К обсуждению</option><option value="guide">Памятки</option></select></div><div class="section-row"><h2 id="results-title">Материалы раздела</h2><span class="result-count" id="result-count" aria-live="polite"></span></div><div class="grid" id="results"></div>`;
   }
   function overview() {
-    return `<div class="eyebrow">АВТОРСКАЯ ИГРА · РАБОЧИЙ СПРАВОЧНИК</div><section class="hero"><div class="hero-copy"><div class="eyebrow">ПАМЯТЬ, КОТОРУЮ ПРЕДСТОИТ НАЙТИ</div><h1>Красная<br>Шапочка.</h1><p>Она проснулась в могиле. Без воспоминаний.<br>Разиель вернул её к жизни.<br>Она — монстр в кошмаре, и на неё охотятся.</p><div class="hero-foot"><button class="primary" data-entry="artist-start">Суть для художницы →</button><a class="button-link quiet" href="#tasks">К заданиям ↗</a></div></div><div class="hero-art"><div class="archive-ornament" aria-hidden="true"><span class="archive-orbit"></span><span class="archive-moon"></span><span class="archive-thread"></span><span class="archive-number">I</span></div><div class="art-label">ОНА ПРОСНУЛАСЬ В МОГИЛЕ.<br>ЕЁ ИСТОРИЯ ЕЩЁ НЕ ЗАКОНЧЕНА.</div></div></section><div class="stats"><div class="stat"><strong>8</strong><span>персонажей</span></div><div class="stat"><strong>${entries.filter(e=>e.section==='enemies').length}</strong><span>позиций бестиария</span></div><div class="stat"><strong>1</strong><span>тип точки сохранения</span></div><div class="stat"><strong>2</strong><span>Word-документа</span></div></div><div class="section-row"><h2>Нити нашего мира</h2><a class="quiet" href="#story">Весь замысел ↗</a></div><div class="grid">${['hero','raziel','alfred'].map(id=>card(find(id))).join('')}</div><div class="section-row"><h2>С чего начать работу</h2><span class="result-count">ОБЩИЙ ЯЗЫК ДЛЯ АВТОРА И ХУДОЖНИЦЫ</span></div><div class="guide-checks"><article><span class="step-number">01</span><h3>Понять историю</h3><p>Открыть краткую памятку, персонажей и авторский сюжетный секрет. Отделить принятые факты от вопросов.</p></article><article><span class="step-number">02</span><h3>Согласовать задачу</h3><p>Выбрать конкретный образ или ресурс, результат, размеры и нужные состояния. Заполнить шаблон до финальной отрисовки.</p></article><article><span class="step-number">03</span><h3>Проверить ресурс</h3><p>Сохранить исходник и точную разметку. Классификатор, галерея с наложениями и эталонный участок предшествуют игровому допуску.</p></article></div><div class="section-row"><h2>Материалы под рукой</h2></div>${toolbar()}`;
+    return `<div class="eyebrow">АВТОРСКАЯ ИГРА · РАБОЧИЙ СПРАВОЧНИК</div><section class="hero"><div class="hero-copy"><div class="eyebrow">ПАМЯТЬ, КОТОРУЮ ПРЕДСТОИТ НАЙТИ</div><h1>Красная<br>Шапочка.</h1><p>Она проснулась в могиле. Без воспоминаний.<br>Разиель вернул её к жизни.<br>Она — монстр в кошмаре, и на неё охотятся.</p><div class="hero-foot"><button class="primary" data-entry="artist-start">Суть для художницы →</button><a class="button-link quiet" href="#tasks">К заданиям ↗</a></div></div><div class="hero-art"><div class="archive-ornament" aria-hidden="true"><span class="archive-orbit"></span><span class="archive-moon"></span><span class="archive-thread"></span><span class="archive-number">I</span></div><div class="art-label">ОНА ПРОСНУЛАСЬ В МОГИЛЕ.<br>ЕЁ ИСТОРИЯ ЕЩЁ НЕ ЗАКОНЧЕНА.</div></div></section><div class="stats"><div class="stat"><strong>${entries.filter(e=>e.section==='characters'&&!editor.isHidden(e.id)).length}</strong><span>персонажей</span></div><div class="stat"><strong>${entries.filter(e=>e.section==='enemies'&&!editor.isHidden(e.id)).length}</strong><span>позиций бестиария</span></div><div class="stat"><strong>1</strong><span>тип точки сохранения</span></div><div class="stat"><strong>2</strong><span>Word-документа</span></div></div><div class="section-row"><h2>Нити нашего мира</h2><a class="quiet" href="#story">Весь замысел ↗</a></div><div class="grid">${['hero','raziel','alfred'].map(id=>card(find(id))).join('')}</div><div class="section-row"><h2>С чего начать работу</h2><span class="result-count">ОБЩИЙ ЯЗЫК ДЛЯ АВТОРА И ХУДОЖНИЦЫ</span></div><div class="guide-checks"><article><span class="step-number">01</span><h3>Понять историю</h3><p>Открыть краткую памятку, персонажей и авторский сюжетный секрет. Отделить принятые факты от вопросов.</p></article><article><span class="step-number">02</span><h3>Согласовать задачу</h3><p>Выбрать конкретный образ или ресурс, результат, размеры и нужные состояния. Заполнить шаблон до финальной отрисовки.</p></article><article><span class="step-number">03</span><h3>Проверить ресурс</h3><p>Сохранить исходник и точную разметку. Классификатор, галерея с наложениями и эталонный участок предшествуют игровому допуску.</p></article></div><div class="section-row"><h2>Материалы под рукой</h2></div>${toolbar()}`;
   }
   function artIntro() {
     return `<div class="guide-note artist-message"><strong>От автора художнице</strong><p>${esc(data.artistMessage)}</p></div><div class="guide-note"><strong>Готовые варианты Claude и дальнейшая работа</strong><p>Claude подготовил палитры v2 для Джоанны, жрицы, феи и Разиэля. В локальных карточках доступны выбранные циклы; варианты ещё согласуются. Ниже есть одобренная гарпия «Пепельный лик», которая пока не встроена в игру. Цвета и дальнейшие перекраски определяет Claude.</p><div class="inline-actions"><button class="chip" data-entry="task-character-recolor">Задание Claude и ход работы →</button></div></div><div class="brief-columns"><article><h3>Образы и история</h3><ul><li>Красная Шапочка — воскрешённый монстр без воспоминаний. На неё охотятся.</li><li>Разиель — оборотень-волк и проводник; воскресил героиню. Пытается быть добрым, видит ангела смерти и духов и боится смерти.</li><li>Альфред — человек, охотник на нечистокровных. Уже однажды убил героиню.</li><li>Происходящее — кошмар. Сохранения — статуи Богоматери со свечением.</li></ul></article><article><h3>Что согласуем в рисунке</h3><ul><li>Непоказанные детали готового дизайна героини; образы Разиеля и Альфреда.</li><li>Палитру, размеры, масштаб и технику.</li><li>Нужные состояния, кадры и объём работы.</li><li>Как выбранные референсы помогут собственному стилю художницы.</li></ul></article></div><div class="inline-actions"><button class="primary" data-entry="hero-design">Дизайн Красной Шапочки · подробный разбор →</button></div><section class="art-selection" aria-labelledby="art-selection-title"><div class="section-row"><h2 id="art-selection-title">Примеры выберет автор</h2><span class="result-count">РЕФЕРЕНСЫ ДЛЯ ВДОХНОВЕНИЯ</span></div><div class="reference-selection-grid"><article class="reference-card"><div class="eyebrow">ЁСИТАКА АМАНО · FINAL FANTASY</div><h3>Выбор иллюстраций</h3><p>Автор самостоятельно подберёт работы. После выбора добавим изображения, подписи и источники.</p></article><article class="reference-card"><div class="eyebrow">АЯМИ КОДЗИМА · CASTLEVANIA</div><h3>Выбор иллюстраций</h3><p>Автор самостоятельно подберёт работы. Примеры помогут обсудить образы с художницей.</p></article></div></section><p class="source-line">Дизайн Красной Шапочки уже подготовлен Claude. В отдельном разборе собраны галерея, палитра, подтверждённые детали и вопросы автору.</p>`;
@@ -99,7 +102,8 @@
   function renderBackgroundContext() {
     const el=document.querySelector('#background-context');if(!el)return;
     if(backgroundLocation==='all')el.innerHTML=`<div class="location-brief-index">${data.locationBriefs.map(l=>`<button class="chip" data-location-choice="${esc(l.id)}">${esc(l.name)} · ТЗ →</button>`).join('')}</div>`;
-    else el.innerHTML=locationBriefMarkup(locationBrief(backgroundLocation));
+    else el.innerHTML=locationBriefMarkup(locationBrief(backgroundLocation))+(editor.isEnabled()?`<button class="chip" data-entry="${esc(locationBrief(backgroundLocation).briefEntry)}">Изменить ТЗ локации →</button>`:'');
+    editor.decorate(main,active);
   }
   function backgroundMarkup(e) {
     const p=backgroundProfile(e.meta?.backgroundProfile),single=backgroundRef(e.meta?.backgroundId),ids=p?p.backgroundIds:single?[single.id]:[];
@@ -135,7 +139,7 @@
   }
   function renderMain() {
     document.querySelector('#current-section').textContent=name(active).toUpperCase();
-    document.querySelector('#navigation').innerHTML=sections.map(([id,label],i)=>`<a class="nav-item ${active===id?'active':''}" ${active===id?'aria-current="page"':''} href="#${id}"><span class="nav-n">${String(i+1).padStart(2,'0')}</span>${label}<span class="count">${entries.filter(e=>e.section===id).length||''}</span></a>`).join('');
+    document.querySelector('#navigation').innerHTML=sections.map(([id,label],i)=>`<a class="nav-item ${active===id?'active':''}" ${active===id?'aria-current="page"':''} href="#${id}"><span class="nav-n">${String(i+1).padStart(2,'0')}</span>${label}<span class="count">${entries.filter(e=>e.section===id&&!editor.isHidden(e.id)).length||''}</span></a>`).join('');
     let html=active==='overview'?overview():`<div class="page-head"><div><div class="eyebrow">СПРАВОЧНИК / ${active==='assets'?'ДОПУСК РЕСУРСОВ':'МАТЕРИАЛЫ ДЛЯ СОГЛАСОВАНИЯ'}</div><h1>${esc(name(active))}</h1><p class="intro">${descriptions[active]}</p></div></div>`;
     if(active==='story')html+='<div class="guide-note"><strong>Авторский сюжетный спойлер</strong><p>Героиня — монстр в кошмаре. Альфред убил её, Разиель воскресил. Она просыпается без памяти. Порядок раскрытия этих тайн игроку ещё не определён.</p></div>';
     if(active==='art')html+=artIntro();
@@ -162,15 +166,20 @@
       renderBackgroundContext();
     }
     renderResults();
+    editor.decorate(main,active);
+    editor.decorate(document.querySelector('.workspace>footer'),'footer');
+    editor.decorate(document.querySelector('.sidebar-note'),'sidebar');
   }
   function renderResults() {
     const text=query.trim().toLocaleLowerCase('ru');
     let shown=entries.filter(e=>(active==='overview'||e.section===active)&&(filter==='all'||e.status===filter)&&`${e.title} ${e.body} ${e.meta?.assignee||''} ${e.meta?.artistBrief?.task||''} ${e.meta?.artistBrief?.open||''}`.toLocaleLowerCase('ru').includes(text));
     if(active==='backgrounds')shown=shown.filter(e=>(backgroundType==='all'||e.meta?.backgroundType===backgroundType)&&(backgroundLocation==='all'||e.meta?.biomes?.includes(backgroundLocation)));
     if(active==='overview'&&!text&&filter==='all')shown=['artist-start','project'].map(find);
+    shown=shown.filter(e=>!editor.isHidden(e.id));
     document.querySelector('#results-title').textContent=text?'Результаты поиска':active==='overview'?'Краткие памятки':'Материалы раздела';
     document.querySelector('#result-count').textContent=`НАЙДЕНО: ${shown.length}`;
     document.querySelector('#results').innerHTML=shown.length?shown.map(card).join(''):'<div class="empty">Таких материалов пока нет. Попробуйте другое слово или состояние.</div>';
+    editor.decorate(main,active);
   }
   const assetFields=[['source','Источник'],['slicing','Нарезка и кадры'],['scale','Масштаб'],['pivot','Pivot / точка отсчёта'],['support','Точки опоры'],['animation','Статичность, анимации и состояния'],['collision','Коллизии'],['hitbox','Хитбоксы'],['vfx','VFX и привязки'],['placement','Правила размещения']];
   function fixedMarkup(p) {
@@ -240,6 +249,7 @@
   }
   function openEntry(id) {
     const e=find(id);if(!e)return;
+    currentEntryId=id;
     stopPreview();const design=localDesign(e),preview=design?null:owned(e);
     document.querySelector('#dialog-caption').textContent=name(e.section)+' / МАТЕРИАЛ ПРОЕКТА';
     const portrait=design?localDesignMarkup(design):e.section==='backgrounds'?backgroundMarkup(e):e.meta?.locationBrief?locationBriefMarkup(locationBrief(e.meta.locationBrief)):e.id==='hero-design'?designMarkup():fixed(e)?fixedMarkup(fixed(e)):'';
@@ -250,11 +260,12 @@
     if(e.id==='task-template')html+='<div class="inline-actions"><a class="button-link primary" href="downloads/02_Работа_с_художницей.docx" download>Скачать Word-шаблон ↗</a></div>';
 
     html+='<p class="contact-note">Вопросы и замечания к материалу согласуем с автором. Перед началом рисунка фиксируем конкретное задание и ожидаемый результат.</p>';
-    dialogContent.innerHTML=html;
+    dialogContent.innerHTML=editor.form(e)+html;
     if(!detail.open)detail.showModal();
     detail.scrollTop=0;
     if(preview)stopPreview=startPreview(preview);
     if(design)stopPreview=startLocalDesign(design);
+    editor.decorate(dialogContent,'entry:'+e.id);
   }
   function route() {
     const hash=location.hash.slice(1);active=sections.some(s=>s[0]===hash)?hash:'overview';query='';filter='all';if(detail.open)detail.close();renderMain();window.scrollTo(0,0);
@@ -265,6 +276,7 @@
   detail.addEventListener('close',()=>stopPreview());
   document.querySelector('#print-page').addEventListener('click',()=>window.print());
   window.addEventListener('hashchange',route);
+  editor.connect({refresh:()=>{const reopen=detail.open;if(reopen&&editor.isHidden(currentEntryId))detail.close();renderMain();if(reopen&&detail.open)openEntry(currentEntryId);}});
   route();
   fetch('local-designs/manifest.json').then(r=>r.ok?r.json():null).then(manifest=>{
     if(!manifest?.localOnly)return;

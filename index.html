@@ -19,13 +19,14 @@
     <div class="sidebar-note"><span class="dot"></span> Автор и художница<p>Замысел, образы и договорённости<br>Рабочая редакция · 02.11.2026</p><a href="README.txt">Как пользоваться ↗</a></div>
   </aside>
   <div class="workspace">
-    <header class="topbar"><div class="breadcrumb">ПРОЕКТ / <span id="current-section">ОБЗОР</span></div><div class="top-actions"><button id="print-page" class="quiet">Печать</button><span class="source-badge">ДЛЯ ХУДОЖНИЦЫ</span></div></header>
+    <header class="topbar"><div class="breadcrumb">ПРОЕКТ / <span id="current-section">ОБЗОР</span></div><div class="top-actions"><button id="toggle-edit" class="chip" aria-pressed="false">Редактировать</button><button id="print-page" class="quiet">Печать</button><span class="source-badge">ДЛЯ ХУДОЖНИЦЫ</span></div></header>
     <main id="main" tabindex="-1"></main>
     <footer><span>Сначала согласуем образ · затем проверяем игровой ресурс</span><span>Красная Шапочка / рабочий справочник</span></footer>
   </div>
   <dialog id="detail" aria-label="Карточка материала"><div class="dialog-top"><span id="dialog-caption">МАТЕРИАЛ ПРОЕКТА</span><button id="close-dialog" aria-label="Закрыть карточку">×</button></div><div id="dialog-content"></div></dialog>
   <noscript><p class="notice">Чтобы открыть карточки и поиск, включите JavaScript. Документы доступны отдельно: <a href="downloads/01_Замысел_и_сюжет.docx">замысел и сюжет</a>, <a href="downloads/02_Работа_с_художницей.docx">работа с художницей</a>.</p></noscript>
   <script src="data.js"></script>
+  <script src="editor.js"></script>
   <script src="guide.js"></script>
 </body>
 </html>

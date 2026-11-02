@@ -92,8 +92,8 @@
       "bytes": 91867
     },
     "bloodborne.css": {
-      "sha256": "c592249eeb840e87b92fde089fd17d5045a6655433fae835798874cf0732a212",
-      "bytes": 18561
+      "sha256": "b19f82a336e153fc96a9c0a9ed90c40269bfde1a43cae3a2cc3d87089556a95e",
+      "bytes": 21113
     },
     "data/ui-theme.json": {
       "sha256": "227ce3b4f8a894e45caa58eb238c482e739cc2def225e9658098284a2ccf373d",
@@ -200,16 +200,16 @@
       "bytes": 1938968
     },
     "guide.js": {
-      "sha256": "5b391de1a2f537a4a06f96541213bbae25fadeda987bed676c90da169c2ac8aa",
-      "bytes": 53525
+      "sha256": "c988830b38c2fde80dc259c3d24c6838a533db01f6c4a527012c8a7b7c61ba2f",
+      "bytes": 54489
     },
     "data.js": {
       "sha256": "d87e8586289cf9aff96a7f8bbfb92872cd186e71f252743e196a856ca175d442",
       "bytes": 353617
     },
     "README.txt": {
-      "sha256": "9a54feda9da494ae2a7e2993c2b7fcf02b4b563e2d00e7e23b579d5dfeb31e5f",
-      "bytes": 12205
+      "sha256": "5e4972ab06687e0d783b48d844db45121c876c0e45056713910e4e4ec1b1c433",
+      "bytes": 14968
     },
     "data/background-reference-classifier.json": {
       "sha256": "4f9470833150c8bdc507badcab3770f1368536ad2b3dbe1b2e8203b19abf306d",
@@ -218,6 +218,14 @@
     "downloads/03_Короткие_ТЗ_для_художницы.txt": {
       "sha256": "c34f991de28030252f0075872cd9caae50f5a100a7b88b2366ebf79803c04500",
       "bytes": 22323
+    },
+    "editor.js": {
+      "sha256": "f40b695577149c7003e8a9e410dd56ff863cbafdaf92d5c86fcfafd1697977ad",
+      "bytes": 18503
+    },
+    "index.html": {
+      "sha256": "1d2f6248814f9ca58d115386c2190f030b6f57f68598455f40b2ed6d7caabe34",
+      "bytes": 2839
     }
   },
   "referenceSources": {
@@ -407,5 +415,16 @@
   "additionalAuthorReferences": [
     "Drakengard",
     "Legacy of Kain"
-  ]
+  ],
+  "localEditor": {
+    "version": 1,
+    "storage": "browser localStorage, per origin",
+    "backup": "Red-Hood-edits.json",
+    "inlinePageText": true,
+    "cardAndBriefForms": true,
+    "hideRestoreUndo": true,
+    "textExport": true,
+    "protectedAssetsAndClassifiersUnchanged": true,
+    "gameBuildAdmission": false
+  }
 }

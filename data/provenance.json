@@ -92,8 +92,8 @@
       "bytes": 91867
     },
     "bloodborne.css": {
-      "sha256": "cc43b03586ecc66194e2c398c99783174451e10161311df541b1057b2db540f4",
-      "bytes": 15547
+      "sha256": "6bd2b07860b8f70a1c1979c8946c57ad027ed9414b78269ca88b1b88bf577a8f",
+      "bytes": 16049
     },
     "data/ui-theme.json": {
       "sha256": "227ce3b4f8a894e45caa58eb238c482e739cc2def225e9658098284a2ccf373d",
@@ -200,12 +200,12 @@
       "bytes": 1938968
     },
     "guide.js": {
-      "sha256": "bf07bbccb227ca685149fe824de27ba61407ce0e40163e1d26d45c57af0560a1",
-      "bytes": 41018
+      "sha256": "14c7990787e63871023c069d5f1ce686c09d627e0e9adbefcb237dac5b077d63",
+      "bytes": 41910
     },
     "data.js": {
-      "sha256": "ad538a02d87a45d3ba1f8dbe93f0fa463d4ea334fff4985826de0ac34f0eb348",
-      "bytes": 269841
+      "sha256": "654ea4ed81007ce3546a0e1153b707933a5b00f4cd892bbace9569c4757e92b2",
+      "bytes": 279305
     },
     "README.txt": {
       "sha256": "ef1f3c040698cfa26b6fe2e42741b6c9f7a7623be508fb744cd867edbcfa9d94",
@@ -370,6 +370,14 @@
     "biomes": 9,
     "optionsPerBiome": 2,
     "sourceIdsPreserved": true,
-    "originalModuleUnchanged": true
+    "originalModuleUnchanged": true,
+    "revision": 2,
+    "previousRevision": "rejected_by_author",
+    "inspirations": [
+      "Brothers Grimm",
+      "Divine Comedy",
+      "Quran, indirect respectful motifs",
+      "Kingdom of Heaven"
+    ]
   }
 }

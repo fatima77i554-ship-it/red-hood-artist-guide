@@ -219,3 +219,10 @@ footer {border-color:#514a3e;color:#a19683;}
 .biome-names{margin:0 0 38px}.biome-names p{max-width:850px;line-height:1.7}.biome-table-wrap{overflow:auto;border:1px solid #494139;margin-top:18px}
 .biome-names table{width:100%;border-collapse:collapse;min-width:530px;font-size:14px}.biome-names th,.biome-names td{text-align:left;padding:15px 18px;border-bottom:1px solid #353138;vertical-align:top}.biome-names th{background:#202024;color:#d7c9ae;font-weight:500}.biome-names td small{display:block;color:#9b8f83;font-size:10px;letter-spacing:.08em;margin-bottom:4px}.biome-names tbody tr:last-child td{border-bottom:0}
 @media(max-width:600px){.claude-design{padding:12px}.biome-names .section-row{align-items:flex-start;flex-direction:column;gap:12px}}
+.biome-name-reason{display:block;max-width:390px;margin-top:9px;color:#b3a99b;font-size:11px;line-height:1.65;font-weight:400}
+.biome-names td strong{font-weight:500;color:#ece0c6}
+.biome-inspiration{margin-top:24px;border:1px solid #494139;padding:18px 22px;font-size:13px;line-height:1.7}
+.biome-inspiration summary{cursor:pointer;color:#d5c5a8}
+.biome-inspiration article{padding-top:14px}
+.biome-inspiration h3{font:20px Georgia,serif;color:#e4d7c0;margin:9px 0}
+.biome-inspiration p{margin:7px 0}

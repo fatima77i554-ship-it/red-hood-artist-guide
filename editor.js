@@ -53,7 +53,7 @@
       const working=(data.workingLocations||[]).find(x=>x.id===l.id);if(working)working.name=l.name;
       const entry=data.entries.find(x=>x.id===l.briefEntry);
       if(entry){
-        if(state.entries[entry.id]?.title===undefined)entry.title=l.name+' · ТЗ на концепт';
+        if(state.entries[entry.id]?.title===undefined)entry.title=l.name+' · Мои пожелания к эскизу';
         if(state.entries[entry.id]?.body===undefined)entry.body=l.task+'\n\n'+l.open;
       }
     }
@@ -61,7 +61,7 @@
   apply();
   function persist(message='Сохранено в этом браузере'){
     try{localStorage.setItem(key,JSON.stringify(state));saveFailed=false;}
-    catch{saveFailed=true;message='Не удалось сохранить в браузере. Скачайте файл правок.';}
+    catch{saveFailed=true;message='Не удалось сохранить в браузере. Скачай файл правок.';}
     const status=document.querySelector('#editor-status');if(status)status.textContent=message;
     updateButtons();
   }
@@ -130,18 +130,18 @@
     if(!enabled)return '';
     const l=(data.locationBriefs||[]).find(x=>x.id===e.meta?.locationBrief);
     const input=(name,label,value,rows=0)=>`<label>${esc(label)}${rows?`<textarea name="${name}" rows="${rows}">${esc(value)}</textarea>`:`<input name="${name}" value="${esc(value)}">`}</label>`;
-    return `<details class="editor-entry"><summary>Изменить или скрыть карточку</summary><form data-editor-entry="${esc(e.id)}">${input('title','Заголовок',e.title)}${l?input('locationName','Название локации',l.name)+input('locationTask','ТЗ на концепт',l.task,5)+input('locationOpen','Уточнения',l.open,4):input('body','Текст карточки',e.body,10)}${e.meta?.artistBrief?input('briefTask','Короткое ТЗ художнице',e.meta.artistBrief.task,5)+input('briefOpen','Что уточнить',e.meta.artistBrief.open,4):''}<div class="inline-actions"><button class="primary" type="submit">Сохранить карточку</button><button type="button" class="chip" data-editor-hide-entry="${esc(e.id)}">Скрыть карточку</button><button type="button" class="quiet" data-editor-reset-entry="${esc(e.id)}">Вернуть исходный текст</button></div><p class="editor-form-note">Правки сохраняются в этом браузере. Ассеты и техническая разметка не меняются.</p></form></details>`;
+    return `<details class="editor-entry"><summary>Изменить или скрыть карточку</summary><form data-editor-entry="${esc(e.id)}">${input('title','Заголовок',e.title)}${l?input('locationName','Название локации',l.name)+input('locationTask','Мои пожелания к эскизу',l.task,5)+input('locationOpen','Уточнения',l.open,4):input('body','Текст карточки',e.body,10)}${e.meta?.artistBrief?input('briefTask','Что я хочу увидеть',e.meta.artistBrief.task,5)+input('briefOpen','Что ещё обсудим',e.meta.artistBrief.open,4):''}<div class="inline-actions"><button class="primary" type="submit">Сохранить карточку</button><button type="button" class="chip" data-editor-hide-entry="${esc(e.id)}">Скрыть карточку</button><button type="button" class="quiet" data-editor-reset-entry="${esc(e.id)}">Вернуть исходный текст</button></div><p class="editor-form-note">Правки сохраняются в этом браузере. Ассеты и техническая разметка не меняются.</p></form></details>`;
   }
   function saveFile(text,filename,type){
     const url=URL.createObjectURL(new Blob([text],{type})),a=document.createElement('a');a.href=url;a.download=filename;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);
   }
   function textForExport(briefOnly=false){
-    const lines=[briefOnly?'КОРОТКИЕ ТЗ · МОЯ РЕДАКЦИЯ':'СПРАВОЧНИК ИГРЫ · МОЯ РЕДАКЦИЯ',''];
+    const lines=[briefOnly?'МОИ ПОЖЕЛАНИЯ К РИСУНКАМ':'МОИ МАТЕРИАЛЫ К ИГРЕ',''];
     for(const e of data.entries){
       if(state.entries[e.id]?.hidden)continue;
       const l=(data.locationBriefs||[]).find(x=>x.id===e.meta?.locationBrief);
       const brief=e.meta?.artistBrief;
-      if(briefOnly&&!brief&&!l&&e.meta?.backgroundType!=='layer'&&e.id!=='task-artist-chest-emphasis')continue;
+      if(briefOnly&&!brief&&!l&&e.meta?.backgroundType!=='layer'&&e.section!=='tasks'&&e.id!=='task-artist-chest-emphasis')continue;
       if(briefOnly&&e.id==='hero-design')continue;
       lines.push(e.title);
       if(briefOnly&&brief){lines.push(brief.task);if(brief.open)lines.push(brief.open);}
@@ -171,7 +171,7 @@
   function connect(callbacks){
     bridge=callbacks;
     const bar=document.createElement('section');bar.id='editor-bar';bar.className='editor-bar';bar.hidden=!enabled;bar.setAttribute('aria-label','Редактирование справочника');
-    bar.innerHTML='<div><strong>Редактирование</strong><p>Нажмите на текст страницы, чтобы изменить его. Для карточки откройте «Изменить или скрыть карточку».</p></div><div class="editor-actions"><button class="chip" id="editor-hide-text" disabled>Скрыть выбранный текст</button><button class="chip" id="editor-reset-text" disabled>Вернуть выбранный текст</button><button class="chip" id="editor-undo" disabled>Отменить действие</button><button class="chip" id="editor-restore">Скрытые (0)</button><button class="chip" id="editor-export">Скачать правки</button><button class="chip" id="editor-export-text">Скачать текст карточек</button><button class="chip" id="editor-import">Загрузить правки</button><input id="editor-file" type="file" accept=".json,application/json" hidden></div><label class="editor-compact-label"><input type="checkbox" id="editor-compact"> Скрыть пояснения в этом разделе</label><output id="editor-status" role="status">Правки хранятся в этом браузере. Скачайте файл для резервной копии.</output>';
+    bar.innerHTML='<div><strong>Редактирование</strong><p>Нажми на текст страницы, чтобы изменить его. Для карточки откройте «Изменить или скрыть карточку».</p></div><div class="editor-actions"><button class="chip" id="editor-hide-text" disabled>Скрыть выбранный текст</button><button class="chip" id="editor-reset-text" disabled>Вернуть выбранный текст</button><button class="chip" id="editor-undo" disabled>Отменить действие</button><button class="chip" id="editor-restore">Скрытые (0)</button><button class="chip" id="editor-export">Скачать правки</button><button class="chip" id="editor-export-text">Скачать текст карточек</button><button class="chip" id="editor-import">Загрузить правки</button><input id="editor-file" type="file" accept=".json,application/json" hidden></div><label class="editor-compact-label"><input type="checkbox" id="editor-compact"> Скрыть пояснения в этом разделе</label><output id="editor-status" role="status">Правки хранятся в этом браузере. Скачай файл для резервной копии.</output>';
     document.querySelector('.topbar').after(bar);
     const dialog=document.createElement('dialog');dialog.id='editor-restore-dialog';dialog.setAttribute('aria-label','Скрытые материалы');dialog.innerHTML='<div class="dialog-top"><h2>Скрытые материалы</h2><button class="quiet" id="editor-restore-close" aria-label="Закрыть скрытые материалы">×</button></div><div class="editor-restore-body"></div>';document.body.append(dialog);
     document.querySelector('#toggle-edit').addEventListener('click',toggle);
